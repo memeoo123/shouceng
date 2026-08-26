@@ -1,0 +1,1614 @@
+{
+  "Crossbowman1": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman1_attack_0.png",
+        "res/units/Crossbowman1_attack_1.png",
+        "res/units/Crossbowman1_attack_2.png",
+        "res/units/Crossbowman1_attack_3.png",
+        "res/units/Crossbowman1_attack_4.png",
+        "res/units/Crossbowman1_attack_5.png",
+        "res/units/Crossbowman1_attack_6.png",
+        "res/units/Crossbowman1_attack_7.png",
+        "res/units/Crossbowman1_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman1_idle_0.png",
+        "res/units/Crossbowman1_idle_1.png",
+        "res/units/Crossbowman1_idle_2.png",
+        "res/units/Crossbowman1_idle_3.png",
+        "res/units/Crossbowman1_idle_4.png",
+        "res/units/Crossbowman1_idle_5.png",
+        "res/units/Crossbowman1_idle_6.png",
+        "res/units/Crossbowman1_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman1_move_0.png",
+        "res/units/Crossbowman1_move_1.png",
+        "res/units/Crossbowman1_move_2.png",
+        "res/units/Crossbowman1_move_3.png",
+        "res/units/Crossbowman1_move_4.png",
+        "res/units/Crossbowman1_move_5.png",
+        "res/units/Crossbowman1_move_6.png",
+        "res/units/Crossbowman1_move_7.png",
+        "res/units/Crossbowman1_move_8.png",
+        "res/units/Crossbowman1_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman1_victory_0.png",
+        "res/units/Crossbowman1_victory_1.png",
+        "res/units/Crossbowman1_victory_2.png",
+        "res/units/Crossbowman1_victory_3.png",
+        "res/units/Crossbowman1_victory_4.png",
+        "res/units/Crossbowman1_victory_5.png",
+        "res/units/Crossbowman1_victory_6.png",
+        "res/units/Crossbowman1_victory_7.png",
+        "res/units/Crossbowman1_victory_8.png",
+        "res/units/Crossbowman1_victory_9.png",
+        "res/units/Crossbowman1_victory_10.png",
+        "res/units/Crossbowman1_victory_11.png",
+        "res/units/Crossbowman1_victory_12.png"
+      ]
+    }
+  },
+  "Crossbowman2": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman2_attack_0.png",
+        "res/units/Crossbowman2_attack_1.png",
+        "res/units/Crossbowman2_attack_2.png",
+        "res/units/Crossbowman2_attack_3.png",
+        "res/units/Crossbowman2_attack_4.png",
+        "res/units/Crossbowman2_attack_5.png",
+        "res/units/Crossbowman2_attack_6.png",
+        "res/units/Crossbowman2_attack_7.png",
+        "res/units/Crossbowman2_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman2_idle_0.png",
+        "res/units/Crossbowman2_idle_1.png",
+        "res/units/Crossbowman2_idle_2.png",
+        "res/units/Crossbowman2_idle_3.png",
+        "res/units/Crossbowman2_idle_4.png",
+        "res/units/Crossbowman2_idle_5.png",
+        "res/units/Crossbowman2_idle_6.png",
+        "res/units/Crossbowman2_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman2_move_0.png",
+        "res/units/Crossbowman2_move_1.png",
+        "res/units/Crossbowman2_move_2.png",
+        "res/units/Crossbowman2_move_3.png",
+        "res/units/Crossbowman2_move_4.png",
+        "res/units/Crossbowman2_move_5.png",
+        "res/units/Crossbowman2_move_6.png",
+        "res/units/Crossbowman2_move_7.png",
+        "res/units/Crossbowman2_move_8.png",
+        "res/units/Crossbowman2_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman2_victory_0.png",
+        "res/units/Crossbowman2_victory_1.png",
+        "res/units/Crossbowman2_victory_2.png",
+        "res/units/Crossbowman2_victory_3.png",
+        "res/units/Crossbowman2_victory_4.png",
+        "res/units/Crossbowman2_victory_5.png",
+        "res/units/Crossbowman2_victory_6.png",
+        "res/units/Crossbowman2_victory_7.png",
+        "res/units/Crossbowman2_victory_8.png",
+        "res/units/Crossbowman2_victory_9.png",
+        "res/units/Crossbowman2_victory_10.png",
+        "res/units/Crossbowman2_victory_11.png",
+        "res/units/Crossbowman2_victory_12.png"
+      ]
+    }
+  },
+  "Crossbowman3": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman3_attack_0.png",
+        "res/units/Crossbowman3_attack_1.png",
+        "res/units/Crossbowman3_attack_2.png",
+        "res/units/Crossbowman3_attack_3.png",
+        "res/units/Crossbowman3_attack_4.png",
+        "res/units/Crossbowman3_attack_5.png",
+        "res/units/Crossbowman3_attack_6.png",
+        "res/units/Crossbowman3_attack_7.png",
+        "res/units/Crossbowman3_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman3_idle_0.png",
+        "res/units/Crossbowman3_idle_1.png",
+        "res/units/Crossbowman3_idle_2.png",
+        "res/units/Crossbowman3_idle_3.png",
+        "res/units/Crossbowman3_idle_4.png",
+        "res/units/Crossbowman3_idle_5.png",
+        "res/units/Crossbowman3_idle_6.png",
+        "res/units/Crossbowman3_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman3_move_0.png",
+        "res/units/Crossbowman3_move_1.png",
+        "res/units/Crossbowman3_move_2.png",
+        "res/units/Crossbowman3_move_3.png",
+        "res/units/Crossbowman3_move_4.png",
+        "res/units/Crossbowman3_move_5.png",
+        "res/units/Crossbowman3_move_6.png",
+        "res/units/Crossbowman3_move_7.png",
+        "res/units/Crossbowman3_move_8.png",
+        "res/units/Crossbowman3_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman3_victory_0.png",
+        "res/units/Crossbowman3_victory_1.png",
+        "res/units/Crossbowman3_victory_2.png",
+        "res/units/Crossbowman3_victory_3.png",
+        "res/units/Crossbowman3_victory_4.png",
+        "res/units/Crossbowman3_victory_5.png",
+        "res/units/Crossbowman3_victory_6.png",
+        "res/units/Crossbowman3_victory_7.png",
+        "res/units/Crossbowman3_victory_8.png",
+        "res/units/Crossbowman3_victory_9.png",
+        "res/units/Crossbowman3_victory_10.png",
+        "res/units/Crossbowman3_victory_11.png",
+        "res/units/Crossbowman3_victory_12.png"
+      ]
+    }
+  },
+  "Crossbowman4": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman4_attack_0.png",
+        "res/units/Crossbowman4_attack_1.png",
+        "res/units/Crossbowman4_attack_2.png",
+        "res/units/Crossbowman4_attack_3.png",
+        "res/units/Crossbowman4_attack_4.png",
+        "res/units/Crossbowman4_attack_5.png",
+        "res/units/Crossbowman4_attack_6.png",
+        "res/units/Crossbowman4_attack_7.png",
+        "res/units/Crossbowman4_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman4_idle_0.png",
+        "res/units/Crossbowman4_idle_1.png",
+        "res/units/Crossbowman4_idle_2.png",
+        "res/units/Crossbowman4_idle_3.png",
+        "res/units/Crossbowman4_idle_4.png",
+        "res/units/Crossbowman4_idle_5.png",
+        "res/units/Crossbowman4_idle_6.png",
+        "res/units/Crossbowman4_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman4_move_0.png",
+        "res/units/Crossbowman4_move_1.png",
+        "res/units/Crossbowman4_move_2.png",
+        "res/units/Crossbowman4_move_3.png",
+        "res/units/Crossbowman4_move_4.png",
+        "res/units/Crossbowman4_move_5.png",
+        "res/units/Crossbowman4_move_6.png",
+        "res/units/Crossbowman4_move_7.png",
+        "res/units/Crossbowman4_move_8.png",
+        "res/units/Crossbowman4_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Crossbowman4_victory_0.png",
+        "res/units/Crossbowman4_victory_1.png",
+        "res/units/Crossbowman4_victory_2.png",
+        "res/units/Crossbowman4_victory_3.png",
+        "res/units/Crossbowman4_victory_4.png",
+        "res/units/Crossbowman4_victory_5.png",
+        "res/units/Crossbowman4_victory_6.png",
+        "res/units/Crossbowman4_victory_7.png",
+        "res/units/Crossbowman4_victory_8.png",
+        "res/units/Crossbowman4_victory_9.png",
+        "res/units/Crossbowman4_victory_10.png",
+        "res/units/Crossbowman4_victory_11.png",
+        "res/units/Crossbowman4_victory_12.png"
+      ]
+    }
+  },
+  "Knight1": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight1_attack_0.png",
+        "res/units/Knight1_attack_1.png",
+        "res/units/Knight1_attack_2.png",
+        "res/units/Knight1_attack_3.png",
+        "res/units/Knight1_attack_4.png",
+        "res/units/Knight1_attack_5.png",
+        "res/units/Knight1_attack_6.png",
+        "res/units/Knight1_attack_7.png",
+        "res/units/Knight1_attack_8.png",
+        "res/units/Knight1_attack_9.png",
+        "res/units/Knight1_attack_10.png",
+        "res/units/Knight1_attack_11.png",
+        "res/units/Knight1_attack_12.png",
+        "res/units/Knight1_attack_13.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 14
+    },
+    "charge": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight1_charge_0.png",
+        "res/units/Knight1_charge_1.png",
+        "res/units/Knight1_charge_2.png",
+        "res/units/Knight1_charge_3.png",
+        "res/units/Knight1_charge_4.png"
+      ]
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight1_idle_0.png",
+        "res/units/Knight1_idle_1.png",
+        "res/units/Knight1_idle_2.png",
+        "res/units/Knight1_idle_3.png",
+        "res/units/Knight1_idle_4.png",
+        "res/units/Knight1_idle_5.png",
+        "res/units/Knight1_idle_6.png",
+        "res/units/Knight1_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight1_move_0.png",
+        "res/units/Knight1_move_1.png",
+        "res/units/Knight1_move_2.png",
+        "res/units/Knight1_move_3.png",
+        "res/units/Knight1_move_4.png",
+        "res/units/Knight1_move_5.png",
+        "res/units/Knight1_move_6.png",
+        "res/units/Knight1_move_7.png",
+        "res/units/Knight1_move_8.png",
+        "res/units/Knight1_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight1_victory_0.png",
+        "res/units/Knight1_victory_1.png",
+        "res/units/Knight1_victory_2.png",
+        "res/units/Knight1_victory_3.png",
+        "res/units/Knight1_victory_4.png",
+        "res/units/Knight1_victory_5.png",
+        "res/units/Knight1_victory_6.png",
+        "res/units/Knight1_victory_7.png",
+        "res/units/Knight1_victory_8.png",
+        "res/units/Knight1_victory_9.png",
+        "res/units/Knight1_victory_10.png",
+        "res/units/Knight1_victory_11.png",
+        "res/units/Knight1_victory_12.png"
+      ]
+    }
+  },
+  "Knight2": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight2_attack_0.png",
+        "res/units/Knight2_attack_1.png",
+        "res/units/Knight2_attack_2.png",
+        "res/units/Knight2_attack_3.png",
+        "res/units/Knight2_attack_4.png",
+        "res/units/Knight2_attack_5.png",
+        "res/units/Knight2_attack_6.png",
+        "res/units/Knight2_attack_7.png",
+        "res/units/Knight2_attack_8.png",
+        "res/units/Knight2_attack_9.png",
+        "res/units/Knight2_attack_10.png",
+        "res/units/Knight2_attack_11.png",
+        "res/units/Knight2_attack_12.png",
+        "res/units/Knight2_attack_13.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 14
+    },
+    "charge": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight2_charge_0.png",
+        "res/units/Knight2_charge_1.png",
+        "res/units/Knight2_charge_2.png",
+        "res/units/Knight2_charge_3.png",
+        "res/units/Knight2_charge_4.png"
+      ]
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight2_idle_0.png",
+        "res/units/Knight2_idle_1.png",
+        "res/units/Knight2_idle_2.png",
+        "res/units/Knight2_idle_3.png",
+        "res/units/Knight2_idle_4.png",
+        "res/units/Knight2_idle_5.png",
+        "res/units/Knight2_idle_6.png",
+        "res/units/Knight2_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight2_move_0.png",
+        "res/units/Knight2_move_1.png",
+        "res/units/Knight2_move_2.png",
+        "res/units/Knight2_move_3.png",
+        "res/units/Knight2_move_4.png",
+        "res/units/Knight2_move_5.png",
+        "res/units/Knight2_move_6.png",
+        "res/units/Knight2_move_7.png",
+        "res/units/Knight2_move_8.png",
+        "res/units/Knight2_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight2_victory_0.png",
+        "res/units/Knight2_victory_1.png",
+        "res/units/Knight2_victory_2.png",
+        "res/units/Knight2_victory_3.png",
+        "res/units/Knight2_victory_4.png",
+        "res/units/Knight2_victory_5.png",
+        "res/units/Knight2_victory_6.png",
+        "res/units/Knight2_victory_7.png",
+        "res/units/Knight2_victory_8.png",
+        "res/units/Knight2_victory_9.png",
+        "res/units/Knight2_victory_10.png",
+        "res/units/Knight2_victory_11.png",
+        "res/units/Knight2_victory_12.png"
+      ]
+    }
+  },
+  "Knight3": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight3_attack_0.png",
+        "res/units/Knight3_attack_1.png",
+        "res/units/Knight3_attack_2.png",
+        "res/units/Knight3_attack_3.png",
+        "res/units/Knight3_attack_4.png",
+        "res/units/Knight3_attack_5.png",
+        "res/units/Knight3_attack_6.png",
+        "res/units/Knight3_attack_7.png",
+        "res/units/Knight3_attack_8.png",
+        "res/units/Knight3_attack_9.png",
+        "res/units/Knight3_attack_10.png",
+        "res/units/Knight3_attack_11.png",
+        "res/units/Knight3_attack_12.png",
+        "res/units/Knight3_attack_13.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 14
+    },
+    "charge": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight3_charge_0.png",
+        "res/units/Knight3_charge_1.png",
+        "res/units/Knight3_charge_2.png",
+        "res/units/Knight3_charge_3.png",
+        "res/units/Knight3_charge_4.png"
+      ]
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight3_idle_0.png",
+        "res/units/Knight3_idle_1.png",
+        "res/units/Knight3_idle_2.png",
+        "res/units/Knight3_idle_3.png",
+        "res/units/Knight3_idle_4.png",
+        "res/units/Knight3_idle_5.png",
+        "res/units/Knight3_idle_6.png",
+        "res/units/Knight3_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight3_move_0.png",
+        "res/units/Knight3_move_1.png",
+        "res/units/Knight3_move_2.png",
+        "res/units/Knight3_move_3.png",
+        "res/units/Knight3_move_4.png",
+        "res/units/Knight3_move_5.png",
+        "res/units/Knight3_move_6.png",
+        "res/units/Knight3_move_7.png",
+        "res/units/Knight3_move_8.png",
+        "res/units/Knight3_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight3_victory_0.png",
+        "res/units/Knight3_victory_1.png",
+        "res/units/Knight3_victory_2.png",
+        "res/units/Knight3_victory_3.png",
+        "res/units/Knight3_victory_4.png",
+        "res/units/Knight3_victory_5.png",
+        "res/units/Knight3_victory_6.png",
+        "res/units/Knight3_victory_7.png",
+        "res/units/Knight3_victory_8.png",
+        "res/units/Knight3_victory_9.png",
+        "res/units/Knight3_victory_10.png",
+        "res/units/Knight3_victory_11.png",
+        "res/units/Knight3_victory_12.png"
+      ]
+    }
+  },
+  "Knight4": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight4_attack_0.png",
+        "res/units/Knight4_attack_1.png",
+        "res/units/Knight4_attack_2.png",
+        "res/units/Knight4_attack_3.png",
+        "res/units/Knight4_attack_4.png",
+        "res/units/Knight4_attack_5.png",
+        "res/units/Knight4_attack_6.png",
+        "res/units/Knight4_attack_7.png",
+        "res/units/Knight4_attack_8.png",
+        "res/units/Knight4_attack_9.png",
+        "res/units/Knight4_attack_10.png",
+        "res/units/Knight4_attack_11.png",
+        "res/units/Knight4_attack_12.png",
+        "res/units/Knight4_attack_13.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 14
+    },
+    "charge": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight4_charge_0.png",
+        "res/units/Knight4_charge_1.png",
+        "res/units/Knight4_charge_2.png",
+        "res/units/Knight4_charge_3.png",
+        "res/units/Knight4_charge_4.png"
+      ]
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight4_idle_0.png",
+        "res/units/Knight4_idle_1.png",
+        "res/units/Knight4_idle_2.png",
+        "res/units/Knight4_idle_3.png",
+        "res/units/Knight4_idle_4.png",
+        "res/units/Knight4_idle_5.png",
+        "res/units/Knight4_idle_6.png",
+        "res/units/Knight4_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight4_move_0.png",
+        "res/units/Knight4_move_1.png",
+        "res/units/Knight4_move_2.png",
+        "res/units/Knight4_move_3.png",
+        "res/units/Knight4_move_4.png",
+        "res/units/Knight4_move_5.png",
+        "res/units/Knight4_move_6.png",
+        "res/units/Knight4_move_7.png",
+        "res/units/Knight4_move_8.png",
+        "res/units/Knight4_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Knight4_victory_0.png",
+        "res/units/Knight4_victory_1.png",
+        "res/units/Knight4_victory_2.png",
+        "res/units/Knight4_victory_3.png",
+        "res/units/Knight4_victory_4.png",
+        "res/units/Knight4_victory_5.png",
+        "res/units/Knight4_victory_6.png",
+        "res/units/Knight4_victory_7.png",
+        "res/units/Knight4_victory_8.png",
+        "res/units/Knight4_victory_9.png",
+        "res/units/Knight4_victory_10.png",
+        "res/units/Knight4_victory_11.png",
+        "res/units/Knight4_victory_12.png"
+      ]
+    }
+  },
+  "Mage1": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage1_attack_0.png",
+        "res/units/Mage1_attack_1.png",
+        "res/units/Mage1_attack_2.png",
+        "res/units/Mage1_attack_3.png",
+        "res/units/Mage1_attack_4.png",
+        "res/units/Mage1_attack_5.png",
+        "res/units/Mage1_attack_6.png",
+        "res/units/Mage1_attack_7.png",
+        "res/units/Mage1_attack_8.png",
+        "res/units/Mage1_attack_9.png",
+        "res/units/Mage1_attack_10.png",
+        "res/units/Mage1_attack_11.png",
+        "res/units/Mage1_attack_12.png",
+        "res/units/Mage1_attack_13.png",
+        "res/units/Mage1_attack_14.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 15
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage1_idle_0.png",
+        "res/units/Mage1_idle_1.png",
+        "res/units/Mage1_idle_2.png",
+        "res/units/Mage1_idle_3.png",
+        "res/units/Mage1_idle_4.png",
+        "res/units/Mage1_idle_5.png",
+        "res/units/Mage1_idle_6.png",
+        "res/units/Mage1_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage1_move_0.png",
+        "res/units/Mage1_move_1.png",
+        "res/units/Mage1_move_2.png",
+        "res/units/Mage1_move_3.png",
+        "res/units/Mage1_move_4.png",
+        "res/units/Mage1_move_5.png",
+        "res/units/Mage1_move_6.png",
+        "res/units/Mage1_move_7.png",
+        "res/units/Mage1_move_8.png",
+        "res/units/Mage1_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage1_victory_0.png",
+        "res/units/Mage1_victory_1.png",
+        "res/units/Mage1_victory_2.png",
+        "res/units/Mage1_victory_3.png",
+        "res/units/Mage1_victory_4.png",
+        "res/units/Mage1_victory_5.png",
+        "res/units/Mage1_victory_6.png",
+        "res/units/Mage1_victory_7.png",
+        "res/units/Mage1_victory_8.png",
+        "res/units/Mage1_victory_9.png",
+        "res/units/Mage1_victory_10.png",
+        "res/units/Mage1_victory_11.png",
+        "res/units/Mage1_victory_12.png"
+      ]
+    }
+  },
+  "Mage2": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage2_attack_0.png",
+        "res/units/Mage2_attack_1.png",
+        "res/units/Mage2_attack_2.png",
+        "res/units/Mage2_attack_3.png",
+        "res/units/Mage2_attack_4.png",
+        "res/units/Mage2_attack_5.png",
+        "res/units/Mage2_attack_6.png",
+        "res/units/Mage2_attack_7.png",
+        "res/units/Mage2_attack_8.png",
+        "res/units/Mage2_attack_9.png",
+        "res/units/Mage2_attack_10.png",
+        "res/units/Mage2_attack_11.png",
+        "res/units/Mage2_attack_12.png",
+        "res/units/Mage2_attack_13.png",
+        "res/units/Mage2_attack_14.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 15
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage2_idle_0.png",
+        "res/units/Mage2_idle_1.png",
+        "res/units/Mage2_idle_2.png",
+        "res/units/Mage2_idle_3.png",
+        "res/units/Mage2_idle_4.png",
+        "res/units/Mage2_idle_5.png",
+        "res/units/Mage2_idle_6.png",
+        "res/units/Mage2_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage2_move_0.png",
+        "res/units/Mage2_move_1.png",
+        "res/units/Mage2_move_2.png",
+        "res/units/Mage2_move_3.png",
+        "res/units/Mage2_move_4.png",
+        "res/units/Mage2_move_5.png",
+        "res/units/Mage2_move_6.png",
+        "res/units/Mage2_move_7.png",
+        "res/units/Mage2_move_8.png",
+        "res/units/Mage2_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage2_victory_0.png",
+        "res/units/Mage2_victory_1.png",
+        "res/units/Mage2_victory_2.png",
+        "res/units/Mage2_victory_3.png",
+        "res/units/Mage2_victory_4.png",
+        "res/units/Mage2_victory_5.png",
+        "res/units/Mage2_victory_6.png",
+        "res/units/Mage2_victory_7.png",
+        "res/units/Mage2_victory_8.png",
+        "res/units/Mage2_victory_9.png",
+        "res/units/Mage2_victory_10.png",
+        "res/units/Mage2_victory_11.png",
+        "res/units/Mage2_victory_12.png"
+      ]
+    }
+  },
+  "Mage3": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage3_attack_0.png",
+        "res/units/Mage3_attack_1.png",
+        "res/units/Mage3_attack_2.png",
+        "res/units/Mage3_attack_3.png",
+        "res/units/Mage3_attack_4.png",
+        "res/units/Mage3_attack_5.png",
+        "res/units/Mage3_attack_6.png",
+        "res/units/Mage3_attack_7.png",
+        "res/units/Mage3_attack_8.png",
+        "res/units/Mage3_attack_9.png",
+        "res/units/Mage3_attack_10.png",
+        "res/units/Mage3_attack_11.png",
+        "res/units/Mage3_attack_12.png",
+        "res/units/Mage3_attack_13.png",
+        "res/units/Mage3_attack_14.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 15
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage3_idle_0.png",
+        "res/units/Mage3_idle_1.png",
+        "res/units/Mage3_idle_2.png",
+        "res/units/Mage3_idle_3.png",
+        "res/units/Mage3_idle_4.png",
+        "res/units/Mage3_idle_5.png",
+        "res/units/Mage3_idle_6.png",
+        "res/units/Mage3_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage3_move_0.png",
+        "res/units/Mage3_move_1.png",
+        "res/units/Mage3_move_2.png",
+        "res/units/Mage3_move_3.png",
+        "res/units/Mage3_move_4.png",
+        "res/units/Mage3_move_5.png",
+        "res/units/Mage3_move_6.png",
+        "res/units/Mage3_move_7.png",
+        "res/units/Mage3_move_8.png",
+        "res/units/Mage3_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage3_victory_0.png",
+        "res/units/Mage3_victory_1.png",
+        "res/units/Mage3_victory_2.png",
+        "res/units/Mage3_victory_3.png",
+        "res/units/Mage3_victory_4.png",
+        "res/units/Mage3_victory_5.png",
+        "res/units/Mage3_victory_6.png",
+        "res/units/Mage3_victory_7.png",
+        "res/units/Mage3_victory_8.png",
+        "res/units/Mage3_victory_9.png",
+        "res/units/Mage3_victory_10.png",
+        "res/units/Mage3_victory_11.png",
+        "res/units/Mage3_victory_12.png"
+      ]
+    }
+  },
+  "Mage4": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage4_attack_0.png",
+        "res/units/Mage4_attack_1.png",
+        "res/units/Mage4_attack_2.png",
+        "res/units/Mage4_attack_3.png",
+        "res/units/Mage4_attack_4.png",
+        "res/units/Mage4_attack_5.png",
+        "res/units/Mage4_attack_6.png",
+        "res/units/Mage4_attack_7.png",
+        "res/units/Mage4_attack_8.png",
+        "res/units/Mage4_attack_9.png",
+        "res/units/Mage4_attack_10.png",
+        "res/units/Mage4_attack_11.png",
+        "res/units/Mage4_attack_12.png",
+        "res/units/Mage4_attack_13.png",
+        "res/units/Mage4_attack_14.png"
+      ],
+      "fireFrame": 9,
+      "endFrame": 15
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage4_idle_0.png",
+        "res/units/Mage4_idle_1.png",
+        "res/units/Mage4_idle_2.png",
+        "res/units/Mage4_idle_3.png",
+        "res/units/Mage4_idle_4.png",
+        "res/units/Mage4_idle_5.png",
+        "res/units/Mage4_idle_6.png",
+        "res/units/Mage4_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage4_move_0.png",
+        "res/units/Mage4_move_1.png",
+        "res/units/Mage4_move_2.png",
+        "res/units/Mage4_move_3.png",
+        "res/units/Mage4_move_4.png",
+        "res/units/Mage4_move_5.png",
+        "res/units/Mage4_move_6.png",
+        "res/units/Mage4_move_7.png",
+        "res/units/Mage4_move_8.png",
+        "res/units/Mage4_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mage4_victory_0.png",
+        "res/units/Mage4_victory_1.png",
+        "res/units/Mage4_victory_2.png",
+        "res/units/Mage4_victory_3.png",
+        "res/units/Mage4_victory_4.png",
+        "res/units/Mage4_victory_5.png",
+        "res/units/Mage4_victory_6.png",
+        "res/units/Mage4_victory_7.png",
+        "res/units/Mage4_victory_8.png",
+        "res/units/Mage4_victory_9.png",
+        "res/units/Mage4_victory_10.png",
+        "res/units/Mage4_victory_11.png",
+        "res/units/Mage4_victory_12.png"
+      ]
+    }
+  },
+  "Mauler1": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler1_attack_0.png",
+        "res/units/Mauler1_attack_1.png",
+        "res/units/Mauler1_attack_2.png",
+        "res/units/Mauler1_attack_3.png",
+        "res/units/Mauler1_attack_4.png",
+        "res/units/Mauler1_attack_5.png",
+        "res/units/Mauler1_attack_6.png"
+      ],
+      "fireFrame": 4,
+      "endFrame": 7
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler1_idle_0.png",
+        "res/units/Mauler1_idle_1.png",
+        "res/units/Mauler1_idle_2.png",
+        "res/units/Mauler1_idle_3.png",
+        "res/units/Mauler1_idle_4.png",
+        "res/units/Mauler1_idle_5.png",
+        "res/units/Mauler1_idle_6.png",
+        "res/units/Mauler1_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler1_move_0.png",
+        "res/units/Mauler1_move_1.png",
+        "res/units/Mauler1_move_2.png",
+        "res/units/Mauler1_move_3.png",
+        "res/units/Mauler1_move_4.png",
+        "res/units/Mauler1_move_5.png",
+        "res/units/Mauler1_move_6.png",
+        "res/units/Mauler1_move_7.png",
+        "res/units/Mauler1_move_8.png",
+        "res/units/Mauler1_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler1_victory_0.png",
+        "res/units/Mauler1_victory_1.png",
+        "res/units/Mauler1_victory_2.png",
+        "res/units/Mauler1_victory_3.png",
+        "res/units/Mauler1_victory_4.png",
+        "res/units/Mauler1_victory_5.png",
+        "res/units/Mauler1_victory_6.png",
+        "res/units/Mauler1_victory_7.png",
+        "res/units/Mauler1_victory_8.png",
+        "res/units/Mauler1_victory_9.png",
+        "res/units/Mauler1_victory_10.png",
+        "res/units/Mauler1_victory_11.png",
+        "res/units/Mauler1_victory_12.png"
+      ]
+    }
+  },
+  "Mauler2": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler2_attack_0.png",
+        "res/units/Mauler2_attack_1.png",
+        "res/units/Mauler2_attack_2.png",
+        "res/units/Mauler2_attack_3.png",
+        "res/units/Mauler2_attack_4.png",
+        "res/units/Mauler2_attack_5.png",
+        "res/units/Mauler2_attack_6.png"
+      ],
+      "fireFrame": 4,
+      "endFrame": 7
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler2_idle_0.png",
+        "res/units/Mauler2_idle_1.png",
+        "res/units/Mauler2_idle_2.png",
+        "res/units/Mauler2_idle_3.png",
+        "res/units/Mauler2_idle_4.png",
+        "res/units/Mauler2_idle_5.png",
+        "res/units/Mauler2_idle_6.png",
+        "res/units/Mauler2_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler2_move_0.png",
+        "res/units/Mauler2_move_1.png",
+        "res/units/Mauler2_move_2.png",
+        "res/units/Mauler2_move_3.png",
+        "res/units/Mauler2_move_4.png",
+        "res/units/Mauler2_move_5.png",
+        "res/units/Mauler2_move_6.png",
+        "res/units/Mauler2_move_7.png",
+        "res/units/Mauler2_move_8.png",
+        "res/units/Mauler2_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler2_victory_0.png",
+        "res/units/Mauler2_victory_1.png",
+        "res/units/Mauler2_victory_2.png",
+        "res/units/Mauler2_victory_3.png",
+        "res/units/Mauler2_victory_4.png",
+        "res/units/Mauler2_victory_5.png",
+        "res/units/Mauler2_victory_6.png",
+        "res/units/Mauler2_victory_7.png",
+        "res/units/Mauler2_victory_8.png",
+        "res/units/Mauler2_victory_9.png",
+        "res/units/Mauler2_victory_10.png",
+        "res/units/Mauler2_victory_11.png",
+        "res/units/Mauler2_victory_12.png"
+      ]
+    }
+  },
+  "Mauler3": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler3_attack_0.png",
+        "res/units/Mauler3_attack_1.png",
+        "res/units/Mauler3_attack_2.png",
+        "res/units/Mauler3_attack_3.png",
+        "res/units/Mauler3_attack_4.png",
+        "res/units/Mauler3_attack_5.png",
+        "res/units/Mauler3_attack_6.png"
+      ],
+      "fireFrame": 4,
+      "endFrame": 7
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler3_idle_0.png",
+        "res/units/Mauler3_idle_1.png",
+        "res/units/Mauler3_idle_2.png",
+        "res/units/Mauler3_idle_3.png",
+        "res/units/Mauler3_idle_4.png",
+        "res/units/Mauler3_idle_5.png",
+        "res/units/Mauler3_idle_6.png",
+        "res/units/Mauler3_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler3_move_0.png",
+        "res/units/Mauler3_move_1.png",
+        "res/units/Mauler3_move_2.png",
+        "res/units/Mauler3_move_3.png",
+        "res/units/Mauler3_move_4.png",
+        "res/units/Mauler3_move_5.png",
+        "res/units/Mauler3_move_6.png",
+        "res/units/Mauler3_move_7.png",
+        "res/units/Mauler3_move_8.png",
+        "res/units/Mauler3_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler3_victory_0.png",
+        "res/units/Mauler3_victory_1.png",
+        "res/units/Mauler3_victory_2.png",
+        "res/units/Mauler3_victory_3.png",
+        "res/units/Mauler3_victory_4.png",
+        "res/units/Mauler3_victory_5.png",
+        "res/units/Mauler3_victory_6.png",
+        "res/units/Mauler3_victory_7.png",
+        "res/units/Mauler3_victory_8.png",
+        "res/units/Mauler3_victory_9.png",
+        "res/units/Mauler3_victory_10.png",
+        "res/units/Mauler3_victory_11.png",
+        "res/units/Mauler3_victory_12.png"
+      ]
+    }
+  },
+  "Mauler4": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler4_attack_0.png",
+        "res/units/Mauler4_attack_1.png",
+        "res/units/Mauler4_attack_2.png",
+        "res/units/Mauler4_attack_3.png",
+        "res/units/Mauler4_attack_4.png",
+        "res/units/Mauler4_attack_5.png",
+        "res/units/Mauler4_attack_6.png"
+      ],
+      "fireFrame": 4,
+      "endFrame": 7
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler4_idle_0.png",
+        "res/units/Mauler4_idle_1.png",
+        "res/units/Mauler4_idle_2.png",
+        "res/units/Mauler4_idle_3.png",
+        "res/units/Mauler4_idle_4.png",
+        "res/units/Mauler4_idle_5.png",
+        "res/units/Mauler4_idle_6.png",
+        "res/units/Mauler4_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler4_move_0.png",
+        "res/units/Mauler4_move_1.png",
+        "res/units/Mauler4_move_2.png",
+        "res/units/Mauler4_move_3.png",
+        "res/units/Mauler4_move_4.png",
+        "res/units/Mauler4_move_5.png",
+        "res/units/Mauler4_move_6.png",
+        "res/units/Mauler4_move_7.png",
+        "res/units/Mauler4_move_8.png",
+        "res/units/Mauler4_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Mauler4_victory_0.png",
+        "res/units/Mauler4_victory_1.png",
+        "res/units/Mauler4_victory_2.png",
+        "res/units/Mauler4_victory_3.png",
+        "res/units/Mauler4_victory_4.png",
+        "res/units/Mauler4_victory_5.png",
+        "res/units/Mauler4_victory_6.png",
+        "res/units/Mauler4_victory_7.png",
+        "res/units/Mauler4_victory_8.png",
+        "res/units/Mauler4_victory_9.png",
+        "res/units/Mauler4_victory_10.png",
+        "res/units/Mauler4_victory_11.png",
+        "res/units/Mauler4_victory_12.png"
+      ]
+    }
+  },
+  "Shooter1": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter1_attack_0.png",
+        "res/units/Shooter1_attack_1.png",
+        "res/units/Shooter1_attack_2.png",
+        "res/units/Shooter1_attack_3.png",
+        "res/units/Shooter1_attack_4.png",
+        "res/units/Shooter1_attack_5.png",
+        "res/units/Shooter1_attack_6.png",
+        "res/units/Shooter1_attack_7.png",
+        "res/units/Shooter1_attack_8.png"
+      ],
+      "fireFrame": 5,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter1_idle_0.png",
+        "res/units/Shooter1_idle_1.png",
+        "res/units/Shooter1_idle_2.png",
+        "res/units/Shooter1_idle_3.png",
+        "res/units/Shooter1_idle_4.png",
+        "res/units/Shooter1_idle_5.png",
+        "res/units/Shooter1_idle_6.png",
+        "res/units/Shooter1_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter1_move_0.png",
+        "res/units/Shooter1_move_1.png",
+        "res/units/Shooter1_move_2.png",
+        "res/units/Shooter1_move_3.png",
+        "res/units/Shooter1_move_4.png",
+        "res/units/Shooter1_move_5.png",
+        "res/units/Shooter1_move_6.png",
+        "res/units/Shooter1_move_7.png",
+        "res/units/Shooter1_move_8.png",
+        "res/units/Shooter1_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter1_victory_0.png",
+        "res/units/Shooter1_victory_1.png",
+        "res/units/Shooter1_victory_2.png",
+        "res/units/Shooter1_victory_3.png",
+        "res/units/Shooter1_victory_4.png",
+        "res/units/Shooter1_victory_5.png",
+        "res/units/Shooter1_victory_6.png",
+        "res/units/Shooter1_victory_7.png",
+        "res/units/Shooter1_victory_8.png",
+        "res/units/Shooter1_victory_9.png",
+        "res/units/Shooter1_victory_10.png",
+        "res/units/Shooter1_victory_11.png",
+        "res/units/Shooter1_victory_12.png"
+      ]
+    }
+  },
+  "Shooter2": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter2_attack_0.png",
+        "res/units/Shooter2_attack_1.png",
+        "res/units/Shooter2_attack_2.png",
+        "res/units/Shooter2_attack_3.png",
+        "res/units/Shooter2_attack_4.png",
+        "res/units/Shooter2_attack_5.png",
+        "res/units/Shooter2_attack_6.png",
+        "res/units/Shooter2_attack_7.png",
+        "res/units/Shooter2_attack_8.png"
+      ],
+      "fireFrame": 5,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter2_idle_0.png",
+        "res/units/Shooter2_idle_1.png",
+        "res/units/Shooter2_idle_2.png",
+        "res/units/Shooter2_idle_3.png",
+        "res/units/Shooter2_idle_4.png",
+        "res/units/Shooter2_idle_5.png",
+        "res/units/Shooter2_idle_6.png",
+        "res/units/Shooter2_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter2_move_0.png",
+        "res/units/Shooter2_move_1.png",
+        "res/units/Shooter2_move_2.png",
+        "res/units/Shooter2_move_3.png",
+        "res/units/Shooter2_move_4.png",
+        "res/units/Shooter2_move_5.png",
+        "res/units/Shooter2_move_6.png",
+        "res/units/Shooter2_move_7.png",
+        "res/units/Shooter2_move_8.png",
+        "res/units/Shooter2_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter2_victory_0.png",
+        "res/units/Shooter2_victory_1.png",
+        "res/units/Shooter2_victory_2.png",
+        "res/units/Shooter2_victory_3.png",
+        "res/units/Shooter2_victory_4.png",
+        "res/units/Shooter2_victory_5.png",
+        "res/units/Shooter2_victory_6.png",
+        "res/units/Shooter2_victory_7.png",
+        "res/units/Shooter2_victory_8.png",
+        "res/units/Shooter2_victory_9.png",
+        "res/units/Shooter2_victory_10.png",
+        "res/units/Shooter2_victory_11.png",
+        "res/units/Shooter2_victory_12.png"
+      ]
+    }
+  },
+  "Shooter3": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter3_attack_0.png",
+        "res/units/Shooter3_attack_1.png",
+        "res/units/Shooter3_attack_2.png",
+        "res/units/Shooter3_attack_3.png",
+        "res/units/Shooter3_attack_4.png",
+        "res/units/Shooter3_attack_5.png",
+        "res/units/Shooter3_attack_6.png",
+        "res/units/Shooter3_attack_7.png",
+        "res/units/Shooter3_attack_8.png"
+      ],
+      "fireFrame": 5,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter3_idle_0.png",
+        "res/units/Shooter3_idle_1.png",
+        "res/units/Shooter3_idle_2.png",
+        "res/units/Shooter3_idle_3.png",
+        "res/units/Shooter3_idle_4.png",
+        "res/units/Shooter3_idle_5.png",
+        "res/units/Shooter3_idle_6.png",
+        "res/units/Shooter3_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter3_move_0.png",
+        "res/units/Shooter3_move_1.png",
+        "res/units/Shooter3_move_2.png",
+        "res/units/Shooter3_move_3.png",
+        "res/units/Shooter3_move_4.png",
+        "res/units/Shooter3_move_5.png",
+        "res/units/Shooter3_move_6.png",
+        "res/units/Shooter3_move_7.png",
+        "res/units/Shooter3_move_8.png",
+        "res/units/Shooter3_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter3_victory_0.png",
+        "res/units/Shooter3_victory_1.png",
+        "res/units/Shooter3_victory_2.png",
+        "res/units/Shooter3_victory_3.png",
+        "res/units/Shooter3_victory_4.png",
+        "res/units/Shooter3_victory_5.png",
+        "res/units/Shooter3_victory_6.png",
+        "res/units/Shooter3_victory_7.png",
+        "res/units/Shooter3_victory_8.png",
+        "res/units/Shooter3_victory_9.png",
+        "res/units/Shooter3_victory_10.png",
+        "res/units/Shooter3_victory_11.png",
+        "res/units/Shooter3_victory_12.png"
+      ]
+    }
+  },
+  "Shooter4": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter4_attack_0.png",
+        "res/units/Shooter4_attack_1.png",
+        "res/units/Shooter4_attack_2.png",
+        "res/units/Shooter4_attack_3.png",
+        "res/units/Shooter4_attack_4.png",
+        "res/units/Shooter4_attack_5.png",
+        "res/units/Shooter4_attack_6.png",
+        "res/units/Shooter4_attack_7.png",
+        "res/units/Shooter4_attack_8.png"
+      ],
+      "fireFrame": 5,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter4_idle_0.png",
+        "res/units/Shooter4_idle_1.png",
+        "res/units/Shooter4_idle_2.png",
+        "res/units/Shooter4_idle_3.png",
+        "res/units/Shooter4_idle_4.png",
+        "res/units/Shooter4_idle_5.png",
+        "res/units/Shooter4_idle_6.png",
+        "res/units/Shooter4_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter4_move_0.png",
+        "res/units/Shooter4_move_1.png",
+        "res/units/Shooter4_move_2.png",
+        "res/units/Shooter4_move_3.png",
+        "res/units/Shooter4_move_4.png",
+        "res/units/Shooter4_move_5.png",
+        "res/units/Shooter4_move_6.png",
+        "res/units/Shooter4_move_7.png",
+        "res/units/Shooter4_move_8.png",
+        "res/units/Shooter4_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Shooter4_victory_0.png",
+        "res/units/Shooter4_victory_1.png",
+        "res/units/Shooter4_victory_2.png",
+        "res/units/Shooter4_victory_3.png",
+        "res/units/Shooter4_victory_4.png",
+        "res/units/Shooter4_victory_5.png",
+        "res/units/Shooter4_victory_6.png",
+        "res/units/Shooter4_victory_7.png",
+        "res/units/Shooter4_victory_8.png",
+        "res/units/Shooter4_victory_9.png",
+        "res/units/Shooter4_victory_10.png",
+        "res/units/Shooter4_victory_11.png",
+        "res/units/Shooter4_victory_12.png"
+      ]
+    }
+  },
+  "Swordsman1": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman1_attack_0.png",
+        "res/units/Swordsman1_attack_1.png",
+        "res/units/Swordsman1_attack_2.png",
+        "res/units/Swordsman1_attack_3.png",
+        "res/units/Swordsman1_attack_4.png",
+        "res/units/Swordsman1_attack_5.png",
+        "res/units/Swordsman1_attack_6.png",
+        "res/units/Swordsman1_attack_7.png",
+        "res/units/Swordsman1_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman1_idle_0.png",
+        "res/units/Swordsman1_idle_1.png",
+        "res/units/Swordsman1_idle_2.png",
+        "res/units/Swordsman1_idle_3.png",
+        "res/units/Swordsman1_idle_4.png",
+        "res/units/Swordsman1_idle_5.png",
+        "res/units/Swordsman1_idle_6.png",
+        "res/units/Swordsman1_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman1_move_0.png",
+        "res/units/Swordsman1_move_1.png",
+        "res/units/Swordsman1_move_2.png",
+        "res/units/Swordsman1_move_3.png",
+        "res/units/Swordsman1_move_4.png",
+        "res/units/Swordsman1_move_5.png",
+        "res/units/Swordsman1_move_6.png",
+        "res/units/Swordsman1_move_7.png",
+        "res/units/Swordsman1_move_8.png",
+        "res/units/Swordsman1_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman1_victory_0.png",
+        "res/units/Swordsman1_victory_1.png",
+        "res/units/Swordsman1_victory_2.png",
+        "res/units/Swordsman1_victory_3.png",
+        "res/units/Swordsman1_victory_4.png",
+        "res/units/Swordsman1_victory_5.png",
+        "res/units/Swordsman1_victory_6.png",
+        "res/units/Swordsman1_victory_7.png",
+        "res/units/Swordsman1_victory_8.png",
+        "res/units/Swordsman1_victory_9.png",
+        "res/units/Swordsman1_victory_10.png",
+        "res/units/Swordsman1_victory_11.png",
+        "res/units/Swordsman1_victory_12.png"
+      ]
+    }
+  },
+  "Swordsman2": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman2_attack_0.png",
+        "res/units/Swordsman2_attack_1.png",
+        "res/units/Swordsman2_attack_2.png",
+        "res/units/Swordsman2_attack_3.png",
+        "res/units/Swordsman2_attack_4.png",
+        "res/units/Swordsman2_attack_5.png",
+        "res/units/Swordsman2_attack_6.png",
+        "res/units/Swordsman2_attack_7.png",
+        "res/units/Swordsman2_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman2_idle_0.png",
+        "res/units/Swordsman2_idle_1.png",
+        "res/units/Swordsman2_idle_2.png",
+        "res/units/Swordsman2_idle_3.png",
+        "res/units/Swordsman2_idle_4.png",
+        "res/units/Swordsman2_idle_5.png",
+        "res/units/Swordsman2_idle_6.png",
+        "res/units/Swordsman2_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman2_move_0.png",
+        "res/units/Swordsman2_move_1.png",
+        "res/units/Swordsman2_move_2.png",
+        "res/units/Swordsman2_move_3.png",
+        "res/units/Swordsman2_move_4.png",
+        "res/units/Swordsman2_move_5.png",
+        "res/units/Swordsman2_move_6.png",
+        "res/units/Swordsman2_move_7.png",
+        "res/units/Swordsman2_move_8.png",
+        "res/units/Swordsman2_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman2_victory_0.png",
+        "res/units/Swordsman2_victory_1.png",
+        "res/units/Swordsman2_victory_2.png",
+        "res/units/Swordsman2_victory_3.png",
+        "res/units/Swordsman2_victory_4.png",
+        "res/units/Swordsman2_victory_5.png",
+        "res/units/Swordsman2_victory_6.png",
+        "res/units/Swordsman2_victory_7.png",
+        "res/units/Swordsman2_victory_8.png",
+        "res/units/Swordsman2_victory_9.png",
+        "res/units/Swordsman2_victory_10.png",
+        "res/units/Swordsman2_victory_11.png",
+        "res/units/Swordsman2_victory_12.png"
+      ]
+    }
+  },
+  "Swordsman3": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman3_attack_0.png",
+        "res/units/Swordsman3_attack_1.png",
+        "res/units/Swordsman3_attack_2.png",
+        "res/units/Swordsman3_attack_3.png",
+        "res/units/Swordsman3_attack_4.png",
+        "res/units/Swordsman3_attack_5.png",
+        "res/units/Swordsman3_attack_6.png",
+        "res/units/Swordsman3_attack_7.png",
+        "res/units/Swordsman3_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman3_idle_0.png",
+        "res/units/Swordsman3_idle_1.png",
+        "res/units/Swordsman3_idle_2.png",
+        "res/units/Swordsman3_idle_3.png",
+        "res/units/Swordsman3_idle_4.png",
+        "res/units/Swordsman3_idle_5.png",
+        "res/units/Swordsman3_idle_6.png",
+        "res/units/Swordsman3_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman3_move_0.png",
+        "res/units/Swordsman3_move_1.png",
+        "res/units/Swordsman3_move_2.png",
+        "res/units/Swordsman3_move_3.png",
+        "res/units/Swordsman3_move_4.png",
+        "res/units/Swordsman3_move_5.png",
+        "res/units/Swordsman3_move_6.png",
+        "res/units/Swordsman3_move_7.png",
+        "res/units/Swordsman3_move_8.png",
+        "res/units/Swordsman3_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman3_victory_0.png",
+        "res/units/Swordsman3_victory_1.png",
+        "res/units/Swordsman3_victory_2.png",
+        "res/units/Swordsman3_victory_3.png",
+        "res/units/Swordsman3_victory_4.png",
+        "res/units/Swordsman3_victory_5.png",
+        "res/units/Swordsman3_victory_6.png",
+        "res/units/Swordsman3_victory_7.png",
+        "res/units/Swordsman3_victory_8.png",
+        "res/units/Swordsman3_victory_9.png",
+        "res/units/Swordsman3_victory_10.png",
+        "res/units/Swordsman3_victory_11.png",
+        "res/units/Swordsman3_victory_12.png"
+      ]
+    }
+  },
+  "Swordsman4": {
+    "attack": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman4_attack_0.png",
+        "res/units/Swordsman4_attack_1.png",
+        "res/units/Swordsman4_attack_2.png",
+        "res/units/Swordsman4_attack_3.png",
+        "res/units/Swordsman4_attack_4.png",
+        "res/units/Swordsman4_attack_5.png",
+        "res/units/Swordsman4_attack_6.png",
+        "res/units/Swordsman4_attack_7.png",
+        "res/units/Swordsman4_attack_8.png"
+      ],
+      "fireFrame": 6,
+      "endFrame": 9
+    },
+    "idle": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman4_idle_0.png",
+        "res/units/Swordsman4_idle_1.png",
+        "res/units/Swordsman4_idle_2.png",
+        "res/units/Swordsman4_idle_3.png",
+        "res/units/Swordsman4_idle_4.png",
+        "res/units/Swordsman4_idle_5.png",
+        "res/units/Swordsman4_idle_6.png",
+        "res/units/Swordsman4_idle_7.png"
+      ]
+    },
+    "move": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman4_move_0.png",
+        "res/units/Swordsman4_move_1.png",
+        "res/units/Swordsman4_move_2.png",
+        "res/units/Swordsman4_move_3.png",
+        "res/units/Swordsman4_move_4.png",
+        "res/units/Swordsman4_move_5.png",
+        "res/units/Swordsman4_move_6.png",
+        "res/units/Swordsman4_move_7.png",
+        "res/units/Swordsman4_move_8.png",
+        "res/units/Swordsman4_move_9.png"
+      ]
+    },
+    "victory": {
+      "intervalMs": 102,
+      "frames": [
+        "res/units/Swordsman4_victory_0.png",
+        "res/units/Swordsman4_victory_1.png",
+        "res/units/Swordsman4_victory_2.png",
+        "res/units/Swordsman4_victory_3.png",
+        "res/units/Swordsman4_victory_4.png",
+        "res/units/Swordsman4_victory_5.png",
+        "res/units/Swordsman4_victory_6.png",
+        "res/units/Swordsman4_victory_7.png",
+        "res/units/Swordsman4_victory_8.png",
+        "res/units/Swordsman4_victory_9.png",
+        "res/units/Swordsman4_victory_10.png",
+        "res/units/Swordsman4_victory_11.png",
+        "res/units/Swordsman4_victory_12.png"
+      ]
+    }
+  }
+}

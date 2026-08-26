@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "originalEvidence": {
+    "traitConfig": "unit_AoeAtk/U_AoeAtk uses UnitAoeAtkExplosion with forceParams [2]",
+    "radiusFormula": "2 * Laya.Physics.PIXEL_RATIO = 2 * 50 = 100 pixels",
+    "damageFormula": "source bullet damage * default ratio 1",
+    "affectedUnits": "base mage plus all six boss variants carrying AoeAtk",
+    "source": "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:81174-81247,101174-101178; generated/tables/unit.json"
+  },
+  "runtimeValidation": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=all-buildings&v=31b",
+    "assertion": "unitAoeOriginalRadiusAndDamage",
+    "result": true,
+    "case": "target at x=300 and neighbor at x=360 each lost full 10 damage; actor at x=450 remained unchanged"
+  },
+  "fiveWaveRegression": {
+    "victory": true,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "castleHp": 975
+  }
+}

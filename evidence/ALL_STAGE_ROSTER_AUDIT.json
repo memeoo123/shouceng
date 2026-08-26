@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "route": "http://127.0.0.1:8131/?stage=2&test=all-stage-rosters&run=63-auto-flow",
+  "productionPath": "src/Main.js::buildWaveRoster",
+  "stageCount": 220,
+  "totalWaves": 2620,
+  "totalEnemies": 60588,
+  "totalElites": 2923,
+  "totalBosses": 219,
+  "rosterChecksum": "8ad99825",
+  "samples": [
+    { "stage": 1, "waves": 3, "enemies": 15, "elites": 2, "bosses": 0, "waveCounts": [4, 4, 7] },
+    { "stage": 2, "waves": 5, "enemies": 35, "elites": 4, "bosses": 1, "waveCounts": [3, 4, 7, 9, 12] },
+    { "stage": 220, "waves": 12, "enemies": 300, "elites": 14, "bosses": 1, "waveCounts": [2, 8, 20, 15, 31, 15, 26, 45, 21, 27, 34, 56] }
+  ],
+  "assertions": {
+    "allStagesRostered": true,
+    "everyRosterCountExact": true,
+    "everyRosterUnitKnown": true,
+    "eliteConversionsBounded": true,
+    "finalBossConversionsExact": true,
+    "runtimeErrors": 0
+  },
+  "representativeRegression": {
+    "stage": 2,
+    "victory": true,
+    "kills": 35,
+    "experience": 390,
+    "fightLevel": 7,
+    "castleHp": 975,
+    "runtimeErrors": 0
+  },
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6"
+}

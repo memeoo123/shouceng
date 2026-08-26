@@ -1,0 +1,18 @@
+[
+  {"id":1,"qualities":[1,2,3],"params":[0.05,0.1,0.15],"weights":[72,21,14],"stackType":1,"stackLimit":0,"effectKey":"AllUnitAtk"},
+  {"id":2,"qualities":[1,2,3],"params":[0.05,0.1,0.15],"weights":[72,21,14],"stackType":1,"stackLimit":0,"effectKey":"AllUnitHp"},
+  {"id":3,"qualities":[1,2,3],"params":[0.05,0.1,0.15],"weights":[72,21,14],"stackType":2,"stackLimit":0.5,"effectKey":"EnemySpeedDown"},
+  {"id":4,"qualities":[1,2,3],"params":[0.05,0.1,0.15],"weights":[72,21,14],"stackType":2,"stackLimit":1,"effectKey":"AllUnitAtkSpd"},
+  {"id":5,"qualities":[2,3],"params":[0.3,0.5],"weights":[21,14],"stackType":3,"stackLimit":0,"effectKey":"ExpUp"},
+  {"id":6,"qualities":[2,3],"params":[2,5],"weights":[72,21],"stackType":3,"stackLimit":0,"effectKey":"CoinsUp"},
+  {"id":7,"qualities":[1,2,3],"params":[10,20,30],"weights":[72,21,14],"stackType":4,"stackLimit":0,"effectKey":"Coins"},
+  {"id":8,"qualities":[1,2,3],"params":[0.1,0.15,0.2],"weights":[72,21,14],"stackType":1,"stackLimit":0,"effectKey":"RangedUnitAtkRange"},
+  {"id":9,"qualities":[2,3],"params":[0.05,0.1],"weights":[21,14],"stackType":3,"stackLimit":0,"effectKey":"ShopQ2RateUp"},
+  {"id":10,"qualities":[2],"params":[1],"weights":[21],"stackType":3,"stackLimit":0,"effectKey":"ShopFreeItem"},
+  {"id":11,"qualities":[3],"params":[0.2],"weights":[14],"stackType":3,"stackLimit":0,"effectKey":"ShopConsume"},
+  {"id":12,"qualities":[2,3],"params":[0.01,0.02],"weights":[21,14],"stackType":3,"stackLimit":0,"effectKey":"DmgUpWithCnt"},
+  {"id":13,"qualities":[2,3],"params":[0.1,0.25],"weights":[21,14],"stackType":3,"stackLimit":0,"effectKey":"WinRewardUp"},
+  {"id":14,"qualities":[2,3],"params":[0.5,1],"weights":[21,14],"stackType":3,"stackLimit":0,"effectKey":"BossDmgUp"},
+  {"id":15,"qualities":[2,3],"params":[0.1,0.2],"weights":[21,14],"stackType":3,"stackLimit":0,"effectKey":"Interest"},
+  {"id":16,"qualities":[3],"params":[1],"weights":[14],"stackType":4,"stackLimit":0,"effectKey":"RandLvUp"}
+]

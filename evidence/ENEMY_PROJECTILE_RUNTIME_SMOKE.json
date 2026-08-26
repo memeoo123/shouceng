@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=enemy-projectile-runtime",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "sourceEvidence": {
+    "damageAtCollision": "generated/game.beautified.js:69945-70015; FireBullet.onHit applies dodge, critical damage and HP loss only after a collider contact",
+    "enemyBulletClass": "generated/game.beautified.js:70337-70450; UnitBullet changes the collision category/mask to PlayerUnit and Build and inherits FireBullet damage timing",
+    "weaponEmission": "generated/game.beautified.js:72480-72610,73037-73330; UnitWeapon fires through FireWeapon.__bulletInit rather than directly subtracting target HP",
+    "unitAmmo": "generated/game.beautified.js:99595-99665; enemy unit ammo selects UnitBullet, ranged units select tracking art, melee uses an untextured range-sized sensor, lifetime is max(270ms, range/speed+100ms), and autoFlow remains false"
+  },
+  "result": {
+    "ok": true,
+    "ranged": {
+      "speedPixelsPerSecond": 900,
+      "lifeTime": 0.37777777777777777,
+      "hpAtLaunch": 1000,
+      "hpBeforeContact": 1000,
+      "hpAfterContact": 990,
+      "autoFlow": false
+    },
+    "interception": {
+      "deadOriginalTargetDoesNotDeleteBullet": true,
+      "pathBystanderHpAfterContact": 990
+    },
+    "melee": {
+      "visible": false,
+      "hpAtLaunch": 1000,
+      "hpAfterFirstPhysicsStep": 990
+    },
+    "castle": {
+      "hpAtLaunch": 1000,
+      "hpBeforeContact": 1000,
+      "hpAfterContact": 990
+    }
+  },
+  "assertions": {
+    "rangedUnitUsesRecoveredVisibleTrackingAsset": true,
+    "rangedUnitSpeed18Becomes900PixelsPerSecond": true,
+    "unitBulletDoesNotAutoFlowByDefault": true,
+    "rangedDamageWaitsForCollision": true,
+    "deadTargetDoesNotDeleteUnitBullet": true,
+    "pathBystanderCanInterceptUnitBullet": true,
+    "meleeUsesInvisibleSensorBullet": true,
+    "meleeSensorHitsOnFirstPhysicsStep": true,
+    "castleDamageWaitsForProjectileContact": true,
+    "originalUnitBulletLifetimeFormulaPreserved": true
+  },
+  "representativeRegression": {
+    "runs": 3,
+    "victory": true,
+    "wave": 5,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "fightLevelExp": 16,
+    "battleMoney": 103,
+    "castleHp": 975,
+    "consoleErrors": 0
+  },
+  "adapterBoundary": "UnitBullet mask membership and first contact use deterministic swept recovered hit-box geometry. Native Box2D substep and exact simultaneous-contact callback ordering remain outside the functional-complete claim."
+}

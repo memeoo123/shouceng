@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-26",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=shop-return",
+  "runtimeSha256": "C4E4D2CB8895C38A922C9852986B67C1E129E0AFD2A18CE9BC17498FF7E1275A",
+  "sourceEvidence": {
+    "allowReturn": "generated/game.beautified.js:90470-90510 resets an unlocked used BuildItem when it is dropped without target floors and BuildItem.allow2Shop is true",
+    "featureEnabled": "generated/game.beautified.js:115540 sets BuildItem.allow2Shop=true and allowRpeItemChange=true",
+    "shopLayer": "generated/game.beautified.js:114110-114112 assigns BuildItemBase.spawnLayerSp to the BattleShop and dropLayerSp to the battlefield main layer",
+    "unusedSorting": "generated/game.beautified.js:111825+ sorts unused BuildItems inside BattleShop.itemSpawnRange"
+  },
+  "result": {
+    "ok": true,
+    "stage": 2,
+    "wave": 2,
+    "returnedDefinition": {
+      "id": "e07",
+      "level": 2,
+      "slotIndex": 3
+    }
+  },
+  "assertions": {
+    "waveTwoPreparation": true,
+    "placedBuildingDragStarted": true,
+    "shopBenchRecognized": true,
+    "fieldBuildingRemoved": true,
+    "originalFootprintCleared": true,
+    "returnedItemVisibleAndInteractive": true,
+    "currentHpPreservedOnBench": true,
+    "returnedItemDragStarted": true,
+    "redeployRestoresFieldAndHp": true,
+    "returnedSlotConsumedAgain": true,
+    "redeployedFootprintOccupied": true
+  },
+  "regressions": {
+    "waveTwoDrag": true,
+    "shopAndTreeClear": true,
+    "representativeBattle": {
+      "victory": true,
+      "wave": 5,
+      "kills": 35,
+      "exp": 390,
+      "battleMoney": 103
+    }
+  }
+}

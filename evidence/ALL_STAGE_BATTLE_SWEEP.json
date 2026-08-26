@@ -1,0 +1,47 @@
+{
+  "date": "2026-08-21",
+  "route": "http://127.0.0.1:8131/?stage=<1..220>&test=stage-battle-sweep",
+  "ok": true,
+  "stageRange": [1, 220],
+  "stageCount": 220,
+  "concurrency": 4,
+  "timeoutMs": 90000,
+  "discoverTimeoutMs": 30000,
+  "totalWaves": 2620,
+  "totalEnemies": 60588,
+  "totalExp": 634120,
+  "victories": 220,
+  "failures": [],
+  "checksum": "413c4ac8",
+  "wallDurationMs": 204965,
+  "samples": [
+    {"stage": 1, "waves": 3, "enemies": 15, "exp": 160, "battleMoney": 38, "castleHp": 1000000000},
+    {"stage": 2, "waves": 5, "enemies": 35, "exp": 390, "battleMoney": 103, "castleHp": 1000000000},
+    {"stage": 5, "waves": 12, "enemies": 220, "exp": 2330, "battleMoney": 477.904, "castleHp": 1000000000},
+    {"stage": 100, "waves": 12, "enemies": 301, "exp": 3140, "battleMoney": 182, "castleHp": 1000000000},
+    {"stage": 220, "waves": 12, "enemies": 300, "exp": 3130, "battleMoney": 397.03679999999997, "castleHp": 1000000000}
+  ],
+  "adapter": {
+    "testOnly": true,
+    "purpose": "force every stage through all production waves; explicitly excluded from balance claims",
+    "changes": [
+      "test buildings and castle receive 1e9 HP",
+      "test buildings receive at least 1e6 attack, 2000-pixel range and at most 0.02-second cooldown",
+      "inter-wave delay is reduced to 1ms"
+    ],
+    "unchanged": [
+      "production stage catalog and map initialization",
+      "production wave rosters, spawn positions and spawn timing data",
+      "production enemy creation, movement, attacks, projectiles, death, economy, wave transitions and victory settlement"
+    ],
+    "claimBoundary": "proves lifecycle reachability and exact roster consumption for every stage; does not prove original-account balance or clearability"
+  },
+  "assertions": {
+    "everyRequestedStageCompleted": true,
+    "everyStageReachedVictory": true,
+    "everyStageReachedEveryWave": true,
+    "everyStageKilledFullRoster": true,
+    "everyStageUsedExplicitTestAdapter": true,
+    "zeroConsoleErrors": true
+  }
+}

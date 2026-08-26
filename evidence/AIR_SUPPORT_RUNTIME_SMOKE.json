@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=air-support",
+  "ok": true,
+  "originalEvidence": {
+    "fairyGuiList": "generated/fairygui-restored/assets/BattleScene/技能区域.xml:2-6",
+    "fairyGuiButton": "generated/fairygui-restored/assets/BattleScene/空袭.xml:1-18",
+    "skillOrder": "generated/game.beautified.js:110654-110704",
+    "singleUse": "generated/game.beautified.js:110752-110799",
+    "freeze": "generated/game.beautified.js:104522-104604",
+    "meteorite": "generated/game.beautified.js:104917-105003",
+    "healing": "generated/game.beautified.js:104796-104825",
+    "fallbackParams": "generated/game.beautified.js:116366-116397"
+  },
+  "originalFallbacks": {
+    "meteoriteDamage": 9999,
+    "freezeSeconds": 4,
+    "healingMaxHpRatio": 1,
+    "meteoriteWindowSeconds": 3
+  },
+  "recoveredIcons": [
+    {
+      "runtime": "bin/res/airsupport_healing.png",
+      "sha256": "D4BBBBCEFCFB220850A649741071D8CA5D114807F844CAF698D4C0A8D9847A8C"
+    },
+    {
+      "runtime": "bin/res/airsupport_freeze.png",
+      "sha256": "5980B82F83A7484FDA9C29E3BBA0F0EC0C2DF4924B0086C6BE8D62F901E43405"
+    },
+    {
+      "runtime": "bin/res/airsupport_meteorite.png",
+      "sha256": "16476DC248D53B37E67A174C62E4746B4BD9C58EA6A5D58259DDE6679B4048DD"
+    }
+  ],
+  "runtimeAudit": {
+    "uses": ["healing", "freeze", "meteorite"],
+    "meteoriteTargets": 3,
+    "meteoriteImpacts": 3,
+    "frozenTargets": 3,
+    "healedUnits": 1,
+    "healedHp": 56.25
+  },
+  "responsiveLayout": {
+    "viewportStageHeight": 1495,
+    "stripY": 1375,
+    "stripHeight": 120,
+    "bottom": 1495,
+    "policy": "dock to actual fixed-width stage bottom instead of fixed y=1135"
+  },
+  "assertions": {
+    "threeRecoveredButtons": true,
+    "originalOrder": true,
+    "dockedToActualStageBottom": true,
+    "healingUsed": true,
+    "allyFullyHealed": true,
+    "freezeUsed": true,
+    "frozenForFourSeconds": true,
+    "meteoriteUsed": true,
+    "meteoriteSnapshotCount": true,
+    "meteoriteClearedSnapshot": true,
+    "singleUsePerBattle": true
+  },
+  "emptyUseRegression": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=battle",
+    "airSupportUsed": [],
+    "victory": true,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "castleHp": 975
+  },
+  "runtimeSha256": "34F525C9149E3E2AFEE166946EACEC9A8FE3F9675E6B7ACB58366630DBFAD8D9"
+}

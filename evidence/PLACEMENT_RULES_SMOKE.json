@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-26",
+  "route": "?stage=2&test=placement-rules",
+  "ok": true,
+  "stage": 2,
+  "assertions": {
+    "invalidNoFloorDropReturnsToShop": true,
+    "shopAreaSynthesis": true,
+    "occupiedReplacementSwaps": true,
+    "partialSlotOverlapTrimsExistingFloor": true,
+    "noAttackWarningBeforeFight": true,
+    "normalWaveRestoresBuilding": true,
+    "buildNotRecoverRemovesBuilding": true
+  },
+  "regressions": {
+    "shopReturn": "11/11",
+    "waveTwoDrag": "9/9",
+    "shopAndObstacle": "pass",
+    "buildingMechanics": "pass",
+    "stage2Battle": {
+      "victory": true,
+      "kills": 35,
+      "experience": 390,
+      "battleMoney": 103,
+      "castleHp": 975
+    }
+  },
+  "consoleErrors": [],
+  "sourceRuntimeSha256": "2AB4BEAC7EE907E7343032AA48EE5667467F8DB342813DE5B9BF23910B90C014"
+}

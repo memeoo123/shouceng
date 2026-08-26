@@ -1,0 +1,74 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?stage=2&test=defeat-retry&run=53",
+  "runtimeSha256": "08E85EA96C306DB5C9C53ED0B04019A19CD952027057C7EA2E2F8873EC75F2B3",
+  "passed": true,
+  "stage": 2,
+  "defeat": {
+    "castleHp": 0,
+    "finished": true,
+    "fighting": false,
+    "result": {
+      "victory": false,
+      "wave": 1,
+      "kills": 4,
+      "exp": 88,
+      "battleMoney": 47,
+      "rewardRadio": 1
+    },
+    "resultOverlayVisible": true,
+    "shopHidden": true,
+    "airSupportHidden": true
+  },
+  "reset": {
+    "resultCleared": true,
+    "castleHp": 975,
+    "currentWave": 1,
+    "money": 0,
+    "battleExp": 0,
+    "fightLevel": 0,
+    "kills": 0,
+    "traits": 0,
+    "airSupportUsed": 0,
+    "buildings": 0,
+    "enemies": 0,
+    "allies": 0,
+    "projectiles": 0,
+    "effects": 0,
+    "combatEvents": 0,
+    "overlays": 0,
+    "shopSlots": 3,
+    "firstRefreshFree": true,
+    "speed": 1,
+    "speedLabel": "×1",
+    "pauseAlpha": 1,
+    "mapRestored": true,
+    "positiveOccupiedCells": 0
+  },
+  "retry": {
+    "placementFound": true,
+    "fighting": true,
+    "currentWave": 1,
+    "rosterCount": 3,
+    "expectedRosterCount": 3,
+    "buildingCount": 1,
+    "shopHidden": true,
+    "battlePresentation": true
+  },
+  "assertions": {
+    "initialPlacementFound": true,
+    "defeatReachedThroughCastleAttack": true,
+    "defeatResultExact": true,
+    "defeatPresentationVisible": true,
+    "resetCoreStateExact": true,
+    "resetClearsRuntimeObjects": true,
+    "resetRestoresPreparationUi": true,
+    "retryStartsProductionWave": true,
+    "finalCleanupExact": true
+  },
+  "runtimeFixes": [
+    "resetRun now restores pause button alpha to 1",
+    "resetRun now restores the speed label to ×1",
+    "resetRun clears stale restoreResult data and immediately publishes the reset state"
+  ]
+}

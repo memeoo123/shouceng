@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?stage=2&test=equipment-runtime",
+  "ok": true,
+  "inputFormat": "equipment=e01:1,2,3;e07:55,56,57",
+  "activationPolicy": "explicit only; normal entry defaults to an empty loadout",
+  "validationRules": [
+    "building id must exist",
+    "trait id must exist",
+    "trait id must belong to the selected building's recovered Traits list",
+    "original config-missing ID 104 is rejected",
+    "duplicates are ignored"
+  ],
+  "acceptedBuildingLoadouts": 4,
+  "rejected": [{"buildingId": "e14", "traitId": 104, "reason": "original-config-missing"}],
+  "productionObjects": {
+    "arrowTower": {
+      "traitIds": [55, 56, 57, 58, 59, 60, 61, 63, 100, 103],
+      "hp": 185.9,
+      "attack": 24.2,
+      "cooldownSeconds": 1.0666666666666667,
+      "rangePixels": 690,
+      "totalSequentialShots": 2,
+      "totalThroughHits": 2,
+      "element": "fire"
+    },
+    "swordsman": {
+      "sourceBuilding": "e01",
+      "hp": 399.3,
+      "attack": 33,
+      "attackSpeed": 1.5,
+      "speedPixelsPerSecond": 75.625,
+      "criticalCounterThreshold": 1,
+      "criticalKillRate": 0.03
+    },
+    "shieldUnit": {
+      "sourceBuilding": "e06",
+      "hp": 605,
+      "shield": 484,
+      "reflectionDamageRatio": 0.1
+    }
+  },
+  "runtimeHooks": [
+    "building definition numeric and global-defense application",
+    "barracks summon numeric, global-unit, shield and event-policy application",
+    "counter-critical state in ally attacks",
+    "scattering/sequential shot count and penetration/jump targets",
+    "critical execute and max-HP-limited bonus damage",
+    "shield absorption and damage reflection"
+  ],
+  "emptyLoadoutRegression": {
+    "loadoutCount": 0,
+    "allBuildingMechanics": true,
+    "shopFreeItem": true,
+    "battle": {"victory": true, "kills": 35, "exp": 390, "fightLevel": 7, "castleHp": 975}
+  },
+  "runtimeSha256": "2747BE15EE55258A8DB15EA7DAC729F138A8169CBD3D5F7909C1132FA9E4383D"
+}

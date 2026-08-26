@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?stage=2&test=economy-rewards&run=50",
+  "runtimeSha256": "34D9B4ADE31616842F80D237F112764CDB04ED8F739B5A0F60C2D198A30E6FAE",
+  "passed": true,
+  "stage": 2,
+  "waveEnemyCount": 3,
+  "coinsPerWave": 10,
+  "deadCoinAllocation": [4, 3, 3],
+  "moneyAfterKills": [4, 7, 10],
+  "waveEnd": {
+    "moneyBeforeWaveEnd": 10,
+    "mineIncome": 1,
+    "coinsUp": 2,
+    "interestRate": 0.1,
+    "interest": 1.3,
+    "moneyAfterWaveEnd": 14.3,
+    "nextWave": 2,
+    "shopVisible": true
+  },
+  "outcomes": {
+    "victory": {
+      "battleMoney": 37,
+      "rewardRadio": 1.25,
+      "kills": 2,
+      "exp": 11
+    },
+    "defeat": {
+      "battleMoney": 12,
+      "rewardRadio": 1.25,
+      "kills": 0,
+      "exp": 0
+    }
+  },
+  "assertions": {
+    "evidenceCoinPoolExact": true,
+    "allocationCountExact": true,
+    "allocationSumExact": true,
+    "spawnCarriesAllocation": true,
+    "killTimeCoinAccrualExact": true,
+    "waveEndEconomyExact": true,
+    "waveLifecycleContinues": true,
+    "victoryOutcomeExact": true,
+    "defeatOutcomeExact": true,
+    "finalCleanupExact": true
+  },
+  "originalEvidence": [
+    "generated/game.beautified.js:102652-102754 distributes CoinsPerWave with floor/remainder across enemies",
+    "generated/game.beautified.js:94896 grants deadCoins through onCoinsReward at enemy death",
+    "generated/game.beautified.js:97028-97054 applies min(30, money*rate) on wave_end",
+    "generated/game.beautified.js:76985-77000 increments winRewardRadio",
+    "generated/game.beautified.js:114926-114933 emits Money and RewardRadio in the battle outcome payload",
+    "generated/game.beautified.js:114254-114285 reads optional WaveReward for initial money; recovered standard stages expose RewardWave chest milestones instead"
+  ],
+  "consoleErrors": 0
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?test=all-stages&capture=1&run=63-auto-flow",
+  "result": {
+    "ok": true,
+    "stageCount": 220,
+    "buildingCount": 19,
+    "enemyVariantCount": 18,
+    "mapThemes": ["Forest", "Desert", "Snowfield"],
+    "errors": []
+  },
+  "highStageRoute": "http://127.0.0.1:8131/?stage=220&test=smoke",
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "verifiedAfterVisualAlignment": true,
+  "verifiedAfterShopAndAdvancedMechanics": true,
+  "verifiedAfterRecoveredUnitRoute": true,
+  "verifiedAfterRecoveredProjectileColliderGeometry": true,
+  "verifiedAfterRecoveredUnitRouteColliderGeometry": true,
+  "verifiedAfterRecoveredUnitRouteTargetGeometry": true,
+  "verifiedAfterRecoveredUnitRouteTargetCache": true,
+  "verifiedAfterRecoveredPlayerUnitRoute": true,
+  "verifiedAfterRecoveredUnitRouteSearchRange": true,
+  "verifiedAfterRecoveredProjectileTravelTiming": true,
+  "verifiedAfterRecoveredProjectileAutoFlow": true,
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6"
+}

@@ -1,0 +1,115 @@
+{
+  "waveGCntRadios": 1.2,
+  "buildSpeedRadio": 1.5,
+  "EnemyExpFix": 0.833333333333333,
+  "StoreRefreshPrice": 15,
+  "ShopRefreshLv3WeightFormula": [
+    0.06,
+    "+",
+    [
+      "Wave",
+      "-",
+      1
+    ],
+    "/",
+    5,
+    "*",
+    0.015
+  ],
+  "ShopRefreshLv2WeightFormula": [
+    0.06,
+    "+",
+    [
+      "Wave",
+      "-",
+      1
+    ],
+    "/",
+    5,
+    "*",
+    0.03
+  ],
+  "BugGuaranteedRefreshCount": 3,
+  "LvHpAtkRadio": 1.1,
+  "UpgradeLvAtkRadio": 1.2,
+  "BodySizeIncreaseProb": [
+    0,
+    0.3,
+    1.2,
+    2,
+    0.5,
+    0.3,
+    2,
+    1,
+    0.5,
+    0.3,
+    2.5,
+    3
+  ],
+  "SynHpRadio": [
+    1,
+    1.5,
+    2.3,
+    3.5,
+    7
+  ],
+  "SynAtkRadio": [
+    1,
+    1.25,
+    1.5,
+    2,
+    3
+  ],
+  "DoubleSpeedFreeAdCount": 8,
+  "CoinsPerWave": 10,
+  "EnemyExp": [
+    10,
+    20,
+    0
+  ],
+  "MapTypeCnt": {
+    "2": [
+      20,
+      25
+    ],
+    "o": [
+      6,
+      10
+    ]
+  },
+  "BattleChoiceRefreshCount": 10,
+  "MaxAllTraitCount": 3,
+  "AdRewardSilverCoin": 30,
+  "MaxSilverCoinAdClickCount": 1,
+  "StudyTraitQuality": [
+    80,
+    40,
+    20
+  ],
+  "EquipSynthMax": 4,
+  "ObstacleClearPriceList": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "2xSpeedFreeAdCnt": 9,
+  "ChestRewardAdd": {
+    "Diamond": 0,
+    "Stamina": 5
+  },
+  "AdSlotShapes": [
+    "xx",
+    "x|x"
+  ],
+  "SpawnLockBuildWinRates": [
+    0.8,
+    0.7
+  ],
+  "SpawnLockBuildLv": [
+    2,
+    2
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=projectile-travel-timing",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "sourceEvidence": {
+    "velocity": "generated/game.beautified.js:69699-69749; BaseBullet.initVelocity writes bulletSpeed directly to the physics linear velocity",
+    "unitAmmo": "generated/game.beautified.js:99615-99645; unit BulletSpeed is retained, with ranged fallback 15 and minimum lifetime derived from range/speed",
+    "buildingAmmo": "generated/game.beautified.js:99504-99547; default physics speeds are 20 for normal fire, 25 for throw, 120 for light and 500 for laser",
+    "pixelRatio": "Laya.Physics.PIXEL_RATIO=50 and recovered runtime project physics scale"
+  },
+  "result": {
+    "ok": true,
+    "speedsPixelsPerSecond": {
+      "unit15": 750,
+      "unit18": 900,
+      "unit19_5": 975,
+      "arrow": 1000,
+      "throw": 1250,
+      "light": 6000
+    },
+    "durationsSeconds": {
+      "production300At750": 0.4,
+      "longRange600At750": 0.8
+    }
+  },
+  "assertions": {
+    "physicsPixelRatioIs50": true,
+    "unitBowSpeed15Becomes750PixelsPerSecond": true,
+    "unitShamanSpeed19_5Becomes975PixelsPerSecond": true,
+    "defaultArrowSpeedIs1000PixelsPerSecond": true,
+    "defaultThrowSpeedIs1250PixelsPerSecond": true,
+    "defaultLightSpeedIs6000PixelsPerSecond": true,
+    "productionFireUsesDistanceOverSpeed": true,
+    "longRangeFlightIsNotClampedTo0_55Seconds": true
+  },
+  "representativeRegression": {
+    "victory": true,
+    "wave": 5,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "fightLevelExp": 16,
+    "battleMoney": 103,
+    "castleHp": 975
+  },
+  "adapterBoundary": "Initial velocity, static-target travel time and moving-target autoFlow now use recovered production rules. Native Box2D substep and simultaneous-contact ordering remain outside the claim."
+}

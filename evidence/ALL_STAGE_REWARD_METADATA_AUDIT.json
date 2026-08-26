@@ -1,0 +1,38 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?stage=2&test=all-stage-rewards&run=50b",
+  "runtimeSha256": "34D9B4ADE31616842F80D237F112764CDB04ED8F739B5A0F60C2D198A30E6FAE",
+  "stageCatalogSha256": "0F9EF27A0F6568456050ECFAE69F8750426E60E5B6B24E21CDC3E68AA4BAE6C0",
+  "passed": true,
+  "stageCount": 220,
+  "totalBundles": 660,
+  "totalEntries": 1316,
+  "rewardKinds": {
+    "Prop": 880,
+    "Item": 436
+  },
+  "rewardIds": {
+    "Money": 440,
+    "Stamina": 220,
+    "Diamond": 220,
+    "NormalRandomChip": 220,
+    "HighRandomChip": 216
+  },
+  "milestoneOutsideBattleWaveCount": 2,
+  "checksum": "012b0d82",
+  "stage2SeparationEvidence": {
+    "battleWaveCount": 5,
+    "declaredWave": 10,
+    "rewardWave": [3, 5, 10],
+    "conclusion": "RewardWave/ChestRewards are stage/meta milestone metadata, not the five-wave in-battle economy"
+  },
+  "assertions": {
+    "allStagesPresent": true,
+    "everyMilestoneHasBundle": true,
+    "milestoneVectorsValid": true,
+    "everyBundleNonEmpty": true,
+    "everyRewardEntryTyped": true,
+    "metaMilestonesNotBattleWaves": true
+  },
+  "consoleErrors": 0
+}

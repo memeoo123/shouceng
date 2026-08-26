@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "?stage=2&test=local-profile",
+  "ok": true,
+  "profileStorageKey": "shoucheng.wx4f4f3709865004a2.v3.LocalProfile",
+  "legacyStorageKey": "shoucheng.wx4f4f3709865004a2.v3.MaxStageRecord",
+  "stage2": {
+    "frontier": [2, 5],
+    "claimedAtFrontier": [
+      [["Prop", "Money", 200]],
+      [["Prop", "Money", 400], ["Prop", "Stamina", 10]]
+    ],
+    "lockedAtFrontier": { "milestone": 10, "error": "WaveNotEnough" },
+    "claimedAfterClear": [["Prop", "Diamond", 100], ["Item", "NormalRandomChip", 18]],
+    "finalProfile": {
+      "version": 1,
+      "maxStageRecord": [3, 0],
+      "waveChests": {
+        "WaveChest_2_0": 1,
+        "WaveChest_2_1": 1,
+        "WaveChest_2_2": 1
+      },
+      "props": { "Money": 600, "Stamina": 10, "Diamond": 100 },
+      "items": { "NormalRandomChip": 18 }
+    }
+  },
+  "assertions": {
+    "legacyProgressMigrates": true,
+    "freshProfileHasNoInventedAssets": true,
+    "firstEligibleChestClaims": true,
+    "secondEligibleChestClaimsWithOriginalModifier": true,
+    "duplicateClaimRejectedWithoutMutation": true,
+    "declaredWaveTenLockedAtFrontierFive": true,
+    "clearedStageUnlocksFinalDeclaredMilestone": true,
+    "exactClaimFlagsPersist": true,
+    "targetVersionProfileRoundTrips": true,
+    "sourceBundlesRemainImmutable": true
+  },
+  "browser": {
+    "consoleErrors": 0,
+    "consoleWarnings": 0,
+    "captureModeHidesLocalNavigationAndChestUi": true
+  },
+  "sourceEvidence": [
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:22277-22342",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:22347-22414",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:24347-24412",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:26542-26570",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:125840-126031"
+  ],
+  "boundary": "Only proven local MaxStageRecord, WaveChest flags, Prop counts and Item counts are persisted. No account identity, cloud state, equipment inventory, starting wealth, payment, ad network or remote event state is invented."
+}

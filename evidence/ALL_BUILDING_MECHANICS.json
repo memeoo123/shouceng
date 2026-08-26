@@ -1,0 +1,104 @@
+{
+  "schemaVersion": "1.1",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "source": {
+    "runtime": "targets/wx4f4f3709865004a2/3/work/unpacked-main/game.js",
+    "formattedDerivative": "targets/wx4f4f3709865004a2/3/generated/game.beautified.js",
+    "formattedLines": {
+      "canSync": "92045-92070",
+      "calcEquiptProp": "115944-116018",
+      "dodgeThenCrit": "69950-69990",
+      "unitRepel": "81645-81785",
+      "fightLevelUp": "68530-68550",
+      "traitSelect": "132709-132942",
+      "unitAoe": "81174-81247,101174-101178"
+    },
+    "tables": [
+      "equipt.json",
+      "unit.json",
+      "fight_lv_up.json",
+      "trait_general.json",
+      "trait_equipt.json",
+      "fn.json"
+    ]
+  },
+  "recoveredConstants": {
+    "maxSynthesisLevel": 4,
+    "physicsPixelRatio": 50,
+    "unitGlobalSpeedRatio": 1.25,
+    "synthesisRule": "same id + same synthesis level + target level below 4; target increments and source is consumed",
+    "dodgeCritOrder": "unit dodge roll first; if not dodged, crit roll multiplies by CritDamage",
+    "repel": "linear velocity starts at 12 physics units/s and decays to zero over 0.3s elite or 0.35s boss; RepelResist suppresses it",
+    "normalEnemyFightExp": "floor(10 * 0.833333333333333) = 8",
+    "fightLevelOverflow": "discarded on level-up, matching original assignment to 0",
+    "traitChoice": "three weighted qualities from [80,40,20], at most one quality-3 choice, then weighted candidate selection",
+    "unitAoe": "forceParams [2] means 100-pixel radius at PIXEL_RATIO 50; omitted damage ratio defaults to full damage"
+  },
+  "browserValidation": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=all-buildings&run=63-auto-flow",
+    "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+    "buildingCatalogSha256": "9BBA2421560DA3EB0CD7A5650A3DD36E58D60D36EBD064D7EDAC66413EE7E0A3",
+    "catalogRegenerationVerified": true,
+    "result": {
+      "ok": true,
+      "physicsPixelRatio": 50,
+      "unitSpeedRatio": 1.25,
+      "synthesis": {
+        "maxLevel": 4,
+        "barracksLv4": {
+          "hp": 520,
+          "cooldown": 4,
+          "summonMax": 8
+        },
+        "towerLv4": {
+          "hp": 130,
+          "attack": 70
+        },
+        "wallLv4": {
+          "hp": 591.5
+        },
+        "expLv4": 0.4,
+        "goldLv4": 8
+      },
+      "traitSelection": {
+        "thresholds": 30,
+        "generalTraitTypes": 16,
+        "equipmentTraitRows": 112,
+        "normalEnemyFixedExp": 8
+      },
+      "assertions": {
+        "allBuildingDefinitions": true,
+        "sixBarracks": true,
+        "fourDefenseTowers": true,
+        "adjacentAttackBuff": true,
+        "adjacentSpeedBuff": true,
+        "globalCritBuff": true,
+        "globalSlowBuff": true,
+        "trebuchetAoeRadius": true,
+        "trebuchetAoeDamageRatio": true,
+        "electricityJumpCount": true,
+        "mirrorLaserTicks": true,
+        "expGoldAndWalls": true,
+        "synthesisRuntime": true,
+        "synthesisRule": true,
+        "barracksSynthesis": true,
+        "defenseSynthesis": true,
+        "wallSynthesis": true,
+        "economySynthesis": true,
+        "dodgeBeforeCrit": true,
+        "criticalDamage": true,
+        "repelCatalog": true,
+        "unitAoeOriginalRadiusAndDamage": true,
+        "fightLevelTable": true,
+        "generalTraitTable": true,
+        "equipmentTraitTable": true,
+        "threeWeightedTraitChoices": true,
+        "multiplicativeTraitStacking": true,
+        "enemyExpFix": true
+      }
+    },
+    "runtimeErrors": 0
+  }
+}

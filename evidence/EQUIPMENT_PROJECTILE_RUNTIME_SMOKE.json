@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=equipment-projectile-runtime",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "sourceEvidence": {
+    "colliderGeometry": "generated/game.beautified.js:67973-67985,68676-68682,69626-69632; BaseUnit hitBox is fixed 50x80 and FireBullet sensor uses the rendered bullet width/height",
+    "scattering": "generated/game.beautified.js:78109-78157; original fan is 0,-10,+10,-20,+20 degrees for total count 5",
+    "consecutiveFire": "generated/game.beautified.js:77651-77691; extra shots are scheduled at n*100ms",
+    "through": "generated/game.beautified.js:77145-77187; each hit decrements throughCnt and preserves the same bullet while count remains non-negative",
+    "jump": "generated/game.beautified.js:77188-77261; each hit decrements jumpCnt, chooses another target and resets the same bullet lifetime/velocity",
+    "reflection": "generated/game.beautified.js:82078-82127; reflected damage is delayed one frame and re-enters the target onBeHit/death path"
+    ,"travelTiming": "generated/game.beautified.js:69699-69749,99504-99645; initial velocity uses recovered BulletSpeed and PIXEL_RATIO=50"
+  },
+  "result": {
+    "ok": true,
+    "colliderGeometry": {
+      "unitHitBox": [50, 80],
+      "projectileSensor": [38, 20],
+      "edgeHitOffset": 49,
+      "edgeMissOffset": 51,
+      "firstContactTargetId": 1,
+      "expectedFirstContactTargetId": 1
+    },
+    "scatter": {
+      "emittedAngles": [0, -10, 10, -20, 20],
+      "damages": [23, 23, 0, 23, 46],
+      "totalDamage": 115
+    },
+    "consecutiveFire": {
+      "projectilesImmediate": 1,
+      "projectilesBefore100ms": 1,
+      "projectilesAt100ms": 2,
+      "projectilesAfter300ms": 4
+    },
+    "through": {
+      "projectilesPersistingAfterFirstHit": 4,
+      "primaryDamage": 140,
+      "alignedSecondaryDamage": 140
+    },
+    "jump": {
+      "projectileCountsAfterEachHit": [1, 1, 1, 1, 0],
+      "perHitDamage": 40,
+      "totalDamage": 200
+    },
+    "reflection": {
+      "enemyHpImmediatelyAfterAttack": 1,
+      "aliveBeforeOneFrame": true,
+      "resolvedAfterOneFrame": true,
+      "killDelta": 1,
+      "waveResolvedDelta": 1,
+      "battleExpDelta": 10
+    }
+  },
+  "assertions": {
+    "explicitRecoveredLoadout": true,
+    "recoveredColliderGeometry": true,
+    "expandedColliderEdgeInclusive": true,
+    "sweptColliderChoosesFirstContact": true,
+    "scatterOriginalAngles": true,
+    "scatterUsesColliderContacts": true,
+    "consecutiveShotTiming": true,
+    "throughPersistsAndHitsNext": true,
+    "jumpRetargetsSequentially": true,
+    "reflectionDelayedOneFrame": true,
+    "lethalReflectionUsesKillResolution": true
+  },
+  "representativeRegression": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=battle",
+    "victory": true,
+    "wave": 5,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "castleHp": 975
+  },
+  "adapterBoundary": "The recovered angular/count semantics, BulletSpeed, autoFlow velocity integration and 50x80 unit/actual-size projectile geometry use continuous swept expanded-AABB first-contact selection. Exact Laya Box2D substep and simultaneous-contact ordering remain outside the claim."
+}

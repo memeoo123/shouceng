@@ -1,0 +1,14 @@
+{
+  "Map1": {
+    "MapType": "Map1",
+    "Array": "ooooooo\r\nooooooo\r\nooooooo\r\nooooooo\r\nooooooo\r\n2111112\r\n2111112\r\n2111112\r\n2111112"
+  },
+  "Map2": {
+    "MapType": "Map2",
+    "Array": "ooooooo\r\nooooooo\r\nooooooo\r\no22222o\r\no21111o\r\n2111112\r\n1111112\r\n1111112\r\n1111112"
+  },
+  "Map3": {
+    "MapType": "Map3",
+    "Array": "ooooooo\r\nooooooo\r\no22222o\r\no22222o\r\no22212o\r\n2211122\r\n1111112\r\n1111112\r\n1111112"
+  }
+}

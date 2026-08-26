@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "source": "FireBullet sensor collision + AmmoConfig.deadInLast default production adapter",
+  "contacts": {
+    "interceptorDamage": 10,
+    "originalTargetDamage": 0,
+    "bystanderDamageAfterTargetDeath": 10,
+    "destinationBystanderDamage": 10,
+    "throwBystanderDamage": 0,
+    "throwTargetDamage": 10
+  },
+  "continuation": {
+    "deadTargetProjectilePersisted": true,
+    "deadTargetStraightPosition": {
+      "x": 150,
+      "y": 200
+    },
+    "buildingProjectilePersisted": true,
+    "buildingProjectilePosition": {
+      "x": 150,
+      "y": 200
+    },
+    "noContactPersistedBeforeLifetime": true,
+    "noContactExpiredAtLifetime": true
+  },
+  "evidence": "generated/game.beautified.js:69570-69632,69690-69855,69900-70015,99504-99768",
+  "assertions": {
+    "ordinaryFireBulletUsesEnemyCollisionMask": true,
+    "unitFireBulletUsesEnemyCollisionMask": true,
+    "nearestPathEnemyInterceptsOriginalTarget": true,
+    "originalTargetRemovalDoesNotDeleteOrdinaryBullet": true,
+    "removedTargetPreservesLastVelocity": true,
+    "pathEnemyCanInterceptAfterOriginalTargetRemoval": true,
+    "buildingBulletAlsoPersistsAfterTargetRemoval": true,
+    "destinationBulletStillUsesPhysicsContacts": true,
+    "noContactBulletLivesUntilRecoveredLifetime": true,
+    "throwBulletKeepsTargetOnlySpecialization": true
+  }
+}

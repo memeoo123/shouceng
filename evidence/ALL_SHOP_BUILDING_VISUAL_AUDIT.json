@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?test=all-shop-visuals",
+  "runtimeSha256": "DD46C4EECD519A38D9399A8C4B8143C0790B5F5E8F80D6774157E787C43286AC",
+  "passed": true,
+  "buildingCount": 18,
+  "synthesisLevels": 4,
+  "definitionCount": 72,
+  "baseSkinCount": 72,
+  "compositeBuildingIds": ["e07", "e08", "e09", "e10"],
+  "compositeDefinitionCount": 16,
+  "weaponSkinCount": 16,
+  "checksum": "b6de845b",
+  "failures": [],
+  "assertions": {
+    "allShopBuildingsCovered": true,
+    "allSynthesisLevelsCovered": true,
+    "allBaseSkinsPresent": true,
+    "allCompositeSkinsPresent": true,
+    "confirmedCompositeCount": true,
+    "everyRuntimeImageValid": true,
+    "everyConsumedSlotClean": true
+  },
+  "notes": [
+    "Each definition was instantiated through makeBuildingDefinition and applyDefinitionImage in the Laya runtime.",
+    "Natural source dimensions and fitted shop dimensions were positive for all 72 base images.",
+    "All 16 independent WeaponMount images were instantiated with the recovered mount configuration.",
+    "Each probe then passed through consumeShopItem; the base image, used placeholder, LevelOverlay and WeaponMount were absent afterward."
+  ]
+}

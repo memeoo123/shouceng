@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=equipment-status-runtime&run=38c",
+  "runtimeSha256": "2ED97A6E21AF7846E2D6E8B91727189AB6AAFA7043102FA75691494556E04306",
+  "source": "real building definitions + production ally/damage/effect/status clocks",
+  "ok": true,
+  "cavalry": {
+    "initialSpeed": 159.375,
+    "baseSpeed": 106.25,
+    "attack": 40,
+    "chargeDamageRatio": 0.3,
+    "firstHitDamage": 12,
+    "chargeConsumed": true,
+    "repelVelocity": 500,
+    "dizzinessSeconds": 3,
+    "seriousInjuryExtraDamageTakenRatio": 0.1,
+    "seriousInjurySeconds": 2,
+    "followup100DamageResolved": 110
+  },
+  "meteorite": {
+    "twoHitsSpawnedEffects": 1,
+    "cooldownSeconds": 3,
+    "radiusPixels": 18.75,
+    "targetAoeDamage": 50,
+    "neighborAoeDamage": 50,
+    "burnTickDamage": 15
+  },
+  "trap": {
+    "spawnedEffects": 1,
+    "radiusPixels": 90,
+    "durationSeconds": 2.6,
+    "slowRatio": 0.4,
+    "fireStoneBurnDamagePerSecond": 20,
+    "fireStoneBurnDurationSeconds": 3
+  },
+  "controls": {
+    "paralysisInitialSeconds": 1,
+    "paralysisRemainingAfterQuarterSecond": 0.75,
+    "freezeInitialSeconds": 2,
+    "freezeRemainingAfterQuarterSecond": 1.75
+  },
+  "elements": {
+    "fireResolvedHitDamage": 101.3,
+    "fireArrowBurnDamagePerSecond": 20.26,
+    "fireArrowBurnDurationSeconds": 3,
+    "iceSlowRatio": 0.6,
+    "iceDurationSeconds": 3,
+    "iceSlowedAttackIntervalAtBaseSpeed1": 1.6
+  },
+  "normalEmptyLoadoutRegression": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=battle&run=38c",
+    "victory": true,
+    "kills": 35,
+    "battleExp": 390,
+    "fightLevel": 7,
+    "castleHp": 975,
+    "airSupportUsed": []
+  }
+}

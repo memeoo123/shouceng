@@ -1,0 +1,45 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?test=all-stage-init&run=63-auto-flow",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "passed": true,
+  "stageCount": 220,
+  "themeCounts": {
+    "Forest": 110,
+    "Desert": 73,
+    "Snowfield": 37
+  },
+  "totalCells": 13860,
+  "totalBuildableCells": 7107,
+  "totalTreeCells": 4925,
+  "totalVoidCells": 1828,
+  "buildingDefinitionCount": 18,
+  "totalStageBuildingPairs": 3960,
+  "immediateBuildingPlacements": 3959,
+  "expansionAssistedBuildingPlacements": 1,
+  "expansionAssistedCase": {
+    "stage": 1,
+    "buildingId": "e04",
+    "reason": "The original initial map has no free footprint large enough after reserving the 3x2 castle.",
+    "resolution": "A legal recovered slot expansion makes the building placeable; the original map was not modified."
+  },
+  "slotShapeCount": 12,
+  "totalInitialSlotPlacements": 2603,
+  "initializationChecksum": "146ea735",
+  "assertions": {
+    "allStagesInitialized": true,
+    "everyMapHasCastleFootprint": true,
+    "everyMapBackgroundPresent": true,
+    "everyShopBuildingPlaceable": true,
+    "everyMapHasExpansionPlacement": true,
+    "everyShopWeightVectorValid": true,
+    "everyWaveRuntimeVectorValid": true,
+    "everyEnemyPoolResolvable": true
+  },
+  "errors": [],
+  "notes": [
+    "Each stage was applied to the production map, castle-position, occupancy and building-placement helpers.",
+    "All background references, store weight vectors, wave vectors, wave power values and enemy pools were validated.",
+    "Slot expansion was simulated through the recovered slot definitions and production placement rules."
+  ]
+}

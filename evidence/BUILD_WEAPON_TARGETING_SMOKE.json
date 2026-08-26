@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-21",
+  "route": "http://127.0.0.1:8131/?stage=2&test=build-weapon-targeting",
+  "ok": true,
+  "evidence": "generated/game.beautified.js:103966-104122; UnitRoute at 93483-94040 has no cur member, so BuildWeapon route.cur.length defaults to zero and strict < preserves Set insertion order",
+  "productionAdapter": "findTarget returns the first live, non-destroyed enemy within range from the production enemy insertion order; no synthetic progress field is used",
+  "selections": {
+    "insertionOrder": "first-entered",
+    "afterOutOfRange": "later-nearer",
+    "afterDead": "later-farther",
+    "afterDestroyed": null
+  },
+  "assertions": {
+    "firstColliderEntryWins": true,
+    "nearerLaterEntryDoesNotPreempt": true,
+    "outsideRangeNeverEntersTargetSet": true,
+    "deadEntryIsIgnored": true,
+    "destroyedEntryIsIgnored": true,
+    "syntheticProgressFieldNotRequired": true
+  },
+  "consoleErrors": 0
+}

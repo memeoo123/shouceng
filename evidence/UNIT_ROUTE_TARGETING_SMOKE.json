@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=unit-route-targeting",
+  "status": "pass",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "source": "PlayerSpawnBuild battle proxy + UnitRoute.getForwardWithTarget/calcRandRnd production adapter",
+  "buildingTarget": {
+    "routeWidth": 282,
+    "anchor": {"x": 375, "y": 477},
+    "left": {"x": 234, "y": 477},
+    "inside": {"x": 375, "y": 477},
+    "right": {"x": 516, "y": 477},
+    "selectedPoint": {"x": 234, "y": 477}
+  },
+  "randomHeading": {
+    "near": {
+      "distance": 100,
+      "range": 50,
+      "draws": [0.25, 0.75, 0.9],
+      "route": {"angle": 1.5707963267948966, "untilMs": 1825, "attenuation": 0},
+      "forward": {"x": 6.123233995736766e-17, "y": 1}
+    },
+    "far": {
+      "distance": 200,
+      "range": 50,
+      "draws": [0, 0.5, 0.9],
+      "route": {"angle": 1.3707963267948966, "untilMs": 1600, "attenuation": 0.5},
+      "forward": {"x": 0.19866933079506124, "y": 0.9800665778412416}
+    }
+  },
+  "evidence": "generated/game.beautified.js:93596-93631,93773-93791,95526-95639",
+  "assertions": {
+    "recoveredBuildProxyWidth": true,
+    "buildAnchorIsTopCenter": true,
+    "targetXClampsToBuildEdges": true,
+    "productionSelectionUsesClampedPoint": true,
+    "nearRangeSuppressesRandomAngle": true,
+    "randomLifetimeDrawComesFirst": true,
+    "farRangeAttenuatesRandomAngle": true,
+    "farForwardUsesAttenuatedHeading": true
+  },
+  "runtimeErrors": 0
+}

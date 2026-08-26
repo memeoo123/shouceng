@@ -1,0 +1,509 @@
+{
+  "packages": [
+    "BattleEquiptIocn",
+    "BuyStamina",
+    "Collection",
+    "DailyAdRewards",
+    "Effects",
+    "EquiptLayer",
+    "FuncUnlock",
+    "GoodNews",
+    "HeroLayer",
+    "Institute",
+    "ItemDetail",
+    "LibraryLayer",
+    "MainPage",
+    "MainTabPage",
+    "Party",
+    "Preset",
+    "PrivilegeCard",
+    "RewardShow",
+    "RoleLibrary",
+    "Settings",
+    "ShopLayer",
+    "TipsDialog",
+    "TopAsset",
+    "hero",
+    "images",
+    "item",
+    "sound"
+  ],
+  "assets": [
+    {
+      "url": "ui/BattleEquiptIocn.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/BattleEquiptIocn_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/BattleEquiptIocn_atlas0_1.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/BuyStamina.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/BuyStamina_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/Collection.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Collection_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/DailyAdRewards.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/DailyAdRewards_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/Effects.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Effects_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/EquiptLayer.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/EquiptLayer_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/FuncUnlock.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/GoodNews.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/GoodNews_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/HeroLayer.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Institute.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Institute_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/ItemDetail.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/LibraryLayer.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/LibraryLayer_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/MainPage.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/MainPage_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/MainTabPage.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/MainTabPage_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/Party.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Party_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/Party_atlas1.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/Preset.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Preset_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/Preset_atlas0_1.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/PrivilegeCard.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/RewardShow.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/RewardShow_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/RoleLibrary.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Settings.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/Settings_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/ShopLayer.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/ShopLayer_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/ShopLayer_atlas0_1.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/TipsDialog.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/TopAsset.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/TopAsset_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/hero.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/images.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/images_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/images_atlas0_1.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/images_atlas0_2.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/images_atlas1.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/item.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/item_atlas0.png",
+      "type": "image"
+    },
+    {
+      "url": "ui/sound.bin",
+      "type": "buffer"
+    },
+    {
+      "url": "ui/sound_8f8s30.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_8f8s31.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_8f8s32.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_8f8s33.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_8f8s34.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_abwt1j.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_abwt1k.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_abwt1m.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_abwt1n.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_abwt1o.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_abwt1p.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_bdsa7.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_bdsa8.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_bdsa9.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_bx7cl6r.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_bx7cl6s.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_cumjl6u.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_d8ce16.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_fo2x2t.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_fo2x2u.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_fo2x2w.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_hx7xl6v.mp3",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_ibb9l6n.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_ibb9l6o.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_ibb9l6p.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_ibb9l6q.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_j4sg2o.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_l8fu4.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_m35xl6g.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_m35xl6h.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_m35xl6i.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_m35xl6j.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_m35xl6k.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_mcn2l6l.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_mcn2l6m.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_mwau0.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_nix12z.ogg",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_nyik2q.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_ot0pl4a.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_prkzk.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_pwj8l4q.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_pwj8l4r.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_pwj8l4s.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_pwj8l6f.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_quzo1q.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_quzo1r.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_quzo1s.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_quzo1t.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_qy4b1i.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_r6fsl4e.mp3",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_r6fsl4f.mp3",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_tbuob.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_tfg114.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r17.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r18.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r19.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1a.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1b.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1c.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1d.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1e.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1f.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1g.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_vg0r1h.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_xt3pl6t.wav",
+      "type": "sound"
+    },
+    {
+      "url": "ui/sound_ywdd3b.wav",
+      "type": "sound"
+    }
+  ]
+}

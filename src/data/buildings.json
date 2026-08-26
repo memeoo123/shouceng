@@ -1,0 +1,900 @@
+[
+  {
+    "id": "e01",
+    "body": "Building_Mauler",
+    "class": "barracks",
+    "quality": 3,
+    "shape": "xx\r\nxx",
+    "hp": 520,
+    "attack": 0,
+    "cooldown": 10,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "cooldown",
+      "extra.SummonUnitMax",
+      "extra.SummonUnitCnt"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*0.8",
+        "*0.7",
+        "*0.6"
+      ],
+      [
+        "*1",
+        "*2",
+        "*3",
+        "*4"
+      ],
+      [
+        "*1",
+        "*1",
+        "*1",
+        "*1"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": "js_9F2D53C8",
+    "extra": {
+      "SummonUnitCnt": 1,
+      "SummonUnitMax": 2
+    },
+    "placement": "top",
+    "order": 1,
+    "traits": [
+      3,
+      1,
+      5,
+      2,
+      7,
+      4,
+      9,
+      6,
+      8,
+      108
+    ]
+  },
+  {
+    "id": "e02",
+    "body": "Building_Shooter",
+    "class": "barracks",
+    "quality": 3,
+    "shape": "x\r\nx\r\nx",
+    "hp": 390,
+    "attack": 0,
+    "cooldown": 9,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "cooldown",
+      "extra.SummonUnitMax",
+      "extra.SummonUnitCnt"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*0.8",
+        "*0.7",
+        "*0.6"
+      ],
+      [
+        "*1",
+        "*2",
+        "*3",
+        "*4"
+      ],
+      [
+        "*1",
+        "*1",
+        "*1",
+        "*1"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": "gb_E916AA75",
+    "extra": {
+      "SummonUnitCnt": 1,
+      "SummonUnitMax": 2
+    },
+    "placement": "bottom",
+    "order": 2,
+    "traits": [
+      12,
+      10,
+      14,
+      11,
+      16,
+      13,
+      18,
+      15,
+      17,
+      94
+    ]
+  },
+  {
+    "id": "e03",
+    "body": "Building_Knight",
+    "class": "barracks",
+    "quality": 4,
+    "shape": "xxx\r\nxox",
+    "hp": 650,
+    "attack": 0,
+    "cooldown": 13,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "cooldown",
+      "extra.SummonUnitMax",
+      "extra.SummonUnitCnt"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*0.8",
+        "*0.7",
+        "*0.6"
+      ],
+      [
+        "*1",
+        "*2",
+        "*3",
+        "*4"
+      ],
+      [
+        "*1",
+        "*1",
+        "*1",
+        "*1"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": "qb_2B5987F2",
+    "extra": {
+      "SummonUnitCnt": 1,
+      "SummonUnitMax": 2
+    },
+    "placement": "center",
+    "order": 12,
+    "traits": [
+      21,
+      19,
+      23,
+      20,
+      25,
+      22,
+      27,
+      24,
+      26,
+      98
+    ]
+  },
+  {
+    "id": "e04",
+    "body": "Building_Crossbowman",
+    "class": "barracks",
+    "quality": 4,
+    "shape": "xxx\r\noxo",
+    "hp": 520,
+    "attack": 0,
+    "cooldown": 11,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "cooldown",
+      "extra.SummonUnitMax",
+      "extra.SummonUnitCnt"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*0.8",
+        "*0.7",
+        "*0.6"
+      ],
+      [
+        "*1",
+        "*2",
+        "*3",
+        "*4"
+      ],
+      [
+        "*1",
+        "*1",
+        "*1",
+        "*1"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": "-b_CD2EDAAF",
+    "extra": {
+      "SummonUnitCnt": 1,
+      "SummonUnitMax": 2
+    },
+    "placement": "bottom",
+    "order": 8,
+    "traits": [
+      30,
+      28,
+      32,
+      29,
+      34,
+      31,
+      36,
+      33,
+      35,
+      107
+    ]
+  },
+  {
+    "id": "e05",
+    "body": "Building_Mage",
+    "class": "barracks",
+    "quality": 5,
+    "shape": "xx\r\nxo\r\nxo",
+    "hp": 520,
+    "attack": 0,
+    "cooldown": 11,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "cooldown",
+      "extra.SummonUnitMax",
+      "extra.SummonUnitCnt"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*0.8",
+        "*0.7",
+        "*0.6"
+      ],
+      [
+        "*1",
+        "*2",
+        "*3",
+        "*4"
+      ],
+      [
+        "*1",
+        "*1",
+        "*1",
+        "*1"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": "fs_18B222C3",
+    "extra": {
+      "SummonUnitCnt": 1,
+      "SummonUnitMax": 2
+    },
+    "placement": "bottom",
+    "order": 7,
+    "traits": [
+      39,
+      37,
+      41,
+      38,
+      43,
+      40,
+      45,
+      42,
+      44,
+      94
+    ]
+  },
+  {
+    "id": "e06",
+    "body": "Building_Swordsman",
+    "class": "barracks",
+    "quality": 4,
+    "shape": "xxx",
+    "hp": 390,
+    "attack": 0,
+    "cooldown": 9,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "cooldown",
+      "extra.SummonUnitMax",
+      "extra.SummonUnitCnt"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*0.8",
+        "*0.7",
+        "*0.6"
+      ],
+      [
+        "*1",
+        "*2",
+        "*3",
+        "*4"
+      ],
+      [
+        "*1",
+        "*1",
+        "*1",
+        "*1"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": "db_DF32E2C2",
+    "extra": {
+      "SummonUnitCnt": 1,
+      "SummonUnitMax": 2
+    },
+    "placement": "top",
+    "order": 3,
+    "traits": [
+      48,
+      46,
+      50,
+      47,
+      52,
+      49,
+      54,
+      51,
+      53,
+      108
+    ]
+  },
+  {
+    "id": "e07",
+    "body": "Building_ArrowTower",
+    "class": "defense",
+    "quality": 3,
+    "shape": "x",
+    "hp": 130,
+    "attack": 20,
+    "cooldown": 2,
+    "growth": {
+      "attack": 1.2,
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "attack"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0.05,
+    "critDamage": 1.5,
+    "range": 12,
+    "fireType": "defalt",
+    "summonUnitId": null,
+    "extra": null,
+    "placement": "bottom",
+    "order": 4,
+    "traits": [
+      100,
+      55,
+      59,
+      56,
+      61,
+      58,
+      63,
+      60,
+      57,
+      103
+    ]
+  },
+  {
+    "id": "e08",
+    "body": "Building_Trebuchet",
+    "class": "defense",
+    "quality": 5,
+    "shape": "xx\r\nxx",
+    "hp": 520,
+    "attack": 60,
+    "cooldown": 4,
+    "growth": {
+      "attack": 1.2,
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "attack"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0.05,
+    "critDamage": 1.5,
+    "range": 13,
+    "fireType": "throw",
+    "summonUnitId": null,
+    "extra": {
+      "ThrowAoeRange": 1.5,
+      "ThrowAoeDmgRadio": 0.5
+    },
+    "placement": "bottom",
+    "order": 5.5,
+    "traits": [
+      66,
+      64,
+      101,
+      65,
+      70,
+      67,
+      72,
+      69,
+      71,
+      109
+    ]
+  },
+  {
+    "id": "e09",
+    "body": "Building_ElectricityTower",
+    "class": "defense",
+    "quality": 4,
+    "shape": "xx",
+    "hp": 260,
+    "attack": 40,
+    "cooldown": 3,
+    "growth": {
+      "attack": 1.2,
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "attack"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0.05,
+    "critDamage": 1.5,
+    "range": 14,
+    "fireType": "light",
+    "summonUnitId": null,
+    "extra": {
+      "LightJumpCnt": 1
+    },
+    "placement": "bottom",
+    "order": 6,
+    "traits": [
+      75,
+      73,
+      77,
+      74,
+      79,
+      76,
+      81,
+      78,
+      80,
+      111
+    ]
+  },
+  {
+    "id": "e10",
+    "body": "Building_MirrorTower",
+    "class": "defense",
+    "quality": 5,
+    "shape": "x\r\nx",
+    "hp": 260,
+    "attack": 20,
+    "cooldown": 4,
+    "growth": {
+      "attack": 1.2,
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "attack"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0.05,
+    "critDamage": 1.5,
+    "range": 15,
+    "fireType": "laser",
+    "summonUnitId": null,
+    "extra": {
+      "LaserTime": 2,
+      "LaserTriggerInterval": 0.25
+    },
+    "placement": "bottom",
+    "order": 6.5,
+    "traits": [
+      84,
+      82,
+      86,
+      83,
+      88,
+      85,
+      90,
+      87,
+      89,
+      110
+    ]
+  },
+  {
+    "id": "e11",
+    "body": "Building_ShuiJing",
+    "class": "exp",
+    "quality": 3,
+    "shape": "x",
+    "hp": 130,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "extra.ExpRadio"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*2",
+        "*4",
+        "*8"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": {
+      "ExpRadio": 0.05
+    },
+    "placement": "bottom",
+    "order": null,
+    "traits": []
+  },
+  {
+    "id": "e12",
+    "body": "Building_Well",
+    "class": "move",
+    "quality": 4,
+    "shape": "x\r\nx",
+    "hp": 260,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "extra.MoveSpeedDownRadio"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": {
+      "MoveSpeedDownRadio": 0.05
+    },
+    "placement": "center",
+    "order": 10,
+    "traits": [
+      95,
+      null,
+      96,
+      null,
+      97,
+      null,
+      98,
+      null,
+      null,
+      103
+    ]
+  },
+  {
+    "id": "e13",
+    "body": "Building_ObservationDeck",
+    "class": "crit",
+    "quality": 3,
+    "shape": "x\r\nx",
+    "hp": 260,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "extra.CritAdd"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": {
+      "CritAdd": 0.05
+    },
+    "placement": "center",
+    "order": 5,
+    "traits": [
+      99,
+      null,
+      62,
+      null,
+      68,
+      null,
+      94,
+      null,
+      null,
+      110
+    ]
+  },
+  {
+    "id": "e14",
+    "body": "Building_Statue",
+    "class": "roundSpeed",
+    "quality": 5,
+    "shape": "x\r\nx",
+    "hp": 260,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "extra.RoundSpeedAdd"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": {
+      "RoundSpeedAdd": 0.05
+    },
+    "placement": "center",
+    "order": 11,
+    "traits": [
+      102,
+      null,
+      103,
+      null,
+      104,
+      null,
+      105,
+      null,
+      null,
+      109
+    ]
+  },
+  {
+    "id": "e15",
+    "body": "Building_MartialArtsField",
+    "class": "roundAtk",
+    "quality": 4,
+    "shape": "xx",
+    "hp": 260,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "extra.AtkAdd"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": {
+      "RoundAtkAdd": 0.05
+    },
+    "placement": "center",
+    "order": 9,
+    "traits": [
+      106,
+      null,
+      94,
+      null,
+      103,
+      null,
+      107,
+      null,
+      null,
+      104
+    ]
+  },
+  {
+    "id": "e16",
+    "body": "Building_Fence1",
+    "class": "wall",
+    "quality": 3,
+    "shape": "x",
+    "hp": 169,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "hp"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": null,
+    "placement": "top",
+    "order": null,
+    "traits": []
+  },
+  {
+    "id": "e17",
+    "body": "Building_Fence2",
+    "class": "wall",
+    "quality": 3,
+    "shape": "xxx",
+    "hp": 507,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "hp"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*1.5",
+        "*2.3",
+        "*3.5"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": null,
+    "placement": "top",
+    "order": null,
+    "traits": []
+  },
+  {
+    "id": "e18",
+    "body": "Building_Mine",
+    "class": "gold",
+    "quality": 4,
+    "shape": "x",
+    "hp": 130,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [
+      "extra.Money"
+    ],
+    "synChangeVal": [
+      [
+        "*1",
+        "*2",
+        "*4",
+        "*8"
+      ]
+    ],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": {
+      "Money": 1
+    },
+    "placement": "bottom",
+    "order": null,
+    "traits": []
+  },
+  {
+    "id": "e19",
+    "body": "Building_MainBase",
+    "class": "main",
+    "quality": 4,
+    "shape": "xxx\r\nxxx",
+    "hp": 975,
+    "attack": 0,
+    "cooldown": 0,
+    "growth": {
+      "hp": 1.2
+    },
+    "synChangeKey": [],
+    "synChangeVal": [],
+    "crit": 0,
+    "critDamage": 1,
+    "range": 0,
+    "fireType": null,
+    "summonUnitId": null,
+    "extra": null,
+    "placement": "bottom",
+    "order": null,
+    "traits": []
+  }
+]

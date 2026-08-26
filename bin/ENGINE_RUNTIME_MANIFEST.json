@@ -1,0 +1,47 @@
+{
+  "source": "E:\\Projects\\weichatAnalysis\\shoucheng\\targets\\wx4f4f3709865004a2\\3\\work\\unpacked-main\\game.js",
+  "engineVersion": "2.13.1",
+  "generatedAt": "2026-08-19T10:36:10.588Z",
+  "modules": [
+    {
+      "path": "libs/min/domparserinone.min.js",
+      "bytes": 34511,
+      "sha256": "a47072142849a94c7e9b950c83749381411086d025e2f7245711c8a8de6bcac4"
+    },
+    {
+      "path": "libs/min/fairygui.min.js",
+      "bytes": 365117,
+      "sha256": "f71c03d66fcf2b50dfb8394e89b5ecfe5a8f6575767298addf3578fe35b9c8ad"
+    },
+    {
+      "path": "libs/min/gravityengine.mg.layats.min.js",
+      "bytes": 166816,
+      "sha256": "bdbba6f09eb63f9f76a696a500026b012cf0528ae35a48871935fa9588f352e9"
+    },
+    {
+      "path": "libs/min/laya.core.min.js",
+      "bytes": 469561,
+      "sha256": "31a742cb12ffe4203a168a8fd252c6d937bc84e4ccd35545e42080d02eff843c"
+    },
+    {
+      "path": "libs/min/laya.html.min.js",
+      "bytes": 24640,
+      "sha256": "2c0ba9d32d27aeffa84205f24651a63aa723c7a167ffaf45a91ee206152c6e33"
+    },
+    {
+      "path": "libs/min/laya.physics.min.js",
+      "bytes": 282373,
+      "sha256": "55e0f9f2c9d6b60836aabc487fc1070d60b85d37448e74bc76a5d8ed985d6163"
+    },
+    {
+      "path": "libs/min/laya.ui.min.js",
+      "bytes": 111764,
+      "sha256": "6680304f85a5d110a4e0712abc218b7402d98b9135e442b92d529659fc98b26b"
+    },
+    {
+      "path": "libs/min/regeneratorRuntime.min.js",
+      "bytes": 6888,
+      "sha256": "34e55d8f9f8021eee4d4c930a80eadb0f4584d70f9b8b160295e45bef3f6732d"
+    }
+  ]
+}

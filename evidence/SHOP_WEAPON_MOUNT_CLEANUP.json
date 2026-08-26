@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "reportedSymptom": "a lone arrow remains in the shop after the arrow tower is placed",
+  "building": {
+    "id": "e07",
+    "body": "Building_ArrowTower",
+    "baseSkin": "res/buildings/Building_ArrowTower1.png",
+    "weaponSkin": "res/buildings/Building_ArrowTower1_up.png",
+    "weaponNode": "WeaponMount"
+  },
+  "rootCause": "the consumed shop item hid its base image but retained the independently rotated WeaponMount child",
+  "fix": "consumeShopItem destroys LevelOverlay and WeaponMount children before leaving the consumed slot empty",
+  "visualValidation": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=visual-consumed-shop",
+    "ok": true,
+    "remainingItems": ["e02"],
+    "arrowMountRemoved": true,
+    "consumedSlotsEmpty": true,
+    "runtimeErrors": 0
+  },
+  "shopSmoke": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=shop",
+    "ok": true,
+    "consumedCompositeCleared": true,
+    "runtimeErrors": 0
+  },
+  "representativeRegression": {
+    "stage": 2,
+    "victory": true,
+    "kills": 35,
+    "experience": 390,
+    "fightLevel": 7,
+    "castleHp": 975,
+    "runtimeErrors": 0
+  },
+  "runtimeSha256": "2B5642D5D71FFA62B0500F9BFDF3B8FCA506C11B31CF8402F41CBC9377E3AD1E"
+}

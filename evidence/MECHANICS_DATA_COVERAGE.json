@@ -1,0 +1,107 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "acceptanceTarget": "functional-complete",
+  "priority": "mechanics-and-data; recording-time PRNG and frame-perfect timing are not acceptance gates",
+  "catalogs": {
+    "stages": {
+      "rows": 220,
+      "status": "runtime"
+    },
+    "buildings": {
+      "rows": 19,
+      "status": "runtime",
+      "synthesisLevels": 4
+    },
+    "unitVariants": {
+      "rows": 18,
+      "status": "runtime"
+    },
+    "fightLevels": {
+      "rows": 30,
+      "status": "runtime"
+    },
+    "generalTraits": {
+      "rows": 16,
+      "status": "runtime"
+    },
+    "equipmentTraits": {
+      "rows": 112,
+      "status": "data-complete; all 111 originally mapped rows executable through account-agnostic numeric/event evaluators; ID 104 preserves the original missing-config defect"
+    }
+  },
+  "runtimeImplemented": [
+    "same-id/same-level drag synthesis through level 4",
+    "all 19 per-building SynChangeKey/SynChangeVal formulas",
+    "unit synthesis HP/attack ratios",
+    "unit/building crit and unit dodge in original order",
+    "elite/boss repel with RepelResist",
+    "base mage and all boss AoeAtk at recovered 100-pixel radius and full damage against units, buildings and castle",
+    "fight-level thresholds, EnemyExpFix, overflow reset and paused three-choice TraitSelect",
+    "all 16 general trait data rows and their core combat/economy/shop effects, including the visible and draggable fourth ShopFreeItem slot",
+    "multiplicative stacking for repeated unit attack/HP/attack-speed/range and enemy-slow traits",
+    "free shop reroll at every completed non-final wave",
+    "66 equipment-trait numeric rows across 32 EffectKeys, with original additive, multiplicative and same-id-count formulas",
+    "45 equipment-trait event rows across 40 EffectKeys, including counter-critical, execute, scattering, sequential fire, penetration, jump, shield, reflection, charge, meteorite, traps, statuses, buffs and element conversion",
+    "validated explicit equipment-loadout adapter applying recovered policies to production building definitions, barracks summons and attack contexts while leaving normal entry empty",
+    "complex equipment statuses and timed events execute on production combat clocks: cavalry charge/dizziness, serious injury, meteorite AOE/burn, slow trap, paralysis/freeze, and fire/ice projectile conversion including attack-speed slow",
+    "remaining building-owned secondary equipment events execute through production objects: e02 arrow barrage, e03 dodge-armed next-hit damage, e06 shield-depletion explosion and e07 probabilistic repel",
+    "projectile event semantics execute separately rather than as immediate same-target damage: scattering uses the recovered 0/-10/+10/-20/+20 degree fan, consecutive shots use 100ms intervals, penetration preserves the projectile forward, jump retargets the same projectile, and lethal reflection re-enters kill/experience/wave resolution after one frame",
+    "projectile initial travel timing uses recovered unit BulletSpeed 15/18/19.5 and building-ammo defaults 20/25/120 through PIXEL_RATIO=50; distance/speed replaces the former synthetic 850px/s and 0.12-0.55s clamp",
+    "building-ammo moving-target projectiles execute recovered BaseBullet autoFlow velocity integration: default 30ms check-before-accumulate cadence, original one-sided angle wrap, ten-degree turn cap and preserved speed magnitude; unit ammo preserves the recovered straight-flight default",
+    "enemy attacks emit UnitBullet objects and apply damage only at swept collider contact: visible ranged art, invisible melee sensors, path interception after original-target death, PlayerUnit/Build/castle masks and recovered per-unit lifetime all execute through production",
+    "all 18 enemy production variants audited as six base/six elite/six boss: base-to-elite/boss links, wave-power stats, 10-frame animation references, 1.5x/2x zoom, elite 12-unit-per-second repel for 0.3 seconds, boss repel immunity and 100-pixel AOE, plus the base mage-only AOE exception",
+    "all 220 stages and all 2620 waves executed through production buildWaveRoster, covering 60588 roster entries, 2923 elite conversions, 219 final-wave boss conversions and every configured enemy reference",
+    "enemy spawn timing executes the recovered WaveConfigManager defaults and inclusive integer-millisecond randomization: FirstEnemyDelayTime/TroopInterval 0.1-0.2 seconds divided by waveGCntRadios 1.2, yielding 83.333-166.667ms across all 60588 entries in 2620 waves",
+    "every enemy uses the recovered full-width BattleGlobalConfig birth distribution with inclusive integer x=10-750 and y=50-80 instead of a reconstructed center lane; all 60588 entries and production endpoints are audited",
+    "three recovered active air-support skills in original order: one-use meteorite snapshot over 3 seconds, full-max-HP unit healing and 4-second all-enemy freeze",
+    "220 stage waves, strength, elite/boss conversion, rewards and victory/defeat"
+  ],
+  "dataRecoveredNotAutoEnabled": [
+    {
+      "system": "equipment traits",
+      "rows": 112,
+      "reason": "eligibility depends on the player's equipped building slots and persistent equipment Level/Traits; no account snapshot was authorized or recovered",
+      "handling": "exact rows are shipped in src/data/equipment-traits.json; all 111 rows with original runtime mappings can be evaluated when explicit trait IDs are supplied, but no traits are fabricated into the fresh local loadout"
+    }
+  ],
+  "knownApproximation": [
+    "local overlap set substitutes for Laya native rigid-body contact membership in UnitRoute separation",
+    "continuous swept expanded-AABB first-contact selection uses the recovered 50x80 unit box and actual projectile dimensions; native Box2D substep and simultaneous-contact ordering remain outside the claim"
+  ],
+  "excluded": [
+    "payment",
+    "live advertising",
+    "analytics",
+    "cloud save/account backend",
+    "recording-time Math.random internal state"
+  ],
+  "evidence": [
+    "ALL_BUILDING_MECHANICS.json",
+    "ALL_STAGE_ROSTER_AUDIT.json",
+    "ALL_STAGE_INITIALIZATION_AUDIT.json",
+    "DEFEAT_RETRY_LIFECYCLE_SMOKE.json",
+    "REPRESENTATIVE_LOOP.json",
+    "RANDOM_AND_ROUTE_AUDIT.json",
+    "SHOP_RULE_AUDIT.json"
+    ,"SHOP_CONSUMED_SLOT_REGRESSION.json"
+    ,"SHOP_WEAPON_MOUNT_CLEANUP.json"
+    ,"ALL_SHOP_BUILDING_VISUAL_AUDIT.json"
+    ,"SHOP_FREE_ITEM_SMOKE.json"
+    ,"UNIT_AOE_AUDIT.json"
+    ,"EQUIPMENT_TRAIT_RUNTIME_MAP.json"
+    ,"EQUIPMENT_TRAIT_NUMERIC_SMOKE.json"
+    ,"EQUIPMENT_TRAIT_EVENT_SMOKE.json"
+    ,"EQUIPMENT_RUNTIME_INTEGRATION_SMOKE.json"
+    ,"EQUIPMENT_STATUS_RUNTIME_SMOKE.json"
+    ,"EQUIPMENT_SECONDARY_RUNTIME_SMOKE.json"
+    ,"EQUIPMENT_PROJECTILE_RUNTIME_SMOKE.json"
+    ,"ALL_ENEMY_MECHANICS.json"
+    ,"AIR_SUPPORT_RUNTIME_SMOKE.json"
+    ,"WAVE_SPAWN_TIMING_AUDIT.json"
+    ,"ENEMY_SPAWN_POSITION_AUDIT.json"
+    ,"PROJECTILE_TRAVEL_TIMING_SMOKE.json"
+    ,"PROJECTILE_AUTO_FLOW_SMOKE.json"
+  ]
+}

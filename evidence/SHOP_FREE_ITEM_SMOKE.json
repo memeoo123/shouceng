@@ -1,0 +1,32 @@
+{
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=shop-free-item",
+  "originalEvidence": {
+    "traitId": 10,
+    "quality": 2,
+    "effectKey": "ShopFreeItem",
+    "parameter": 1,
+    "defaultShopShowItemCnt": 3,
+    "applyFormula": "scene.shopShowItemCnt += 1",
+    "source": "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:76930-76937,114260,114563-114569"
+  },
+  "runtimeResult": {
+    "ok": true,
+    "shopShowItemCount": 4,
+    "historyItemCount": 4,
+    "fourth": {
+      "id": "e13",
+      "class": "crit",
+      "level": 1
+    },
+    "dragStarted": true,
+    "fourthPlaced": true
+  },
+  "regressions": {
+    "baseThreeItemShop": true,
+    "waveEndFreeReroll": true,
+    "allBuildingMechanics": true,
+    "fiveWaveVictory": true
+  }
+}

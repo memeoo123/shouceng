@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=ally-hp-bar",
+  "runtimeSha256": "A916A1812B75250BF21439E17CFDB3298FE5E5F95F73749CE5FF57EDB1118D37",
+  "sourceEvidence": {
+    "unitOwnership": "generated/game.beautified.js:68264 creates UnitHpBar for every combat unit",
+    "assetAndVisibility": "generated/game.beautified.js:69052-69113 uses zhuozhanzhujiemian_29/30, starts hidden and reveals on be_hit when VISIBLE_UNIT_HPBAR is enabled",
+    "globalDefault": "generated/game.beautified.js:64839 enables VISIBLE_UNIT_HPBAR by default",
+    "assetDimensions": "recovered zhuozhanzhujiemian_29.png is 70x14 and zhuozhanzhujiemian_30.png is 64x8"
+  },
+  "result": {
+    "ok": true,
+    "originalAssets": {
+      "background": "res/enemy_hp_bar_bg.png",
+      "fill": "res/enemy_hp_bar.png",
+      "backgroundSize": [70, 14],
+      "fillSize": [64, 8]
+    },
+    "hp": {
+      "before": 75,
+      "afterFirstHit": 65
+    }
+  },
+  "assertions": {
+    "recoveredUnitBarDimensions": true,
+    "productionAllyOwnsHealthBar": true,
+    "startsHiddenUntilFirstHit": true,
+    "firstHitRevealsHealthBar": true,
+    "fillTracksCurrentHp": true,
+    "barFollowsMovingUnit": true,
+    "healingRefreshesFill": true,
+    "lethalHitCleansUnitAndBar": true
+  },
+  "representativeRegression": {
+    "stage": 2,
+    "victory": true,
+    "wave": 5,
+    "kills": 35,
+    "exp": 390,
+    "battleMoney": 103,
+    "unitActionSmoke": true
+  }
+}

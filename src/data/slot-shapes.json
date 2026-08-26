@@ -1,0 +1,14 @@
+[
+  { "id": "1", "shape": "x", "shopWeight": 320, "needAd": false },
+  { "id": "2", "shape": "x\r\nx", "shopWeight": 30, "needAd": false },
+  { "id": "3", "shape": "xx", "shopWeight": 30, "needAd": false },
+  { "id": "4", "shape": "x\r\nx\r\nx", "shopWeight": 25, "needAd": true },
+  { "id": "5", "shape": "xxx", "shopWeight": 25, "needAd": true },
+  { "id": "6", "shape": "xx\r\nxo", "shopWeight": 25, "needAd": true },
+  { "id": "7", "shape": "ox\r\nxx", "shopWeight": 25, "needAd": true },
+  { "id": "8", "shape": "xx\r\nox", "shopWeight": 25, "needAd": true },
+  { "id": "9", "shape": "xo\r\nxx", "shopWeight": 25, "needAd": true },
+  { "id": "10", "shape": "xx\r\nxx", "shopWeight": 0, "needAd": true },
+  { "id": "11", "shape": "xx\r\nxo\r\nxo", "shopWeight": 0, "needAd": true },
+  { "id": "12", "shape": "xxx\r\noxo", "shopWeight": 0, "needAd": true }
+]

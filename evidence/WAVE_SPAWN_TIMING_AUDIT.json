@@ -1,0 +1,53 @@
+{
+  "date": "2026-08-20",
+  "route": "http://127.0.0.1:8131/?stage=2&test=wave-timing&run=52",
+  "runtimeSha256": "FCA5493373632F166E9CE9CBCB70C138947079A8D13F80E39EE139C409827E71",
+  "passed": true,
+  "recoveredDefaults": {
+    "FirstEnemyDelayTimeSeconds": [0.1, 0.2],
+    "TroopIntervalSeconds": [0.1, 0.2],
+    "TroopCountChancePercent": [100, 0, 0],
+    "TroopSpeedUp": 1,
+    "waveGCntRadios": 1.2,
+    "effectiveDelaySeconds": [0.08333333333333334, 0.16666666666666669]
+  },
+  "coverage": {
+    "stageCount": 220,
+    "waveCount": 2620,
+    "spawnEntryCount": 60588,
+    "observedMinimumSeconds": 0.08333333333333334,
+    "observedMaximumSeconds": 0.16666666666666669,
+    "totalScheduledSeconds": 7585.815,
+    "checksum": "ee2e6ed7"
+  },
+  "stage2ProductionProbe": {
+    "scheduleSeconds": [0.143333, 0.134167, 0.114167],
+    "initialClockSeconds": 0.143333,
+    "spawnedBeforeClockElapsed": 0,
+    "spawnedAfterClockElapsed": 1,
+    "nextClockSeconds": 0.134166
+  },
+  "assertions": {
+    "defaultsRecoveredFromAbsentOverrides": true,
+    "lowerEndpointExact": true,
+    "upperEndpointExact": true,
+    "allStageWaveCountsExact": true,
+    "allDelaysInRecoveredRange": true,
+    "productionInitialClockExact": true,
+    "productionWaitsForFirstDelay": true,
+    "productionSpawnsAtFirstDelay": true,
+    "finalCleanupExact": true
+  },
+  "randomnessHandling": {
+    "normalEntry": "spawn timing and combat outcomes share Math.random, matching BattleScene.rand without randMark",
+    "testAndCapture": "spawn timing uses a labeled independent deterministic stream so timing validation cannot perturb established elite/outcome golden cases"
+  },
+  "originalEvidence": [
+    "generated/game.beautified.js:102590-102645 WaveConfigManager.getUDelay defaults and troop grouping",
+    "generated/game.beautified.js:102652-102753 parseWaveConfig divides delays by waveGCntRadios and stores cumulative unit delays",
+    "generated/game.beautified.js:4795-4800 jasmin integer random uses inclusive upper bound",
+    "generated/game.beautified.js:115550-115570 BattleScene.rand delegates to jasmin and only enables seeded streams when randMark exists",
+    "generated/tables/fn.json fight.Params omits all four timing overrides and sets waveGCntRadios=1.2"
+  ],
+  "consoleErrors": 0
+}

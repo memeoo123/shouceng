@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "engine": "LayaAir 2.13.1",
+  "status": "pass",
+  "reason": "Revalidate the stale visualBaseline after later Laya project changes.",
+  "regressionFoundAndFixed": {
+    "symptom": "Reconstruction-only stage navigation controls appeared over the matched capture HUD.",
+    "source": "src/Main.js resetRun",
+    "fix": "Keep local campaign navigation in normal play but hide it whenever capture=1 is active.",
+    "scope": "presentation-only; normal campaign navigation remains available"
+  },
+  "reference": {
+    "recording": "../../targets/wx4f4f3709865004a2/3/evidence/original-reference/QQ20260819-171433.mp4",
+    "sha256": "DA18BE16AFC6F6CBDFBF3F233B934C205AE6C4E3CFE4C9C3324E3FFEDFE84E9F",
+    "contactSheet": "../../work/video-analysis/QQ20260819-171433/contact-sheet.png",
+    "priorBaselines": [
+      "visual-alignment-drag.png",
+      "visual-alignment-prep.png",
+      "visual-alignment-battle.png",
+      "visual-alignment-combat.png",
+      "visual-alignment-opening-shop.png"
+    ]
+  },
+  "capture": {
+    "browser": "Codex in-app browser",
+    "designResolution": [750, 1286],
+    "capturedCanvasCssSize": [420, 720],
+    "queryFlags": ["capture=1"],
+    "consoleErrors": 0,
+    "consoleWarnings": 0
+  },
+  "cases": [
+    {
+      "name": "drag",
+      "route": "?stage=2&test=visual-drag&capture=1",
+      "file": "visual-baseline-20260824-drag.png",
+      "sha256": "124E9FF3190D788513CC2E1AFF8583FDCBC49E201A3716E26572399978E9FD08",
+      "matched": ["HUD", "valid green placement cell", "tree badges", "castle and shop geometry"]
+    },
+    {
+      "name": "preparation",
+      "route": "?stage=2&test=layout&capture=1",
+      "file": "visual-baseline-20260824-prep.png",
+      "sha256": "7BEC6D266923614C1B2390A993273ED10351DDC022964FEA25062651913B7976",
+      "matched": ["representative building layout", "weapon mounts", "shop state", "HUD"]
+    },
+    {
+      "name": "wave-start",
+      "route": "?stage=2&test=visual-wave-start&capture=1",
+      "file": "visual-baseline-20260824-wave-start.png",
+      "sha256": "1921AC3524CC8D65B38B54C21BB9FFEFEFEBE4E620A82C4124334EFCE114C938",
+      "matched": ["337-pixel battle transition", "enemy entry", "trees and buildings", "air-support controls"]
+    },
+    {
+      "name": "combat",
+      "route": "?stage=2&test=visual-combat&capture=1",
+      "file": "visual-baseline-20260824-combat.png",
+      "sha256": "155F356AA572AF22F1CCFAD8139753391A85F041624BF83276F88D398F3AF97E",
+      "matched": ["red and blue unit palettes", "health bars", "damage number", "combat framing"]
+    },
+    {
+      "name": "opening-shop",
+      "route": "?stage=2&test=visual-opening-shop&capture=1",
+      "file": "visual-baseline-20260824-opening-shop.png",
+      "sha256": "D448AFEC260B5E5A6E108AD0B4AE9E4C1F83E60F54E3E102630EDE0A7F4AEADC",
+      "matched": ["opening shop composition", "castle", "tree badges", "refresh and start controls"]
+    }
+  ],
+  "representativeBattle": {
+    "route": "?stage=2&test=battle&capture=1",
+    "identicalRuns": 3,
+    "victory": true,
+    "waves": 5,
+    "kills": 35,
+    "experience": 390,
+    "fightLevel": 7,
+    "fightLevelRemainder": 8,
+    "battleMoney": 103,
+    "castleHp": 975,
+    "consoleErrors": 0,
+    "consoleWarnings": 0
+  },
+  "catalogRegression": {
+    "allStageCatalog": {"ok": true, "stages": 220, "buildings": 19, "enemyVariants": 18},
+    "allStageRosters": {"ok": true, "stages": 220, "waves": 2620, "enemies": 60588},
+    "allStageInitialization": {"ok": true, "stages": 220},
+    "allStageRewards": {"ok": true, "stages": 220}
+  },
+  "assetImport": {
+    "manifestEntries": 572,
+    "missingEntries": 0,
+    "recoveredImages": 332,
+    "derivedEnemyTeamFrames": 240
+  },
+  "javascript": {
+    "sourceSha256": "8275D61B2518BC05B5EF39493FAB0892BC17CD17274CB41AA63A44FC978431E4",
+    "runtimeSha256": "8275D61B2518BC05B5EF39493FAB0892BC17CD17274CB41AA63A44FC978431E4",
+    "sourceSyntax": "pass",
+    "build": "pass",
+    "runtimeSyntax": "pass"
+  },
+  "claim": "The refreshed matched baseline is current for the five deterministic representative capture routes. This does not claim battlefield-faithful or frame-by-frame full-session equivalence."
+}

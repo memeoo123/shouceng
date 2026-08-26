@@ -1,0 +1,80 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "source": {
+    "runtime": "targets/wx4f4f3709865004a2/3/work/unpacked-min/min/game.js",
+    "offsets": {
+      "jasminEnableSeedRandom": 120817,
+      "jasminSeededRandom": 125209,
+      "seededMapGeneration": 1392944,
+      "unitRoute": 1947792,
+      "waveRosterSeed": 2140262,
+      "battleSceneRand": 2391112,
+      "battleSceneRandMark": 2402326
+    },
+    "gravityAnalyticsSdk": {
+      "path": "bin/libs/min/gravityengine.mg.layats.min.js",
+      "bytes": 166816,
+      "sha256": "BDBBA6F09EB63F9F76A696A500026B012CF0528AE35A48871935FA9588F352E9",
+      "finding": "analytics SDK only; it is not the battle movement or path solver"
+    }
+  },
+  "randomness": {
+    "seededAlgorithm": "state=(9301*state+49297)%233280; result=state/233280",
+    "normalBattleSceneRand": "Math.random when randMark is absent",
+    "seededMapRule": "stageId*1000",
+    "seededWaveRosterRule": "stageId*1000+zeroBasedWaveIndex",
+    "seededBossSelectionRule": "stageId*1000",
+    "shopRule": "normal shop calls BattleScene.rand without randMark and therefore uses Math.random",
+    "implementation": {
+      "normalEntry": "shop, route jitter and probabilistic outcomes use Math.random like the original",
+      "captureAndSmoke": "labeled independent deterministic LCG streams, including a dedicated route stream, preserve reproducible golden evidence without perturbing combat rolls",
+      "stage2OpeningGoldenSeed": 677
+    },
+    "remainingBoundary": "the original process-wide Math.random internal state at the supplied recording time is not present in the package"
+  },
+  "unitRoute": {
+    "targetSelection": "select the nearest live opposing unit or building only when no valid cached target exists; cacheTarget defaults true, so a live target remains locked while its point follows movement; death or destruction invalidates it and triggers reselection; BaseBuild uses its top-center battle proxy anchor and clamps steering x to the nearest horizontal edge; castle remains the fallback target",
+    "fallbackDirection": "enemy down / player up",
+    "randomDirectionLifetimeMs": [1500, 2400],
+    "randomAngleRadians": [0.2, 0.6],
+    "randomDrawOrder": ["lifetime", "angle", "side"],
+    "targetDistanceAttenuation": "max(0, 1 - fireRange*2/distance); random heading becomes zero at or inside twice the attack range",
+    "sameTeamCollision": "fixed radius 50 scaled by actor scaleX; physical contact persists until summed radii separate, force uses 1-distance/averageRadius, stores the maximum weight per contact, and applies insertion-order multipliers 1.1",
+    "bossRule": "a boss does not collect stayEqualCollider contacts; ordinary units can still repel from a boss present in their own contact set",
+    "playerUnitRule": "PlayerUnit overrides order=-1 and searchRange=-1, uses the same cached-target, random-heading, map-bound and same-team collider solver as EnemyUnit, applies the mirrored y>0.5 backward correction, and falls back upward when no enemy exists",
+    "enemySearchRangeRule": "BaseUnit defaults routeSerchRange to 600 pixels and EnemyUnit keeps it; first acquisition filters by Euclidean distance with an inclusive <=600 boundary, while an already cached live target remains valid after moving beyond the range; with no target the enemy falls back downward",
+    "mapBounds": {"left": 50, "right": 700, "top": 0, "bottom": 1286},
+    "backwardCorrection": "enemy forward vectors below y=-0.5 receive +0.5 y before renormalization",
+    "implementationClaim": "recovered shared PlayerUnit/EnemyUnit UnitRoute with order-specific fallback and backward correction, cacheTarget lifetime/invalidation, target geometry, distance-attenuated heading, draw order and exact unit_collider force geometry with a deterministic local contact-set adapter; not A* and not the Gravity analytics SDK"
+  },
+  "browserValidation": {
+    "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+    "routes": [
+      "http://127.0.0.1:8131/?test=all-stages&capture=1",
+      "http://127.0.0.1:8131/?stage=2&test=shop&capture=1",
+      "http://127.0.0.1:8131/?stage=2&test=all-buildings&capture=1",
+      "http://127.0.0.1:8131/?stage=2&test=unit-route-collider",
+      "http://127.0.0.1:8131/?stage=2&test=unit-route-targeting",
+      "http://127.0.0.1:8131/?stage=2&test=unit-route-target-cache",
+      "http://127.0.0.1:8131/?stage=2&test=unit-route-player",
+      "http://127.0.0.1:8131/?stage=2&test=unit-route-search-range",
+      "http://127.0.0.1:8131/?stage=2&test=battle&capture=1"
+    ],
+    "result": {
+      "catalog": {"ok": true, "stageCount": 220, "buildingCount": 19, "enemyVariantCount": 18, "errors": []},
+      "shop": {"ok": true},
+      "allBuildings": {"ok": true},
+      "unitRouteCollider": {"ok": true, "assertionsPassed": 8, "assertionsTotal": 8},
+      "unitRouteTargeting": {"ok": true, "assertionsPassed": 8, "assertionsTotal": 8},
+      "unitRouteTargetCache": {"ok": true, "assertionsPassed": 8, "assertionsTotal": 8},
+      "playerUnitRoute": {"ok": true, "assertionsPassed": 8, "assertionsTotal": 8},
+      "unitRouteSearchRange": {"ok": true, "assertionsPassed": 8, "assertionsTotal": 8},
+      "battle": {"victory": true, "wave": 5, "kills": 35, "exp": 390, "castleHp": 975},
+      "finalRuntimeConsoleErrors": 0,
+      "finalRuntimeConsoleWarnings": 0
+    }
+  }
+}

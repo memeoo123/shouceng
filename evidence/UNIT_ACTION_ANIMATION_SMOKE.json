@@ -1,0 +1,79 @@
+{
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=unit-actions",
+  "passed": true,
+  "runtime": {
+    "engine": "LayaAir 2.13.1",
+    "sourceRuntimeSha256": "FB543DCD3BD4DF11A21D0769AB1CE8535E89C733CC884745D8324FC8F9D7ABAB",
+    "unitAnimationCatalogSha256": "B09FA23B0437DDEA5C695F179722E9F65D25800ECCBC2CE795762B6142162AD6",
+    "assetManifestSha256": "C8CA93424D63508365F888A83EDD3CBA2A5017E36F51C4C6A3AE1BCBD3F7CA9A",
+    "assetManifestEntries": 2124
+  },
+  "catalog": {
+    "bodyCount": 24,
+    "clipCount": 100,
+    "blueFrameCount": 1016,
+    "redFrameCount": 1016,
+    "intervalMs": [102],
+    "actionFrameCounts": {
+      "idle": 192,
+      "move": 240,
+      "attack": 252,
+      "victory": 312,
+      "charge": 20
+    }
+  },
+  "assertions": {
+    "twentyFourRecoveredBodies": true,
+    "allBodiesHaveCoreActions": true,
+    "fourKnightChargeClips": true,
+    "exactRecoveredActionFrames": true,
+    "everyBlueFrameLoaded": true,
+    "everyRedFrameLoaded": true,
+    "originalJtaInterval": true,
+    "originalAttackFireFrames": true,
+    "idleAdvances": true,
+    "moveClipSelected": true,
+    "attackClipSelected": true,
+    "attackReturnsToIdle": true,
+    "knightChargeSelected": true,
+    "victoryLoops": true,
+    "bidirectionalFacing": true,
+    "productionEnemyAttackTransition": true,
+    "productionAllyAttackTransition": true,
+    "productionFireFrameDelays": true,
+    "productionAllyUsesOriginalJtaScale": true
+  },
+  "representativeBattleRegression": {
+    "stage": 2,
+    "victory": true,
+    "kills": 35,
+    "rewardExp": 390,
+    "battleMoney": 103,
+    "castleHp": 975,
+    "fightLevel": 7,
+    "fightLevelRemainder": 8,
+    "consoleErrors": 0
+  },
+  "adjacentRegressions": {
+    "waveTwoDragAssertions": "9/9",
+    "shopAndTreeClear": true
+  },
+  "originalEvidence": [
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:64920 BRBMoveClip sequence runtime",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:68093-68150 idle/attack/move/victory/charge asset registration",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:68194-68195 attack fire-frame scheduling",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:64684-64692 BattleGlobalConfig.unitGScale=0.9 and unitGModelScale=1",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:68159-68172 native idle-JTA width/height, ModelPoint bottom pivot and whole-unit scale application",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:68301-68405 movement, idle and facing transitions",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:72529-72552 cooldown-aware attack interval compression",
+    "targets/wx4f4f3709865004a2/3/generated/tables/model.json attack fireFrame/endFrame values",
+    "targets/wx4f4f3709865004a2/3/generated/jta-unit-pngs 1016 recovered source frames"
+  ],
+  "claimBoundary": {
+    "combatUnits": "The recovered combat unit presentation is FairyGUI/JTA frame-sequence animation through BRBMoveClip, not Spine.",
+    "death": "No unit dead clips were present in the recovered 100 JTA clips, so no unsupported death sequence was invented.",
+    "uiSpine": "Separate FairyGUI/UI Spine effects remain outside this unit-action gate and require their own runtime validation."
+  }
+}

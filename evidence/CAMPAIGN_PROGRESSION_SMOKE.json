@@ -1,0 +1,72 @@
+{
+  "date": "2026-08-21",
+  "route": "http://127.0.0.1:8131/?test=campaign-progression",
+  "ok": true,
+  "target": "wx4f4f3709865004a2/3",
+  "storageKey": "shoucheng.wx4f4f3709865004a2.v3.MaxStageRecord",
+  "originalEvidence": [
+    "generated/game.beautified.js:22314-22342",
+    "generated/game.beautified.js:25880-25890",
+    "generated/game.beautified.js:56554-56585",
+    "generated/game.beautified.js:125637-125770",
+    "generated/game.beautified.js:125937-126030"
+  ],
+  "records": {
+    "initial": [1, 0],
+    "partial": [1, 3],
+    "lowerReplay": [1, 3],
+    "firstVictory": [2, 0],
+    "clearedReplay": [2, 0],
+    "secondPartial": [2, 2],
+    "secondVictory": [3, 0],
+    "debugJump": [4, 0],
+    "finalVictory": [221, 0],
+    "saved": [12, 4],
+    "loaded": [12, 4],
+    "corruptFallback": [1, 0]
+  },
+  "assertions": {
+    "freshProfileStartsAtStageOne": true,
+    "defeatRecordsOnlyCompletedWaves": true,
+    "lowerDefeatNeverRegressesProgress": true,
+    "frontierVictoryUnlocksExactlyNextStage": true,
+    "clearedStageReplayDoesNotAdvanceFrontier": true,
+    "nextStagePartialProgressIsRecorded": true,
+    "nextFrontierVictoryAdvancesAgain": true,
+    "debugJumpCannotSkipUnlockChain": true,
+    "finalStageKeepsOriginalPastEndRecord": true,
+    "finalStageSelectionClampsToCatalog": true,
+    "targetScopedLocalRecordRoundTrips": true,
+    "corruptLocalRecordFallsBackSafely": true
+  },
+  "regressions": {
+    "allStageCatalog": "220/220 pass",
+    "allStageInitialization": "220/220 pass; 3960 placements",
+    "allStageRosters": "2620 waves; 60588 enemies; pass",
+    "allStageRewards": "660 bundles; 1316 entries; pass",
+    "defeatRetry": "9/9 pass",
+    "economyReward": "10/10 pass",
+    "representativeBattle": "three identical Stage 2 victories: 35 kills, 390 exp, level 7 remainder 16, 103 battle money, castle 975"
+  },
+  "normalEntryProbes": {
+    "freshNormalUrl": {
+      "url": "http://127.0.0.1:8131/",
+      "stage": 1,
+      "maxStageRecord": [1, 0],
+      "unlockedStage": 1
+    },
+    "freshLockedStageUrl": {
+      "url": "http://127.0.0.1:8131/?stage=2",
+      "requestedStage": 2,
+      "selectedStage": 1,
+      "maxStageRecord": [1, 0],
+      "unlockedStage": 1
+    }
+  },
+  "consoleErrors": 0,
+  "environmentWarnings": [
+    "headless Chrome AudioContext autoplay warning",
+    "headless Chrome Canvas2D willReadFrequently performance warning"
+  ],
+  "runtimeSha256": "57E9825475A59B4D42E18B696DC5C7727DAB0C3DD361B1FFBE9D73B98D847BC4"
+}

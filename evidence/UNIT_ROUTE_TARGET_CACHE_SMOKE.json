@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=unit-route-target-cache",
+  "status": "pass",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "source": "UnitRoute.cacheTarget/getForward/getForwardWithTarget/calcTarget production adapter",
+  "transitions": {
+    "initial": "ally-cache-a",
+    "closerArrival": "ally-cache-a",
+    "movedPoint": {"x": 365, "y": 325},
+    "afterDeath": "ally-cache-b",
+    "buildingFallback": "building-cache-building",
+    "castleFallback": "castle",
+    "noTarget": null
+  },
+  "evidence": "generated/game.beautified.js:93483-93533,93558-93631,93685-93770",
+  "assertions": {
+    "initialNearestSelected": true,
+    "closerArrivalDoesNotStealTarget": true,
+    "cachedTargetPointRefreshes": true,
+    "deadCachedTargetInvalidates": true,
+    "randomHeadingClearsOnRetarget": true,
+    "deadUnitsAreSkipped": true,
+    "destroyedBuildingFallsBackToCastle": true,
+    "deadCastleLeavesNoTarget": true
+  },
+  "runtimeErrors": 0
+}

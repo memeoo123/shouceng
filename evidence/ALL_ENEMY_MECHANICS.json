@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-26",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=all-enemies",
+  "runtimeSha256": "FB543DCD3BD4DF11A21D0769AB1CE8535E89C733CC884745D8324FC8F9D7ABAB",
+  "stage": 2,
+  "wavePower": 1,
+  "variantCounts": {
+    "base": 6,
+    "elite": 6,
+    "boss": 6
+  },
+  "visualScale": {
+    "globalScale": 0.9,
+    "rule": "native idle-JTA width/height multiplied by BattleGlobalConfig.unitGScale and unit Zoom",
+    "baseHeights": {"-b_CD2EDAAF":64.8,"db_DF32E2C2":74.7,"fs_18B222C3":81.9,"gb_E916AA75":67.5,"js_9F2D53C8":86.4,"qb_2B5987F2":132.3},
+    "eliteHeights": {"jr-b_83DF90AF":97.2,"jrdb_91C3A8C2":112.05,"jrfs_564368C3":122.85,"jrgb_A7E7E075":101.25,"jrjs_D1DC19C8":129.6,"jrqb_65A8CDF2":198.45},
+    "bossHeights": {"-btl_C78D211":129.6,"dbtl_F4296D79":149.4,"fstl_76565908":163.8,"gbtl_27AAAA80":135,"jstl_B2A046F6":172.8,"qbtl_16B73A36":264.6}
+  },
+  "base": [
+    {"id":"-b_CD2EDAAF","hp":75,"attack":35,"speedPixels":62.5,"rangePixels":300,"aoeRadius":0},
+    {"id":"db_DF32E2C2","hp":400,"attack":10,"speedPixels":56.25,"rangePixels":50,"aoeRadius":0},
+    {"id":"fs_18B222C3","hp":100,"attack":60,"speedPixels":68.75,"rangePixels":225,"aoeRadius":100},
+    {"id":"gb_E916AA75","hp":75,"attack":23,"speedPixels":81.25,"rangePixels":250,"aoeRadius":0},
+    {"id":"js_9F2D53C8","hp":300,"attack":30,"speedPixels":68.75,"rangePixels":50,"aoeRadius":0},
+    {"id":"qb_2B5987F2","hp":350,"attack":40,"speedPixels":106.25,"rangePixels":50,"aoeRadius":0}
+  ],
+  "elite": [
+    {"id":"jr-b_83DF90AF","hp":150,"attack":70,"repelSpeedPixels":600,"repelSeconds":0.3},
+    {"id":"jrdb_91C3A8C2","hp":800,"attack":20,"repelSpeedPixels":600,"repelSeconds":0.3},
+    {"id":"jrfs_564368C3","hp":200,"attack":120,"repelSpeedPixels":600,"repelSeconds":0.3},
+    {"id":"jrgb_A7E7E075","hp":150,"attack":46,"repelSpeedPixels":600,"repelSeconds":0.3},
+    {"id":"jrjs_D1DC19C8","hp":600,"attack":60,"repelSpeedPixels":600,"repelSeconds":0.3},
+    {"id":"jrqb_65A8CDF2","hp":700,"attack":80,"repelSpeedPixels":600,"repelSeconds":0.3}
+  ],
+  "boss": [
+    {"id":"-btl_C78D211","hp":1875,"attack":210,"aoeRadius":100,"repelResist":true},
+    {"id":"dbtl_F4296D79","hp":10000,"attack":60,"aoeRadius":100,"repelResist":true},
+    {"id":"fstl_76565908","hp":2500,"attack":360,"aoeRadius":100,"repelResist":true},
+    {"id":"gbtl_27AAAA80","hp":1875,"attack":138,"aoeRadius":100,"repelResist":true},
+    {"id":"jstl_B2A046F6","hp":7500,"attack":180,"aoeRadius":100,"repelResist":true},
+    {"id":"qbtl_16B73A36","hp":8750,"attack":240,"aoeRadius":100,"repelResist":true}
+  ],
+  "assertions": {
+    "sixByThreeVariants": true,
+    "baseConversionsComplete": true,
+    "productionStatsUseWavePower": true,
+    "productionClassification": true,
+    "allAnimationFramesPresent": true,
+    "eliteRepelExact": true,
+    "bossRepelResistExact": true,
+    "bossAoeExact": true,
+    "baseMageOnlyAoe": true,
+    "visualZoomApplied": true
+  },
+  "representativeRegression": {
+    "victory": true,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "castleHp": 975
+  }
+}

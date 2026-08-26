@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=equipment-secondary-runtime&run=39b",
+  "runtimeSha256": "A3A6A74E2E42B9EB093369A82F4E1EB7392DCD9600EA2BB17864737E1F78F5DB",
+  "source": "real placed buildings + spawned units + projectile/enemy-attack/damage/effect clocks",
+  "ok": true,
+  "arrowBarrage": {
+    "owner": "e02",
+    "directProjectileDamage": 23,
+    "twoHitsSpawnedEffects": 1,
+    "cooldownSeconds": 3,
+    "radiusPixels": 100,
+    "damageRatio": 0.5,
+    "targetAoeDamage": 11.5,
+    "neighborAoeDamage": 11.5
+  },
+  "dodgeNextAttack": {
+    "owner": "e03",
+    "armedBonus": 0.25,
+    "baseAttack": 40,
+    "nextAttackDamage": 50,
+    "remainingBonusAfterAttack": 0
+  },
+  "shieldExplosion": {
+    "owner": "e06",
+    "shieldBeforeHit": 10,
+    "incomingDamage": 15,
+    "shieldAfterHit": 0,
+    "hpOverflowDamage": 5,
+    "radiusPixels": 100,
+    "damageRatio": 0.25,
+    "attackerDamage": 2.5,
+    "neighborDamage": 2.5
+  },
+  "rateRepel": {
+    "owner": "e07",
+    "chance": 0.15,
+    "forcePhysicsUnitsPerSecond": 10,
+    "velocityPixelsPerSecond": 500,
+    "durationSeconds": 0.3
+  },
+  "unownedOriginalRows": {
+    "traitIds": [92, 93],
+    "effectKeys": ["UnitRateSpeedBuff", "UnitRateAtkBuff"],
+    "handling": "evaluator remains executable, but no building in the recovered version owns either trait ID, so the explicit building loadout does not fabricate an activation path"
+  },
+  "normalEmptyLoadoutRegression": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=battle&run=39b",
+    "victory": true,
+    "kills": 35,
+    "battleExp": 390,
+    "fightLevel": 7,
+    "castleHp": 975,
+    "airSupportUsed": []
+  }
+}

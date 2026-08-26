@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=unit-route-search-range",
+  "status": "pass",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "source": "BaseUnit.routeSerchRange + UnitRoute.calcTarget production adapter",
+  "search": {
+    "range": 600,
+    "outsideDistance": 601,
+    "boundaryDistance": 600,
+    "boundaryKey": "ally-range-boundary",
+    "cachedBeyondDistance": 900,
+    "replacementKey": "ally-range-replacement"
+  },
+  "fallback": {
+    "draws": [0, 0, 0.9],
+    "forward": {"x": 0.18211460552268757, "y": 0.9832773110650505}
+  },
+  "evidence": "generated/game.beautified.js:68253-68261,68707-68720,93685-93770,94491-94495",
+  "assertions": {
+    "recoveredEnemySearchRangeIs600": true,
+    "targetAt601PixelsRejected": true,
+    "targetAt600PixelsIncluded": true,
+    "cachedTargetMayMoveBeyondRange": true,
+    "deadCachedTargetInvalidates": true,
+    "replacementAt601PixelsRejected": true,
+    "replacementAt600PixelsIncluded": true,
+    "noTargetFallsBackDownward": true
+  },
+  "runtimeErrors": 0
+}

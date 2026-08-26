@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=wave-two-drag",
+  "result": {
+    "ok": true,
+    "stage": 2,
+    "wave": 2,
+    "phase": "preparation",
+    "assertions": {
+      "combatInputDisabled": true,
+      "waveTwoPreparation": true,
+      "shopLayerPassesEmptyPointerAreas": true,
+      "hudLayerPassesEmptyPointerAreas": true,
+      "overlayLayerPassesEmptyPointerAreas": true,
+      "buildingInputRestored": true,
+      "shopItemsInputAvailable": true,
+      "eventStartsPlacedBuildingDrag": true,
+      "sameCellDropRestoresOccupancy": true
+    }
+  },
+  "rootCause": "BattleShop, HUD and Overlay are design-stage-sized Sprites above the building layer. Their empty transparent regions intercepted pointer hit testing when the shop returned after wave one.",
+  "fix": "Set mouseThrough=true on the full-stage UI containers and the bottom air-support sublayer. Actual child buttons remain mouse-enabled while transparent regions pass pointer input to placed buildings.",
+  "originalEvidence": [
+    "generated/game.beautified.js:111520-111568 BattleShop.show unlocks building drag and BattleShop.hide locks it",
+    "generated/game.beautified.js:89182+ BuildItemBase drag handlers",
+    "generated/game.beautified.js:90242+ BuildItem onDrag"
+  ],
+  "regressions": {
+    "javascriptVerify": "pass",
+    "build": "pass",
+    "stage2ShopSmoke": "pass",
+    "freeFirstTreeClear": "pass"
+  },
+  "sourceRuntimeSha256": "DA87C09423C439E3A9BA671EFD79FD26B0A7C98921577B994274E702D4779F2E"
+}

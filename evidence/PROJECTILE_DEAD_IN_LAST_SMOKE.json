@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "source": "FireBullet.deadInLast + BMeteoriteSupport.forceTargets production adapter",
+  "cachedDeathPoint": {
+    "x": 420,
+    "y": 200
+  },
+  "contacts": {
+    "bystanderDamageAfterDeath": 0,
+    "deadOriginalHpAfterFakeHit": 0,
+    "forcedLiveTargetDamage": 10,
+    "forcedLiveBystanderDamage": 0
+  },
+  "evidence": "generated/game.beautified.js:69575-69587,69888-69945,100046-100058,104917-104975",
+  "assertions": {
+    "deadInLastDefaultsOff": true,
+    "targetMovementRefreshesCachedDeathPoint": true,
+    "targetDeathDisablesAutoFlow": true,
+    "deathPointProjectilePersistsUntilFakeContact": true,
+    "postDeathBystanderIsIgnored": true,
+    "fake50By50HitBoxConsumesProjectile": true,
+    "deadOriginalReceivesNoAdditionalDamage": true,
+    "targetDeathWithin50ConsumesImmediately": true,
+    "forceTargetsRejectsLiveBystander": true,
+    "forceTargetsStillHitsIntendedLiveTarget": true
+  },
+  "runtime": {
+    "route": "http://127.0.0.1:8131/?test=projectile-dead-in-last",
+    "consoleErrors": 0,
+    "runtimeSha256": "A669717F2FBBAC08D941E6B7832DD24C3F86FA2356543E5FBB51F9AFC3E32EB1",
+    "verifiedAtUtc": "2026-08-21T03:10:43.5314370Z"
+  }
+}

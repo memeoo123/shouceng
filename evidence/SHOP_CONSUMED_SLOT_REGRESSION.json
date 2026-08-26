@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "reportedSymptom": "two gray button placeholders remain in the shop after two buildings are placed",
+  "rootCause": "consumeShopItem enabled reconstruction-only CatalogUsed images backed by res/button_gray.png",
+  "fix": "a consumed shop item now hides both its item image and CatalogUsed placeholder, leaving the slot empty",
+  "browserValidation": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=shop",
+    "assertions": {
+      "consumedSlotCleared": true,
+      "shopSmoke": true,
+      "runtimeErrors": 0
+    }
+  },
+  "regression": {
+    "allEnemyVariants": 18,
+    "allEnemyMechanics": true,
+    "fiveWaveVictory": true,
+    "kills": 35,
+    "experience": 390,
+    "fightLevel": 7,
+    "castleHp": 975,
+    "runtimeErrors": 0
+  },
+  "runtimeSha256": "03DFE4BA471A003091A125DDED4EAE4434BCA20DFC067F03645A934AE1DBBB58"
+}

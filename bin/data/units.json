@@ -1,0 +1,544 @@
+[
+  {
+    "id": "-b_CD2EDAAF",
+    "bodies": [
+      "Crossbowman1",
+      "Crossbowman2",
+      "Crossbowman3",
+      "Crossbowman4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 75,
+    "attack": 35,
+    "attackSpeed": 0.8,
+    "speed": 1,
+    "range": 6,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 15,
+    "fireType": null,
+    "traits": {},
+    "changeToElite": "jr-b_83DF90AF",
+    "changeToBoss": "-btl_C78D211",
+    "zoom": 1,
+    "nameToken": "5byp5YW1"
+  },
+  {
+    "id": "-btl_C78D211",
+    "bodies": [
+      "Crossbowman1",
+      "Crossbowman2",
+      "Crossbowman3",
+      "Crossbowman4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 1875,
+    "attack": 210,
+    "attackSpeed": 0.4,
+    "speed": 0.5,
+    "range": 6.6000000000000005,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 15,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1,
+      "Repel": [
+        12,
+        0.35
+      ],
+      "RepelResist": 1
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 2,
+    "nameToken": "5byp5YW1"
+  },
+  {
+    "id": "db_DF32E2C2",
+    "bodies": [
+      "Mauler1",
+      "Mauler2",
+      "Mauler3",
+      "Mauler4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 400,
+    "attack": 10,
+    "attackSpeed": 0.6666666666666667,
+    "speed": 0.9,
+    "range": 1,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {},
+    "changeToElite": "jrdb_91C3A8C2",
+    "changeToBoss": "dbtl_F4296D79",
+    "zoom": 1,
+    "nameToken": "55u+5YW1"
+  },
+  {
+    "id": "dbtl_F4296D79",
+    "bodies": [
+      "Mauler1",
+      "Mauler2",
+      "Mauler3",
+      "Mauler4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 10000,
+    "attack": 60,
+    "attackSpeed": 0.33333333333333337,
+    "speed": 0.45,
+    "range": 2,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1,
+      "Repel": [
+        12,
+        0.35
+      ],
+      "RepelResist": 1
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 2,
+    "nameToken": "55u+5YW1"
+  },
+  {
+    "id": "fs_18B222C3",
+    "bodies": [
+      "Mage1",
+      "Mage2",
+      "Mage3",
+      "Mage4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 100,
+    "attack": 60,
+    "attackSpeed": 0.5833333333333334,
+    "speed": 1.1,
+    "range": 4.5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 19.5,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1
+    },
+    "changeToElite": "jrfs_564368C3",
+    "changeToBoss": "fstl_76565908",
+    "zoom": 1,
+    "nameToken": "5rOV5biI"
+  },
+  {
+    "id": "fstl_76565908",
+    "bodies": [
+      "Mage1",
+      "Mage2",
+      "Mage3",
+      "Mage4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 2500,
+    "attack": 360,
+    "attackSpeed": 0.2916666666666667,
+    "speed": 0.55,
+    "range": 4.95,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 19.5,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1,
+      "Repel": [
+        12,
+        0.35
+      ],
+      "RepelResist": 1
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 2,
+    "nameToken": "5rOV5biI"
+  },
+  {
+    "id": "gb_E916AA75",
+    "bodies": [
+      "Shooter1",
+      "Shooter2",
+      "Shooter3",
+      "Shooter4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 75,
+    "attack": 23,
+    "attackSpeed": 1,
+    "speed": 1.3,
+    "range": 5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 18,
+    "fireType": null,
+    "traits": {},
+    "changeToElite": "jrgb_A7E7E075",
+    "changeToBoss": "gbtl_27AAAA80",
+    "zoom": 1,
+    "nameToken": "5byT5YW1"
+  },
+  {
+    "id": "gbtl_27AAAA80",
+    "bodies": [
+      "Shooter1",
+      "Shooter2",
+      "Shooter3",
+      "Shooter4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 1875,
+    "attack": 138,
+    "attackSpeed": 0.5,
+    "speed": 0.65,
+    "range": 5.5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 18,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1,
+      "Repel": [
+        12,
+        0.35
+      ],
+      "RepelResist": 1
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 2,
+    "nameToken": "5byT5YW1"
+  },
+  {
+    "id": "jr-b_83DF90AF",
+    "bodies": [
+      "Crossbowman1",
+      "Crossbowman2",
+      "Crossbowman3",
+      "Crossbowman4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 150,
+    "attack": 70,
+    "attackSpeed": 0.8,
+    "speed": 1,
+    "range": 6.6000000000000005,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 15,
+    "fireType": null,
+    "traits": {
+      "Repel": [
+        12,
+        0.3
+      ]
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 1.5,
+    "nameToken": "5byp5YW1"
+  },
+  {
+    "id": "jrdb_91C3A8C2",
+    "bodies": [
+      "Mauler1",
+      "Mauler2",
+      "Mauler3",
+      "Mauler4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 800,
+    "attack": 20,
+    "attackSpeed": 0.6666666666666667,
+    "speed": 0.9,
+    "range": 1.5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {
+      "Repel": [
+        12,
+        0.3
+      ]
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 1.5,
+    "nameToken": "55u+5YW1"
+  },
+  {
+    "id": "jrfs_564368C3",
+    "bodies": [
+      "Mage1",
+      "Mage2",
+      "Mage3",
+      "Mage4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 200,
+    "attack": 120,
+    "attackSpeed": 0.5833333333333334,
+    "speed": 1.1,
+    "range": 4.95,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 19.5,
+    "fireType": null,
+    "traits": {
+      "Repel": [
+        12,
+        0.3
+      ]
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 1.5,
+    "nameToken": "5rOV5biI"
+  },
+  {
+    "id": "jrgb_A7E7E075",
+    "bodies": [
+      "Shooter1",
+      "Shooter2",
+      "Shooter3",
+      "Shooter4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 150,
+    "attack": 46,
+    "attackSpeed": 1,
+    "speed": 1.3,
+    "range": 5.5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 18,
+    "fireType": null,
+    "traits": {
+      "Repel": [
+        12,
+        0.3
+      ]
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 1.5,
+    "nameToken": "5byT5YW1"
+  },
+  {
+    "id": "jrjs_D1DC19C8",
+    "bodies": [
+      "Swordsman1",
+      "Swordsman2",
+      "Swordsman3",
+      "Swordsman4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 600,
+    "attack": 60,
+    "attackSpeed": 1.2,
+    "speed": 1.1,
+    "range": 1.5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {
+      "Repel": [
+        12,
+        0.3
+      ]
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 1.5,
+    "nameToken": "5YmR5aOr"
+  },
+  {
+    "id": "jrqb_65A8CDF2",
+    "bodies": [
+      "Knight1",
+      "Knight2",
+      "Knight3",
+      "Knight4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 700,
+    "attack": 80,
+    "attackSpeed": 1,
+    "speed": 1.7,
+    "range": 1.5,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {
+      "Repel": [
+        12,
+        0.3
+      ]
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 1.5,
+    "nameToken": "6aqR5YW1"
+  },
+  {
+    "id": "js_9F2D53C8",
+    "bodies": [
+      "Swordsman1",
+      "Swordsman2",
+      "Swordsman3",
+      "Swordsman4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 300,
+    "attack": 30,
+    "attackSpeed": 1.2,
+    "speed": 1.1,
+    "range": 1,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {},
+    "changeToElite": "jrjs_D1DC19C8",
+    "changeToBoss": "jstl_B2A046F6",
+    "zoom": 1,
+    "nameToken": "5YmR5aOr"
+  },
+  {
+    "id": "jstl_B2A046F6",
+    "bodies": [
+      "Swordsman1",
+      "Swordsman2",
+      "Swordsman3",
+      "Swordsman4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 7500,
+    "attack": 180,
+    "attackSpeed": 0.6,
+    "speed": 0.55,
+    "range": 2,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1,
+      "Repel": [
+        12,
+        0.35
+      ],
+      "RepelResist": 1
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 2,
+    "nameToken": "5YmR5aOr"
+  },
+  {
+    "id": "qb_2B5987F2",
+    "bodies": [
+      "Knight1",
+      "Knight2",
+      "Knight3",
+      "Knight4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 350,
+    "attack": 40,
+    "attackSpeed": 1,
+    "speed": 1.7,
+    "range": 1,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {},
+    "changeToElite": "jrqb_65A8CDF2",
+    "changeToBoss": "qbtl_16B73A36",
+    "zoom": 1,
+    "nameToken": "6aqR5YW1"
+  },
+  {
+    "id": "qbtl_16B73A36",
+    "bodies": [
+      "Knight1",
+      "Knight2",
+      "Knight3",
+      "Knight4"
+    ],
+    "class": null,
+    "quality": null,
+    "hp": 8750,
+    "attack": 240,
+    "attackSpeed": 0.5,
+    "speed": 0.85,
+    "range": 2,
+    "crit": 0.05,
+    "critDamage": 2,
+    "dodge": 0.05,
+    "bulletSpeed": 0,
+    "fireType": null,
+    "traits": {
+      "AoeAtk": 1,
+      "Repel": [
+        12,
+        0.35
+      ],
+      "RepelResist": 1
+    },
+    "changeToElite": null,
+    "changeToBoss": null,
+    "zoom": 2,
+    "nameToken": "6aqR5YW1"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "shoucheng-layaair-2.13.1-restoration",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Evidence-backed local restoration of wx4f4f3709865004a2/3",
+  "scripts": {
+    "build": "node build.js",
+    "derive-team-frames": "python tools/generate_enemy_team_frames.py",
+    "start": "node serve.js",
+    "sweep:battles": "node tools/run_all_stage_battle_sweep.js",
+    "verify": "node --check src/Main.js"
+  }
+}

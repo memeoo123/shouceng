@@ -1,0 +1,78 @@
+{
+  "schemaVersion": "1.0",
+  "target": "wx4f4f3709865004a2/3",
+  "runtime": "LayaAir 2.13.1 + FairyGUI v6",
+  "route": "?test=meta",
+  "result": "pass",
+  "fairyPackages": {
+    "requested": 27,
+    "loaded": 27,
+    "errors": []
+  },
+  "pages": [
+    "ShopLayer",
+    "EquiptLayer",
+    "MainPage",
+    "Institute",
+    "Party"
+  ],
+  "techRows": 41,
+  "profileVersion": 2,
+  "networkPolicy": {
+    "mode": "offline-disabled",
+    "disabled": [
+      "account identity",
+      "remote shop and payment",
+      "rewarded ads",
+      "cloud save",
+      "analytics",
+      "remote daily-event settlement"
+    ]
+  },
+  "assertions": {
+    "allRequestedFairyPackagesLoaded": true,
+    "originalFiveTabShellCreated": true,
+    "allFiveTabsSwitchLocally": true,
+    "mainPageIsDefault": true,
+    "networkAndAdControlsSuppressed": true,
+    "exactTechCatalogLoaded": true,
+    "originalTechRootsUnlocked": true,
+    "nextTierRequiresMaxedParent": true,
+    "exactTechUpgradeConsumesAndUnlocks": true,
+    "techEffectUsesOriginalRepeatedMultiplier": true,
+    "offlineProfileSchemaPresent": true,
+    "stageSelectionBoundedToUnlock": true,
+    "battleRootHiddenOnMeta": true,
+    "metaOwnsInputOnMeta": true,
+    "battleOwnsInputAfterTransition": true
+  },
+  "regressions": {
+    "shopAndObstacleClear": {
+      "result": "pass",
+      "route": "?stage=2&test=shop",
+      "firstTreePrice": 0,
+      "secondTreePrice": 1,
+      "obstacleClearExact": true,
+      "consoleErrors": 0
+    },
+    "representativeBattle": {
+      "result": "pass",
+      "route": "?stage=2&test=battle",
+      "victory": true,
+      "stage": 2,
+      "waves": 5,
+      "kills": 35,
+      "exp": 390,
+      "battleMoney": 103,
+      "consoleErrors": 0
+    }
+  },
+  "evidence": [
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:124614-124657",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:125542-125760",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:129186-129235",
+    "targets/wx4f4f3709865004a2/3/generated/game.beautified.js:25995-26007",
+    "targets/wx4f4f3709865004a2/3/generated/fairygui-meta-restored",
+    "LayaProject2131Recovered/src/Main.js"
+  ]
+}

@@ -1,0 +1,1390 @@
+{
+  "1": {
+    "Id": 1,
+    "Weight": 90,
+    "EffectKey": "UnitHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "5YmR5aOr5Yqg55Sf5ZG9"
+  },
+  "2": {
+    "Id": 2,
+    "Weight": 90,
+    "EffectKey": "UnitAtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "5YmR5aOr5Yqg5pS76YCf"
+  },
+  "3": {
+    "Id": 3,
+    "Weight": 90,
+    "EffectKey": "UnitCnter100Crit",
+    "EffectParams": [
+      2
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "2d240bc4a9aab8f41a84f35e7e74bd75",
+    "Name": "5YmR5aOr5Zu65a6a5pq05Ye7"
+  },
+  "4": {
+    "Id": 4,
+    "Weight": 90,
+    "EffectKey": "UnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "5YmR5aOr5Yqg5pS75Ye7"
+  },
+  "5": {
+    "Id": 5,
+    "NeedId": 3,
+    "Weight": 120,
+    "EffectKey": "UnitCnterCritCntSub",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "f7e1a1fbe203d13c0938fb1cd9577524",
+    "Name": "5YmR5aOr5pq05Ye75YeP5qyh"
+  },
+  "6": {
+    "Id": 6,
+    "Weight": 90,
+    "EffectKey": "UnitCritDmg",
+    "EffectParams": [
+      0.75
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "c7a0724d0610dbc44c05f72e33b36520",
+    "Name": "5YmR5aOr5Yqg5pq05Lyk"
+  },
+  "7": {
+    "Id": 7,
+    "Weight": 120,
+    "EffectKey": "UnitCritKill",
+    "EffectParams": [
+      0.015
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "1a6b825b23cef6a4f2d7c507c826ea3b",
+    "Name": "5YmR5aOr5pq05Ye76Ie05q27"
+  },
+  "8": {
+    "Id": 8,
+    "Weight": 90,
+    "EffectKey": "UnitSpeed",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "4443a7408c620a59da793c61b3332119",
+    "Name": "5YmR5aOr5Yqg56e76YCf"
+  },
+  "9": {
+    "Id": 9,
+    "NeedId": 7,
+    "Weight": 360,
+    "EffectKey": "UnitCritKillRateUp",
+    "EffectParams": [
+      0.015
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "07eb751d4d8554652aff643e0ca87166",
+    "Name": "5YmR5aOr5pq05Ye76Ie05q275aKe5by6"
+  },
+  "10": {
+    "Id": 10,
+    "Weight": 90,
+    "EffectKey": "UnitHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "5byT5omL5Yqg55Sf5ZG9"
+  },
+  "11": {
+    "Id": 11,
+    "Weight": 90,
+    "EffectKey": "UnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "5byT5omL5Yqg5pS75Ye7"
+  },
+  "12": {
+    "Id": 12,
+    "Weight": 90,
+    "EffectKey": "UnitScattering",
+    "EffectParams": [
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "8e7b4e16105802993ee5f5243dbc9b74",
+    "Name": "5byT5omL5pWj5bCE"
+  },
+  "13": {
+    "Id": 13,
+    "Weight": 90,
+    "EffectKey": "UnitDodge",
+    "EffectParams": [
+      0.05
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "109ff1348485497fa7a5e23da23ed8ba",
+    "Name": "5byT5omL5Yqg6Zeq6YG/"
+  },
+  "14": {
+    "Id": 14,
+    "NeedId": 12,
+    "Weight": 120,
+    "EffectKey": "UnitScatteringCnt",
+    "EffectParams": [
+      2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "d12c1f18a29d3e1a2c3b0f44ed0dece0",
+    "Name": "5byT5omL5pWj5bCE5aKe5by6"
+  },
+  "15": {
+    "Id": 15,
+    "Weight": 90,
+    "EffectKey": "UnitAtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "5byT5omL5Yqg5pS76YCf"
+  },
+  "16": {
+    "Id": 16,
+    "Weight": 120,
+    "EffectKey": "UnitArrowBarrage",
+    "EffectParams": [
+      2,
+      0.3,
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "be089cbab0aa531100fc505a6bb20416",
+    "Name": "5byT5omL566t6Zuo"
+  },
+  "17": {
+    "Id": 17,
+    "Weight": 90,
+    "EffectKey": "UnitAtkRange",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "5byT5omL5Yqg5bCE56iL"
+  },
+  "18": {
+    "Id": 18,
+    "NeedId": 16,
+    "Weight": 360,
+    "EffectKey": "UnitArrowBarrageDmgUp",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "b0a5788050812ed2c23a43aa855683df",
+    "Name": "5byT5omL566t6Zuo5aKe5by6"
+  },
+  "19": {
+    "Id": 19,
+    "Weight": 90,
+    "EffectKey": "UnitHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "6aqR5YW15Yqg55Sf5ZG9"
+  },
+  "20": {
+    "Id": 20,
+    "Weight": 90,
+    "EffectKey": "UnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "6aqR5YW15Yqg5pS75Ye7"
+  },
+  "21": {
+    "Id": 21,
+    "Weight": 90,
+    "EffectKey": "UnitCharge",
+    "EffectParams": [
+      0.3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "f5f5067626b8eb74cf027ae47fe53c9b",
+    "Name": "6aqR5YW15Yay6ZSL"
+  },
+  "22": {
+    "Id": 22,
+    "Weight": 90,
+    "EffectKey": "UnitSpeed",
+    "EffectParams": [
+      0.15
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "4443a7408c620a59da793c61b3332119",
+    "Name": "6aqR5YW15Yqg56e76YCf"
+  },
+  "23": {
+    "Id": 23,
+    "NeedId": 21,
+    "Weight": 120,
+    "EffectKey": "UnitChargeDizziness",
+    "EffectParams": [
+      3
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "72f2efa856257cf8d2f4f3627a90b05e",
+    "Name": "6aqR5YW15Yay6ZSL5aKe5by6"
+  },
+  "24": {
+    "Id": 24,
+    "Weight": 90,
+    "EffectKey": "UnitDodge",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "109ff1348485497fa7a5e23da23ed8ba",
+    "Name": "6aqR5YW15Yqg6Zeq6YG/"
+  },
+  "25": {
+    "Id": 25,
+    "Weight": 120,
+    "EffectKey": "UnitDodgeNextAtkDmgUp",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "5fddc30e042b50c49cde22aa50d6ce1b",
+    "Name": "6aqR5YW16Zeq6YG/5ZCO5pS75Ye75o+Q5Y2H"
+  },
+  "26": {
+    "Id": 26,
+    "Weight": 90,
+    "EffectKey": "UnitCrit",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "8246165436eb4857fcca2db5a740e524",
+    "Name": "6aqR5YW15Yqg5pq05Ye7"
+  },
+  "27": {
+    "Id": 27,
+    "Weight": 360,
+    "EffectKey": "UnitSeriousInjuryBuff",
+    "EffectParams": [
+      0.2,
+      0.1,
+      2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "26b103f4a9fdcd19f0e7d31922e9d042",
+    "Name": "6aqR5YW15piT5Lyk"
+  },
+  "28": {
+    "Id": 28,
+    "Weight": 90,
+    "EffectKey": "UnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "5byp5YW15Yqg5pS75Ye7"
+  },
+  "29": {
+    "Id": 29,
+    "Weight": 90,
+    "EffectKey": "UnitAtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "5byp5YW15Yqg5pS76YCf"
+  },
+  "30": {
+    "Id": 30,
+    "Weight": 90,
+    "EffectKey": "UnitConShoot",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "4dffb027c6540e4d4e7402542314842e",
+    "Name": "5byp5YW16L+e5bCE"
+  },
+  "31": {
+    "Id": 31,
+    "Weight": 90,
+    "EffectKey": "UnitCrit",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "8246165436eb4857fcca2db5a740e524",
+    "Name": "5byp5YW15Yqg5pq05Ye7"
+  },
+  "32": {
+    "Id": 32,
+    "NeedId": 30,
+    "Weight": 120,
+    "EffectKey": "UnitConShootCntUp",
+    "EffectParams": [
+      2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "db05e92fb1d2c013dd1a71060d7a1a74",
+    "Name": "5byp5YW16L+e5bCE5aKe5by6"
+  },
+  "33": {
+    "Id": 33,
+    "Weight": 90,
+    "EffectKey": "UnitAtkRange",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "5byp5YW15Yqg5bCE56iL"
+  },
+  "34": {
+    "Id": 34,
+    "Weight": 360,
+    "EffectKey": "UnitThrough",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "23a01dcdb530a606dce22765784a7444",
+    "Name": "5byp5YW156m/6YCP"
+  },
+  "35": {
+    "Id": 35,
+    "Weight": 90,
+    "EffectKey": "UnitCritDmg",
+    "EffectParams": [
+      0.75
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "c7a0724d0610dbc44c05f72e33b36520",
+    "Name": "5byp5YW15Yqg5pq05Lyk"
+  },
+  "36": {
+    "Id": 36,
+    "Weight": 90,
+    "EffectKey": "UnitHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "5byp5YW15Yqg55Sf5ZG9"
+  },
+  "37": {
+    "Id": 37,
+    "Weight": 90,
+    "EffectKey": "UnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "5rOV5biI5Yqg5pS75Ye7"
+  },
+  "38": {
+    "Id": 38,
+    "Weight": 90,
+    "EffectKey": "UnitHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "5rOV5biI5Yqg55Sf5ZG9"
+  },
+  "39": {
+    "Id": 39,
+    "Weight": 90,
+    "EffectKey": "UnitMeteorite",
+    "EffectParams": [
+      1.5,
+      0.3,
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "1fa9b5937deb261ab684e6a52db44c90",
+    "Name": "5rOV5biI6Zmo55+z"
+  },
+  "40": {
+    "Id": 40,
+    "Weight": 90,
+    "EffectKey": "UnitCrit",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "8246165436eb4857fcca2db5a740e524",
+    "Name": "5rOV5biI5Yqg5pq05Ye7"
+  },
+  "41": {
+    "Id": 41,
+    "NeedId": 39,
+    "Weight": 120,
+    "EffectKey": "UnitMeteoriteDmgUp",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "f171d0ac9122290f4f518a8e6f5c4f41",
+    "Name": "5rOV5biI6Zmo55+z5Lyk5a6z5aKe5by6"
+  },
+  "42": {
+    "Id": 42,
+    "Weight": 90,
+    "EffectKey": "UnitAtkRange",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "5rOV5biI5Yqg5bCE56iL"
+  },
+  "43": {
+    "Id": 43,
+    "NeedId": 39,
+    "Weight": 120,
+    "EffectKey": "UnitMeteoriteRangeUp",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "6Zmo55+z55qE6IyD5Zu0KyVkMQ==",
+    "Name": "5rOV5biI6Zmo55+z6IyD5Zu05aKe5by6"
+  },
+  "44": {
+    "Id": 44,
+    "Weight": 90,
+    "EffectKey": "UnitCritDmg",
+    "EffectParams": [
+      0.75
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "c7a0724d0610dbc44c05f72e33b36520",
+    "Name": "5rOV5biI5Yqg5pq05Lyk"
+  },
+  "45": {
+    "Id": 45,
+    "NeedId": 39,
+    "Weight": 360,
+    "EffectKey": "UnitMeteoriteBurnArea",
+    "EffectParams": [
+      0.15,
+      3
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "b3c27263144c870275580d9393f817fc",
+    "Name": "5rOV5biI6Zmo55+z54eD54On"
+  },
+  "46": {
+    "Id": 46,
+    "Weight": 90,
+    "EffectKey": "UnitHp",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "55u+5YW15Yqg55Sf5ZG9"
+  },
+  "47": {
+    "Id": 47,
+    "Weight": 90,
+    "EffectKey": "UnitSpeed",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "4443a7408c620a59da793c61b3332119",
+    "Name": "55u+5YW15Yqg56e76YCf"
+  },
+  "48": {
+    "Id": 48,
+    "Weight": 90,
+    "EffectKey": "UnitDamageReflectionByDmg",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "3075a658bb9e5f401822b7dfbc18308b",
+    "Name": "55u+5YW15Y+N5bCE5Lyk5a6z"
+  },
+  "49": {
+    "Id": 49,
+    "Weight": 90,
+    "EffectKey": "AtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "4dc80cf92ca6af1a40390f46eba094fd",
+    "Name": "55u+5YW15Yqg6K6t57uD6YCf5bqm"
+  },
+  "50": {
+    "Id": 50,
+    "Weight": 120,
+    "EffectKey": "UnitShield",
+    "EffectParams": [
+      0.3
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "da4df2b9284f3ffb04b47ce6a265bda5",
+    "Name": "55u+5YW15oqk55u+"
+  },
+  "51": {
+    "Id": 51,
+    "Weight": 90,
+    "EffectKey": "UnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "55u+5YW15Yqg5pS75Ye7"
+  },
+  "52": {
+    "Id": 52,
+    "NeedId": 50,
+    "Weight": 120,
+    "EffectKey": "UnitShieldExplosion",
+    "EffectParams": [
+      2,
+      0.25
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "a461dbd3fd5eb3260d0aa9e6d4a8d97a",
+    "Name": "55u+5YW15oqk55u+54iG54K4"
+  },
+  "53": {
+    "Id": 53,
+    "Weight": 90,
+    "EffectKey": "UnitAtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "55u+5YW15Yqg5pS76YCf"
+  },
+  "54": {
+    "Id": 54,
+    "NeedId": 50,
+    "Weight": 360,
+    "EffectKey": "UnitShieldValUp",
+    "EffectParams": [
+      0.5
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "17c8db2bf449198d8caf0f577142ad5b",
+    "Name": "55u+5YW15oqk55u+5aKe5by6"
+  },
+  "55": {
+    "Id": 55,
+    "Weight": 90,
+    "EffectKey": "AtkRange",
+    "EffectParams": [
+      0.15
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "566t5aGU5Yqg5bCE56iL"
+  },
+  "56": {
+    "Id": 56,
+    "Weight": 90,
+    "EffectKey": "Atk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "566t5aGU5Yqg5pS75Ye7"
+  },
+  "57": {
+    "Id": 57,
+    "Weight": 90,
+    "EffectKey": "ConShoot",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "9414977ae88ec153a0a6c0bb53add879",
+    "Name": "566t5aGU6L+e5bCE"
+  },
+  "58": {
+    "Id": 58,
+    "Weight": 90,
+    "EffectKey": "AtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "566t5aGU5Yqg5pS76YCf"
+  },
+  "59": {
+    "Id": 59,
+    "Weight": 120,
+    "EffectKey": "RateRepel",
+    "EffectParams": [
+      0.15
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "9a1049f5b17dbbc55201d0af435cf458",
+    "Name": "566t5aGU5Ye76YCA"
+  },
+  "60": {
+    "Id": 60,
+    "Weight": 90,
+    "EffectKey": "Hp",
+    "EffectParams": [
+      0.3
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "566t5aGU5Yqg55Sf5ZG9"
+  },
+  "61": {
+    "Id": 61,
+    "Weight": 120,
+    "EffectKey": "AdditionDmgByMaxHpLimitWithAtk",
+    "EffectParams": [
+      0.1,
+      0.01,
+      2
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "c02cd82655c40c76d5765a29a6d7aa61",
+    "Name": "566t5aGU6aKd5aSW5Lyk5a6z"
+  },
+  "62": {
+    "Id": 62,
+    "Weight": 90,
+    "EffectKey": "AtkRange",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "566t5aGU5Yqg5bCE56iLMg=="
+  },
+  "63": {
+    "Id": 63,
+    "Weight": 360,
+    "EffectKey": "Through",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "23a01dcdb530a606dce22765784a7444",
+    "Name": "566t5aGU56m/6YCP"
+  },
+  "64": {
+    "Id": 64,
+    "Weight": 90,
+    "EffectKey": "Atk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "5oqV55+z5py65Yqg5pS75Ye7"
+  },
+  "65": {
+    "Id": 65,
+    "Weight": 90,
+    "EffectKey": "AtkRange",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "5oqV55+z5py65Yqg5bCE56iL"
+  },
+  "66": {
+    "Id": 66,
+    "Weight": 90,
+    "EffectKey": "RateTrap",
+    "EffectParams": [
+      1.5,
+      0.3,
+      0.4,
+      2
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "b79c5599e06f8657b51dea529b3a0feb",
+    "Name": "5oqV55+z5py655Sf5oiQ6Zm36Zix"
+  },
+  "67": {
+    "Id": 67,
+    "Weight": 90,
+    "EffectKey": "AtkSpd",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "5oqV55+z5py65Yqg5pS76YCf"
+  },
+  "68": {
+    "Id": 68,
+    "Weight": 120,
+    "EffectKey": "CritWithCnt",
+    "EffectParams": [
+      0.02
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "22fddc4d8dcc47851871369f5939b3dd",
+    "Name": "5oqV55+z5py66ZuG5L2T5Yqg5pq05Ye7"
+  },
+  "69": {
+    "Id": 69,
+    "NeedId": 66,
+    "Weight": 360,
+    "EffectKey": "TrapTimeRangeUp",
+    "EffectParams": [
+      0.2,
+      0.3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "7373f299aa7b86b261ddca74376a60b9",
+    "Name": "5oqV55+z5py66Zm36Zix5aKe5by6"
+  },
+  "70": {
+    "Id": 70,
+    "Weight": 120,
+    "EffectKey": "AtkWithCnt",
+    "EffectParams": [
+      0.08
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "a4d684ed81aa21ba8e80d9ec5b5458da",
+    "Name": "5oqV55+z5py66ZuG5L2T5Yqg5pS75Ye7"
+  },
+  "71": {
+    "Id": 71,
+    "NeedId": 66,
+    "Weight": 360,
+    "EffectKey": "TrapRateUp",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "6720f7f37ffa491b03491a7d5547b4c5",
+    "Name": "5oqV55+z5py65b+F5Ye66Zm36Zix"
+  },
+  "72": {
+    "Id": 72,
+    "Weight": 120,
+    "EffectKey": "AtkSpdWithCnt",
+    "EffectParams": [
+      0.05
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "3386dc8c4ea4dcb228a11ea93ec7bd2f",
+    "Name": "5oqV55+z5py66ZuG5L2T5Yqg5pS76YCf"
+  },
+  "73": {
+    "Id": 73,
+    "Weight": 90,
+    "EffectKey": "Atk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "55S15aGU5Yqg5pS75Ye7"
+  },
+  "74": {
+    "Id": 74,
+    "Weight": 90,
+    "EffectKey": "AtkSpd",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "efac89afc4407912d7a82551973e6dc5",
+    "Name": "55S15aGU5Yqg5pS76YCf"
+  },
+  "75": {
+    "Id": 75,
+    "Weight": 90,
+    "EffectKey": "Jump",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "2e7085ff289538565716257a7a43db03",
+    "Name": "55S15aGU6Lez6LeD"
+  },
+  "76": {
+    "Id": 76,
+    "Weight": 90,
+    "EffectKey": "Crit",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "8246165436eb4857fcca2db5a740e524",
+    "Name": "55S15aGU5Yqg5pq05Ye7"
+  },
+  "77": {
+    "Id": 77,
+    "Weight": 120,
+    "EffectKey": "ParalysisBuff",
+    "EffectParams": [
+      0.2,
+      1
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "741ab3773b83b7b8101ed9f64b95cc4b",
+    "Name": "55S15aGU6bq755e55pWM5Lq6"
+  },
+  "78": {
+    "Id": 78,
+    "Weight": 90,
+    "EffectKey": "AtkRange",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "55S15aGU5Yqg5bCE56iL"
+  },
+  "79": {
+    "Id": 79,
+    "NeedId": 75,
+    "Weight": 120,
+    "EffectKey": "Jump",
+    "EffectParams": [
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "17b1e822a43680bab62ac296a38b0a4a",
+    "Name": "55S15aGU6Lez6LeD5aKe5by6"
+  },
+  "80": {
+    "Id": 80,
+    "Weight": 90,
+    "EffectKey": "Hp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "79ad00e3d9a13b665a010ad8bc98fd84",
+    "Name": "55S15aGU5Yqg55Sf5ZG9"
+  },
+  "81": {
+    "Id": 81,
+    "Weight": 360,
+    "EffectKey": "ConShoot",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "82a17497265c81374cb494769142bedf",
+    "Name": "55S15aGU6L+e5bCE"
+  },
+  "82": {
+    "Id": 82,
+    "Weight": 90,
+    "EffectKey": "LaserTime",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "279c5d13e1540d87f678691db953bc96",
+    "Name": "6ZWc5aGU5Yqg5oyB57ut5pe26Ze0"
+  },
+  "83": {
+    "Id": 83,
+    "Weight": 90,
+    "EffectKey": "Atk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7aec9b7f1d52e9ca11519c1ed0de79f6",
+    "Name": "6ZWc5aGU5Yqg5pS75Ye7"
+  },
+  "84": {
+    "Id": 84,
+    "Weight": 90,
+    "EffectKey": "Jump",
+    "EffectParams": [
+      1
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "d78a5a315ed1028e9c77c89ddbb2a328",
+    "Name": "6ZWc5aGU5oqY5bCE"
+  },
+  "85": {
+    "Id": 85,
+    "Weight": 90,
+    "EffectKey": "Crit",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "8246165436eb4857fcca2db5a740e524",
+    "Name": "6ZWc5aGU5Yqg5pq05Ye7"
+  },
+  "86": {
+    "Id": 86,
+    "Weight": 120,
+    "EffectKey": "FreezeBuff",
+    "EffectParams": [
+      0.1,
+      2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "58aed9d0d36d5d4009ab8b1d81e3a969",
+    "Name": "6ZWc5aGU5Ya757uT5pWM5Lq6"
+  },
+  "87": {
+    "Id": 87,
+    "Weight": 90,
+    "EffectKey": "AtkRange",
+    "EffectParams": [
+      0.3
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "24789770f40d869d90c9de9f09abb740",
+    "Name": "6ZWc5aGU5Yqg5bCE56iL"
+  },
+  "88": {
+    "Id": 88,
+    "NeedId": 84,
+    "Weight": 360,
+    "EffectKey": "Jump",
+    "EffectParams": [
+      2
+    ],
+    "Quality": 3,
+    "Immediately": 0,
+    "Info": "1ab4ddde2ee5e9ef1e7c3f708b80bf41",
+    "Name": "6ZWc5aGU5oqY5bCE5aKe5by6"
+  },
+  "89": {
+    "Id": 89,
+    "Weight": 90,
+    "EffectKey": "CritDmg",
+    "EffectParams": [
+      0.75
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "c7a0724d0610dbc44c05f72e33b36520",
+    "Name": "6ZWc5aGU5Yqg5pq05Lyk"
+  },
+  "90": {
+    "Id": 90,
+    "Weight": 90,
+    "EffectKey": "LaserTime",
+    "EffectParams": [
+      0.25
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "279c5d13e1540d87f678691db953bc96",
+    "Name": "6ZWc5aGU5Yqg5oyB57ut5pe26Ze0Mg=="
+  },
+  "91": {
+    "Id": 91,
+    "Weight": 90,
+    "EffectKey": "ExpAdd",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "55a646f861a5fd8292a6cb058839085c",
+    "Name": "57uP6aqM6I635Y+W5aKe5by6"
+  },
+  "92": {
+    "Id": 92,
+    "Weight": 90,
+    "EffectKey": "UnitRateSpeedBuff",
+    "EffectParams": [
+      0.4,
+      0.3,
+      1.5
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "5c77fbcb096741823183951d903931ac",
+    "Name": "5aOr5YW15Yid5aeL56e76YCf"
+  },
+  "93": {
+    "Id": 93,
+    "Weight": 120,
+    "EffectKey": "UnitRateAtkBuff",
+    "EffectParams": [
+      0.4,
+      0.3,
+      1.5
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "885b8840af27f3264871dfd9b0d887eb",
+    "Name": "5aOr5YW15Yid5aeL5pS75Ye7"
+  },
+  "94": {
+    "Id": 94,
+    "Weight": 90,
+    "EffectKey": "AllUnitAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "38e6c9087f868b1ccaab9118f9612ea4",
+    "Name": "5omA5pyJ5aOr5YW15Yqg5pS75Ye7"
+  },
+  "95": {
+    "Id": 95,
+    "Weight": 90,
+    "EffectKey": "SpeedDownUp",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "0404c56ca239be127ce7743c4ef45f10",
+    "Name": "5pWM5Lq65YeP6YCf5aKe5by6"
+  },
+  "96": {
+    "Id": 96,
+    "Weight": 120,
+    "EffectKey": "IceArrow",
+    "EffectParams": [
+      0.25,
+      0.6,
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "a459ce6a17becfb0488981d9cb8d8d45",
+    "Name": "566t5aGU5YeP5Y+M6YCf"
+  },
+  "97": {
+    "Id": 97,
+    "Weight": 120,
+    "EffectKey": "IceStone",
+    "EffectParams": [
+      0.25,
+      0.6,
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "33019bdd95a64c964c5a91b2792a1a05",
+    "Name": "5oqV55+z5py65YeP5Y+M6YCf"
+  },
+  "98": {
+    "Id": 98,
+    "Weight": 90,
+    "EffectKey": "AllUnitSpeed",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "2fda5432dde51489bb7cd2df9824230e",
+    "Name": "5omA5pyJ5aOr5YW15Yqg56e76YCf"
+  },
+  "99": {
+    "Id": 99,
+    "Weight": 90,
+    "EffectKey": "CritAdd",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "ad1e432ed03611182dbe8c39d393fda4",
+    "Name": "5pq05Ye75Yqg5oiQ5aKe5by6"
+  },
+  "100": {
+    "Id": 100,
+    "Weight": 120,
+    "EffectKey": "FireArrow",
+    "EffectParams": [
+      1,
+      0.2,
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "8ab55f42baa6496b1900c6fe7b118c80",
+    "Name": "566t5aGU54eD54On5pWM5Lq6"
+  },
+  "101": {
+    "Id": 101,
+    "Weight": 120,
+    "EffectKey": "FireStone",
+    "EffectParams": [
+      1,
+      0.2,
+      3
+    ],
+    "Quality": 2,
+    "Immediately": 0,
+    "Info": "64214b94c8537cee5b4a7c9d1399b009",
+    "Name": "5oqV55+z5py654eD54On5pWM5Lq6"
+  },
+  "102": {
+    "Id": 102,
+    "Weight": 90,
+    "EffectKey": "SpeedUp",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "7a959617e38f9ca7e85f2da5b93f641e",
+    "Name": "6YCf5bqm5o+Q5Y2H5aKe5by6"
+  },
+  "103": {
+    "Id": 103,
+    "Weight": 90,
+    "EffectKey": "AllDefenseAtk",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "c4ebd69c006a9c9f7de319054cb6d0ee",
+    "Name": "6Ziy5b6h5aGU6K6+5pa95Yqg5pS75Ye7"
+  },
+  "104": {
+    "Id": 104,
+    "Weight": 90,
+    "EffectKey": "AllBarracksSpeed",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "8c4205f6ca9184837b26e9b8098ce052",
+    "Name": "5YW16JCl6K6+5pa95Yqg6YCf5bqm"
+  },
+  "105": {
+    "Id": 105,
+    "Weight": 90,
+    "EffectKey": "AllWallHp",
+    "EffectParams": [
+      0.3
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "5130f4b373bfd21b06c8940782a599ad",
+    "Name": "5omA5pyJ5qCF5qCP6K6+5pa95Yqg6KGA6YeP"
+  },
+  "106": {
+    "Id": 106,
+    "Weight": 90,
+    "EffectKey": "AtkUp",
+    "EffectParams": [
+      0.2
+    ],
+    "Quality": 2,
+    "Immediately": 1,
+    "Info": "d5b15373c67fe7c8f2f857b5bc5d754b",
+    "Name": "5pS75Ye75o+Q5Y2H5aKe5by6"
+  },
+  "107": {
+    "Id": 107,
+    "Weight": 90,
+    "EffectKey": "AllUnitAtkSpd",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "2ecdb51e75bf593d5bb4965c4abf57a2",
+    "Name": "5omA5pyJ5aOr5YW15Yqg5pS76YCf"
+  },
+  "108": {
+    "Id": 108,
+    "Weight": 90,
+    "EffectKey": "AllUnitHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "a358aa76ac3093a5f2941d346f0f7fbc",
+    "Name": "5omA5pyJ5aOr5YW15Yqg55Sf5ZG9"
+  },
+  "109": {
+    "Id": 109,
+    "Weight": 90,
+    "EffectKey": "AllDefenseHp",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "599283aebb1588bf7d41d878e174561f",
+    "Name": "6Ziy5b6h5aGU6K6+5pa95Yqg6KGA6YeP"
+  },
+  "110": {
+    "Id": 110,
+    "Weight": 90,
+    "EffectKey": "AllDefenseAtkSpd",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "f91cf3f7c40ed6a1670cbe65fe4ebee5",
+    "Name": "6Ziy5b6h5aGU6K6+5pa95Yqg5pS76YCf"
+  },
+  "111": {
+    "Id": 111,
+    "Weight": 90,
+    "EffectKey": "AllDefenseAtkRange",
+    "EffectParams": [
+      0.1
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "f514ee7973db7ac41f70087ee0cb62fa",
+    "Name": "6Ziy5b6h5aGU6K6+5pa95Yqg5bCE56iL"
+  },
+  "112": {
+    "Id": 112,
+    "Weight": 90,
+    "EffectKey": "UnlockLv5Sync",
+    "EffectParams": [
+      5
+    ],
+    "Quality": 1,
+    "Immediately": 1,
+    "Info": "f51606e257fd787616bcf06a448aa2b0",
+    "Name": "6Kej6ZSBNee6pw=="
+  }
+}
+

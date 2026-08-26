@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-19",
+  "target": "wx4f4f3709865004a2/3",
+  "sourceEvidence": {
+    "file": "targets/wx4f4f3709865004a2/3/work/unpacked-min/min/game.js",
+    "fragmentShaderOffset": 812008,
+    "baseUnitEnableOffset": 1448433,
+    "playerUnitDisableOffset": 1965367
+  },
+  "shaderRule": {
+    "predicate": "alpha > 0.4 && blue > red && red < 0.3 && blue > 0.3",
+    "transform": "red = blue * 0.924; green = 0; blue = blue * 0.265"
+  },
+  "generator": "tools/generate_enemy_team_frames.py",
+  "sourceDirectory": "bin/res/units",
+  "derivedDirectory": "bin/res/units-red",
+  "frameCount": 240,
+  "dimensionMismatchCount": 0,
+  "changedPixelCount": 143842,
+  "sourceSetSha256": "842389226449DB4F706E044FCAF80D0D8915258531A2F7566272791F5CE12AC1",
+  "derivedSetSha256": "FD2C993AC929785C8E6E06D50B0B01D877C7500CC356BBAFD83B3CDD517D8D87",
+  "result": "pass"
+}

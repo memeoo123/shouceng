@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-24",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "source": {
+    "runtime": "targets/wx4f4f3709865004a2/3/work/unpacked-min/min/game.js",
+    "offsets": {
+      "initBagSlot": [2337541, 2338416],
+      "productionSpawnItem": 2314419,
+      "productionFlushItem": 2320239,
+      "productionSpecialFlushItem": 2321325,
+      "productionFlushConsume": 2320484,
+      "shopRefreshLevel3WeightFormula": 2337774,
+      "bugGuaranteedRefreshCount": 2337838,
+      "buildSlotAllowConflictFloor": 2390625
+      ,"obstacleClickAndClear": [92727, 92788]
+      ,"obstaclePriceRefreshAndConsume": [112185, 112221]
+    },
+    "shapeTable": "targets/wx4f4f3709865004a2/3/generated/tables/shape.json"
+  },
+  "recoveredRules": {
+    "itemsPerRefresh": 3,
+    "initialGuarantees": ["one random barracks candidate", "one random defense candidate"],
+    "firstButtonRefreshCost": 0,
+    "subsequentButtonRefreshCost": 15,
+    "stage2ItemTypeWeightsRaw": [887, 100, 13],
+    "stage2ItemTypeWeightsNormalized": [0.887, 0.1, 0.013],
+    "itemTypeOrder": ["equipment", "gold", "slot"],
+    "levelWeights": {
+      "level3": "0.06 + (Wave-1)/5*0.015",
+      "level2": "0.06 + (Wave-1)/5*0.03",
+      "level1": "1-level2-level3",
+      "stage2Wave1": [0.88, 0.06, 0.06]
+    },
+    "slotGuarantee": {
+      "refreshesSinceLastSlot": 3,
+      "forcedItem": "one slot expansion"
+    },
+    "specialRefresh": "one roll uses exact level-2 weights",
+    "obstacleClear": {
+      "priceList": [0, 1, 2, 3, 4, 5],
+      "behavior": "tree and price badge handlers plus a stage-level full-cell hit fallback are active only during preparation; the current indexed price is checked and consumed, clearCnt then increments, the cleared map cell becomes buildable floor, and every remaining tree refreshes to the next price",
+      "stage2Smoke": {
+        "firstTreePrice": 0,
+        "firstTreeCleared": true,
+        "secondTreePrice": 1,
+        "secondTreeBlockedWithoutMoney": true,
+        "secondTreeClearedWithOneMoney": true
+      }
+    },
+    "slotExpansion": {
+      "shapeCount": 12,
+      "catalog": "src/data/slot-shapes.json",
+      "catalogSha256": "FEB416BD3D8B34C58271FF628224DB7D33A86393621C7EA5468D391ADD6E2CAC",
+      "behavior": "valid shape cells become floor and non-ad tree obstacles are cleared"
+    }
+  },
+  "localGoldenAdapter": {
+    "scope": "Stage 2 capture/smoke opening only",
+    "seed": 677,
+    "reason": "reproduces the supplied opening evidence as e02 level 2, e07 level 1, e16 level 1",
+    "claim": "deterministic evidence adapter; normal entry uses Math.random exactly like the original BattleScene.rand fallback"
+  },
+  "browserValidation": {
+    "route": "http://127.0.0.1:8131/?stage=2&test=shop",
+    "result": {
+      "ok": true,
+      "guaranteedFirst": true,
+      "guaranteedSlot": true,
+      "expansionPass": true,
+      "specialLevel2": true,
+      "consumedSlotCleared": true,
+      "consumedCompositeCleared": true,
+      "obstacleClearExact": true,
+      "fullCellStageEventPath": true,
+      "initialItems": ["e02-level2", "e07-level1", "e16-level1"],
+      "thirdRefreshContains": "slot-1"
+    },
+    "openingCapture": "evidence/visual-alignment-opening-shop.png",
+    "openingCaptureSha256": "BF4FC857BEC385871A9EBED27D20FE20C38AF1F892D4AD37D5791265CDE6D872"
+  }
+}

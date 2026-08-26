@@ -1,0 +1,1612 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "source": "targets/wx4f4f3709865004a2/3/generated/game.beautified.js and generated/tables/trait_equipt.json",
+  "summary": {
+    "rows": 112,
+    "mapped": 111,
+    "missing": 1,
+    "buildTargets": 97,
+    "sceneTargets": 10,
+    "unitMineTargets": 4
+  },
+  "entries": [
+    {
+      "id": 1,
+      "effectKey": "UnitHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitHpTrait",
+      "target": "build",
+      "configLine": 100690,
+      "status": "confirmed"
+    },
+    {
+      "id": 2,
+      "effectKey": "UnitAtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkSpdTrait",
+      "target": "build",
+      "configLine": 100694,
+      "status": "confirmed"
+    },
+    {
+      "id": 3,
+      "effectKey": "UnitCnter100Crit",
+      "effectParams": [
+        2
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitCnter100CritTrait",
+      "target": "build",
+      "configLine": 100698,
+      "status": "confirmed"
+    },
+    {
+      "id": 4,
+      "effectKey": "UnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkTrait",
+      "target": "build",
+      "configLine": 100702,
+      "status": "confirmed"
+    },
+    {
+      "id": 5,
+      "effectKey": "UnitCnterCritCntSub",
+      "effectParams": [
+        1
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 3,
+      "runtimeClass": "BuildUnitCnterCritCntSubTrait",
+      "target": "build",
+      "configLine": 100706,
+      "status": "confirmed"
+    },
+    {
+      "id": 6,
+      "effectKey": "UnitCritDmg",
+      "effectParams": [
+        0.75
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritDmgTrait",
+      "target": "build",
+      "configLine": 100778,
+      "status": "confirmed"
+    },
+    {
+      "id": 7,
+      "effectKey": "UnitCritKill",
+      "effectParams": [
+        0.015
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritKillTrait",
+      "target": "build",
+      "configLine": 100714,
+      "status": "confirmed"
+    },
+    {
+      "id": 8,
+      "effectKey": "UnitSpeed",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitSpeedTrait",
+      "target": "build",
+      "configLine": 100722,
+      "status": "confirmed"
+    },
+    {
+      "id": 9,
+      "effectKey": "UnitCritKillRateUp",
+      "effectParams": [
+        0.015
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 7,
+      "runtimeClass": "BuildUnitCritKillRateUpTrait",
+      "target": "build",
+      "configLine": 100718,
+      "status": "confirmed"
+    },
+    {
+      "id": 10,
+      "effectKey": "UnitHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitHpTrait",
+      "target": "build",
+      "configLine": 100690,
+      "status": "confirmed"
+    },
+    {
+      "id": 11,
+      "effectKey": "UnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkTrait",
+      "target": "build",
+      "configLine": 100702,
+      "status": "confirmed"
+    },
+    {
+      "id": 12,
+      "effectKey": "UnitScattering",
+      "effectParams": [
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitScatteringTrait",
+      "target": "build",
+      "configLine": 100726,
+      "status": "confirmed"
+    },
+    {
+      "id": 13,
+      "effectKey": "UnitDodge",
+      "effectParams": [
+        0.05
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitDodgeTrait",
+      "target": "build",
+      "configLine": 100730,
+      "status": "confirmed"
+    },
+    {
+      "id": 14,
+      "effectKey": "UnitScatteringCnt",
+      "effectParams": [
+        2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 12,
+      "runtimeClass": "BuildUnitScatteringCntTrait",
+      "target": "build",
+      "configLine": 100734,
+      "status": "confirmed"
+    },
+    {
+      "id": 15,
+      "effectKey": "UnitAtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkSpdTrait",
+      "target": "build",
+      "configLine": 100694,
+      "status": "confirmed"
+    },
+    {
+      "id": 16,
+      "effectKey": "UnitArrowBarrage",
+      "effectParams": [
+        2,
+        0.3,
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitArrowBarrageTrait",
+      "target": "build",
+      "configLine": 100738,
+      "status": "confirmed"
+    },
+    {
+      "id": 17,
+      "effectKey": "UnitAtkRange",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkRangeTrait",
+      "target": "build",
+      "configLine": 100746,
+      "status": "confirmed"
+    },
+    {
+      "id": 18,
+      "effectKey": "UnitArrowBarrageDmgUp",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 16,
+      "runtimeClass": "BuildUnitArrowBarrageDmgUpTrait",
+      "target": "build",
+      "configLine": 100742,
+      "status": "confirmed"
+    },
+    {
+      "id": 19,
+      "effectKey": "UnitHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitHpTrait",
+      "target": "build",
+      "configLine": 100690,
+      "status": "confirmed"
+    },
+    {
+      "id": 20,
+      "effectKey": "UnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkTrait",
+      "target": "build",
+      "configLine": 100702,
+      "status": "confirmed"
+    },
+    {
+      "id": 21,
+      "effectKey": "UnitCharge",
+      "effectParams": [
+        0.3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitChargeTrait",
+      "target": "build",
+      "configLine": 100750,
+      "status": "confirmed"
+    },
+    {
+      "id": 22,
+      "effectKey": "UnitSpeed",
+      "effectParams": [
+        0.15
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitSpeedTrait",
+      "target": "build",
+      "configLine": 100722,
+      "status": "confirmed"
+    },
+    {
+      "id": 23,
+      "effectKey": "UnitChargeDizziness",
+      "effectParams": [
+        3
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 21,
+      "runtimeClass": "BuildUnitChargeDizzinessTrait",
+      "target": "build",
+      "configLine": 100754,
+      "status": "confirmed"
+    },
+    {
+      "id": 24,
+      "effectKey": "UnitDodge",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitDodgeTrait",
+      "target": "build",
+      "configLine": 100730,
+      "status": "confirmed"
+    },
+    {
+      "id": 25,
+      "effectKey": "UnitDodgeNextAtkDmgUp",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitDodgeNextAtkDmgUpTrait",
+      "target": "build",
+      "configLine": 100758,
+      "status": "confirmed"
+    },
+    {
+      "id": 26,
+      "effectKey": "UnitCrit",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritTrait",
+      "target": "build",
+      "configLine": 100710,
+      "status": "confirmed"
+    },
+    {
+      "id": 27,
+      "effectKey": "UnitSeriousInjuryBuff",
+      "effectParams": [
+        0.2,
+        0.1,
+        2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitSeriousInjuryBuffTrait",
+      "target": "build",
+      "configLine": 100762,
+      "status": "confirmed"
+    },
+    {
+      "id": 28,
+      "effectKey": "UnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkTrait",
+      "target": "build",
+      "configLine": 100702,
+      "status": "confirmed"
+    },
+    {
+      "id": 29,
+      "effectKey": "UnitAtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkSpdTrait",
+      "target": "build",
+      "configLine": 100694,
+      "status": "confirmed"
+    },
+    {
+      "id": 30,
+      "effectKey": "UnitConShoot",
+      "effectParams": [
+        1
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitConShootTrait",
+      "target": "build",
+      "configLine": 100766,
+      "status": "confirmed"
+    },
+    {
+      "id": 31,
+      "effectKey": "UnitCrit",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritTrait",
+      "target": "build",
+      "configLine": 100710,
+      "status": "confirmed"
+    },
+    {
+      "id": 32,
+      "effectKey": "UnitConShootCntUp",
+      "effectParams": [
+        2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 30,
+      "runtimeClass": "BuildUnitConShootCntUpTrait",
+      "target": "build",
+      "configLine": 100770,
+      "status": "confirmed"
+    },
+    {
+      "id": 33,
+      "effectKey": "UnitAtkRange",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkRangeTrait",
+      "target": "build",
+      "configLine": 100746,
+      "status": "confirmed"
+    },
+    {
+      "id": 34,
+      "effectKey": "UnitThrough",
+      "effectParams": [
+        1
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitThroughTrait",
+      "target": "build",
+      "configLine": 100774,
+      "status": "confirmed"
+    },
+    {
+      "id": 35,
+      "effectKey": "UnitCritDmg",
+      "effectParams": [
+        0.75
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritDmgTrait",
+      "target": "build",
+      "configLine": 100778,
+      "status": "confirmed"
+    },
+    {
+      "id": 36,
+      "effectKey": "UnitHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitHpTrait",
+      "target": "build",
+      "configLine": 100690,
+      "status": "confirmed"
+    },
+    {
+      "id": 37,
+      "effectKey": "UnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkTrait",
+      "target": "build",
+      "configLine": 100702,
+      "status": "confirmed"
+    },
+    {
+      "id": 38,
+      "effectKey": "UnitHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitHpTrait",
+      "target": "build",
+      "configLine": 100690,
+      "status": "confirmed"
+    },
+    {
+      "id": 39,
+      "effectKey": "UnitMeteorite",
+      "effectParams": [
+        1.5,
+        0.3,
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitMeteoriteTrait",
+      "target": "build",
+      "configLine": 100782,
+      "status": "confirmed"
+    },
+    {
+      "id": 40,
+      "effectKey": "UnitCrit",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritTrait",
+      "target": "build",
+      "configLine": 100710,
+      "status": "confirmed"
+    },
+    {
+      "id": 41,
+      "effectKey": "UnitMeteoriteDmgUp",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 39,
+      "runtimeClass": "BuildUnitMeteoriteDmgUpTrait",
+      "target": "build",
+      "configLine": 100786,
+      "status": "confirmed"
+    },
+    {
+      "id": 42,
+      "effectKey": "UnitAtkRange",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkRangeTrait",
+      "target": "build",
+      "configLine": 100746,
+      "status": "confirmed"
+    },
+    {
+      "id": 43,
+      "effectKey": "UnitMeteoriteRangeUp",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": 39,
+      "runtimeClass": "BuildUnitMeteoriteRangeUpTrait",
+      "target": "build",
+      "configLine": 100790,
+      "status": "confirmed"
+    },
+    {
+      "id": 44,
+      "effectKey": "UnitCritDmg",
+      "effectParams": [
+        0.75
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitCritDmgTrait",
+      "target": "build",
+      "configLine": 100778,
+      "status": "confirmed"
+    },
+    {
+      "id": 45,
+      "effectKey": "UnitMeteoriteBurnArea",
+      "effectParams": [
+        0.15,
+        3
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 39,
+      "runtimeClass": "BuildUnitMeteoriteBurnAreaTrait",
+      "target": "build",
+      "configLine": 100794,
+      "status": "confirmed"
+    },
+    {
+      "id": 46,
+      "effectKey": "UnitHp",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitHpTrait",
+      "target": "build",
+      "configLine": 100690,
+      "status": "confirmed"
+    },
+    {
+      "id": 47,
+      "effectKey": "UnitSpeed",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitSpeedTrait",
+      "target": "build",
+      "configLine": 100722,
+      "status": "confirmed"
+    },
+    {
+      "id": 48,
+      "effectKey": "UnitDamageReflectionByDmg",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitDamageReflectionByDmgTrait",
+      "target": "build",
+      "configLine": 100798,
+      "status": "confirmed"
+    },
+    {
+      "id": 49,
+      "effectKey": "AtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkSpdTrait",
+      "target": "build",
+      "configLine": 100802,
+      "status": "confirmed"
+    },
+    {
+      "id": 50,
+      "effectKey": "UnitShield",
+      "effectParams": [
+        0.3
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitShieldTrait",
+      "target": "build",
+      "configLine": 100806,
+      "status": "confirmed"
+    },
+    {
+      "id": 51,
+      "effectKey": "UnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkTrait",
+      "target": "build",
+      "configLine": 100702,
+      "status": "confirmed"
+    },
+    {
+      "id": 52,
+      "effectKey": "UnitShieldExplosion",
+      "effectParams": [
+        2,
+        0.25
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": 50,
+      "runtimeClass": "BuildUnitShieldExplosionTrait",
+      "target": "build",
+      "configLine": 100810,
+      "status": "confirmed"
+    },
+    {
+      "id": 53,
+      "effectKey": "UnitAtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildUnitAtkSpdTrait",
+      "target": "build",
+      "configLine": 100694,
+      "status": "confirmed"
+    },
+    {
+      "id": 54,
+      "effectKey": "UnitShieldValUp",
+      "effectParams": [
+        0.5
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 50,
+      "runtimeClass": "BuildUnitShieldValUpTrait",
+      "target": "build",
+      "configLine": 100814,
+      "status": "confirmed"
+    },
+    {
+      "id": 55,
+      "effectKey": "AtkRange",
+      "effectParams": [
+        0.15
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkRangeTrait",
+      "target": "build",
+      "configLine": 100826,
+      "status": "confirmed"
+    },
+    {
+      "id": 56,
+      "effectKey": "Atk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkTrait",
+      "target": "build",
+      "configLine": 100830,
+      "status": "confirmed"
+    },
+    {
+      "id": 57,
+      "effectKey": "ConShoot",
+      "effectParams": [
+        1
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildConShootTrait",
+      "target": "build",
+      "configLine": 100834,
+      "status": "confirmed"
+    },
+    {
+      "id": 58,
+      "effectKey": "AtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkSpdTrait",
+      "target": "build",
+      "configLine": 100802,
+      "status": "confirmed"
+    },
+    {
+      "id": 59,
+      "effectKey": "RateRepel",
+      "effectParams": [
+        0.15
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildRateRepelTrait",
+      "target": "build",
+      "configLine": 100838,
+      "status": "confirmed"
+    },
+    {
+      "id": 60,
+      "effectKey": "Hp",
+      "effectParams": [
+        0.3
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildHpTrait",
+      "target": "build",
+      "configLine": 100842,
+      "status": "confirmed"
+    },
+    {
+      "id": 61,
+      "effectKey": "AdditionDmgByMaxHpLimitWithAtk",
+      "effectParams": [
+        0.1,
+        0.01,
+        2
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildAdditionDmgByMaxHpLimitWithAtkTrait",
+      "target": "build",
+      "configLine": 100846,
+      "status": "confirmed"
+    },
+    {
+      "id": 62,
+      "effectKey": "AtkRange",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkRangeTrait",
+      "target": "build",
+      "configLine": 100826,
+      "status": "confirmed"
+    },
+    {
+      "id": 63,
+      "effectKey": "Through",
+      "effectParams": [
+        1
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildThroughTrait",
+      "target": "build",
+      "configLine": 100850,
+      "status": "confirmed"
+    },
+    {
+      "id": 64,
+      "effectKey": "Atk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkTrait",
+      "target": "build",
+      "configLine": 100830,
+      "status": "confirmed"
+    },
+    {
+      "id": 65,
+      "effectKey": "AtkRange",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkRangeTrait",
+      "target": "build",
+      "configLine": 100826,
+      "status": "confirmed"
+    },
+    {
+      "id": 66,
+      "effectKey": "RateTrap",
+      "effectParams": [
+        1.5,
+        0.3,
+        0.4,
+        2
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildRateTrapTrait",
+      "target": "build",
+      "configLine": 100854,
+      "status": "confirmed"
+    },
+    {
+      "id": 67,
+      "effectKey": "AtkSpd",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkSpdTrait",
+      "target": "build",
+      "configLine": 100802,
+      "status": "confirmed"
+    },
+    {
+      "id": 68,
+      "effectKey": "CritWithCnt",
+      "effectParams": [
+        0.02
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildCritWithCntTrait",
+      "target": "build",
+      "configLine": 100962,
+      "status": "confirmed"
+    },
+    {
+      "id": 69,
+      "effectKey": "TrapTimeRangeUp",
+      "effectParams": [
+        0.2,
+        0.3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": 66,
+      "runtimeClass": "BuildTrapTimeRangeUpTrait",
+      "target": "build",
+      "configLine": 100858,
+      "status": "confirmed"
+    },
+    {
+      "id": 70,
+      "effectKey": "AtkWithCnt",
+      "effectParams": [
+        0.08
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkWithCntTrait",
+      "target": "build",
+      "configLine": 100966,
+      "status": "confirmed"
+    },
+    {
+      "id": 71,
+      "effectKey": "TrapRateUp",
+      "effectParams": [
+        1
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 66,
+      "runtimeClass": "BuildTrapRateUpTrait",
+      "target": "build",
+      "configLine": 100862,
+      "status": "confirmed"
+    },
+    {
+      "id": 72,
+      "effectKey": "AtkSpdWithCnt",
+      "effectParams": [
+        0.05
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkSpdWithCntTrait",
+      "target": "build",
+      "configLine": 100970,
+      "status": "confirmed"
+    },
+    {
+      "id": 73,
+      "effectKey": "Atk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkTrait",
+      "target": "build",
+      "configLine": 100830,
+      "status": "confirmed"
+    },
+    {
+      "id": 74,
+      "effectKey": "AtkSpd",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkSpdTrait",
+      "target": "build",
+      "configLine": 100802,
+      "status": "confirmed"
+    },
+    {
+      "id": 75,
+      "effectKey": "Jump",
+      "effectParams": [
+        1
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildJumpTrait",
+      "target": "build",
+      "configLine": 100866,
+      "status": "confirmed"
+    },
+    {
+      "id": 76,
+      "effectKey": "Crit",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildCritTrait",
+      "target": "build",
+      "configLine": 100870,
+      "status": "confirmed"
+    },
+    {
+      "id": 77,
+      "effectKey": "ParalysisBuff",
+      "effectParams": [
+        0.2,
+        1
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildParalysisBuffTrait",
+      "target": "build",
+      "configLine": 100974,
+      "status": "confirmed"
+    },
+    {
+      "id": 78,
+      "effectKey": "AtkRange",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkRangeTrait",
+      "target": "build",
+      "configLine": 100826,
+      "status": "confirmed"
+    },
+    {
+      "id": 79,
+      "effectKey": "Jump",
+      "effectParams": [
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": 75,
+      "runtimeClass": "BuildJumpTrait",
+      "target": "build",
+      "configLine": 100866,
+      "status": "confirmed"
+    },
+    {
+      "id": 80,
+      "effectKey": "Hp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildHpTrait",
+      "target": "build",
+      "configLine": 100842,
+      "status": "confirmed"
+    },
+    {
+      "id": 81,
+      "effectKey": "ConShoot",
+      "effectParams": [
+        1
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildConShootTrait",
+      "target": "build",
+      "configLine": 100834,
+      "status": "confirmed"
+    },
+    {
+      "id": 82,
+      "effectKey": "LaserTime",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildLaserTimeTrait",
+      "target": "build",
+      "configLine": 100878,
+      "status": "confirmed"
+    },
+    {
+      "id": 83,
+      "effectKey": "Atk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkTrait",
+      "target": "build",
+      "configLine": 100830,
+      "status": "confirmed"
+    },
+    {
+      "id": 84,
+      "effectKey": "Jump",
+      "effectParams": [
+        1
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildJumpTrait",
+      "target": "build",
+      "configLine": 100866,
+      "status": "confirmed"
+    },
+    {
+      "id": 85,
+      "effectKey": "Crit",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildCritTrait",
+      "target": "build",
+      "configLine": 100870,
+      "status": "confirmed"
+    },
+    {
+      "id": 86,
+      "effectKey": "FreezeBuff",
+      "effectParams": [
+        0.1,
+        2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildFreezeBuffTrait",
+      "target": "build",
+      "configLine": 100882,
+      "status": "confirmed"
+    },
+    {
+      "id": 87,
+      "effectKey": "AtkRange",
+      "effectParams": [
+        0.3
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkRangeTrait",
+      "target": "build",
+      "configLine": 100826,
+      "status": "confirmed"
+    },
+    {
+      "id": 88,
+      "effectKey": "Jump",
+      "effectParams": [
+        2
+      ],
+      "quality": 3,
+      "immediately": false,
+      "needId": 84,
+      "runtimeClass": "BuildJumpTrait",
+      "target": "build",
+      "configLine": 100866,
+      "status": "confirmed"
+    },
+    {
+      "id": 89,
+      "effectKey": "CritDmg",
+      "effectParams": [
+        0.75
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildCritDmgTrait",
+      "target": "build",
+      "configLine": 100886,
+      "status": "confirmed"
+    },
+    {
+      "id": 90,
+      "effectKey": "LaserTime",
+      "effectParams": [
+        0.25
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildLaserTimeTrait",
+      "target": "build",
+      "configLine": 100878,
+      "status": "confirmed"
+    },
+    {
+      "id": 91,
+      "effectKey": "ExpAdd",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildExpAddTrait",
+      "target": "build",
+      "configLine": 100906,
+      "status": "confirmed"
+    },
+    {
+      "id": 92,
+      "effectKey": "UnitRateSpeedBuff",
+      "effectParams": [
+        0.4,
+        0.3,
+        1.5
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitRateSpeedBuffTrait",
+      "target": "build",
+      "configLine": 100818,
+      "status": "confirmed"
+    },
+    {
+      "id": 93,
+      "effectKey": "UnitRateAtkBuff",
+      "effectParams": [
+        0.4,
+        0.3,
+        1.5
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildUnitRateAtkBuffTrait",
+      "target": "build",
+      "configLine": 100822,
+      "status": "confirmed"
+    },
+    {
+      "id": 94,
+      "effectKey": "AllUnitAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllUnitAtkTrait",
+      "target": "unit_mine",
+      "configLine": 100926,
+      "status": "confirmed"
+    },
+    {
+      "id": 95,
+      "effectKey": "SpeedDownUp",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildSpeedDownUpTrait",
+      "target": "build",
+      "configLine": 100910,
+      "status": "confirmed"
+    },
+    {
+      "id": 96,
+      "effectKey": "IceArrow",
+      "effectParams": [
+        0.25,
+        0.6,
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildIceArrowTrait",
+      "target": "scene",
+      "configLine": 100890,
+      "status": "confirmed"
+    },
+    {
+      "id": 97,
+      "effectKey": "IceStone",
+      "effectParams": [
+        0.25,
+        0.6,
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildIceStoneTrait",
+      "target": "scene",
+      "configLine": 100894,
+      "status": "confirmed"
+    },
+    {
+      "id": 98,
+      "effectKey": "AllUnitSpeed",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllUnitSpeedTrait",
+      "target": "unit_mine",
+      "configLine": 100930,
+      "status": "confirmed"
+    },
+    {
+      "id": 99,
+      "effectKey": "CritAdd",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildCritAddTrait",
+      "target": "build",
+      "configLine": 100914,
+      "status": "confirmed"
+    },
+    {
+      "id": 100,
+      "effectKey": "FireArrow",
+      "effectParams": [
+        1,
+        0.2,
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildFireArrowTrait",
+      "target": "scene",
+      "configLine": 100898,
+      "status": "confirmed"
+    },
+    {
+      "id": 101,
+      "effectKey": "FireStone",
+      "effectParams": [
+        1,
+        0.2,
+        3
+      ],
+      "quality": 2,
+      "immediately": false,
+      "needId": null,
+      "runtimeClass": "BuildFireStoneTrait",
+      "target": "scene",
+      "configLine": 100902,
+      "status": "confirmed"
+    },
+    {
+      "id": 102,
+      "effectKey": "SpeedUp",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildSpeedUpTrait",
+      "target": "build",
+      "configLine": 100918,
+      "status": "confirmed"
+    },
+    {
+      "id": 103,
+      "effectKey": "AllDefenseAtk",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllDefenseAtkTrait",
+      "target": "scene",
+      "configLine": 100942,
+      "status": "confirmed"
+    },
+    {
+      "id": 104,
+      "effectKey": "AllBarracksSpeed",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": null,
+      "target": null,
+      "configLine": null,
+      "status": "original-config-missing"
+    },
+    {
+      "id": 105,
+      "effectKey": "AllWallHp",
+      "effectParams": [
+        0.3
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllWallHpTrait",
+      "target": "scene",
+      "configLine": 100954,
+      "status": "confirmed"
+    },
+    {
+      "id": 106,
+      "effectKey": "AtkUp",
+      "effectParams": [
+        0.2
+      ],
+      "quality": 2,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAtkUpTrait",
+      "target": "build",
+      "configLine": 100922,
+      "status": "confirmed"
+    },
+    {
+      "id": 107,
+      "effectKey": "AllUnitAtkSpd",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllUnitAtkSpdTrait",
+      "target": "unit_mine",
+      "configLine": 100934,
+      "status": "confirmed"
+    },
+    {
+      "id": 108,
+      "effectKey": "AllUnitHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllUnitHpTrait",
+      "target": "unit_mine",
+      "configLine": 100938,
+      "status": "confirmed"
+    },
+    {
+      "id": 109,
+      "effectKey": "AllDefenseHp",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllDefenseHpTrait",
+      "target": "scene",
+      "configLine": 100958,
+      "status": "confirmed"
+    },
+    {
+      "id": 110,
+      "effectKey": "AllDefenseAtkSpd",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllDefenseAtkSpdTrait",
+      "target": "scene",
+      "configLine": 100946,
+      "status": "confirmed"
+    },
+    {
+      "id": 111,
+      "effectKey": "AllDefenseAtkRange",
+      "effectParams": [
+        0.1
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "BuildAllDefenseAtkRangeTrait",
+      "target": "scene",
+      "configLine": 100950,
+      "status": "confirmed"
+    },
+    {
+      "id": 112,
+      "effectKey": "UnlockLv5Sync",
+      "effectParams": [
+        5
+      ],
+      "quality": 1,
+      "immediately": true,
+      "needId": null,
+      "runtimeClass": "UnlockLv5SyncTrait",
+      "target": "scene",
+      "configLine": 100668,
+      "status": "confirmed"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "status": "pass",
+  "route": "http://127.0.0.1:8131/?stage=2&test=spawn-positions&run=53",
+  "productionPath": "src/Main.js::buildEnemySpawnPosition/spawnEnemy",
+  "sourceEvidence": [
+    "generated/game.beautified.js:64704-64716 BattleGlobalConfig.unitSpawnPos returns x=10/750*stage.width, y=0, xOffest=[0,740], yOffest=[50,80]",
+    "generated/game.beautified.js:102988-103011 WaveConfig.getUnits adds inclusive BattleScene.rand offsets for every spawned unit",
+    "generated/game.beautified.js:115550-115568 BattleScene.rand falls through to jasmin integer random when no randMark is active",
+    "generated/game.beautified.js:4799-4800 jasmin integer random includes both endpoints"
+  ],
+  "stageCount": 220,
+  "totalWaveCount": 2620,
+  "totalEntries": 60588,
+  "recoveredBounds": {
+    "x": [10, 750],
+    "y": [50, 80]
+  },
+  "observedBounds": {
+    "x": [10, 750],
+    "y": [50, 80]
+  },
+  "checksum": "2a9788a4",
+  "productionProbe": {
+    "randomInputs": [0, 0.999999],
+    "imagePosition": [10, 80],
+    "recordedPosition": [10, 80]
+  },
+  "samples": [
+    { "stage": 1, "entries": 15, "firstWavePositions": [[524, 67], [647, 72], [92, 52], [515, 62]] },
+    { "stage": 2, "entries": 35, "firstWavePositions": [[653, 51], [117, 76], [650, 77]] },
+    { "stage": 220, "entries": 300, "firstWavePositions": [[569, 74], [115, 65]] }
+  ],
+  "assertions": {
+    "recoveredDesignWidthEndpoints": true,
+    "recoveredTopBandEndpoints": true,
+    "allStageEntryCountExact": true,
+    "allPositionsIntegerAndInRange": true,
+    "bothAxesReachRecoveredEndpoints": true,
+    "productionSpawnUsesRecoveredPosition": true,
+    "productionCleanupExact": true,
+    "allEnemyVariantRegression": true,
+    "representativeFiveWaveRegression": true,
+    "defeatRetryRegression": true,
+    "runtimeErrors": 0
+  },
+  "representativeRegression": {
+    "victory": true,
+    "kills": 35,
+    "experience": 390,
+    "fightLevel": 7,
+    "fightLevelExp": 16,
+    "battleMoney": 103,
+    "castleHp": 975
+  },
+  "runtimeSha256": "08E85EA96C306DB5C9C53ED0B04019A19CD952027057C7EA2E2F8873EC75F2B3"
+}

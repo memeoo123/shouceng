@@ -1,0 +1,130 @@
+{
+  "date": "2026-08-21",
+  "route": "http://127.0.0.1:8131/?stage=2&test=battle&run=69-build-weapon-targeting-and-all-stage-sweep",
+  "identicalRuns": 3,
+  "stage": 2,
+  "waves": [
+    3,
+    4,
+    7,
+    9,
+    12
+  ],
+  "finalState": {
+    "victory": true,
+    "wave": 5,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "fightLevelExp": 8,
+    "castleHp": 975,
+    "battleMoney": 103,
+    "rewardRadio": 1,
+    "enemyCount": 0,
+    "traits": [
+      [
+        "AllUnitAtk",
+        1,
+        0.05
+      ],
+      [
+        "CoinsUp",
+        2,
+        2
+      ],
+      [
+        "CoinsUp",
+        3,
+        5
+      ],
+      [
+        "DmgUpWithCnt",
+        3,
+        0.02
+      ],
+      [
+        "RangedUnitAtkRange",
+        2,
+        0.15
+      ],
+      [
+        "Coins",
+        3,
+        30
+      ],
+      [
+        "AllUnitHp",
+        1,
+        0.05
+      ]
+    ]
+  },
+  "verifiedEvents": [
+    "same-id same-level building synthesis",
+    "per-building SynChangeKey/SynChangeVal scaling",
+    "barracks summon",
+    "normal enemy",
+    "elite conversion",
+    "final-wave boss conversion",
+    "dodge before crit",
+    "repel and repel resistance",
+    "100-pixel full-damage mage/boss AoeAtk",
+    "fight-level threshold and weighted trait selection",
+    "free shop reroll after each completed non-final wave",
+      "ranged and melee damage",
+      "BuildWeapon insertion-order target selection without synthetic progress",
+    "ordinary player FireBullet first-path interception and target-removal continuation",
+    "deadInLast death-position latch, fake 50x50 contact and forced meteorite target",
+    "enemy UnitBullet contact-time damage, interception and straight-flight semantics",
+    "wall destruction",
+    "victory result"
+  ],
+  "consoleErrors": 0,
+  "consoleWarnings": 0,
+  "testOnlyAdapters": [
+    "speed x48",
+    "damage x12",
+    "fixed 1/60-second simulation step for repeatable browser validation",
+    "independent deterministic outcome, route and trait LCG streams"
+  ],
+  "verifiedAfterRecoveredUnitRoute": true,
+  "verifiedAfterSynthesisAndCombatStats": true,
+  "verifiedAfterFightLevelTraits": true,
+  "verifiedAfterShopFreeItemAndWaveEndRefresh": true,
+  "verifiedAfterUnitAoeCorrection": true,
+  "verifiedAfterEquipmentTraitNumericRuntime": true,
+  "verifiedAfterEquipmentTraitEventRuntime": true,
+  "verifiedAfterAllMappedEquipmentTraits": true,
+  "verifiedAfterEquipmentRuntimeIntegrationWithEmptyNormalLoadout": true,
+  "verifiedAfterAirSupportWithEmptyNormalUse": true,
+  "verifiedAfterEquipmentStatusRuntimeWithEmptyNormalLoadout": true,
+  "verifiedAfterEquipmentSecondaryRuntimeWithEmptyNormalLoadout": true,
+  "verifiedAfterProjectileEventSemanticsWithEmptyNormalLoadout": true,
+  "verifiedAfterAllEnemyMechanicsAudit": true,
+  "verifiedAfterConsumedShopSlotCleanup": true,
+  "verifiedAfterAllStageRosterAudit": true,
+  "verifiedAfterShopWeaponMountCleanup": true,
+  "verifiedAfterAllShopBuildingVisualAudit": true,
+  "verifiedAfterAllStageInitializationAudit": true,
+  "verifiedAfterDefeatRetryLifecycle": true,
+  "verifiedAfterEnemyDeathCoinDistributionAndRewardOutcome": true,
+  "verifiedAfterAllStageRewardMetadataRecovery": true,
+  "verifiedAfterRecoveredWaveSpawnTiming": true,
+  "verifiedAfterRecoveredEnemySpawnPositions": true,
+  "verifiedAfterRecoveredProjectileColliderGeometry": true,
+  "verifiedAfterRecoveredUnitRouteColliderGeometry": true,
+  "verifiedAfterRecoveredUnitRouteTargetGeometry": true,
+  "verifiedAfterRecoveredUnitRouteTargetCache": true,
+  "verifiedAfterRecoveredPlayerUnitRoute": true,
+  "verifiedAfterRecoveredUnitRouteSearchRange": true,
+  "verifiedAfterRecoveredProjectileTravelTiming": true,
+  "verifiedAfterRecoveredProjectileAutoFlow": true,
+  "verifiedAfterRecoveredPlayerFireBulletContacts": true,
+  "verifiedAfterRecoveredProjectileDeadInLast": true,
+  "verifiedAfterRecoveredEnemyUnitProjectiles": true,
+    "verifiedAfterRecoveredCampaignProgression": true,
+    "verifiedAfterRecoveredBuildWeaponTargeting": true,
+    "verifiedAfterAllStageBattleSweep": true,
+  "airSupportUsed": [],
+  "runtimeSha256": "AEC9D4C14E091693AE31EF2EA9ECED0699884F12E76B6F87B07A796B2094A923"
+}

@@ -1,0 +1,46 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-20",
+  "target": "wx4f4f3709865004a2/3",
+  "route": "http://127.0.0.1:8131/?stage=2&test=projectile-auto-flow",
+  "runtimeSha256": "C86067C62D2A168397443876E4430464F14E776F91253C5059273878252CCBB6",
+  "sourceEvidence": {
+    "autoFlowUpdate": "generated/game.beautified.js:69798-69843; flowTime is checked before accumulation, then heading changes by at most ten degrees and velocity components are updated",
+    "ammoDefaults": "generated/game.beautified.js:99504-99665,99681-99762; autoFlow defaults false in AmmoConfig and the unit-ammo branch preserves that default, while parsed normal building ammo explicitly enables autoFlow; interval defaults to 30ms",
+    "trackingTrait": "generated/game.beautified.js:79256; TrackingTrait changes autoFlowInterval to 110ms"
+  },
+  "result": {
+    "ok": true,
+    "intervalMs": 30,
+    "maximumTurnDegrees": 10,
+    "frames": {
+      "first": {"flowTimeMs":16,"position":{"x":112,"y":100},"rotation":0},
+      "second": {"flowTimeMs":32,"position":{"x":124,"y":100},"rotation":0},
+      "third": {"flowTimeMs":0,"position":{"x":135.8176930361465,"y":102.08377813200316},"rotation":10,"speed":749.9999999999999}
+    }
+  },
+  "assertions": {
+    "productionBuildingProjectileEnablesAutoFlow": true,
+    "recoveredUnitAmmoDefaultsToStraightFlight": true,
+    "recoveredDefaultIntervalIs30Ms": true,
+    "firstFrameOnlyAccumulatesFlowTime": true,
+    "secondFrameCrossesIntervalWithoutEarlyTurn": true,
+    "thirdFrameTurnsAtMostPositive10Degrees": true,
+    "recoveredSpeedMagnitudeIsPreserved": true,
+    "projectileUsesVelocityInsteadOfDirectTargetInterpolation": true,
+    "originalOneSidedAngleWrapIsPreserved": true
+  },
+  "representativeRegression": {
+    "runs": 3,
+    "victory": true,
+    "wave": 5,
+    "kills": 35,
+    "exp": 390,
+    "fightLevel": 7,
+    "fightLevelExp": 16,
+    "battleMoney": 103,
+    "castleHp": 975,
+    "consoleErrors": 0
+  },
+  "adapterBoundary": "Building ammo executes the recovered 30ms check-before-accumulate cadence, one-sided angle wrap, ten-degree turn cap and constant-speed velocity integration. Unit ammo now preserves its recovered straight-flight default. Collision membership still uses deterministic swept recovered geometry rather than native Box2D substep ordering."
+}

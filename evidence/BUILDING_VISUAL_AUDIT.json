@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-19",
+  "target": "wx4f4f3709865004a2/3",
+  "routes": [
+    "http://127.0.0.1:8131/?stage=2&debug=1&capture=1&catalog=1",
+    "http://127.0.0.1:8131/?stage=2&debug=1&capture=1&catalog=2",
+    "http://127.0.0.1:8131/?stage=2&debug=1&capture=1&catalog=3",
+    "http://127.0.0.1:8131/?stage=2&debug=1&capture=1&catalog=4",
+    "http://127.0.0.1:8131/?stage=2&debug=1&capture=1&catalog=5",
+    "http://127.0.0.1:8131/?stage=2&debug=1&capture=1&catalog=6"
+  ],
+  "purchasableBuildingIds": [
+    "e02", "e07", "e16", "e01", "e03", "e04", "e05", "e06", "e08",
+    "e09", "e10", "e11", "e12", "e13", "e14", "e15", "e17", "e18"
+  ],
+  "mainBuildingId": "e19",
+  "weaponMountEvidence": {
+    "source": "targets/wx4f4f3709865004a2/3/work/unpacked-min/min/game.js",
+    "modelPointOffset": 1391677,
+    "weaponConfigOffset": 2116939,
+    "mounts": {
+      "Building_ArrowTower": { "x": 0.5, "y": 0.7, "pivot": [0, 0.5] },
+      "Building_ElectricityTower": { "x": 0.5, "y": 0.1, "pivot": [0.45, 0.5] },
+      "Building_MirrorTower": { "x": 0.5, "y": 0.05, "pivot": [0.5, 0.5] },
+      "Building_Trebuchet": { "x": 0.5, "y": 0.1, "pivot": [0.88, 0.5] }
+    }
+  },
+  "result": {
+    "pagesVisited": 6,
+    "purchasableBuildingsRendered": 18,
+    "missingImages": [],
+    "arrowTowerCompositeCorrected": true,
+    "fullPixelParityClaim": false
+  }
+}

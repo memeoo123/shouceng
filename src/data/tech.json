@@ -1,0 +1,652 @@
+{
+  "1_1": {
+    "Id": "1_1",
+    "Effect": [
+      "AllUnitAtk",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      10
+    ],
+    "Nexts": [
+      "2_1"
+    ]
+  },
+  "1_2": {
+    "Id": "1_2",
+    "Effect": [
+      "AllWallHp",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      10
+    ],
+    "Nexts": [
+      "2_2"
+    ]
+  },
+  "2_1": {
+    "Id": "2_1",
+    "Effect": [
+      "BaseHpMul",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      15
+    ],
+    "Nexts": [
+      "3_1",
+      "3_2"
+    ]
+  },
+  "2_2": {
+    "Id": "2_2",
+    "Effect": [
+      "AllUnitDodge",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      15
+    ],
+    "Nexts": [
+      "3_3"
+    ]
+  },
+  "3_1": {
+    "Id": "3_1",
+    "Effect": [
+      "AllUnitAtk",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      20
+    ],
+    "Nexts": [
+      "4_1"
+    ]
+  },
+  "3_2": {
+    "Id": "3_2",
+    "Effect": [
+      "AllUnitHp",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      20
+    ],
+    "Nexts": [
+      "4_1"
+    ]
+  },
+  "3_3": {
+    "Id": "3_3",
+    "Effect": [
+      "AllWallHp",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      20
+    ],
+    "Nexts": [
+      "4_1"
+    ]
+  },
+  "4_1": {
+    "Id": "4_1",
+    "Effect": [
+      "AllUnitAtk",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      25
+    ],
+    "Nexts": [
+      "5_1",
+      "5_2",
+      "5_3"
+    ]
+  },
+  "5_1": {
+    "Id": "5_1",
+    "Effect": [
+      "BaseHpMul",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      30
+    ]
+  },
+  "5_2": {
+    "Id": "5_2",
+    "Effect": [
+      "AllDefenseAtk",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      30
+    ],
+    "Nexts": [
+      "6_1",
+      "6_2"
+    ]
+  },
+  "5_3": {
+    "Id": "5_3",
+    "Effect": [
+      "BaseHpMul",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      30
+    ]
+  },
+  "6_1": {
+    "Id": "6_1",
+    "Effect": [
+      "AllUnitAtk",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      35
+    ],
+    "Nexts": [
+      "7_1"
+    ]
+  },
+  "6_2": {
+    "Id": "6_2",
+    "Effect": [
+      "Income",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      35
+    ],
+    "Nexts": [
+      "7_2"
+    ]
+  },
+  "7_1": {
+    "Id": "7_1",
+    "Effect": [
+      "AllWallHp",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      40
+    ],
+    "Nexts": [
+      "8_1"
+    ]
+  },
+  "7_2": {
+    "Id": "7_2",
+    "Effect": [
+      "AllUnitCrit",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      40
+    ],
+    "Nexts": [
+      "8_2",
+      "8_3"
+    ]
+  },
+  "8_1": {
+    "Id": "8_1",
+    "Effect": [
+      "AllUnitMoveSpd",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      45
+    ],
+    "Nexts": [
+      "9_1"
+    ]
+  },
+  "8_2": {
+    "Id": "8_2",
+    "Effect": [
+      "Income",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      45
+    ],
+    "Nexts": [
+      "9_1"
+    ]
+  },
+  "8_3": {
+    "Id": "8_3",
+    "Effect": [
+      "AllWallHp",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      45
+    ],
+    "Nexts": [
+      "9_1"
+    ]
+  },
+  "9_1": {
+    "Id": "9_1",
+    "Effect": [
+      "AllDefenseHp",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      50
+    ],
+    "Nexts": [
+      "10_1",
+      "10_2"
+    ]
+  },
+  "10_1": {
+    "Id": "10_1",
+    "Effect": [
+      "Income",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      55
+    ],
+    "Nexts": [
+      "11_1"
+    ]
+  },
+  "10_2": {
+    "Id": "10_2",
+    "Effect": [
+      "AllUnitDodge",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      55
+    ],
+    "Nexts": [
+      "11_2"
+    ]
+  },
+  "11_1": {
+    "Id": "11_1",
+    "Effect": [
+      "AllUnitMoveSpd",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      60
+    ],
+    "Nexts": [
+      "12_1"
+    ]
+  },
+  "11_2": {
+    "Id": "11_2",
+    "Effect": [
+      "AllUnitDodge",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      60
+    ],
+    "Nexts": [
+      "12_2"
+    ]
+  },
+  "12_1": {
+    "Id": "12_1",
+    "Effect": [
+      "BaseHpMul",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      65
+    ],
+    "Nexts": [
+      "13_1",
+      "13_2"
+    ]
+  },
+  "12_2": {
+    "Id": "12_2",
+    "Effect": [
+      "AllUnitMoveSpd",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      65
+    ],
+    "Nexts": [
+      "13_3"
+    ]
+  },
+  "13_1": {
+    "Id": "13_1",
+    "Effect": [
+      "Income",
+      0.01
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      70
+    ],
+    "Nexts": [
+      "14_1"
+    ]
+  },
+  "13_2": {
+    "Id": "13_2",
+    "Effect": [
+      "AllWallHp",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      70
+    ],
+    "Nexts": [
+      "14_2"
+    ]
+  },
+  "13_3": {
+    "Id": "13_3",
+    "Effect": [
+      "BaseHpMul",
+      0.1
+    ],
+    "Limit": 2,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      70
+    ],
+    "Nexts": [
+      "14_3"
+    ]
+  },
+  "14_1": {
+    "Id": "14_1",
+    "Effect": [
+      "AllUnitDodge",
+      0.01
+    ],
+    "Limit": 3,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      75
+    ]
+  },
+  "14_2": {
+    "Id": "14_2",
+    "Effect": [
+      "AllUnitAtkSpd",
+      0.01
+    ],
+    "Limit": 3,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      75
+    ],
+    "Nexts": [
+      "15_1",
+      "15_2"
+    ]
+  },
+  "14_3": {
+    "Id": "14_3",
+    "Effect": [
+      "FreeRefresh",
+      1
+    ],
+    "Limit": 1,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      75
+    ]
+  },
+  "15_1": {
+    "Id": "15_1",
+    "Effect": [
+      "AllUnitAtkSpd",
+      0.01
+    ],
+    "Limit": 3,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      80
+    ],
+    "Nexts": [
+      "16_1"
+    ]
+  },
+  "15_2": {
+    "Id": "15_2",
+    "Effect": [
+      "AllUnitMoveSpd",
+      0.1
+    ],
+    "Limit": 3,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      80
+    ],
+    "Nexts": [
+      "16_2"
+    ]
+  },
+  "16_1": {
+    "Id": "16_1",
+    "Effect": [
+      "Income",
+      0.01
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      105
+    ],
+    "Nexts": [
+      "17_1",
+      "17_2"
+    ]
+  },
+  "16_2": {
+    "Id": "16_2",
+    "Effect": [
+      "AllUnitCrit",
+      0.01
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      105
+    ],
+    "Nexts": [
+      "17_3"
+    ]
+  },
+  "17_1": {
+    "Id": "17_1",
+    "Effect": [
+      "AllUnitDodge",
+      0.01
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      130
+    ],
+    "Nexts": [
+      "18_1"
+    ]
+  },
+  "17_2": {
+    "Id": "17_2",
+    "Effect": [
+      "BaseHpMul",
+      0.1
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      130
+    ],
+    "Nexts": [
+      "18_1"
+    ]
+  },
+  "17_3": {
+    "Id": "17_3",
+    "Effect": [
+      "AllUnitAtk",
+      0.01
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      130
+    ],
+    "Nexts": [
+      "18_2"
+    ]
+  },
+  "18_1": {
+    "Id": "18_1",
+    "Effect": [
+      "AllWallHp",
+      0.1
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      155
+    ],
+    "Nexts": [
+      "19_1"
+    ]
+  },
+  "18_2": {
+    "Id": "18_2",
+    "Effect": [
+      "AllUnitMoveSpd",
+      0.1
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      155
+    ],
+    "Nexts": [
+      "19_1"
+    ]
+  },
+  "19_1": {
+    "Id": "19_1",
+    "Effect": [
+      "AllUnitCrit",
+      0.01
+    ],
+    "Limit": 5,
+    "Consume": [
+      "Prop",
+      "Diamond",
+      155
+    ]
+  }
+}
