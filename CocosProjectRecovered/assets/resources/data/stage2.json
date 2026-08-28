@@ -1,0 +1,44 @@
+{
+  "id": 2,
+  "name": "翠绿草原",
+  "mapId": "Forest",
+  "mapType": "Map2",
+  "design": { "width": 750, "height": 1286 },
+  "preparationShiftY": -337,
+  "grid": {
+    "x": 44,
+    "y": 97,
+    "columns": 7,
+    "rows": 9,
+    "cellSize": 92,
+    "gap": 3,
+    "encoding": [
+      "ooooooo",
+      "ooooooo",
+      "ooooooo",
+      "o22222o",
+      "o21111o",
+      "2111112",
+      "1111112",
+      "1111112",
+      "1111112"
+    ]
+  },
+  "castle": { "column": 2, "row": 7, "width": 3, "height": 2, "hp": 975 },
+  "waves": [
+    { "number": 1, "enemyLevel": 1, "count": 3, "power": 1, "eliteProbability": 0 },
+    { "number": 2, "enemyLevel": 1, "count": 4, "power": 1.1, "eliteProbability": 0.3 },
+    { "number": 3, "enemyLevel": 1, "count": 7, "power": 1.1, "eliteProbability": 1.2 },
+    { "number": 4, "enemyLevel": 1, "count": 9, "power": 1.1, "eliteProbability": 2 },
+    { "number": 5, "enemyLevel": 2, "count": 12, "power": 1.1, "eliteProbability": 0.5, "finalBoss": true }
+  ],
+  "enemyIds": ["js_9F2D53C8", "gb_E916AA75"],
+  "openingShop": [
+    { "id": "e02", "level": 2, "body": "Building_Shooter2", "shape": [[0, 0], [0, 1], [0, 2]], "hp": 390, "summonUnitId": "gb_E916AA75", "cooldown": 7.2 },
+    { "id": "e07", "level": 1, "body": "Building_ArrowTower1", "shape": [[0, 0]], "hp": 130, "attack": 20, "cooldown": 2, "range": 12 },
+    { "id": "e16", "level": 1, "body": "Building_Fence11", "shape": [[0, 0]], "hp": 169 }
+  ],
+  "obstacleClearPrices": [0, 1, 2, 3, 4, 5],
+  "coinsPerWave": 10,
+  "spawnDelaySeconds": { "minimum": 0.08333333333333334, "maximum": 0.16666666666666669 }
+}

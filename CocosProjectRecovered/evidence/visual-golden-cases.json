@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "target": "wx4f4f3709865004a2/3",
+  "referenceVideo": "original-reference/QQ20260819-171433.mp4",
+  "referenceSha256": "DA18BE16AFC6F6CBDFBF3F233B934C205AE6C4E3CFE4C9C3324E3FFEDFE84E9F",
+  "cases": [
+    {
+      "id": "prep-drag",
+      "timeSeconds": 2,
+      "reference": "original-reference/frames/t02.png",
+      "assertions": [
+        "wave label is 1/5",
+        "shop panel and three colored buttons occupy the bottom region",
+        "Map2 tree obstacles show purple currency badge 0",
+        "castle occupies the bottom-center 3x2 footprint",
+        "dragged equipment snaps to a green valid footprint"
+      ],
+      "reconstructionCapture": "../../../../LayaProject2131Recovered/evidence/visual-alignment-drag.png",
+      "reconstructionSha256": "333066F05685ED3EC5B4D7496850030E81B30533ABA6D9BB13F8A714B1EA772A",
+      "status": "baseline-captured-visual-parity-in-progress"
+    },
+    {
+      "id": "prep-layout",
+      "timeSeconds": 7,
+      "reference": "original-reference/frames/t07.png",
+      "assertions": [
+        "blue level-1 and purple level-2 shooter buildings use 1x3 footprints",
+        "fence and arrow tower occupy 1x1 cells",
+        "normal refresh price is 15 after the first free refresh",
+        "consumed shop items leave empty slots"
+      ],
+      "reconstructionCapture": "../../../../LayaProject2131Recovered/evidence/visual-alignment-prep.png",
+      "reconstructionSha256": "433B365EE8EA0BFA8954ABEA65FEDB638AD044FF193F20A1584555D5B239359F",
+      "status": "baseline-captured-visual-parity-in-progress"
+    },
+    {
+      "id": "wave-start",
+      "timeSeconds": 12,
+      "reference": "original-reference/frames/t12.png",
+      "assertions": [
+        "shop and tree price badges are hidden",
+        "three red wave-1 enemies enter from the top",
+        "building and castle health bars are visible",
+        "tree obstacles remain in the battlefield"
+      ],
+      "reconstructionCapture": "../../../../LayaProject2131Recovered/evidence/visual-alignment-battle.png",
+      "reconstructionSha256": "7A7B0D7B89016E5C34DA1593BFED1B98D7C11A34177406A80EABE9EC060ACB38",
+      "status": "baseline-captured-visual-parity-in-progress"
+    },
+    {
+      "id": "combat",
+      "timeSeconds": 18,
+      "reference": "original-reference/frames/t18.png",
+      "assertions": [
+        "blue summoned defenders intercept red enemies",
+        "damage numbers appear above attacked units",
+        "enemy and building health change during contact",
+        "castle remains the terminal enemy target"
+      ],
+      "reconstructionCapture": "../../../../LayaProject2131Recovered/evidence/visual-alignment-combat.png",
+      "reconstructionSha256": "B976FC8FC472DC2C7F5DBA109D7115CEB4C4E836D250D931F3F56BC81726A803",
+      "status": "baseline-captured-visual-parity-in-progress"
+    },
+    {
+      "id": "opening-shop",
+      "reference": "original-reference/frames/t02.png",
+      "assertions": [
+        "Stage 2 opening offers a level-2 shooter barracks",
+        "Stage 2 opening offers a level-1 arrow tower",
+        "Stage 2 opening offers a level-1 fence",
+        "normal entry hides developer catalog controls"
+      ],
+      "reconstructionCapture": "../../../../LayaProject2131Recovered/evidence/visual-alignment-opening-shop.png",
+      "reconstructionSha256": "BF4FC857BEC385871A9EBED27D20FE20C38AF1F892D4AD37D5791265CDE6D872",
+      "status": "baseline-captured",
+      "adapterBoundary": "seed 677 aligns this recorded opening only; original process-wide PRNG stream is not claimed"
+    }
+  ],
+  "acceptance": {
+    "stage": "functional-complete",
+    "requiredPasses": [
+      "prep-drag",
+      "prep-layout",
+      "wave-start",
+      "combat",
+      "opening-shop",
+      "five-wave-victory-and-retry"
+    ],
+    "status": "functional-complete-five-visual-baselines-captured"
+  }
+}

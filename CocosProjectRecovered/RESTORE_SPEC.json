@@ -1,0 +1,114 @@
+{
+  "schemaVersion": "1.0",
+  "implementationReady": true,
+  "target": {
+    "appId": "wx4f4f3709865004a2",
+    "version": "3-cocos-port",
+    "sourceVersion": "3",
+    "engine": "cocos",
+    "engineVersion": "3.8.8",
+    "title": "这座城我守定了"
+  },
+  "design": {
+    "width": { "value": 750, "status": "confirmed", "evidence": ["E-DESIGN"] },
+    "height": { "value": 1286, "status": "confirmed", "evidence": ["E-DESIGN"] },
+    "orientation": { "value": "portrait", "status": "confirmed", "evidence": ["E-DESIGN"] },
+    "scaleMode": { "value": "fixed-width", "status": "confirmed", "evidence": ["E-DESIGN"] },
+    "sourceSceneHeight": { "value": 1623, "status": "confirmed", "evidence": ["E-DESIGN"] },
+    "preparationShiftY": { "value": -337, "status": "confirmed", "evidence": ["E-DESIGN"] }
+  },
+  "representativeLevel": {
+    "stageId": 2,
+    "name": "翠绿草原",
+    "mapId": "Forest",
+    "mapType": "Map2",
+    "selectionReason": "The reference recording shows five combat waves and the decoded Stage 2 is the matching five-wave Forest/Map2 level.",
+    "objective": "Keep Building_MainBase alive through all five waves.",
+    "phases": ["preparation", "combat", "wave-reward", "victory", "defeat", "retry"]
+  },
+  "scene": {
+    "anchors": [
+      { "id": "design-top-left", "x": 0, "y": 0 },
+      { "id": "grid-top-left", "x": 44, "y": 97 },
+      { "id": "shop-panel", "x": 0, "y": 957, "width": 750, "height": 347 },
+      { "id": "castle-footprint", "column": 2, "row": 7, "width": 3, "height": 2 }
+    ],
+    "layers": ["Background", "StageGrid", "Buildings", "Actors", "Projectiles", "HUD", "BattleShop", "Overlays"],
+    "uiHierarchy": [
+      "ShouchengCanvas/Background",
+      "ShouchengCanvas/StageGrid",
+      "ShouchengCanvas/Actors",
+      "ShouchengCanvas/HUD",
+      "ShouchengCanvas/BattleShop"
+    ],
+    "grid": {
+      "columns": 7,
+      "rows": 9,
+      "cellSize": 92,
+      "gap": 3,
+      "encoding": ["ooooooo", "ooooooo", "ooooooo", "o22222o", "o21111o", "2111112", "1111112", "1111112", "1111112"]
+    }
+  },
+  "assets": [
+    { "id": "map-forest", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/maps/Map_Forest.png", "target": "assets/resources/original/maps/Map_Forest.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "tree", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/tree.png", "target": "assets/resources/original/ui/tree.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "main-base", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/buildings/Building_MainBase1.png", "target": "assets/resources/original/buildings/Building_MainBase1.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "shooter-1", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/buildings/Building_Shooter1.png", "target": "assets/resources/original/buildings/Building_Shooter1.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "shooter-2", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/buildings/Building_Shooter2.png", "target": "assets/resources/original/buildings/Building_Shooter2.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "arrow-tower-1", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/buildings/Building_ArrowTower1.png", "target": "assets/resources/original/buildings/Building_ArrowTower1.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "fence-1", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/buildings/Building_Fence11.png", "target": "assets/resources/original/buildings/Building_Fence11.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "shop-panel", "kind": "sprite", "source": "../LayaProject2131Recovered/bin/res/shop_panel.png", "target": "assets/resources/original/ui/shop_panel.png", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "hud-and-bars", "kind": "sprite-set", "source": "../LayaProject2131Recovered/bin/res/{hud_*,*_hp_bar*}.png", "target": "assets/resources/original/ui", "status": "confirmed", "evidence": ["E-ASSETS"] },
+    { "id": "stage2-unit-actions-blue", "kind": "frame-sequence", "source": "../LayaProject2131Recovered/bin/res/units/{Swordsman1,Shooter1}_*.png", "target": "assets/resources/original/units/units", "frameIntervalSeconds": 0.102, "status": "confirmed", "evidence": ["E-ANIMATION"] },
+    { "id": "stage2-unit-actions-red", "kind": "frame-sequence", "source": "../LayaProject2131Recovered/bin/res/units-red/{Swordsman1,Shooter1}_*.png", "target": "assets/resources/original/units/units-red", "frameIntervalSeconds": 0.102, "status": "confirmed", "evidence": ["E-ANIMATION"] }
+  ],
+  "entities": [
+    { "id": "Building_MainBase", "kind": "objective", "hitPoints": 975, "footprint": [3, 2], "status": "confirmed", "evidence": ["E-SPEC"] },
+    { "id": "e02", "kind": "barracks", "body": "Building_Shooter", "hitPoints": 390, "summonTarget": "gb_E916AA75", "summonCooldownSeconds": 9, "status": "confirmed", "evidence": ["E-SPEC"] },
+    { "id": "e07", "kind": "defense", "body": "Building_ArrowTower", "hitPoints": 130, "attack": 20, "cooldownSeconds": 2, "rangePhysicsUnits": 12, "criticalChance": 0.05, "criticalDamage": 1.5, "status": "confirmed", "evidence": ["E-SPEC"] },
+    { "id": "e16", "kind": "wall", "body": "Building_Fence1", "hitPoints": 169, "status": "confirmed", "evidence": ["E-DATA"] },
+    { "id": "js_9F2D53C8", "kind": "unit", "body": "Swordsman1", "hitPoints": 300, "attack": 30, "attackRange": 1, "attackSpeed": 1.2, "speed": 1.1, "criticalChance": 0.05, "criticalDamage": 2, "dodge": 0.05, "status": "confirmed", "evidence": ["E-DATA"] },
+    { "id": "gb_E916AA75", "kind": "unit", "body": "Shooter1", "hitPoints": 75, "attack": 23, "attackRange": 5, "attackSpeed": 1, "speed": 1.3, "bulletSpeed": 18, "criticalChance": 0.05, "criticalDamage": 2, "dodge": 0.05, "status": "confirmed", "evidence": ["E-DATA"] }
+  ],
+  "spawners": [
+    {
+      "id": "stage2-top-edge",
+      "position": { "xInclusive": [10, 750], "yInclusive": [50, 80] },
+      "delaySecondsInclusive": [0.08333333333333334, 0.16666666666666669],
+      "enemyIds": ["js_9F2D53C8", "gb_E916AA75"],
+      "normalRandomness": "Math.random",
+      "status": "confirmed",
+      "evidence": ["E-WAVE-TIMING", "E-ROUTE"]
+    }
+  ],
+  "combat": {
+    "physicsPixelRatio": { "value": 50, "status": "confirmed", "evidence": ["E-SPEC"] },
+    "unitGlobalSpeedRatio": { "value": 1.25, "status": "confirmed", "evidence": ["E-SPEC"] },
+    "unitGlobalScale": { "value": 0.9, "status": "confirmed", "evidence": ["E-SPEC"] },
+    "damageOrder": { "value": "target dodge, attacker critical, floor damage, apply HP", "status": "confirmed", "evidence": ["E-LOOP"] },
+    "regularDamage": { "value": "max(1, floor(attack * criticalFactor))", "status": "confirmed", "evidence": ["E-LOOP"] },
+    "targetSelection": { "value": "nearest live opposing target when cache is invalid; castle fallback; inclusive 600-pixel initial enemy search", "status": "confirmed", "evidence": ["E-ROUTE"] },
+    "victory": { "value": "wave 5 roster resolved, no living enemies, castle HP above zero", "status": "confirmed", "evidence": ["E-LOOP"] },
+    "defeat": { "value": "castle HP reaches zero", "status": "confirmed", "evidence": ["E-SPEC"] }
+  },
+  "rounds": [
+    { "wave": 1, "enemyLevel": 1, "count": 3, "power": 1, "enemyPool": ["js_9F2D53C8", "gb_E916AA75"], "status": "confirmed", "evidence": ["E-DATA"] },
+    { "wave": 2, "enemyLevel": 1, "count": 4, "power": 1.1, "enemyPool": ["js_9F2D53C8", "gb_E916AA75"], "status": "confirmed", "evidence": ["E-DATA"] },
+    { "wave": 3, "enemyLevel": 1, "count": 7, "power": 1.1, "enemyPool": ["js_9F2D53C8", "gb_E916AA75"], "status": "confirmed", "evidence": ["E-DATA"] },
+    { "wave": 4, "enemyLevel": 1, "count": 9, "power": 1.1, "enemyPool": ["js_9F2D53C8", "gb_E916AA75"], "status": "confirmed", "evidence": ["E-DATA"] },
+    { "wave": 5, "enemyLevel": 2, "count": 12, "power": 1.1, "enemyPool": ["js_9F2D53C8", "gb_E916AA75"], "finalBoss": true, "status": "confirmed", "evidence": ["E-DATA"] }
+  ],
+  "goldenCases": "golden-cases.json",
+  "unknowns": [],
+  "evidenceIndex": {
+    "E-DESIGN": "../targets/wx4f4f3709865004a2/3/RESTORE_SPEC.json#design",
+    "E-SPEC": "../targets/wx4f4f3709865004a2/3/RESTORE_SPEC.json",
+    "E-DATA": "../LayaProject2131Recovered/src/data",
+    "E-ASSETS": "../LayaProject2131Recovered/bin/res",
+    "E-ANIMATION": "../targets/wx4f4f3709865004a2/3/RESTORE_SPEC.json#visualClosure",
+    "E-WAVE-TIMING": "../LayaProject2131Recovered/evidence/WAVE_SPAWN_TIMING_AUDIT.json",
+    "E-ROUTE": "../LayaProject2131Recovered/evidence/RANDOM_AND_ROUTE_AUDIT.json",
+    "E-LOOP": "../LayaProject2131Recovered/evidence/REPRESENTATIVE_LOOP.json",
+    "E-VISUAL": "evidence/visual-golden-cases.json"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "damage": [
+    { "name": "arrow-tower-normal", "attack": 20, "expected": 20 },
+    { "name": "arrow-tower-critical", "attack": 20, "critFactor": 15000, "expected": 30 },
+    { "name": "swordsman-critical", "attack": 30, "critFactor": 20000, "expected": 60 }
+  ],
+  "waves": [
+    {
+      "name": "stage-2-wave-1-production-probe",
+      "times": [0.143333, 0.134167, 0.114167],
+      "entities": ["stage2-wave1-enemy-1", "stage2-wave1-enemy-2", "stage2-wave1-enemy-3"],
+      "expected": [
+        [0.143333, "stage2-wave1-enemy-1"],
+        [0.134167, "stage2-wave1-enemy-2"],
+        [0.114167, "stage2-wave1-enemy-3"]
+      ]
+    }
+  ],
+  "baseHp": [
+    { "name": "main-base-one-swordsman-hit", "start": 975, "damage": [30], "expected": 945 },
+    { "name": "main-base-clamps-at-zero", "start": 20, "damage": [30], "expected": 0 }
+  ],
+  "intervals": [
+    { "name": "level-1-shooter-barracks-creation", "interval": 9, "duration": 27, "spawnAtZero": false, "expectedCount": 3 },
+    { "name": "level-2-shooter-barracks-creation", "interval": 7.2, "duration": 21.6, "spawnAtZero": false, "expectedCount": 3 }
+  ]
+}

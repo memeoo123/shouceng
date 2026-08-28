@@ -1,0 +1,15 @@
+{
+  "policy": "Original recovered assets are copied byte-for-byte; Cocos-generated .meta and imported caches are not source evidence.",
+  "sourceRoot": "../../../LayaProject2131Recovered/bin/res",
+  "mappings": [
+    { "source": "maps/Map_Forest.png", "target": "original/maps/Map_Forest.png" },
+    { "source": "tree.png", "target": "original/ui/tree.png" },
+    { "source": "buildings/Building_MainBase1.png", "target": "original/buildings/Building_MainBase1.png" },
+    { "source": "buildings/Building_Shooter1.png", "target": "original/buildings/Building_Shooter1.png" },
+    { "source": "buildings/Building_Shooter2.png", "target": "original/buildings/Building_Shooter2.png" },
+    { "source": "buildings/Building_ArrowTower1.png", "target": "original/buildings/Building_ArrowTower1.png" },
+    { "source": "buildings/Building_Fence11.png", "target": "original/buildings/Building_Fence11.png" },
+    { "source": "units/{Swordsman1,Shooter1}_*.png", "target": "original/units/units" },
+    { "source": "units-red/{Swordsman1,Shooter1}_*.png", "target": "original/units/units-red" }
+  ]
+}

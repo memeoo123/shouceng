@@ -1,0 +1,13 @@
+{
+  "name": "shoucheng-cocos-recovered",
+  "uuid": "629341f0-d955-4d63-a47f-50845ddc7de4",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types tests/run-tests.mjs"
+  }
+}
