@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T04:23:15Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-observation-deck",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e13",
+    "originalMaterial": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#ItemMaterail/CritTrait",
+    "restoredReference": "../../src/Main.js#buildingBuffs/updateBuildings",
+    "buildingSprites": "../../bin/res/buildings/Building_ObservationDeck{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 260,
+    "buildingShape": [[0, 0], [0, 1]],
+    "globalCriticalChanceBonusByLevel": [0.05, 0.075, 0.115, 0.175],
+    "affectedAttackers": ["defense-weapons", "allied-barracks-units"],
+    "requiresAdjacency": false,
+    "stacking": "additive",
+    "finalCriticalChanceMaximum": 0.95,
+    "activeOnly": true
+  },
+  "runtimeResult": {
+    "controlledRandomRoll": 0.08,
+    "baseCriticalChance": 0.05,
+    "activeBonus": 0.05,
+    "towerCriticalChanceWithAura": 0.1,
+    "towerDamageWithAura": 30,
+    "towerDamageWithoutAura": 20,
+    "alliedDamageWithAura": 60,
+    "alliedDamageWithoutAura": 30,
+    "inactiveBonus": 0,
+    "bonusRemovedWhenInactive": true,
+    "recoveredCriticalAuraPassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixelsByLevel": [[82, 142], [82, 142], [84, 147], [85, 147]],
+    "sourceTargetHashMatches": 4,
+    "sha256": [
+      "a6050cbc10062dc85d357124288b256a636e80e0dc605976219198f8be8ef0ea",
+      "9ab16586b8c78f8de9b01ea5240b038dcabd970ca4115aa2ea330defc4d8afc0",
+      "7e5449b90c3cf5e69d128c620d6fe5d6e9cd6824c8609aebbaaa3b9eed6e9fe9",
+      "dda231498ea53276e98680c7cbdd2a50714781f816dea1679e414adb65fa5d17"
+    ]
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 38624,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T12:23:03.7197547+08:00",
+    "assetFileCount": 539,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 26,
+    "projectAssertionsPassed": 419,
+    "pass": true
+  }
+}

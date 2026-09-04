@@ -1,0 +1,1104 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-09-04T10:15:06.473Z",
+  "viewport": {
+    "width": 574,
+    "height": 1036,
+    "devicePixelRatio": 1
+  },
+  "captures": [
+    {
+      "windowId": "t12",
+      "offsetMs": -204,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t12&motionOffsetMs=-204",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t12-m204.png",
+      "sha256": "8b347c5456576c1c25b484799792c7e8e02ea8d087a0a430dbb5587bffd9faac",
+      "browserErrors": [],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ],
+      "state": {
+        "phase": "wave-start",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 11.796,
+        "visualMotionWindow": "t12",
+        "visualMotionOffsetMs": -204,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-b",
+            "centerReliable": false,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 233.885,
+            "y": 48.34500000000003,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 3,
+            "frameName": "Shooter1_move_3",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 346.254,
+            "y": 48.34500000000003,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 6,
+            "frameName": "Swordsman1_move_6",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 388.066,
+            "y": 43.11800000000005,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 8,
+            "frameName": "Swordsman1_move_8",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": -102,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t12&motionOffsetMs=-102",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t12-m102.png",
+      "sha256": "78a3e66b02e710777ba47ed4134c3310bd152a22f7074e2d325e20bc0c11d49c",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "wave-start",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 11.898,
+        "visualMotionWindow": "t12",
+        "visualMotionOffsetMs": -102,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-b",
+            "centerReliable": false,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 224.739,
+            "y": 53.571000000000026,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 6,
+            "frameName": "Shooter1_move_6",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 351.481,
+            "y": 53.571000000000026,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 1,
+            "frameName": "Swordsman1_move_1",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 390.679,
+            "y": 52.264999999999986,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 1,
+            "frameName": "Swordsman1_move_1",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": 0,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t12&motionOffsetMs=0",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t12.png",
+      "sha256": "5ce97bcd21d33e1bf671e65f4ca4106dfc948ea9988f5a99f9b9b1601cfbada9",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "wave-start",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 12,
+        "visualMotionWindow": "t12",
+        "visualMotionOffsetMs": 0,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-swordsman-b",
+            "centerReliable": true,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 219.512,
+            "y": 61.41100000000006,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 7,
+            "frameName": "Shooter1_move_7",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 359.321,
+            "y": 67.94399999999996,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 9,
+            "frameName": "Swordsman1_move_9",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 401.132,
+            "y": 47.03800000000001,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 4,
+            "frameName": "Swordsman1_move_4",
+            "flippedHorizontally": false
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": 102,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t12&motionOffsetMs=102",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t12-p102.png",
+      "sha256": "46a460548c8092e7674d17081e579ff5f9cfe80e4787ff831c00b1b3fd9ee5b6",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "wave-start",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 12.102,
+        "visualMotionWindow": "t12",
+        "visualMotionOffsetMs": 102,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-b",
+            "centerReliable": true,
+            "phaseReliable": true
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 212.979,
+            "y": 73.17100000000005,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 8,
+            "frameName": "Shooter1_move_8",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 360.627,
+            "y": 77.09100000000001,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 9,
+            "frameName": "Swordsman1_move_9",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 415.505,
+            "y": 44.424999999999955,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 1,
+            "frameName": "Swordsman1_move_1",
+            "flippedHorizontally": false
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": 204,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t12&motionOffsetMs=204",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t12-p204.png",
+      "sha256": "8bdb49840a2a21a903a9d5ef65065cbbb2f67b9df383f91069ff888f4e60b113",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "wave-start",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 12.204,
+        "visualMotionWindow": "t12",
+        "visualMotionOffsetMs": 204,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-b",
+            "centerReliable": true,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 212.979,
+            "y": 83.62400000000002,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 8,
+            "frameName": "Shooter1_move_8",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 346.254,
+            "y": 71.86400000000003,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 2,
+            "frameName": "Swordsman1_move_2",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 419.425,
+            "y": 52.264999999999986,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 1,
+            "frameName": "Swordsman1_move_1",
+            "flippedHorizontally": false
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": -204,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t18&motionOffsetMs=-204",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t18-m204.png",
+      "sha256": "cb4e63ab9d1ac3992123c6fead7daf8758daa60e59ad768882a107c81676b8a8",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "combat",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 17.796,
+        "visualMotionWindow": "t18",
+        "visualMotionOffsetMs": -204,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-low-hp",
+            "centerReliable": false,
+            "phaseReliable": false
+          },
+          {
+            "id": "ally-shooter-a",
+            "centerReliable": false,
+            "phaseReliable": false
+          },
+          {
+            "id": "ally-shooter-b",
+            "centerReliable": true,
+            "phaseReliable": true
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 508.275,
+            "y": 313.589,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 1,
+            "frameName": "Swordsman1_move_1",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 544.861,
+            "y": 384.146,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 2,
+            "frameName": "Shooter1_move_2",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 261.324,
+            "y": 508.275,
+            "hitPoints": 36,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 5,
+            "frameName": "Swordsman1_move_5",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 205.139,
+            "y": 825.784,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 0,
+            "frameName": "Shooter1_attack_0",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 492.596,
+            "y": 850.61,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 1,
+            "frameName": "Shooter1_attack_1",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": -102,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t18&motionOffsetMs=-102",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t18-m102.png",
+      "sha256": "791fd8fdb419866ff00de1779125859d570ad51a2e5c8c0e3bf01e0c5947613b",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "combat",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 17.898,
+        "visualMotionWindow": "t18",
+        "visualMotionOffsetMs": -102,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-low-hp",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "ally-shooter-a",
+            "centerReliable": false,
+            "phaseReliable": false
+          },
+          {
+            "id": "ally-shooter-b",
+            "centerReliable": true,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 510.889,
+            "y": 322.735,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 7,
+            "frameName": "Swordsman1_move_7",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 544.861,
+            "y": 399.826,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 2,
+            "frameName": "Shooter1_move_2",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 273.084,
+            "y": 508.275,
+            "hitPoints": 36,
+            "maxHitPoints": 300,
+            "action": "attack",
+            "frameIndex": 2,
+            "frameName": "Swordsman1_attack_2",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 209.059,
+            "y": 821.864,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "idle",
+            "frameIndex": 0,
+            "frameName": "Shooter1_idle_0",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 484.756,
+            "y": 841.463,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "idle",
+            "frameIndex": 5,
+            "frameName": "Shooter1_idle_5",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": 0,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t18&motionOffsetMs=0",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t18.png",
+      "sha256": "4723705523d7b04948195075b069dca6975003e871a9770bf6e5f5dadb4d8a7a",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "combat",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 18,
+        "visualMotionWindow": "t18",
+        "visualMotionOffsetMs": 0,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-low-hp",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "ally-shooter-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "ally-shooter-b",
+            "centerReliable": true,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 514.808,
+            "y": 337.108,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 9,
+            "frameName": "Swordsman1_move_9",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 537.021,
+            "y": 397.213,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 0,
+            "frameName": "Shooter1_attack_0",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 279.617,
+            "y": 517.422,
+            "hitPoints": 36,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 6,
+            "frameName": "Swordsman1_move_6",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 203.833,
+            "y": 810.105,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 0,
+            "frameName": "Shooter1_attack_0",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 475.61,
+            "y": 838.85,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "idle",
+            "frameIndex": 5,
+            "frameName": "Shooter1_idle_5",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": 102,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t18&motionOffsetMs=102",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t18-p102.png",
+      "sha256": "e80af820d52686f61c8eb91cff0534baa69d4b97df347facb79a13d97f563b5d",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "combat",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 18.102,
+        "visualMotionWindow": "t18",
+        "visualMotionOffsetMs": 102,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "enemy-swordsman-low-hp",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "ally-shooter-a",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "ally-shooter-b",
+            "centerReliable": true,
+            "phaseReliable": false
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 509.582,
+            "y": 333.188,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "attack",
+            "frameIndex": 1,
+            "frameName": "Swordsman1_attack_1",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 531.794,
+            "y": 403.746,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 8,
+            "frameName": "Shooter1_move_8",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 286.15,
+            "y": 527.875,
+            "hitPoints": 36,
+            "maxHitPoints": 300,
+            "action": "move",
+            "frameIndex": 7,
+            "frameName": "Swordsman1_move_7",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 201.22,
+            "y": 800.958,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 2,
+            "frameName": "Shooter1_attack_2",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 472.997,
+            "y": 836.237,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "idle",
+            "frameIndex": 4,
+            "frameName": "Shooter1_idle_4",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": 204,
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-visual-motion-t18&motionOffsetMs=204",
+      "output": "evidence/cocos-motion-windows/cocos-motion-t18-p204.png",
+      "sha256": "8dda4fe8d6942fdf1d50e7676d7ecb3bf9139c11fe4c5029c48070d90707e20c",
+      "browserErrors": [],
+      "consoleErrors": [],
+      "state": {
+        "phase": "combat",
+        "deterministicSeed": 20260824,
+        "designResolution": [
+          750,
+          1286
+        ],
+        "placedBuildingIds": [
+          "e02:1",
+          "e16:2",
+          "e07:2",
+          "e02:2"
+        ],
+        "wave": 1,
+        "fighting": true,
+        "shopVisible": false,
+        "airSupportVisible": false,
+        "dragCandidate": null,
+        "referenceTimeSeconds": 18.204,
+        "visualMotionWindow": "t18",
+        "visualMotionOffsetMs": 204,
+        "evidenceReplayOnly": true,
+        "motionEvidence": [
+          {
+            "id": "enemy-swordsman-a",
+            "centerReliable": false,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-shooter",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "enemy-swordsman-low-hp",
+            "centerReliable": true,
+            "phaseReliable": true
+          },
+          {
+            "id": "ally-shooter-a",
+            "centerReliable": true,
+            "phaseReliable": false
+          },
+          {
+            "id": "ally-shooter-b",
+            "centerReliable": true,
+            "phaseReliable": true
+          }
+        ],
+        "evidenceFixedActorLayout": true,
+        "actors": [
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 516.115,
+            "y": 352.787,
+            "hitPoints": 300,
+            "maxHitPoints": 300,
+            "action": "attack",
+            "frameIndex": 6,
+            "frameName": "Swordsman1_attack_6",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Shooter1",
+            "x": 530.488,
+            "y": 411.585,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "move",
+            "frameIndex": 8,
+            "frameName": "Shooter1_move_8",
+            "flippedHorizontally": true
+          },
+          {
+            "team": "enemy",
+            "body": "Swordsman1",
+            "x": 279.617,
+            "y": 533.101,
+            "hitPoints": 36,
+            "maxHitPoints": 300,
+            "action": "attack",
+            "frameIndex": 2,
+            "frameName": "Swordsman1_attack_2",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 197.3,
+            "y": 795.732,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 1,
+            "frameName": "Shooter1_attack_1",
+            "flippedHorizontally": false
+          },
+          {
+            "team": "ally",
+            "body": "Shooter1",
+            "x": 476.916,
+            "y": 821.864,
+            "hitPoints": 75,
+            "maxHitPoints": 75,
+            "action": "attack",
+            "frameIndex": 2,
+            "frameName": "Shooter1_attack_2",
+            "flippedHorizontally": true
+          }
+        ],
+        "simulationCaptureTimeSeconds": 0,
+        "simulationClockSeconds": 0,
+        "frozen": true,
+        "ready": true
+      }
+    }
+  ]
+}
+

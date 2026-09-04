@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Production-path validation for recovered multi-stage Cocos battle initialization",
+  "routes": [
+    {
+      "url": "http://127.0.0.1:8132/?stage=4&build=185736",
+      "stage": 4,
+      "name": "沙漠边缘",
+      "mapId": "Desert",
+      "waves": 10,
+      "waveCounts": [3, 4, 6, 8, 10, 9, 12, 14, 18, 22],
+      "enemyPool": ["js_9F2D53C8", "gb_E916AA75", "qb_2B5987F2"],
+      "castle": { "column": 2, "row": 7 },
+      "result": "pass"
+    },
+    {
+      "url": "http://127.0.0.1:8132/?stage=220&test=cocos-campaign-stage-battle&build=190229",
+      "stage": 220,
+      "name": "灼热沙地",
+      "mapId": "Desert",
+      "waves": 12,
+      "firstWaveCount": 2,
+      "firstWaveRoster": ["gb_E916AA75", "js_9F2D53C8"],
+      "expectedEnemyVisualBodyCount": 18,
+      "loadedEnemyVisualBodyCount": 18,
+      "allRequiredEnemyBodiesLoaded": true,
+      "productionBattleStarted": true,
+      "normalDefeatSettlementReached": true,
+      "result": "pass"
+    }
+  ],
+  "assetImport": {
+    "redEnemyPngCount": 1016,
+    "redEnemyMetaCount": 1016,
+    "totalAssetFileCount": 1500,
+    "missingMetaCount": 0
+  },
+  "networkScope": "No network or lazy-resource recovery was attempted.",
+  "result": "pass"
+}

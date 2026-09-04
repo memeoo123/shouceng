@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0",
+  "testUrl": "http://127.0.0.1:8132/?stage=2&test=cocos-normal-transition",
+  "sourceEvidence": [
+    "../../../targets/wx4f4f3709865004a2/3/generated/fairygui-restored/assets/BattleScene/BattleScene.xml#fightLvPrgs",
+    "../../../targets/wx4f4f3709865004a2/3/generated/fairygui-restored/assets/BattleScene/经验条.xml",
+    "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#fightLvPrgs",
+    "../../bin/res/hud_level_badge.png",
+    "../../src/data/fight-levels.json"
+  ],
+  "hud": {
+    "progressBackground": { "x": 39, "y": 126, "width": 610, "height": 22 },
+    "progressFill": { "x": 42, "y": 129, "maximumWidth": 604, "height": 16 },
+    "levelBadge": { "x": 641, "y": 115, "width": 70, "height": 42 },
+    "levelText": { "x": 641, "y": 114, "width": 70, "height": 43 },
+    "levelBadgeSha256": "508989fba0790bfe84d5830bfea7fed3010e3f58b12aef879fe334fc9a377a58"
+  },
+  "creator": {
+    "version": "3.8.8",
+    "executable": "C:/ProgramData/cocos/editors/Creator/3.8.8/CocosCreator.exe",
+    "pid": 48460,
+    "arguments": "--project E:/Projects/weichatAnalysis/shoucheng/LayaProject2131Recovered/CocosProjectRecovered --build platform=web-mobile;debug=false",
+    "indexLastWriteTime": "2026-08-31T16:18:14.5232557+08:00",
+    "buildLogFinished": true,
+    "blockingBuildErrors": 0,
+    "debugWorkerSigtermEntries": 1,
+    "typescriptProjectScripts": "pass (--skipLibCheck true for Creator 3.8.8 declarations)"
+  },
+  "runtime": {
+    "viewport": { "width": 574, "height": 1036 },
+    "placedBuildingIds": ["e02", "e07", "e16"],
+    "beforeLevelUp": {
+      "wave": 1,
+      "fighting": true,
+      "fightLevel": 0,
+      "fightLevelExperience": 16,
+      "fightLevelThreshold": 20,
+      "progressWidth": 483.20000000000005,
+      "levelText": "0",
+      "castleHp": 975
+    },
+    "selection": {
+      "wave": 2,
+      "fightLevel": 1,
+      "fightLevelExperience": 0,
+      "fightLevelThreshold": 24,
+      "progressWidth": 0,
+      "levelText": "1",
+      "traitPanelVisible": true
+    },
+    "afterChoice": {
+      "wave": 2,
+      "fighting": false,
+      "shopVisible": true,
+      "selectedTraitCount": 1,
+      "traitPanelVisible": false,
+      "castleHp": 975,
+      "money": 30,
+      "chosenTrait": { "id": 7, "quality": 2, "value": 20, "effectKey": "Coins" },
+      "passed": true
+    },
+    "browserErrors": []
+  },
+  "result": "passed",
+  "notes": "The test automates only the three opening drag placements. Enemy stats, stage roster, castle HP, attack values, fight-level experience and wave transition all use the normal Stage 2 runtime path; no durability or damage adapter is active."
+}

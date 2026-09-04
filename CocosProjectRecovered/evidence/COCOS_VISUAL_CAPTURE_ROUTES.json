@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "target": "wx4f4f3709865004a2/3",
+  "capturedAtLocal": "2026-09-04T17:38:50+08:00",
+  "viewport": {
+    "cssWidth": 574,
+    "cssHeight": 1036,
+    "devicePixelRatio": 1.25,
+    "cocosDesignResolution": [750, 1286]
+  },
+  "deterministicSeed": 20260824,
+  "actorPhaseMatching": {
+    "source": "original-reference t12/t18 PNGs and recovered local unit animation PNGs",
+    "renderBox": "every candidate is stretched into the matching idle_0 runtime display box at 0.9 unit scale",
+    "facing": "both horizontal orientations are searched",
+    "occlusionTolerance": "score the least-error 60% of alpha-core pixels",
+    "centerSearchRadiusPixels": 16,
+    "reliabilityThresholdTrimmedMae0To255": 30
+  },
+  "originalMotionWindows": {
+    "source": "original reference MP4 decoded through installed Chrome",
+    "report": "COCOS_ORIGINAL_MOTION_WINDOWS.json",
+    "frames": "original-motion-windows/{t12|t18}{-m204|-m102|''|-p102|-p204}.png",
+    "offsetsMs": [-204, -102, 0, 102, 204],
+    "routes": [
+      "?stage=2&test=cocos-visual-motion-t12&motionOffsetMs={offset}",
+      "?stage=2&test=cocos-visual-motion-t18&motionOffsetMs={offset}"
+    ],
+    "boundary": "These routes replay measured evidence states for deterministic capture. They do not alter or validate production simulation timing. Low-confidence center/phase samples remain flagged in the report and runtime metadata.",
+    "captureReport": "COCOS_MOTION_WINDOW_CAPTURES.json",
+    "comparisonReport": "COCOS_MOTION_WINDOW_DIFF.json",
+    "result": {
+      "captures": 10,
+      "browserErrors": 0,
+      "reliableActorPairs": 34,
+      "maximumCenterAxisDeltaPx": 0,
+      "averageRgbMaeNormalized": 0.067078,
+      "averageEdgeIouThreshold48": 0.181037
+    }
+  },
+  "representativeLayout": [
+    { "id": "e02", "level": 1, "column": 1, "row": 5 },
+    { "id": "e16", "level": 2, "column": 3, "row": 4 },
+    { "id": "e07", "level": 2, "column": 3, "row": 5 },
+    { "id": "e02", "level": 2, "column": 5, "row": 5 }
+  ],
+  "layoutEvidence": "../../src/Main.js:2640-2659 installRepresentativeLayout",
+  "cases": [
+    {
+      "id": "prep-drag",
+      "reference": "../../../../targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t02.png",
+      "route": "?stage=2&test=cocos-visual-drag",
+      "simulationTimeSeconds": 0,
+      "capture": "cocos-stage2-drag.png",
+      "runtimeReady": true,
+      "browserErrors": 0,
+      "layout": {
+        "placed": [{ "id": "e02", "level": 2, "column": 5, "row": 6 }],
+        "shop": [{ "id": "e07", "level": 1 }],
+        "dragCandidate": { "id": "e16", "level": 1, "column": 3, "row": 4, "valid": true }
+      },
+      "layoutEvidence": "../../src/Main.js:2695-2715 installVisualDragCase"
+    },
+    {
+      "id": "prep-layout",
+      "reference": "../../../../targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t07.png",
+      "route": "?stage=2&test=cocos-visual-prep",
+      "simulationTimeSeconds": 0,
+      "capture": "cocos-stage2-preparation.png",
+      "runtimeReady": true,
+      "browserErrors": 0
+    },
+    {
+      "id": "wave-start",
+      "referenceTimeSeconds": 12,
+      "reference": "../../../../targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t12.png",
+      "route": "?stage=2&test=cocos-visual-wave-start",
+      "simulationTimeSeconds": 0,
+      "capture": "cocos-stage2-wave-start.png",
+      "captureSha256": "FC434456382ACC14666A35C7D04251376F9CC507D7BAA38A11FA2CA493D462A8",
+      "runtimeReady": true,
+      "browserErrors": 0,
+      "evidenceFixedActors": [
+        { "team": "enemy", "body": "Shooter1", "x": 216.899, "y": 65.331, "action": "move", "frame": 8, "flippedHorizontally": true },
+        { "team": "enemy", "body": "Swordsman1", "x": 359.321, "y": 69.251, "action": "move", "frame": 9, "flippedHorizontally": false },
+        { "team": "enemy", "body": "Swordsman1", "x": 410.279, "y": 43.118, "action": "move", "frame": 6, "flippedHorizontally": false }
+      ],
+      "comparison": { "rgbMaeNormalized": 0.065218, "edgeIouThreshold48": 0.178195, "reliableActorPairs": "3/3", "stableOffsetDetected": true },
+      "layoutEvidence": "../../src/Main.js:2761-2775 installVisualWaveStartCase"
+    },
+    {
+      "id": "combat",
+      "referenceTimeSeconds": 18,
+      "reference": "../../../../targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t18.png",
+      "route": "?stage=2&test=cocos-visual-combat",
+      "simulationTimeSeconds": 0,
+      "capture": "cocos-stage2-combat.png",
+      "captureSha256": "A97A4FC475A1AE859C81E209098C7233E4A280CF33E282214E697E2A976AB294",
+      "runtimeReady": true,
+      "browserErrors": 0,
+      "evidenceFixedActors": [
+        { "team": "enemy", "body": "Swordsman1", "x": 514.808, "y": 339.721, "action": "move", "frame": 9, "flippedHorizontally": false },
+        { "team": "enemy", "body": "Shooter1", "x": 533.101, "y": 398.519, "action": "move", "frame": 7, "flippedHorizontally": true },
+        { "team": "enemy", "body": "Swordsman1", "x": 283.537, "y": 522.648, "action": "move", "frame": 1, "flippedHorizontally": false, "hpRatio": 0.12 },
+        { "team": "ally", "body": "Shooter1", "x": 205.139, "y": 806.185, "action": "idle", "frame": 2, "flippedHorizontally": false },
+        { "team": "ally", "body": "Shooter1", "x": 474.303, "y": 836.237, "action": "idle", "frame": 4, "flippedHorizontally": true }
+      ],
+      "damageText": { "x": 260, "y": 354, "value": 30 },
+      "comparison": { "rgbMaeNormalized": 0.069135, "edgeIouThreshold48": 0.18265, "reliableActorPairs": "5/5", "stableOffsetDetected": true },
+      "layoutEvidence": "../../src/Main.js:2738-2758 installVisualCombatCase"
+    }
+  ],
+  "normalEntryBoundary": "Only these named visual routes use the fixed random stream. The wave-start/combat routes freeze the reference-matched anchor actor position/action/frame/facing; the motion-t12/motion-t18 routes replay one explicitly requested original-video sample. All four hide the not-yet-visible air-support strip. Ordinary play keeps Math.random and the production simulation/layout/animation.",
+  "ignoredBrowserRequest": "favicon.ico 404 from the bare static server; no game asset, script, warning or runtime error was missing",
+  "comparisonReport": "COCOS_VISUAL_DIFF.json",
+  "remaining": [
+    "A same-timestamp production-simulation capture is still required before claiming continuous timing/interpolation equivalence."
+  ]
+}

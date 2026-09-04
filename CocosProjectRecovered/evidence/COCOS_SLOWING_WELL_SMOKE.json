@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T04:15:08Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-slowing-well",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e12",
+    "originalTrait": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#SpeedDownTrait",
+    "restoredReference": "../../src/Main.js#enemySlowAt",
+    "buildingSprites": "../../bin/res/buildings/Building_Well{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 260,
+    "buildingShape": [[0, 0], [0, 1]],
+    "enemyMoveSpeedDownByLevel": [0.05, 0.075, 0.115, 0.175],
+    "singleBuildingFormula": "enemySpeed / (1 + MoveSpeedDownRadio)",
+    "multiBuildingFormula": "product(previousMultiplier / (1 + activeBuildingAmount))",
+    "combinedMultiplierClamp": [0.05, 1],
+    "activeOnly": true
+  },
+  "runtimeResult": {
+    "activeMultiplier": 0.9523809523809523,
+    "inactiveMultiplier": 1,
+    "activeDistancePixels": 13.095238,
+    "inactiveDistancePixels": 13.75,
+    "measuredDistanceRatio": 0.952381,
+    "bonusRemovedWhenInactive": true,
+    "recoveredSlowPassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixels": [72, 167],
+    "sourceTargetHashMatches": 4,
+    "sha256": [
+      "00d19fe31b83be0bcf2f107cf2c03d35771a62e529397d2b9e8b2220e3fb73b0",
+      "acde81766cdbd7cb443488632c182f48518a724823eeeaf4ccd8f66ea3da5d77",
+      "016ef9f210c3aa25ec984080ef47af2b647ca63d59fbf6f4cc1955f15b78c964",
+      "acc936c6d07d004475d13d2b4484e13ddb2d94aadf80617b405fa9190ead2137"
+    ]
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 40148,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T12:14:30.7466452+08:00",
+    "assetFileCount": 535,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 26,
+    "projectAssertionsPassed": 399,
+    "pass": true
+  }
+}

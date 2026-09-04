@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-28",
+  "target": "wx4f4f3709865004a2/3-cocos-port",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-lifecycle",
+  "creatorVersion": "3.8.8",
+  "result": {
+    "active": false,
+    "completedWaves": [1, 2, 3, 4, 5],
+    "currentWave": 5,
+    "victory": true,
+    "castleHp": 1000000000,
+    "finalWaveSpawned": 12,
+    "finalWaveResolved": 12,
+    "damageTextsSpawned": 41,
+    "maximumDamageTextsActive": 7,
+    "runtimeErrors": []
+  },
+  "adapter": {
+    "testOnly": true,
+    "changes": [
+      "automatically deploy one opening arrow tower",
+      "castle and deployed building HP become 1e9",
+      "arrow tower attack becomes 1e6 with 2000-pixel range and 0.02-second cooldown",
+      "inter-wave preparation automatically starts the next wave after 1ms"
+    ],
+    "unchanged": [
+      "Stage 2 wave counts and seeded base rosters",
+      "fractional elite conversion and deterministic final-boss replacement",
+      "spawn delay and spawn-position rules",
+      "enemy creation, movement, projectile contact, death cleanup, wave transitions and victory predicate"
+    ],
+    "claimBoundary": "Proves the complete Stage 2 lifecycle and roster consumption are reachable; it does not claim normal-account balance or clearability."
+  },
+  "normalEntryRegression": {
+    "route": "http://127.0.0.1:8132/?stage=2",
+    "canvasCount": 1,
+    "testStateAttribute": null,
+    "preparationSceneVisible": true
+  },
+  "assertions": {
+    "allFiveWavesCompleted": true,
+    "finalWaveRosterConsumed": true,
+    "victoryReached": true,
+    "castleSurvived": true,
+    "runtimeErrorsEmpty": true,
+    "damageTextLifecycleExecuted": true,
+    "testAdapterDoesNotActivateOnNormalEntry": true
+  }
+}

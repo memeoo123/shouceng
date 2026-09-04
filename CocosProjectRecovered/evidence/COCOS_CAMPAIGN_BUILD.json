@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Cocos Creator import and build gate after multi-stage production binding",
+  "creator": {
+    "version": "3.8.8",
+    "executable": "C:/ProgramData/cocos/editors/Creator/3.8.8/CocosCreator.exe",
+    "arguments": [
+      "--project",
+      "E:/Projects/weichatAnalysis/shoucheng/LayaProject2131Recovered/CocosProjectRecovered",
+      "--build",
+      "platform=web-mobile;debug=false"
+    ],
+    "pid": 41340,
+    "startedAtLocal": "2026-09-04T19:02:29.1689584+08:00",
+    "finishedAtLocal": "2026-09-04T19:02:47.7263588+08:00"
+  },
+  "output": {
+    "directory": "build/web-mobile",
+    "index": "build/web-mobile/index.html",
+    "indexLastWriteTimeLocal": "2026-09-04T19:02:47.7263588+08:00",
+    "indexSha256": "1E277FA6DAB41A9F1AC9DE4F38165A9B39233749FE5CC8534783FA2DB18F682C"
+  },
+  "assetImport": {
+    "assetFileCount": 1500,
+    "missingMetaCount": 0
+  },
+  "tests": {
+    "assertions": 1679,
+    "redEnemyFramesComparedByteForByte": 1016
+  },
+  "result": "pass",
+  "warnings": [
+    "CocosCreator.exe was launched as a bounded hidden process and the web-mobile output timestamp advanced after the process completed."
+  ],
+  "networkScope": "No network or lazy-resource recovery was attempted."
+}

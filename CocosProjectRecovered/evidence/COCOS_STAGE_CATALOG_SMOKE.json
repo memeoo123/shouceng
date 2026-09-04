@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "capturedAtLocal": "2026-09-04T18:44:52+08:00",
+  "url": "http://127.0.0.1:8132/?stage=2&test=cocos-stage-catalog&build=184448",
+  "viewport": "Codex in-app browser runtime",
+  "state": {
+    "ready": true,
+    "passed": true,
+    "stageCount": 220,
+    "totalWaves": 2620,
+    "totalRosterEntries": 60588,
+    "rewardBundles": 660,
+    "mapIds": ["Desert", "Forest", "Snowfield"],
+    "referencedEnemyIds": ["-b_CD2EDAAF", "db_DF32E2C2", "fs_18B222C3", "gb_E916AA75", "js_9F2D53C8", "qb_2B5987F2"],
+    "baseEnemyCount": 6,
+    "enemyVariantCount": 18,
+    "extraMapFrames": {
+      "desert": [750, 1623],
+      "snowfield": [750, 1623]
+    },
+    "errors": []
+  },
+  "sourceHashes": {
+    "stages.json": "0F9EF27A0F6568456050ECFAE69F8750426E60E5B6B24E21CDC3E68AA4BAE6C0",
+    "enemies.json": "E0E2E5ED68988CE743EFF70A6E7A895A1A89D16DFCD19434C72915D1A488AC8B",
+    "enemy-variants.json": "D8194329258E566CCD665BB27440BF28092BE11A822C915AD133451C82C69117",
+    "maps.json": "25119685D89B9F7FC7FCDBE2E4E67B5D0780E4CAE47357918E2E599445C3DE79",
+    "Map_Desert.png": "023943B88063705574874FD90FDE8EF24F6C4466BD02D690EBBBDE4EC839929B",
+    "Map_Snowfield.png": "5F46CA4E2646E36108200E2434A26D6DF079CE2E45024FF01C9E5F041CB402C5"
+  }
+}

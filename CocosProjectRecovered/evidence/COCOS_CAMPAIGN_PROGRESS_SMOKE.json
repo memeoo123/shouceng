@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Browser lifecycle validation for recovered Cocos campaign progress persistence, lock enforcement and settlement UI",
+  "storageKey": "shoucheng.wx4f4f3709865004a2.v3.MaxStageRecord",
+  "cases": [
+    {
+      "name": "frontier victory unlocks exactly one stage",
+      "route": "?stage=1&test=cocos-campaign-persist-victory&build=191013",
+      "before": [1, 0],
+      "after": [2, 0],
+      "stageAdvanced": true,
+      "unlockedStage": 2,
+      "nextStageAvailable": true,
+      "nextStageButton": [400, 670, 220, 88],
+      "result": "pass"
+    },
+    {
+      "name": "persisted unlock survives ordinary reload",
+      "route": "?stage=2",
+      "loadedStage": 2,
+      "maxStageRecord": [2, 0],
+      "unlockedStage": 2,
+      "result": "pass"
+    },
+    {
+      "name": "ordinary locked request is bounded",
+      "route": "?stage=220",
+      "requestedStage": 220,
+      "loadedStage": 2,
+      "unlockedStage": 2,
+      "result": "pass"
+    },
+    {
+      "name": "defeat records completed wave without advancing",
+      "route": "?stage=2&test=cocos-result-defeat&build=191013",
+      "battleWave": 2,
+      "after": [2, 1],
+      "stageAdvanced": false,
+      "nextStageAvailable": false,
+      "result": "pass"
+    }
+  ],
+  "creatorBuild": {
+    "version": "3.8.8",
+    "pid": 37828,
+    "startedAtLocal": "2026-09-04T19:10:13.0203000+08:00",
+    "indexLastWriteTimeLocal": "2026-09-04T19:10:32.6392925+08:00",
+    "indexSha256": "1E277FA6DAB41A9F1AC9DE4F38165A9B39233749FE5CC8534783FA2DB18F682C"
+  },
+  "tests": {
+    "assertions": 1690,
+    "assetFileCount": 1500,
+    "missingMetaCount": 0
+  },
+  "networkScope": "No network or lazy-resource recovery was attempted.",
+  "result": "pass"
+}

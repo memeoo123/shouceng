@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-28T12:38:05.7442610Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-trebuchet",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e08",
+    "weaponMount": "../../src/Main.js#WEAPON_MOUNTS.Building_Trebuchet",
+    "projectileDefaults": "../../src/Main.js#defaultProjectileSpeedPixels/fire",
+    "splashResolution": "../../src/Main.js#updateProjectiles",
+    "buildingSprites": "../../bin/res/buildings/Building_Trebuchet{1..4}{,_up}.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 520,
+    "buildingShape": [[0, 0], [1, 0], [0, 1], [1, 1]],
+    "attackByLevel": [60, 90, 138, 210],
+    "cooldownSeconds": 4,
+    "rangePixels": 650,
+    "criticalChance": 0.05,
+    "criticalDamage": 1.5,
+    "fireType": "throw",
+    "projectileSpeedPixelsPerSecond": 1250,
+    "projectileSizePixels": [48, 26],
+    "splashRadiusPixels": 75,
+    "secondarySplashDamageRatio": 0.5,
+    "projectileUsesSweptBystanderContacts": false,
+    "weaponMount": {
+      "x": 0.5,
+      "y": 0.1,
+      "pivot": [0.88, 0.5],
+      "rotationDegrees": -90
+    }
+  },
+  "runtimeResult": {
+    "weaponMountAttached": true,
+    "projectileCreated": true,
+    "projectileForceTargetOnly": true,
+    "primaryDamage": 60,
+    "nearbyDamage": 30,
+    "outsideDamage": 0,
+    "recoveredSplashPassed": true,
+    "errors": []
+  },
+  "assets": {
+    "bodySprites": 4,
+    "weaponSprites": 4,
+    "sourceTargetHashMatches": 8
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-28T20:37:23.2005162+08:00",
+    "assetFileCount": 446,
+    "missingMetaCount": 0,
+    "typescriptPassed": true,
+    "goldenCasesPassed": 22,
+    "projectAssertionsPassed": 284,
+    "pass": true
+  }
+}

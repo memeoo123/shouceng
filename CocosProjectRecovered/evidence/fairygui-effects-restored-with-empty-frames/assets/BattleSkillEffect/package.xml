@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="7jkc5l5w">
+  <resources>
+    <movieclip id="ilh16" name="中毒.jta" path="/ani/" exported="true"/>
+    <component id="ndzy1" name="BulletHit.xml" path="/export/" exported="true"/>
+    <movieclip id="cixh1g" name="潮湿.jta" path="/ani/" exported="true"/>
+    <movieclip id="iix01f" name="红色受击.jta" path="/ani/" exported="true"/>
+    <movieclip id="ilh119" name="冰冻.jta" path="/ani/" exported="true"/>
+    <movieclip id="kf6q1d" name="攻击命中.jta" path="/废弃/"/>
+    <movieclip id="kjn71p" name="Effect_PoisonBottle.jta" path="/ani/" exported="true"/>
+    <movieclip id="m1eg1r" name="Cavalry_zhuangji.jta" path="/ani/" exported="true"/>
+    <movieclip id="u1pg1c" name="护盾.jta" path="/ani/" exported="true"/>
+    <movieclip id="uh4v1i" name="单位死亡.jta" path="/ani/" exported="true"/>
+    <movieclip id="zumy1j" name="我方单位入场.jta" path="/ani/" exported="true"/>
+    <movieclip id="zumy1k" name="敌方单位入场.jta" path="/ani/" exported="true"/>
+    <movieclip id="88q5726" name="燃烧.jta" path="/ani/" exported="true"/>
+    <movieclip id="88q5727" name="Effect_BurnArea.jta" path="/ani/" exported="true"/>
+    <movieclip id="88q5728" name="Explosion_Zombies6.jta" path="/ani/" exported="true"/>
+    <movieclip id="gzu872j" name="眩晕.jta" path="/ani/" exported="true"/>
+    <movieclip id="imxp72e" name="ArtilleryFire.jta" path="/ani/" exported="true"/>
+    <movieclip id="it4w72g" name="损毁.jta" path="/ani/" exported="true"/>
+    <movieclip id="j19y72f" name="Explosion_ElectricalMage.jta" path="/ani/" exported="true"/>
+    <movieclip id="l8bd72q" name="DeadEffect_Skel.jta" path="/ani/" exported="true"/>
+    <movieclip id="l8bd72r" name="DeadEffect_Fire.jta" path="/ani/" exported="true"/>
+    <movieclip id="l8bd72s" name="DeadEffect_Ice.jta" path="/ani/" exported="true"/>
+    <movieclip id="l8bd72t" name="麻痹.jta" path="/ani/" exported="true"/>
+    <movieclip id="mg6772i" name="Laser1.jta" path="/ani/" exported="true"/>
+    <movieclip id="pkf372h" name="BeDmgDownHalo.jta" path="/ani/" exported="true"/>
+    <movieclip id="qaqt71x" name="Explosion_Bamboo.jta" path="/ani/" exported="true"/>
+    <movieclip id="qaqt71y" name="Explosion_Cactus.jta" path="/ani/" exported="true"/>
+    <movieclip id="qaqt71z" name="Explosion_Chili.jta" path="/ani/" exported="true"/>
+    <movieclip id="qzg272p" name="HomeHeal.jta" path="/ani/" exported="true"/>
+    <movieclip id="snfh729" name="治疗.jta" path="/ani/" exported="true"/>
+    <movieclip id="vh0z72k" name="BuildBeHit.jta" path="/ani/" exported="true"/>
+    <movieclip id="vh0z72l" name="Explosion_Trebuchet.jta" path="/ani/" exported="true"/>
+    <movieclip id="vh0z72m" name="Laser2.jta" path="/ani/" exported="true"/>
+    <movieclip id="vh0z72n" name="Laser3.jta" path="/ani/" exported="true"/>
+    <movieclip id="vh0z72o" name="Laser4.jta" path="/ani/" exported="true"/>
+  </resources>
+  <publish name="BattleSkillEffect">
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "20bf60a7-699a-4f74-893d-52e5cb77245e",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "20bf60a7-699a-4f74-893d-52e5cb77245e@6c48a",
+      "displayName": "Building_ElectricityTower3",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "20bf60a7-699a-4f74-893d-52e5cb77245e",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "20bf60a7-699a-4f74-893d-52e5cb77245e@f9941",
+      "displayName": "Building_ElectricityTower3",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 5,
+        "trimX": 0,
+        "trimY": 20,
+        "width": 159,
+        "height": 103,
+        "rawWidth": 159,
+        "rawHeight": 153,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -79.5,
+            -51.5,
+            0,
+            79.5,
+            -51.5,
+            0,
+            -79.5,
+            51.5,
+            0,
+            79.5,
+            51.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            0,
+            133,
+            159,
+            133,
+            0,
+            30,
+            159,
+            30
+          ],
+          "nuv": [
+            0,
+            0.19607843137254902,
+            1,
+            0.19607843137254902,
+            0,
+            0.869281045751634,
+            1,
+            0.869281045751634
+          ],
+          "minPos": [
+            -79.5,
+            -51.5,
+            0
+          ],
+          "maxPos": [
+            79.5,
+            51.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "20bf60a7-699a-4f74-893d-52e5cb77245e@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "20bf60a7-699a-4f74-893d-52e5cb77245e@6c48a"
+  }
+}

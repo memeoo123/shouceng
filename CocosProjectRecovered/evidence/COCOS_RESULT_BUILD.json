@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Build gate for the recovered Stage 2 victory and defeat result overlay",
+  "creator": {
+    "version": "3.8.8",
+    "executable": "C:/ProgramData/cocos/editors/Creator/3.8.8/CocosCreator.exe",
+    "arguments": [
+      "--project",
+      "E:/Projects/weichatAnalysis/shoucheng/LayaProject2131Recovered/CocosProjectRecovered",
+      "--build",
+      "platform=web-mobile;debug=false"
+    ],
+    "pid": 21052,
+    "startedAtLocal": "2026-09-04T18:30:28.7002470+08:00",
+    "finishedAtLocal": "2026-09-04T18:30:46.5260401+08:00",
+    "reportedBuildTaskDurationMs": 7543
+  },
+  "output": {
+    "directory": "build/web-mobile",
+    "index": "build/web-mobile/index.html",
+    "indexLastWriteTimeLocal": "2026-09-04T18:30:46.2149795+08:00",
+    "indexSha256": "1E277FA6DAB41A9F1AC9DE4F38165A9B39233749FE5CC8534783FA2DB18F682C"
+  },
+  "result": "pass",
+  "warnings": [
+    "mainBundleCompressionType was absent and Creator used its web-mobile default merge_dep",
+    "the CLI debug value was parsed as a string and Creator used the equivalent default boolean false",
+    "CocosCreator.exe returned process code 36 after the internal web-mobile task logged successful completion"
+  ],
+  "networkScope": "No network or lazy-resource recovery was attempted."
+}

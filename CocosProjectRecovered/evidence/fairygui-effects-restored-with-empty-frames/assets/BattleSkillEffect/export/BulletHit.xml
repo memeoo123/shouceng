@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="100,100" pivot="0.5,0.5" anchor="true">
+  <displayList>
+    <jta id="n0_ndzy" name="n0" src="kf6q1d" xy="15,15" size="70,70" fileName="废弃/攻击命中.jta" playing="false"/>
+  </displayList>
+  <transition name="spawn" options="2">
+    <item time="0" type="Animation" target="n0_ndzy" value="0,p"/>
+    <item time="0" type="Visible" target="n0_ndzy" value="true"/>
+    <item time="9" type="Animation" target="n0_ndzy" value="-1,s"/>
+    <item time="9" type="Visible" target="n0_ndzy" value="false"/>
+  </transition>
+</component>

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0",
+  "testUrl": "http://127.0.0.1:8132/?stage=2&test=cocos-trait-selection",
+  "sourceEvidence": [
+    "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#TraitSelect",
+    "../../src/data/general-traits.json",
+    "../../src/data/fight-levels.json",
+    "../../src/data/fight-params.json"
+  ],
+  "creator": {
+    "version": "3.8.8",
+    "executable": "C:/ProgramData/cocos/editors/Creator/3.8.8/CocosCreator.exe",
+    "pid": 52836,
+    "arguments": "--project E:/Projects/weichatAnalysis/shoucheng/LayaProject2131Recovered/CocosProjectRecovered --build platform=web-mobile;debug=false",
+    "indexLastWriteTime": "2026-08-31T15:25:24.0408133+08:00",
+    "buildLogFinished": true,
+    "buildErrorMatches": 0
+  },
+  "runtime": {
+    "threshold": 20,
+    "levelBefore": 0,
+    "levelAfter": 1,
+    "experienceAfter": 0,
+    "choiceCount": 3,
+    "uniqueChoices": true,
+    "legendaryChoiceCount": 1,
+    "battleRetained": true,
+    "panelVisible": true,
+    "attackBefore": 23,
+    "attackAfter": 24.150000000000002,
+    "attackTraitApplied": true,
+    "recoveredTraitSelectionPassed": true,
+    "choiceClick": {
+      "traitId": 7,
+      "effectKey": "Coins",
+      "moneyBefore": 0,
+      "moneyAfter": 20,
+      "selectionClosed": true
+    },
+    "browserErrors": []
+  },
+  "result": "passed",
+  "presentation": {
+    "classification": "approximate",
+    "notes": "Panel silhouette, 630x500 design-space geometry, three cyan choices, quality rails and HUD hiding were matched manually to the supplied portrait reference; no pixel-diff claim is made."
+  }
+}

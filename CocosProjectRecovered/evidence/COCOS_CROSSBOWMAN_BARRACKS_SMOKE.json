@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-28T10:45:14.1010701Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-crossbowman-barracks",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e04",
+    "summonedUnit": "../../src/data/summoned-units.json#-b_CD2EDAAF",
+    "model": "../../../targets/wx4f4f3709865004a2/3/generated/tables/model.json#Crossbowman1",
+    "buildingSprites": "../../bin/res/buildings/Building_Crossbowman{1..4}.png",
+    "unitFrames": "../../bin/res/units/Crossbowman1_*.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 520,
+    "buildingShape": [[0, 0], [1, 0], [2, 0], [1, 1]],
+    "summonCooldownSecondsByLevel": [11, 8.8, 7.7, 6.6],
+    "summonUnitMaximumByLevel": [2, 4, 6, 8],
+    "summonedUnit": {
+      "body": "Crossbowman1",
+      "hitPoints": 75,
+      "attack": 35,
+      "attackSpeed": 0.8,
+      "speed": 1,
+      "range": 6,
+      "bulletSpeed": 15,
+      "attackFireFrame": 6,
+      "criticalChance": 0.05,
+      "criticalDamage": 2,
+      "dodge": 0.05
+    },
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 9, "victory": 13 }
+  },
+  "runtimeResult": {
+    "spawned": 2,
+    "spawnedBodies": ["Crossbowman1", "Crossbowman1"],
+    "cappedAtRecoveredMaximum": true,
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 9, "victory": 13 },
+    "projectileCreatedAfterFireFrame": true,
+    "targetHpBefore": 300,
+    "targetHpAfter": 265,
+    "damageApplied": 35,
+    "rangedImpactPassed": true,
+    "errors": []
+  },
+  "assets": {
+    "buildingSprites": 4,
+    "unitActionFrames": 40,
+    "sourceTargetHashMatches": 44
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 4468,
+    "creatorBuildExitCode": 36,
+    "buildIndexUpdatedAt": "2026-08-28T18:44:16.9428160+08:00",
+    "assetFileCount": 334,
+    "missingMetaCount": 0,
+    "typescriptPassed": true,
+    "pass": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-28T10:19:42.6639093Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-shop-synthesis",
+  "sourceRule": "A dragged building overlaps an available shop item with the same id and synthesis level; the target increments one level and the source slot is consumed. Level 4 cannot synthesize further.",
+  "sourceEvidence": [
+    "../../src/Main.js:2306-2322",
+    "../../src/Main.js:2392-2423",
+    "../../evidence/ALL_BUILDING_MECHANICS.json"
+  ],
+  "result": {
+    "detected": true,
+    "merged": true,
+    "sourceAvailable": false,
+    "sourceActive": false,
+    "targetAvailable": true,
+    "targetLevel": 2,
+    "targetAttack": 30,
+    "targetSprite": "original/buildings/Building_ArrowTower2",
+    "targetWeaponMount": "original/buildings/Building_ArrowTower2_up",
+    "errors": []
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 31244,
+    "creatorBuildExitCode": 36,
+    "buildCompleted": true,
+    "typescriptPassed": true,
+    "projectAssertions": 108,
+    "pass": true
+  }
+}

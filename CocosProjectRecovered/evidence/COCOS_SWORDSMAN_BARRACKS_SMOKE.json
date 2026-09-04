@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-28T10:37:21.2561372Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-swordsman-barracks",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e06",
+    "summonedUnit": "../../src/data/summoned-units.json#db_DF32E2C2",
+    "model": "../../../targets/wx4f4f3709865004a2/3/generated/tables/model.json#Mauler1",
+    "buildingSprites": "../../bin/res/buildings/Building_Swordsman{1..4}.png",
+    "unitFrames": "../../bin/res/units/Mauler1_*.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 390,
+    "buildingShape": [[0, 0], [1, 0], [2, 0]],
+    "summonCooldownSecondsByLevel": [9, 7.2, 6.3, 5.4],
+    "summonUnitMaximumByLevel": [2, 4, 6, 8],
+    "summonedUnit": {
+      "body": "Mauler1",
+      "hitPoints": 400,
+      "attack": 10,
+      "attackSpeed": 0.6666666666666667,
+      "speed": 0.9,
+      "range": 1,
+      "bulletSpeed": 0,
+      "attackFireFrame": 4
+    },
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 7, "victory": 13 }
+  },
+  "runtimeResult": {
+    "spawned": 2,
+    "spawnedBodies": ["Mauler1", "Mauler1"],
+    "cappedAtRecoveredMaximum": true,
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 7, "victory": 13 },
+    "errors": []
+  },
+  "assets": {
+    "buildingSprites": 4,
+    "unitActionFrames": 38,
+    "sourceTargetHashMatches": 42
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 67224,
+    "creatorBuildExitCode": 36,
+    "assetFileCount": 290,
+    "missingMetaCount": 0,
+    "typescriptPassed": true,
+    "pass": true
+  }
+}

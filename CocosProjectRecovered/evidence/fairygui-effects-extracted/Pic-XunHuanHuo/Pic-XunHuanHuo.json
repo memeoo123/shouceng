@@ -1,0 +1,74 @@
+{
+  "interval": 83,
+  "repeatDelay": 0,
+  "swing": false,
+  "width": 173,
+  "height": 65,
+  "frames": [
+    {
+      "addDelay": 0,
+      "offsetX": 5,
+      "offsetY": 3,
+      "width": 163,
+      "height": 59,
+      "textureIndex": 0
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 3,
+      "offsetY": 3,
+      "width": 165,
+      "height": 59,
+      "textureIndex": 1
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 32,
+      "offsetY": 4,
+      "width": 137,
+      "height": 58,
+      "textureIndex": 2
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 25,
+      "offsetY": 4,
+      "width": 144,
+      "height": 58,
+      "textureIndex": 3
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 22,
+      "offsetY": 3,
+      "width": 146,
+      "height": 60,
+      "textureIndex": 4
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 20,
+      "offsetY": 3,
+      "width": 149,
+      "height": 60,
+      "textureIndex": 5
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 27,
+      "offsetY": 3,
+      "width": 142,
+      "height": 60,
+      "textureIndex": 6
+    }
+  ],
+  "textureFiles": [
+    "Pic-XunHuanHuo-00.png",
+    "Pic-XunHuanHuo-01.png",
+    "Pic-XunHuanHuo-02.png",
+    "Pic-XunHuanHuo-03.png",
+    "Pic-XunHuanHuo-04.png",
+    "Pic-XunHuanHuo-05.png",
+    "Pic-XunHuanHuo-06.png"
+  ]
+}

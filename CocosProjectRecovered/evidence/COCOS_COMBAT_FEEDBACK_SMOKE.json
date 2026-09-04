@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-28",
+  "target": "wx4f4f3709865004a2/3-cocos-port",
+  "creatorVersion": "3.8.8",
+  "browserRoute": "http://127.0.0.1:8132/?stage=2&test=cocos-lifecycle",
+  "browserResult": {
+    "completedWaves": [1, 2, 3, 4, 5],
+    "victory": true,
+    "finalWaveSpawned": 12,
+    "finalWaveResolved": 12,
+    "damageTextsSpawned": 41,
+    "maximumDamageTextsActive": 7,
+    "runtimeErrors": []
+  },
+  "damageText": {
+    "fontSize": 58,
+    "outlineWidth": 5,
+    "risePixelsPerSecond": 42,
+    "lifetimeSeconds": 0.85,
+    "colors": {
+      "normalPlayerHit": "#ffffff",
+      "critical": "#ffd54d",
+      "dodge": "#9fd8ff",
+      "buildingHit": "#ff765b"
+    },
+    "visualClaim": "Lifecycle and concurrent-node cleanup are browser-verified. The accelerated smoke kills enemies near the top spawn boundary, so normal-timing pixel alignment still requires a matched capture."
+  },
+  "repel": {
+    "pureAssertions": {
+      "eliteSpeedPixelsPerSecond": 600,
+      "eliteDurationSeconds": 0.3,
+      "linearRemainingTimeAttenuation": true,
+      "mapBoundsApplied": true,
+      "stage2BossRepelResist": true
+    },
+    "runtimeClaim": "Production actors carry and update the recovered repel state. The high-damage lifecycle route did not produce an enemy contact, so browser repel motion is not claimed by this smoke."
+  },
+  "deadInLast": {
+    "genericKernelImplemented": true,
+    "targetMovementRefreshesLastPoint": true,
+    "targetDeathDisablesAutoFlow": true,
+    "fakeDeathBox": [50, 50],
+    "consumeWithinPixels": 50,
+    "forceTargetOnlySupported": true,
+    "entryBoundary": "Meteorite now drives the generic deadInLast and forceTargetOnly path from the recovered air-support entry; see COCOS_AIR_SUPPORT_SMOKE.json."
+  },
+  "automated": {
+    "projectAssertions": 60,
+    "goldenCases": 8,
+    "typescript": "pass",
+    "cocosBuild": "pass"
+  }
+}

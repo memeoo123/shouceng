@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-08-28T10:10:00.0710378Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-synthesis",
+  "case": "two level-1 e07 arrow towers merge on the same footprint",
+  "result": {
+    "targetDetected": true,
+    "merged": true,
+    "remainingBuildingCount": 1,
+    "id": "e07",
+    "level": 2,
+    "attack": 30,
+    "sprite": "original/buildings/Building_ArrowTower2",
+    "weaponMount": "original/buildings/Building_ArrowTower2_up",
+    "runtimeErrors": []
+  },
+  "coveredRules": {
+    "sameIdRequired": true,
+    "sameLevelRequired": true,
+    "maximumLevel": 4,
+    "upgradedDragUsesCurrentDefinition": true
+  },
+  "passed": true
+}

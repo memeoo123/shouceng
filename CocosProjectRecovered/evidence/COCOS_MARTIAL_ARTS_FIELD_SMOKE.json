@@ -1,0 +1,60 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T04:54:52.5881140Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-martial-arts-field",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e15",
+    "originalTable": "../../../targets/wx4f4f3709865004a2/3/generated/tables/equipt.json#e15",
+    "originalMaterial": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#ItemMaterail/UnitAtkHpUpTrait/AtkTrait",
+    "restoredReference": "../../src/Main.js#buildingBuffs/buildingsAdjacent/updateBuildings",
+    "buildingSprites": "../../bin/res/buildings/Building_MartialArtsField{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 260,
+    "buildingShape": [[0, 0], [1, 0]],
+    "adjacentAttackBonusByLevel": [0.05, 0.05, 0.05, 0.05],
+    "affectedAttackers": ["defense", "unit produced by adjacent barracks"],
+    "adjacency": "Chebyshev distance 1 between any occupied cells, including diagonal contact",
+    "stacking": "attackMultiplier = 1 + sum(active adjacent bonuses)",
+    "damageFormula": "normal damage path floors baseAttack * attackMultiplier",
+    "activeOnly": true,
+    "shippedUpgradeBehavior": "The synthesis path writes Ex.AtkAdd while gameplay reads Ex.RoundAtkAdd, so sprite upgrades 1-4 retain the original 5% gameplay value."
+  },
+  "runtimeResult": {
+    "levelAttackBonuses": [0.05, 0.05, 0.05, 0.05],
+    "shippedUpgradeKeyMismatchPreserved": true,
+    "towerAdjacent": true,
+    "barracksAdjacent": true,
+    "towerDamageWithAura": 21,
+    "towerDamageWithoutAura": 20,
+    "alliedDamageWithAura": 31,
+    "alliedDamageWithoutAura": 30,
+    "inactiveBonus": 0,
+    "recoveredAdjacentAttackAuraPassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixelsByLevel": [[151, 82], [156, 99], [168, 96], [171, 99]],
+    "sourceTargetHashMatches": 4,
+    "sha256": [
+      "226c080347b33cfaf38a74351c0045417a5fda309e4fb85690e8f1e9833217fb",
+      "1eee53b7a8a765ec9b50d9d95dbe155bebc3cb6bc8eee671a2f3f5611576abdb",
+      "aa8f905ed13bdf235acfd54d9f03d27ba850201d95fd4bd6b22c902da053f2e6",
+      "267ef8453dd002cd3076784338157d8e009782bbbb3d175c6347df2d65422ee3"
+    ]
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 23096,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T12:53:35.0502713+08:00",
+    "assetFileCount": 547,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 28,
+    "projectAssertionsPassed": 464,
+    "pass": true
+  }
+}

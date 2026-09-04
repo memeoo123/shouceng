@@ -2,7 +2,16 @@
   "damage": [
     { "name": "arrow-tower-normal", "attack": 20, "expected": 20 },
     { "name": "arrow-tower-critical", "attack": 20, "critFactor": 15000, "expected": 30 },
-    { "name": "swordsman-critical", "attack": 30, "critFactor": 20000, "expected": 60 }
+    { "name": "swordsman-critical", "attack": 30, "critFactor": 20000, "expected": 60 },
+    { "name": "knight-first-charge-hit", "attack": 40, "effectRatio": 3000, "expected": 12 },
+    { "name": "mage-aoe-damage-per-target", "attack": 60, "expected": 60 },
+    { "name": "trebuchet-primary-impact", "attack": 60, "expected": 60 },
+    { "name": "trebuchet-secondary-splash", "attack": 60, "effectRatio": 5000, "expected": 30 },
+    { "name": "electricity-tower-primary-impact", "attack": 40, "expected": 40 },
+    { "name": "electricity-tower-first-jump", "attack": 40, "expected": 40 },
+    { "name": "mirror-tower-initial-hit", "attack": 20, "expected": 20 },
+    { "name": "mirror-tower-quarter-second-tick", "attack": 20, "expected": 20 },
+    { "name": "level-1-martial-arts-field-adjacent-arrow-tower", "attack": 20, "effectRatio": 10500, "expected": 21 }
   ],
   "waves": [
     {
@@ -18,10 +27,22 @@
   ],
   "baseHp": [
     { "name": "main-base-one-swordsman-hit", "start": 975, "damage": [30], "expected": 945 },
-    { "name": "main-base-clamps-at-zero", "start": 20, "damage": [30], "expected": 0 }
+    { "name": "main-base-clamps-at-zero", "start": 20, "damage": [30], "expected": 0 },
+    { "name": "level-1-long-fence-one-swordsman-hit", "start": 507, "damage": [30], "expected": 477 }
   ],
   "intervals": [
     { "name": "level-1-shooter-barracks-creation", "interval": 9, "duration": 27, "spawnAtZero": false, "expectedCount": 3 },
-    { "name": "level-2-shooter-barracks-creation", "interval": 7.2, "duration": 21.6, "spawnAtZero": false, "expectedCount": 3 }
+    { "name": "level-2-shooter-barracks-creation", "interval": 7.2, "duration": 21.6, "spawnAtZero": false, "expectedCount": 3 },
+    { "name": "level-1-mauler-barracks-cap-window", "interval": 10, "duration": 20, "spawnAtZero": false, "expectedCount": 2 },
+    { "name": "level-4-mauler-barracks-cap-window", "interval": 6, "duration": 48, "spawnAtZero": false, "expectedCount": 8 },
+    { "name": "level-1-swordsman-barracks-cap-window", "interval": 9, "duration": 18, "spawnAtZero": false, "expectedCount": 2 },
+    { "name": "level-4-swordsman-barracks-cap-window", "interval": 5.4, "duration": 43.2, "spawnAtZero": false, "expectedCount": 8 },
+    { "name": "level-1-crossbowman-barracks-cap-window", "interval": 11, "duration": 22, "spawnAtZero": false, "expectedCount": 2 },
+    { "name": "level-4-crossbowman-barracks-cap-window", "interval": 6.6, "duration": 52.8, "spawnAtZero": false, "expectedCount": 8 },
+    { "name": "level-1-knight-barracks-cap-window", "interval": 13, "duration": 26, "spawnAtZero": false, "expectedCount": 2 },
+    { "name": "level-4-knight-barracks-cap-window", "interval": 7.8, "duration": 62.4, "spawnAtZero": false, "expectedCount": 8 },
+    { "name": "level-1-mage-barracks-cap-window", "interval": 11, "duration": 22, "spawnAtZero": false, "expectedCount": 2 },
+    { "name": "level-4-mage-barracks-cap-window", "interval": 6.6, "duration": 52.8, "spawnAtZero": false, "expectedCount": 8 },
+    { "name": "level-1-attack-speed-statue-adjacent-arrow-tower", "interval": 1.9047619047619047, "duration": 5.714285714285714, "spawnAtZero": false, "expectedCount": 3 }
   ]
 }

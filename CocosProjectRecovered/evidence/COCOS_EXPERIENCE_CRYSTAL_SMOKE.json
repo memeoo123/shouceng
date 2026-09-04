@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T04:02:30Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-experience-crystal",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e11",
+    "experienceFormula": "../../src/Main.js#removeEnemy/grantFightExperience",
+    "originalMaterial": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#ExpMaterial",
+    "fightParameters": "../../src/data/fight-params.json#EnemyExp/EnemyExpFix",
+    "buildingSprites": "../../bin/res/buildings/Building_ShuiJing{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 130,
+    "buildingShape": [[0, 0]],
+    "experienceBonusByLevel": [0.05, 0.1, 0.2, 0.4],
+    "resultExperienceBaseNormal": 10,
+    "resultExperienceBaseElite": 20,
+    "resultExperienceBossFallback": 10,
+    "fightLevelExperienceBaseNormal": 10,
+    "fightLevelExperienceBaseElite": 20,
+    "fightLevelExperienceBaseBoss": 0,
+    "fightLevelExperienceFix": 0.833333333333333,
+    "battleExperienceFormula": "round(base * (1 + activeBuildingBonus))",
+    "fightLevelExperienceFormula": "floor(base * globalFix) * (1 + activeBuildingBonus)",
+    "activeOnly": true
+  },
+  "runtimeResult": {
+    "activeBonus": 0.05,
+    "withBuildingBattleGain": 11,
+    "withBuildingFightLevelGain": 8.4,
+    "inactiveBonus": 0,
+    "withoutBuildingBattleGain": 10,
+    "withoutBuildingFightLevelGain": 8,
+    "bonusRemovedWhenInactive": true,
+    "recoveredExperiencePassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixels": [78, 87],
+    "sourceTargetHashMatches": 4
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 34644,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T12:05:21.7335548+08:00",
+    "assetFileCount": 531,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 26,
+    "projectAssertionsPassed": 379,
+    "pass": true
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T04:38:36Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-attack-speed-statue",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e14",
+    "originalMaterial": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#ItemMaterail/SpeedUpTrait",
+    "restoredReference": "../../src/Main.js#buildingBuffs/buildingsAdjacent/updateBuildings",
+    "buildingSprites": "../../bin/res/buildings/Building_Statue{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 260,
+    "buildingShape": [[0, 0], [0, 1]],
+    "adjacentAttackSpeedBonusByLevel": [0.05, 0.075, 0.115, 0.175],
+    "affectedBuildings": ["defense", "barracks"],
+    "adjacency": "Chebyshev distance 1 between any occupied cells, including diagonal contact",
+    "stacking": "speedMultiplier = 1 + sum(active adjacent bonuses)",
+    "cooldownFormula": "baseCooldown / speedMultiplier",
+    "activeOnly": true
+  },
+  "runtimeResult": {
+    "towerAdjacent": true,
+    "barracksAdjacent": true,
+    "towerCooldownWithAura": 1.9047619047619047,
+    "barracksCooldownWithAura": 8.571428571428571,
+    "towerCooldownWithoutAura": 2,
+    "barracksCooldownWithoutAura": 9,
+    "inactiveBonus": 0,
+    "recoveredAdjacentSpeedAuraPassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixelsByLevel": [[101, 196], [101, 196], [101, 196], [101, 196]],
+    "sourceTargetHashMatches": 4,
+    "sha256": [
+      "7611d7a5df3a0b0e81a31ed29a0d74df43bc0c90f30745a83417041048dbd93b",
+      "93fdebf1de71acce6929aef433b15f63b34d99dc72422a113f2df0cf6bde3e93",
+      "3ad8edebe48c092ce690a330afe76b22928e42ab6633267c7e1d220fc829aa4a",
+      "e5a810f8008a7e73cf51d02db7a4edd16b3cf442f564c3a564b417a2a1c19d74"
+    ]
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 46284,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T12:37:21.4415586+08:00",
+    "assetFileCount": 543,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 27,
+    "projectAssertionsPassed": 443,
+    "pass": true
+  }
+}

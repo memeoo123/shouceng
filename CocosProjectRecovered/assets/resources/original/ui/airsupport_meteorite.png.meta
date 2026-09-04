@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.27",
+  "importer": "image",
+  "imported": true,
+  "uuid": "3367232e-5564-4915-9ed2-17e2cd427540",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "3367232e-5564-4915-9ed2-17e2cd427540@6c48a",
+      "displayName": "airsupport_meteorite",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "3367232e-5564-4915-9ed2-17e2cd427540",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "3367232e-5564-4915-9ed2-17e2cd427540@f9941",
+      "displayName": "airsupport_meteorite",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 9,
+        "trimX": 46,
+        "trimY": 0,
+        "width": 65,
+        "height": 78,
+        "rawWidth": 157,
+        "rawHeight": 96,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -32.5,
+            -39,
+            0,
+            32.5,
+            -39,
+            0,
+            -32.5,
+            39,
+            0,
+            32.5,
+            39,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            46,
+            96,
+            111,
+            96,
+            46,
+            18,
+            111,
+            18
+          ],
+          "nuv": [
+            0.2929936305732484,
+            0.1875,
+            0.7070063694267515,
+            0.1875,
+            0.2929936305732484,
+            1,
+            0.7070063694267515,
+            1
+          ],
+          "minPos": [
+            -32.5,
+            -39,
+            0
+          ],
+          "maxPos": [
+            32.5,
+            39,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "3367232e-5564-4915-9ed2-17e2cd427540@6c48a",
+        "atlasUuid": "",
+        "trimType": "auto"
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "3367232e-5564-4915-9ed2-17e2cd427540@6c48a"
+  }
+}

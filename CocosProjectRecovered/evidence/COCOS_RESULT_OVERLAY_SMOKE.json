@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-09-04T10:32:02.615Z",
+  "viewport": {
+    "width": 574,
+    "height": 1036,
+    "devicePixelRatio": 1
+  },
+  "captures": [
+    {
+      "outcome": "victory",
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-result-victory",
+      "output": "E:/Projects/weichatAnalysis/shoucheng/_tmp_cocos-result-victory.png",
+      "sha256": "79bf06b0355c7ae9771e2561fff28108c3313e645c262133ab9e96356e83e79a",
+      "state": {
+        "ready": true,
+        "victory": true,
+        "stage": 2,
+        "wave": 5,
+        "kills": 35,
+        "exp": 390,
+        "battleMoney": 103,
+        "maxWave": 5,
+        "title": "守城成功",
+        "subtitle": "5 波敌军已全部击退",
+        "retryOnly": true,
+        "nextStageDeferred": true,
+        "alliesInVictory": 0,
+        "alliesInIdle": 0,
+        "layout": {
+          "shade": [
+            0,
+            0,
+            750,
+            1286
+          ],
+          "panel": [
+            105,
+            400,
+            540,
+            390
+          ],
+          "retry": [
+            255,
+            670,
+            240,
+            88
+          ]
+        },
+        "testAdapter": "victory"
+      },
+      "browserErrors": [],
+      "consoleErrors": [],
+      "ignoredFaviconErrors": []
+    },
+    {
+      "outcome": "defeat",
+      "url": "http://127.0.0.1:8132/?stage=2&test=cocos-result-defeat",
+      "output": "E:/Projects/weichatAnalysis/shoucheng/_tmp_cocos-result-defeat.png",
+      "sha256": "dc1d9165a9ec635371c5ac5c9d649f10b2d64bed163f282b1b92cdc7e6b4c68e",
+      "state": {
+        "ready": true,
+        "victory": false,
+        "stage": 2,
+        "wave": 2,
+        "kills": 4,
+        "exp": 88,
+        "battleMoney": 47,
+        "maxWave": 5,
+        "title": "城堡失守",
+        "subtitle": "调整建筑布局后重新挑战",
+        "retryOnly": true,
+        "nextStageDeferred": true,
+        "alliesInVictory": 0,
+        "alliesInIdle": 0,
+        "layout": {
+          "shade": [
+            0,
+            0,
+            750,
+            1286
+          ],
+          "panel": [
+            105,
+            400,
+            540,
+            390
+          ],
+          "retry": [
+            255,
+            670,
+            240,
+            88
+          ]
+        },
+        "testAdapter": "defeat"
+      },
+      "browserErrors": [],
+      "consoleErrors": [],
+      "ignoredFaviconErrors": [],
+      "retry": {
+        "href": "http://127.0.0.1:8132/?stage=2",
+        "resultAttributeCleared": true,
+        "output": "E:/Projects/weichatAnalysis/shoucheng/_tmp_cocos-result-retry.png",
+        "sha256": "5fd9ceb96927968cec19496b69bc2cbd19f64e1733fef441b375fe7caac1456c"
+      }
+    }
+  ]
+}

@@ -35,7 +35,7 @@
   "enemyIds": ["js_9F2D53C8", "gb_E916AA75"],
   "openingShop": [
     { "id": "e02", "level": 2, "body": "Building_Shooter2", "shape": [[0, 0], [0, 1], [0, 2]], "hp": 390, "summonUnitId": "gb_E916AA75", "cooldown": 7.2 },
-    { "id": "e07", "level": 1, "body": "Building_ArrowTower1", "shape": [[0, 0]], "hp": 130, "attack": 20, "cooldown": 2, "range": 12 },
+    { "id": "e07", "level": 1, "body": "Building_ArrowTower1", "weaponMount": "Building_ArrowTower1_up", "weaponMountPoint": [0.5, 0.7], "weaponMountPivot": [0, 0.5], "weaponMountRotation": -90, "shape": [[0, 0]], "hp": 130, "attack": 20, "cooldown": 2, "range": 12 },
     { "id": "e16", "level": 1, "body": "Building_Fence11", "shape": [[0, 0]], "hp": 169 }
   ],
   "obstacleClearPrices": [0, 1, 2, 3, 4, 5],

@@ -1,0 +1,706 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAtLocal": "2026-09-04T17:38:32+08:00",
+  "target": "wx4f4f3709865004a2/3",
+  "normalization": {
+    "referenceCrop": [
+      0,
+      52,
+      574,
+      1036
+    ],
+    "cocosCrop": [
+      0,
+      26,
+      574,
+      1010
+    ],
+    "reason": "remove captured browser chrome and fixed-width vertical letterbox; compare equal 574x984 game content"
+  },
+  "interpretation": "Diagnostic regression metrics only. Evidence-anchored actor masks use the original sprite alpha core, the runtime idle-frame render box, horizontal facing and a 60% least-error visible-pixel score to tolerate documented occlusion. Reference/Cocos centers and animation candidates are detected independently.",
+  "cases": [
+    {
+      "id": "prep-drag",
+      "reference": "targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t02.png",
+      "capture": "evidence/cocos-stage2-drag.png",
+      "normalizedSize": [
+        574,
+        984
+      ],
+      "metrics": {
+        "rgbMae0To255": 19.5729,
+        "rgbMaeNormalized": 0.076756,
+        "rgbRmse0To255": 44.7937,
+        "psnrDb": 15.1065,
+        "luminanceCorrelation": 0.722048,
+        "edgeIouThreshold48": 0.17607,
+        "waveLabelWhiteGlyphBounds": {
+          "roi": [
+            140,
+            15,
+            430,
+            115
+          ],
+          "reference": {
+            "x": 229,
+            "y": 51,
+            "width": 123,
+            "height": 32,
+            "whitePixelCount": 1005
+          },
+          "cocos": {
+            "x": 225,
+            "y": 52,
+            "width": 123,
+            "height": 31,
+            "whitePixelCount": 1049
+          },
+          "cocosMinusReference": {
+            "x": -4,
+            "y": 1,
+            "width": 0,
+            "height": -1
+          }
+        },
+        "actorMasks": [],
+        "actorOffsetAssessment": null
+      }
+    },
+    {
+      "id": "prep-layout",
+      "reference": "targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t07.png",
+      "capture": "evidence/cocos-stage2-preparation.png",
+      "normalizedSize": [
+        574,
+        984
+      ],
+      "metrics": {
+        "rgbMae0To255": 21.8097,
+        "rgbMaeNormalized": 0.085528,
+        "rgbRmse0To255": 47.5999,
+        "psnrDb": 14.5787,
+        "luminanceCorrelation": 0.688154,
+        "edgeIouThreshold48": 0.17751,
+        "waveLabelWhiteGlyphBounds": {
+          "roi": [
+            140,
+            15,
+            430,
+            115
+          ],
+          "reference": {
+            "x": 229,
+            "y": 51,
+            "width": 123,
+            "height": 32,
+            "whitePixelCount": 1013
+          },
+          "cocos": {
+            "x": 225,
+            "y": 52,
+            "width": 123,
+            "height": 32,
+            "whitePixelCount": 1065
+          },
+          "cocosMinusReference": {
+            "x": -4,
+            "y": 1,
+            "width": 0,
+            "height": 0
+          }
+        },
+        "actorMasks": [],
+        "actorOffsetAssessment": null
+      }
+    },
+    {
+      "id": "wave-start",
+      "reference": "targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t12.png",
+      "capture": "evidence/cocos-stage2-wave-start.png",
+      "normalizedSize": [
+        574,
+        984
+      ],
+      "metrics": {
+        "rgbMae0To255": 16.6307,
+        "rgbMaeNormalized": 0.065218,
+        "rgbRmse0To255": 39.331,
+        "psnrDb": 16.2361,
+        "luminanceCorrelation": 0.353306,
+        "edgeIouThreshold48": 0.178195,
+        "waveLabelWhiteGlyphBounds": {
+          "roi": [
+            140,
+            15,
+            430,
+            115
+          ],
+          "reference": {
+            "x": 229,
+            "y": 51,
+            "width": 123,
+            "height": 32,
+            "whitePixelCount": 975
+          },
+          "cocos": {
+            "x": 224,
+            "y": 51,
+            "width": 124,
+            "height": 33,
+            "whitePixelCount": 1306
+          },
+          "cocosMinusReference": {
+            "x": -5,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "actorMasks": [
+          {
+            "id": "enemy-shooter",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units-red/Shooter1_move_*.png"
+            ],
+            "candidateCount": 10,
+            "referenceDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+            "renderBoxSource": "assets/resources/original/units/units-red/Shooter1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": true,
+            "cocosDetectedFlippedHorizontally": true,
+            "designCenter": [
+              216.899,
+              65.331
+            ],
+            "expectedNormalizedCenter": [
+              166.0,
+              50.0
+            ],
+            "scaledSpriteSize": [
+              50,
+              52
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 1573,
+            "referenceDetectedCenter": [
+              166,
+              50
+            ],
+            "cocosDetectedCenter": [
+              166,
+              49
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              -1
+            ],
+            "cocosMinusReference": [
+              0,
+              -1
+            ],
+            "templateFitTrimmedMaeReference0To255": 11.1342,
+            "templateFitTrimmedMaeCocos0To255": 3.3139,
+            "referenceRunnerUpTrimmedMae0To255": 11.5791,
+            "cocosRunnerUpTrimmedMae0To255": 3.8878,
+            "referenceFitMargin0To255": 0.4449,
+            "cocosFitMargin0To255": 0.5739,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 28.7016,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.347826
+          },
+          {
+            "id": "enemy-swordsman-a",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units-red/Swordsman1_move_*.png"
+            ],
+            "candidateCount": 10,
+            "referenceDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+            "renderBoxSource": "assets/resources/original/units/units-red/Swordsman1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": false,
+            "cocosDetectedFlippedHorizontally": false,
+            "designCenter": [
+              359.321,
+              69.251
+            ],
+            "expectedNormalizedCenter": [
+              275.0,
+              53.0
+            ],
+            "scaledSpriteSize": [
+              52,
+              66
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 2263,
+            "referenceDetectedCenter": [
+              275,
+              53
+            ],
+            "cocosDetectedCenter": [
+              275,
+              52
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              -1
+            ],
+            "cocosMinusReference": [
+              0,
+              -1
+            ],
+            "templateFitTrimmedMaeReference0To255": 15.8537,
+            "templateFitTrimmedMaeCocos0To255": 8.3846,
+            "referenceRunnerUpTrimmedMae0To255": 16.4424,
+            "cocosRunnerUpTrimmedMae0To255": 10.2432,
+            "referenceFitMargin0To255": 0.5887,
+            "cocosFitMargin0To255": 1.8586,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 64.4736,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.291495
+          },
+          {
+            "id": "enemy-swordsman-b",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units-red/Swordsman1_move_*.png"
+            ],
+            "candidateCount": 10,
+            "referenceDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_6.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_6.png",
+            "renderBoxSource": "assets/resources/original/units/units-red/Swordsman1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": false,
+            "cocosDetectedFlippedHorizontally": false,
+            "designCenter": [
+              410.279,
+              43.118
+            ],
+            "expectedNormalizedCenter": [
+              314.0,
+              33.0
+            ],
+            "scaledSpriteSize": [
+              52,
+              66
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 2071,
+            "referenceDetectedCenter": [
+              314,
+              33
+            ],
+            "cocosDetectedCenter": [
+              314,
+              33
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosMinusReference": [
+              0,
+              0
+            ],
+            "templateFitTrimmedMaeReference0To255": 15.5645,
+            "templateFitTrimmedMaeCocos0To255": 3.7841,
+            "referenceRunnerUpTrimmedMae0To255": 16.936,
+            "cocosRunnerUpTrimmedMae0To255": 7.8746,
+            "referenceFitMargin0To255": 1.3715,
+            "cocosFitMargin0To255": 4.0905,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 39.6493,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.292611
+          }
+        ],
+        "actorOffsetAssessment": {
+          "heuristic": {
+            "maxTemplateFitTrimmedMae0To255": 30.0,
+            "rejectSearchBoundaryHits": true,
+            "minimumPairsForStableOffset": 3,
+            "maximumAxisSpreadForStableOffsetPx": 2
+          },
+          "reliablePairCount": 3,
+          "totalPairCount": 3,
+          "stableOffsetDetected": true,
+          "coordinateAdjustmentRecommended": true,
+          "reason": "at least three reliable actor pairs agree within two pixels per axis"
+        }
+      }
+    },
+    {
+      "id": "combat",
+      "reference": "targets/wx4f4f3709865004a2/3/evidence/original-reference/frames/t18.png",
+      "capture": "evidence/cocos-stage2-combat.png",
+      "normalizedSize": [
+        574,
+        984
+      ],
+      "metrics": {
+        "rgbMae0To255": 17.6295,
+        "rgbMaeNormalized": 0.069135,
+        "rgbRmse0To255": 40.9688,
+        "psnrDb": 15.8817,
+        "luminanceCorrelation": 0.351686,
+        "edgeIouThreshold48": 0.18265,
+        "waveLabelWhiteGlyphBounds": {
+          "roi": [
+            140,
+            15,
+            430,
+            115
+          ],
+          "reference": {
+            "x": 229,
+            "y": 51,
+            "width": 123,
+            "height": 32,
+            "whitePixelCount": 999
+          },
+          "cocos": {
+            "x": 224,
+            "y": 51,
+            "width": 124,
+            "height": 33,
+            "whitePixelCount": 1306
+          },
+          "cocosMinusReference": {
+            "x": -5,
+            "y": 0,
+            "width": 1,
+            "height": 1
+          }
+        },
+        "actorMasks": [
+          {
+            "id": "enemy-swordsman-a",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units-red/Swordsman1_move_*.png",
+              "units-red/Swordsman1_attack_*.png"
+            ],
+            "candidateCount": 19,
+            "referenceDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+            "renderBoxSource": "assets/resources/original/units/units-red/Swordsman1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": false,
+            "cocosDetectedFlippedHorizontally": false,
+            "designCenter": [
+              514.808,
+              339.721
+            ],
+            "expectedNormalizedCenter": [
+              394.0,
+              260.0
+            ],
+            "scaledSpriteSize": [
+              52,
+              66
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 2263,
+            "referenceDetectedCenter": [
+              394,
+              260
+            ],
+            "cocosDetectedCenter": [
+              394,
+              259
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              -1
+            ],
+            "cocosMinusReference": [
+              0,
+              -1
+            ],
+            "templateFitTrimmedMaeReference0To255": 10.379,
+            "templateFitTrimmedMaeCocos0To255": 3.8287,
+            "referenceRunnerUpTrimmedMae0To255": 11.1785,
+            "cocosRunnerUpTrimmedMae0To255": 5.1464,
+            "referenceFitMargin0To255": 0.7995,
+            "cocosFitMargin0To255": 1.3177,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 35.5297,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.297702
+          },
+          {
+            "id": "enemy-shooter",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units-red/Shooter1_move_*.png",
+              "units-red/Shooter1_attack_*.png"
+            ],
+            "candidateCount": 19,
+            "referenceDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_7.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_7.png",
+            "renderBoxSource": "assets/resources/original/units/units-red/Shooter1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": true,
+            "cocosDetectedFlippedHorizontally": true,
+            "designCenter": [
+              533.101,
+              398.519
+            ],
+            "expectedNormalizedCenter": [
+              408.0,
+              305.0
+            ],
+            "scaledSpriteSize": [
+              50,
+              52
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 1560,
+            "referenceDetectedCenter": [
+              408,
+              305
+            ],
+            "cocosDetectedCenter": [
+              408,
+              304
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              -1
+            ],
+            "cocosMinusReference": [
+              0,
+              -1
+            ],
+            "templateFitTrimmedMaeReference0To255": 22.3444,
+            "templateFitTrimmedMaeCocos0To255": 3.3091,
+            "referenceRunnerUpTrimmedMae0To255": 23.8619,
+            "cocosRunnerUpTrimmedMae0To255": 3.6632,
+            "referenceFitMargin0To255": 1.5176,
+            "cocosFitMargin0To255": 0.3541,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 52.2453,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.256177
+          },
+          {
+            "id": "enemy-swordsman-low-hp",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units-red/Swordsman1_move_*.png",
+              "units-red/Swordsman1_attack_*.png"
+            ],
+            "candidateCount": 19,
+            "referenceDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+            "renderBoxSource": "assets/resources/original/units/units-red/Swordsman1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": false,
+            "cocosDetectedFlippedHorizontally": false,
+            "designCenter": [
+              283.537,
+              522.648
+            ],
+            "expectedNormalizedCenter": [
+              217.0,
+              400.0
+            ],
+            "scaledSpriteSize": [
+              52,
+              66
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 2127,
+            "referenceDetectedCenter": [
+              217,
+              400
+            ],
+            "cocosDetectedCenter": [
+              217,
+              399
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              -1
+            ],
+            "cocosMinusReference": [
+              0,
+              -1
+            ],
+            "templateFitTrimmedMaeReference0To255": 27.9527,
+            "templateFitTrimmedMaeCocos0To255": 2.4208,
+            "referenceRunnerUpTrimmedMae0To255": 28.2449,
+            "cocosRunnerUpTrimmedMae0To255": 3.1765,
+            "referenceFitMargin0To255": 0.2922,
+            "cocosFitMargin0To255": 0.7557,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 52.7474,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.208704
+          },
+          {
+            "id": "ally-shooter-a",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units/Shooter1_idle_*.png",
+              "units/Shooter1_attack_*.png"
+            ],
+            "candidateCount": 17,
+            "referenceDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_2.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_6.png",
+            "renderBoxSource": "assets/resources/original/units/units/Shooter1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": false,
+            "cocosDetectedFlippedHorizontally": false,
+            "designCenter": [
+              205.139,
+              806.185
+            ],
+            "expectedNormalizedCenter": [
+              157.0,
+              617.0
+            ],
+            "scaledSpriteSize": [
+              50,
+              52
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 1608,
+            "referenceDetectedCenter": [
+              157,
+              617
+            ],
+            "cocosDetectedCenter": [
+              157,
+              617
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosMinusReference": [
+              0,
+              0
+            ],
+            "templateFitTrimmedMaeReference0To255": 22.0066,
+            "templateFitTrimmedMaeCocos0To255": 3.6801,
+            "referenceRunnerUpTrimmedMae0To255": 22.0798,
+            "cocosRunnerUpTrimmedMae0To255": 3.7802,
+            "referenceFitMargin0To255": 0.0732,
+            "cocosFitMargin0To255": 0.1001,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 47.8808,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.290816
+          },
+          {
+            "id": "ally-shooter-b",
+            "maskKind": "sprite-alpha-core",
+            "candidatePatterns": [
+              "units/Shooter1_idle_*.png",
+              "units/Shooter1_attack_*.png"
+            ],
+            "candidateCount": 17,
+            "referenceDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_4.png",
+            "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_3.png",
+            "renderBoxSource": "assets/resources/original/units/units/Shooter1_idle_0.png",
+            "referenceDetectedFlippedHorizontally": true,
+            "cocosDetectedFlippedHorizontally": true,
+            "designCenter": [
+              474.303,
+              836.237
+            ],
+            "expectedNormalizedCenter": [
+              363.0,
+              640.0
+            ],
+            "scaledSpriteSize": [
+              50,
+              52
+            ],
+            "alphaCoreThreshold": 128,
+            "templateVisibleFraction": 0.6,
+            "alphaPixelCount": 1616,
+            "referenceDetectedCenter": [
+              363,
+              640
+            ],
+            "cocosDetectedCenter": [
+              363,
+              640
+            ],
+            "referenceOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosOffsetFromExpected": [
+              0,
+              0
+            ],
+            "cocosMinusReference": [
+              0,
+              0
+            ],
+            "templateFitTrimmedMaeReference0To255": 14.2154,
+            "templateFitTrimmedMaeCocos0To255": 3.4938,
+            "referenceRunnerUpTrimmedMae0To255": 14.6359,
+            "cocosRunnerUpTrimmedMae0To255": 3.7256,
+            "referenceFitMargin0To255": 0.4204,
+            "cocosFitMargin0To255": 0.2318,
+            "searchBoundaryHit": false,
+            "centerDetectionReliable": true,
+            "rgbMaeAfterCenterAlignment0To255": 39.119,
+            "edgeIouAfterCenterAlignmentThreshold48": 0.352449
+          }
+        ],
+        "actorOffsetAssessment": {
+          "heuristic": {
+            "maxTemplateFitTrimmedMae0To255": 30.0,
+            "rejectSearchBoundaryHits": true,
+            "minimumPairsForStableOffset": 3,
+            "maximumAxisSpreadForStableOffsetPx": 2
+          },
+          "reliablePairCount": 5,
+          "totalPairCount": 5,
+          "stableOffsetDetected": true,
+          "coordinateAdjustmentRecommended": true,
+          "reason": "at least three reliable actor pairs agree within two pixels per axis"
+        }
+      }
+    }
+  ]
+}

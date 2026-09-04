@@ -1,0 +1,1173 @@
+{
+  "schemaVersion": 1,
+  "generatedAtLocal": "2026-09-04T18:16:17+08:00",
+  "purpose": "Validate deterministic Cocos rendering of measured original-video states; not a production-timing equivalence claim",
+  "normalization": {
+    "referenceCrop": [
+      0,
+      52,
+      574,
+      1036
+    ],
+    "cocosCrop": [
+      0,
+      26,
+      574,
+      1010
+    ],
+    "normalizedSize": [
+      574,
+      984
+    ]
+  },
+  "summary": {
+    "caseCount": 10,
+    "reliableActorPairCount": 34,
+    "maximumReliableActorCenterAxisDeltaPx": 0,
+    "averageRgbMaeNormalized": 0.067078,
+    "averageEdgeIouThreshold48": 0.181037
+  },
+  "cases": [
+    {
+      "windowId": "t12",
+      "offsetMs": -204,
+      "referenceTimeSeconds": 11.796,
+      "reference": "evidence/original-motion-windows/t12-m204.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t12-m204.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.06567,
+        "edgeIouThreshold48": 0.178974,
+        "luminanceCorrelation": 0.333383
+      },
+      "actors": [
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            179,
+            37
+          ],
+          "cocosDetectedCenterPx": [
+            179,
+            37
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_3.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 3,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.5979,
+          "fitMargin0To255": 1.46,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            265,
+            37
+          ],
+          "cocosDetectedCenterPx": [
+            265,
+            37
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_6.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 6,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 6.3583,
+          "fitMargin0To255": 5.6443,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-b",
+          "referenceCenterPx": [
+            297,
+            33
+          ],
+          "cocosDetectedCenterPx": [
+            297,
+            33
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": false,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_8.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 8,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.2385,
+          "fitMargin0To255": 2.2458,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": -102,
+      "referenceTimeSeconds": 11.898,
+      "reference": "evidence/original-motion-windows/t12-m102.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t12-m102.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.065485,
+        "edgeIouThreshold48": 0.178135,
+        "luminanceCorrelation": 0.331051
+      },
+      "actors": [
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            172,
+            41
+          ],
+          "cocosDetectedCenterPx": [
+            172,
+            41
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_6.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 6,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.6215,
+          "fitMargin0To255": 1.5869,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            269,
+            41
+          ],
+          "cocosDetectedCenterPx": [
+            269,
+            41
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 8.5956,
+          "fitMargin0To255": 5.0092,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-b",
+          "referenceCenterPx": [
+            299,
+            40
+          ],
+          "cocosDetectedCenterPx": [
+            299,
+            40
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": false,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.4961,
+          "fitMargin0To255": 2.1329,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": 0,
+      "referenceTimeSeconds": 12.0,
+      "reference": "evidence/original-motion-windows/t12.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t12.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.064884,
+        "edgeIouThreshold48": 0.179579,
+        "luminanceCorrelation": 0.336456
+      },
+      "actors": [
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            168,
+            47
+          ],
+          "cocosDetectedCenterPx": [
+            168,
+            47
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_7.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 7,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.5709,
+          "fitMargin0To255": 1.1704,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            275,
+            52
+          ],
+          "cocosDetectedCenterPx": [
+            275,
+            52
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 9,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 10.4337,
+          "fitMargin0To255": 5.9854,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-b",
+          "referenceCenterPx": [
+            307,
+            36
+          ],
+          "cocosDetectedCenterPx": [
+            307,
+            36
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_4.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 4,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.4173,
+          "fitMargin0To255": 2.2476,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": 102,
+      "referenceTimeSeconds": 12.102,
+      "reference": "evidence/original-motion-windows/t12-p102.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t12-p102.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.064836,
+        "edgeIouThreshold48": 0.180671,
+        "luminanceCorrelation": 0.338849
+      },
+      "actors": [
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            163,
+            56
+          ],
+          "cocosDetectedCenterPx": [
+            163,
+            56
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 8,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.6261,
+          "fitMargin0To255": 1.5502,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            276,
+            59
+          ],
+          "cocosDetectedCenterPx": [
+            276,
+            59
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 9,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 6.2644,
+          "fitMargin0To255": 5.1902,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-b",
+          "referenceCenterPx": [
+            318,
+            34
+          ],
+          "cocosDetectedCenterPx": [
+            318,
+            34
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.3344,
+          "fitMargin0To255": 2.1066,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t12",
+      "offsetMs": 204,
+      "referenceTimeSeconds": 12.204,
+      "reference": "evidence/original-motion-windows/t12-p204.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t12-p204.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.06479,
+        "edgeIouThreshold48": 0.180721,
+        "luminanceCorrelation": 0.33454
+      },
+      "actors": [
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            163,
+            64
+          ],
+          "cocosDetectedCenterPx": [
+            163,
+            64
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 8,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.6261,
+          "fitMargin0To255": 1.5502,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            265,
+            55
+          ],
+          "cocosDetectedCenterPx": [
+            265,
+            55
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_2.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 8.0049,
+          "fitMargin0To255": 13.6175,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-b",
+          "referenceCenterPx": [
+            321,
+            40
+          ],
+          "cocosDetectedCenterPx": [
+            321,
+            40
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 3.0167,
+          "fitMargin0To255": 3.0337,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": -204,
+      "referenceTimeSeconds": 17.796,
+      "reference": "evidence/original-motion-windows/t18-m204.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t18-m204.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.069519,
+        "edgeIouThreshold48": 0.180779,
+        "luminanceCorrelation": 0.328357
+      },
+      "actors": [
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            389,
+            240
+          ],
+          "cocosDetectedCenterPx": [
+            389,
+            240
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.092,
+          "fitMargin0To255": 2.0583,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            417,
+            294
+          ],
+          "cocosDetectedCenterPx": [
+            417,
+            294
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_2.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.8526,
+          "fitMargin0To255": 3.1886,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-low-hp",
+          "referenceCenterPx": [
+            200,
+            389
+          ],
+          "cocosDetectedCenterPx": [
+            200,
+            389
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": false,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_5.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 5,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.0632,
+          "fitMargin0To255": 1.0874,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-a",
+          "referenceCenterPx": [
+            157,
+            632
+          ],
+          "cocosDetectedCenterPx": [
+            157,
+            632
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": false,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_attack_0.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 0,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.7843,
+          "fitMargin0To255": 0.6552,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-b",
+          "referenceCenterPx": [
+            377,
+            651
+          ],
+          "cocosDetectedCenterPx": [
+            377,
+            651
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_attack_1.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 3.0378,
+          "fitMargin0To255": 2.4442,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": -102,
+      "referenceTimeSeconds": 17.898,
+      "reference": "evidence/original-motion-windows/t18-m102.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t18-m102.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.068978,
+        "edgeIouThreshold48": 0.182721,
+        "luminanceCorrelation": 0.342308
+      },
+      "actors": [
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            391,
+            247
+          ],
+          "cocosDetectedCenterPx": [
+            391,
+            247
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_7.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 7,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.3115,
+          "fitMargin0To255": 0.7622,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            417,
+            306
+          ],
+          "cocosDetectedCenterPx": [
+            417,
+            306
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_2.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.8434,
+          "fitMargin0To255": 3.2008,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-low-hp",
+          "referenceCenterPx": [
+            209,
+            389
+          ],
+          "cocosDetectedCenterPx": [
+            209,
+            389
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_2.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.1464,
+          "fitMargin0To255": 0.9539,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-a",
+          "referenceCenterPx": [
+            160,
+            629
+          ],
+          "cocosDetectedCenterPx": [
+            160,
+            629
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": false,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_0.png",
+          "cocosDetectedAction": "idle",
+          "cocosDetectedFrameIndex": 0,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.8591,
+          "fitMargin0To255": 0.2307,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-b",
+          "referenceCenterPx": [
+            371,
+            644
+          ],
+          "cocosDetectedCenterPx": [
+            371,
+            644
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_3.png",
+          "cocosDetectedAction": "idle",
+          "cocosDetectedFrameIndex": 3,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 3.0722,
+          "fitMargin0To255": 0.0074,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": 0,
+      "referenceTimeSeconds": 18.0,
+      "reference": "evidence/original-motion-windows/t18.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t18.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.068802,
+        "edgeIouThreshold48": 0.185217,
+        "luminanceCorrelation": 0.341722
+      },
+      "actors": [
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            394,
+            258
+          ],
+          "cocosDetectedCenterPx": [
+            394,
+            258
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 9,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.8365,
+          "fitMargin0To255": 2.4431,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            411,
+            304
+          ],
+          "cocosDetectedCenterPx": [
+            411,
+            304
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_attack_0.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 0,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.5214,
+          "fitMargin0To255": 1.3109,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-low-hp",
+          "referenceCenterPx": [
+            214,
+            396
+          ],
+          "cocosDetectedCenterPx": [
+            214,
+            396
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_6.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 6,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.2105,
+          "fitMargin0To255": 0.8482,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-a",
+          "referenceCenterPx": [
+            156,
+            620
+          ],
+          "cocosDetectedCenterPx": [
+            156,
+            620
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_attack_0.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 0,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.7719,
+          "fitMargin0To255": 0.6656,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-b",
+          "referenceCenterPx": [
+            364,
+            642
+          ],
+          "cocosDetectedCenterPx": [
+            364,
+            642
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_3.png",
+          "cocosDetectedAction": "idle",
+          "cocosDetectedFrameIndex": 3,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 3.0773,
+          "fitMargin0To255": 0.0143,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": 102,
+      "referenceTimeSeconds": 18.102,
+      "reference": "evidence/original-motion-windows/t18-p102.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t18-p102.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.068859,
+        "edgeIouThreshold48": 0.182998,
+        "luminanceCorrelation": 0.341513
+      },
+      "actors": [
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            390,
+            255
+          ],
+          "cocosDetectedCenterPx": [
+            390,
+            255
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_1.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.9612,
+          "fitMargin0To255": 1.4282,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            407,
+            309
+          ],
+          "cocosDetectedCenterPx": [
+            407,
+            309
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 8,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.6232,
+          "fitMargin0To255": 1.5555,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-low-hp",
+          "referenceCenterPx": [
+            219,
+            404
+          ],
+          "cocosDetectedCenterPx": [
+            219,
+            404
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_7.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 7,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.1656,
+          "fitMargin0To255": 0.6353,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-a",
+          "referenceCenterPx": [
+            154,
+            613
+          ],
+          "cocosDetectedCenterPx": [
+            154,
+            613
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_attack_2.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 3.1587,
+          "fitMargin0To255": 2.479,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-b",
+          "referenceCenterPx": [
+            362,
+            640
+          ],
+          "cocosDetectedCenterPx": [
+            362,
+            640
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_idle_4.png",
+          "cocosDetectedAction": "idle",
+          "cocosDetectedFrameIndex": 4,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.9442,
+          "fitMargin0To255": 0.2672,
+          "searchBoundaryHit": false
+        }
+      ]
+    },
+    {
+      "windowId": "t18",
+      "offsetMs": 204,
+      "referenceTimeSeconds": 18.204,
+      "reference": "evidence/original-motion-windows/t18-p204.png",
+      "capture": "evidence/cocos-motion-windows/cocos-motion-t18-p204.png",
+      "metrics": {
+        "rgbMaeNormalized": 0.068956,
+        "edgeIouThreshold48": 0.180575,
+        "luminanceCorrelation": 0.329711
+      },
+      "actors": [
+        {
+          "id": "enemy-swordsman-a",
+          "referenceCenterPx": [
+            395,
+            270
+          ],
+          "cocosDetectedCenterPx": [
+            395,
+            270
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": false,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_6.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 6,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 4.575,
+          "fitMargin0To255": 17.8163,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-shooter",
+          "referenceCenterPx": [
+            406,
+            315
+          ],
+          "cocosDetectedCenterPx": [
+            406,
+            315
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+          "cocosDetectedAction": "move",
+          "cocosDetectedFrameIndex": 8,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 2.6261,
+          "fitMargin0To255": 1.5427,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "enemy-swordsman-low-hp",
+          "referenceCenterPx": [
+            214,
+            408
+          ],
+          "cocosDetectedCenterPx": [
+            214,
+            408
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_2.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 2.1466,
+          "fitMargin0To255": 0.9545,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-a",
+          "referenceCenterPx": [
+            151,
+            609
+          ],
+          "cocosDetectedCenterPx": [
+            151,
+            609
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": false,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_attack_1.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 1,
+          "cocosDetectedFlippedHorizontally": false,
+          "templateFitTrimmedMae0To255": 3.0209,
+          "fitMargin0To255": 2.3783,
+          "searchBoundaryHit": false
+        },
+        {
+          "id": "ally-shooter-b",
+          "referenceCenterPx": [
+            365,
+            629
+          ],
+          "cocosDetectedCenterPx": [
+            365,
+            629
+          ],
+          "cocosMinusReferencePx": [
+            0,
+            0
+          ],
+          "referenceCenterReliable": true,
+          "referencePhaseReliable": true,
+          "cocosCenterReliable": true,
+          "cocosDetectedSprite": "assets/resources/original/units/units/Shooter1_attack_2.png",
+          "cocosDetectedAction": "attack",
+          "cocosDetectedFrameIndex": 2,
+          "cocosDetectedFlippedHorizontally": true,
+          "templateFitTrimmedMae0To255": 3.1384,
+          "fitMargin0To255": 2.4668,
+          "searchBoundaryHit": false
+        }
+      ]
+    }
+  ]
+}
+

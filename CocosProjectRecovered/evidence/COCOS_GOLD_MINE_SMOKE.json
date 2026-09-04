@@ -1,0 +1,56 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T06:37:08.9813461Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-gold-mine",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e18",
+    "originalTable": "../../../targets/wx4f4f3709865004a2/3/generated/tables/equipt.json#e18",
+    "originalMaterial": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#MoneyMaterial",
+    "originalWaveEnd": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#Build.onWaveEnd",
+    "buildingSprites": "../../bin/res/buildings/Building_Mine{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingShape": [[0, 0]],
+    "hitPoints": 130,
+    "moneyPerWaveByLevel": [1, 2, 4, 8],
+    "materialClass": "gold",
+    "payoutTiming": "after each non-final wave",
+    "requiresActiveSurvivingMine": true,
+    "multipleMinesSum": true,
+    "finalWavePays": false
+  },
+  "runtimeResult": {
+    "startMoney": 10,
+    "afterLevel1Wave": 11,
+    "afterDestroyedWave": 11,
+    "afterLevel4Wave": 19,
+    "afterFinalWave": 19,
+    "finalWavePaid": false,
+    "recoveredGoldMinePassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixelsByLevel": [[76, 73], [76, 75], [79, 75], [79, 75]],
+    "sourceTargetHashMatches": 4,
+    "sha256": [
+      "9b13333616a2bb5d93c0a86a1e7b6ae82fa9e512032a49de5593e0d99ddfd5ad",
+      "452a62e03682b3a17693fdfdae750a4db2494cacb1ab9ba3d490fb72f7a6318a",
+      "40ff732d453f08ff93eb58a9990619456094443f40d5d96e394af62562f54cfd",
+      "061f12c56551bf7b552715617de93cbe00dbace44741f95506a26c464d6e5dcd"
+    ]
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 49016,
+    "creatorBuildProcessExited": true,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T14:35:41.3459994+08:00",
+    "assetFileCount": 555,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 29,
+    "projectAssertionsPassed": 501,
+    "pass": true
+  }
+}

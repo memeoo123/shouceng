@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Offline Cocos campaign selection, local profile migration and explicit wave-chest claim validation",
+  "routes": {
+    "test": "?stage=2&test=cocos-campaign-meta&build=193118",
+    "ordinary": "?screen=campaign&stage=2",
+    "battleTransition": "?stage=2&battle=1"
+  },
+  "storage": {
+    "legacyKey": "shoucheng.wx4f4f3709865004a2.v3.MaxStageRecord",
+    "profileKey": "shoucheng.wx4f4f3709865004a2.v3.LocalProfile",
+    "profileVersion": 2,
+    "testRoutesPersist": false
+  },
+  "stage2FrontierCase": {
+    "progress": [2, 5],
+    "declaredMilestones": [3, 5, 10],
+    "firstClaim": {
+      "ok": true,
+      "rewards": [["Prop", "Money", 200]]
+    },
+    "secondClaim": {
+      "ok": true,
+      "rewards": [["Prop", "Money", 400], ["Prop", "Stamina", 10]],
+      "profileTotals": { "Money": 600, "Stamina": 10 }
+    },
+    "lockedFinalClaim": {
+      "ok": false,
+      "error": "WaveNotEnough",
+      "rewards": [],
+      "profileTotalsUnchanged": { "Money": 600, "Stamina": 10 }
+    }
+  },
+  "ordinaryProfileCase": {
+    "progress": [2, 0],
+    "unlockedStage": 2,
+    "stage2CompletedWave": 0,
+    "stage1CompletedWave": 5,
+    "stage1ClaimableBundles": 3,
+    "stageSelection": "Stage 2 to Stage 1 succeeded; right navigation remained bounded by unlockedStage",
+    "enteredBattle": {
+      "url": "?stage=2&battle=1",
+      "loadedStage": 2,
+      "mapId": "Forest",
+      "waves": [3, 4, 7, 9, 12]
+    }
+  },
+  "rules": {
+    "autoGrantOnVictory": false,
+    "claimFlagFormat": "WaveChest_<stage>_<bundleIndex>",
+    "duplicateClaimIsIdempotent": true,
+    "staminaAddition": 5,
+    "networkEnabled": false
+  },
+  "validation": {
+    "npmAssertions": 1715,
+    "typescriptExitCode": 0,
+    "assetFileCount": 1500,
+    "missingMetaCount": 0,
+    "creatorVersion": "3.8.8",
+    "creatorPid": 46676,
+    "buildStartedAtLocal": "2026-09-04T19:30:58.2175975+08:00",
+    "buildIndexLastWriteLocal": "2026-09-04T19:31:17.8775003+08:00",
+    "buildIndexSha256": "1E277FA6DAB41A9F1AC9DE4F38165A9B39233749FE5CC8534783FA2DB18F682C",
+    "browserRuntime": "pass"
+  },
+  "presentationScope": "The Cocos campaign card is a functional layout built from recovered map/button/font assets and exact rules; it is not claimed pixel-identical to the original FairyGUI meta page."
+}

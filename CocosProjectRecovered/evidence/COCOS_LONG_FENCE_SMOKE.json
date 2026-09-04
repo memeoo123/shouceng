@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T06:23:02.1310472Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-long-fence",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e17",
+    "originalTable": "../../../targets/wx4f4f3709865004a2/3/generated/tables/equipt.json#e17",
+    "originalMaterial": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#WallMaterial",
+    "buildingSprites": "../../bin/res/buildings/Building_Fence2{1..4}.png"
+  },
+  "recoveredRules": {
+    "buildingShape": [[0, 0], [1, 0], [2, 0]],
+    "hitPointsByLevel": [507, 760.5, 1166.1, 1774.5],
+    "synthesisHpMultipliers": [1, 1.5, 2.3, 3.5],
+    "materialClass": "wall",
+    "targetableByEnemies": true,
+    "damagePath": "ordinary building damage",
+    "destroyAtZeroHitPoints": true
+  },
+  "runtimeResult": {
+    "selectedAsNearestBuilding": true,
+    "damageTaken": 30,
+    "hitPointsAfterAttack": 477,
+    "remainsActiveAfterAttack": true,
+    "recoveredLongFencePassed": true,
+    "browserErrors": []
+  },
+  "assets": {
+    "levelSprites": 4,
+    "nativePixelsByLevel": [[222, 67], [231, 72], [241, 76], [226, 75]],
+    "sourceTargetHashMatches": 4,
+    "sha256": [
+      "2dfb0237dd63c8da2687ef9b7e41a84137141793bd92e4b21343229c5dfcab8d",
+      "0841a0cb7727bbbfe7c65879a8742e5c4defea1c0df6b6cf252307d1bba68460",
+      "f4bbbcb3046d0e69959afaa967c0e310e9c103aca0b7ddef92106da2c1156404",
+      "15209ce2d64443e8a79b31623c989e1722e5ece32b661d20356fae3f2c935b4f"
+    ]
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 43764,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T14:21:27.0413962+08:00",
+    "assetFileCount": 551,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 29,
+    "projectAssertionsPassed": 480,
+    "pass": true
+  }
+}

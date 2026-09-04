@@ -1,0 +1,20 @@
+{
+  "interval": 83,
+  "repeatDelay": 0,
+  "swing": false,
+  "width": 243,
+  "height": 243,
+  "frames": [
+    {
+      "addDelay": 0,
+      "offsetX": 74,
+      "offsetY": 5,
+      "width": 95,
+      "height": 127,
+      "textureIndex": 0
+    }
+  ],
+  "textureFiles": [
+    "冰冻-00.png"
+  ]
+}

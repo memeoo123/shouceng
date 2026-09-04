@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6fzljltq">
+  <resources>
+    <movieclip id="imxp5g" name="Pic-XunHuanHuo.jta" path="/equipt/anis/" exported="true"/>
+    <image id="imxp5h" name="Missile_IceArrow.png" path="/equipt/images/" exported="true"/>
+    <image id="m4q91x" name="tracking.png" path="/units/" exported="true"/>
+    <image id="mb9v5x" name="Missile_Catapult1.png" path="/units/" exported="true"/>
+    <image id="mb9v5y" name="Missile_Catapult2.png" path="/units/" exported="true"/>
+    <image id="mb9v5z" name="Missile_Catapult3.png" path="/units/" exported="true"/>
+    <image id="mb9v60" name="Missile_Catapult4.png" path="/units/" exported="true"/>
+    <image id="mb9v61" name="Missile_Crossbowman1.png" path="/units/" exported="true"/>
+    <image id="mb9v62" name="Missile_Crossbowman1_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v63" name="Missile_Crossbowman2.png" path="/units/" exported="true"/>
+    <image id="mb9v64" name="Missile_Crossbowman3.png" path="/units/" exported="true"/>
+    <image id="mb9v65" name="Missile_Crossbowman4.png" path="/units/" exported="true"/>
+    <image id="mb9v66" name="Missile_Shooter1.png" path="/units/" exported="true"/>
+    <image id="mb9v67" name="Missile_Shooter2.png" path="/units/" exported="true"/>
+    <image id="mb9v68" name="Missile_Shooter3.png" path="/units/" exported="true"/>
+    <image id="mb9v69" name="Missile_Shooter4.png" path="/units/" exported="true"/>
+    <image id="mb9v6a" name="Missile_Catapult1_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6b" name="Missile_Catapult2_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6c" name="Missile_Catapult3_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6d" name="Missile_Catapult4_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6e" name="Missile_Crossbowman2_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6f" name="Missile_Crossbowman3_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6g" name="Missile_Crossbowman4_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6h" name="Missile_Shooter1_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6i" name="Missile_Shooter2_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6j" name="Missile_Shooter3_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6k" name="Missile_Shooter4_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6l" name="Missile_Mage2.png" path="/units/" exported="true"/>
+    <image id="mb9v6m" name="Missile_Mage2_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6n" name="Missile_Mage3.png" path="/units/" exported="true"/>
+    <image id="mb9v6o" name="Missile_Mage3_Trailing.png" path="/units/" exported="true"/>
+    <image id="mb9v6p" name="Missile_Mage4.png" path="/units/" exported="true"/>
+    <image id="mb9v6q" name="Missile_Mage4_Trailing.png" path="/units/" exported="true"/>
+    <image id="nezc5k" name="Missile_Building_ArrowTower_Trailing.png" path="/equipt/images/" exported="true"/>
+    <image id="nezc5l" name="Missile_Building_ArrowTower.png" path="/equipt/images/" exported="true"/>
+    <image id="nezc5r" name="Missile_Building_Trebuchet.png" path="/equipt/images/" exported="true"/>
+    <image id="nezc5u" name="Missile_Mage1_Trailing.png" path="/units/" exported="true"/>
+    <image id="nezc5w" name="Missile_Mage1.png" path="/units/" exported="true"/>
+    <image id="u79y6r" name="Missile_FireArrow.png" path="/equipt/images/" exported="true"/>
+    <image id="u79y6s" name="Missile_FireStone.png" path="/equipt/images/" exported="true"/>
+    <image id="u79y6t" name="Missile_IceStone.png" path="/equipt/images/" exported="true"/>
+  </resources>
+  <publish name="BattleBullets">
+    <atlas name="Default" index="0"/>
+  </publish>
+</packageDescription>

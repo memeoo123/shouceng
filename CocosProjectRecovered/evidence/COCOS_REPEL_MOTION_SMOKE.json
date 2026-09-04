@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-04",
+  "target": "wx4f4f3709865004a2/3-cocos-port",
+  "creatorVersion": "3.8.8",
+  "viewport": [574, 1035],
+  "designResolution": [750, 1286],
+  "routes": {
+    "before": "http://127.0.0.1:8132/?stage=2&test=cocos-repel-before",
+    "after": "http://127.0.0.1:8132/?stage=2&test=cocos-repel-after"
+  },
+  "eliteOutgoingRepel": {
+    "enemyId": "jrjs_D1DC19C8",
+    "physicsUnitsPerSecond": 12,
+    "physicsPixelRatio": 50,
+    "durationSeconds": 0.3,
+    "trace": [
+      { "timeSeconds": 0, "x": 250, "y": 500, "remainingSeconds": 0 },
+      { "timeSeconds": 0.1, "x": 250, "y": 560, "remainingSeconds": 0.2 },
+      { "timeSeconds": 0.2, "x": 250, "y": 600, "remainingSeconds": 0.1 },
+      { "timeSeconds": 0.3, "x": 250, "y": 620, "remainingSeconds": 0 }
+    ],
+    "displacementPixels": 120,
+    "linearRemainingTimeAttenuation": true,
+    "productionHitPathApplied": true
+  },
+  "bossIncomingRepel": {
+    "enemyId": "gbtl_27AAAA80",
+    "repelResist": true,
+    "source": "KNIGHT_CHARGE_TRAIT",
+    "start": { "x": 500, "y": 350 },
+    "after": { "x": 500, "y": 350 },
+    "rejected": true
+  },
+  "captures": [
+    {
+      "phase": "before",
+      "path": "cocos-repel-before.png",
+      "sha256": "844A0B38C77ACA1931F6A637F3B37593A5A505A018F7A0C154F450A5E2EA6604"
+    },
+    {
+      "phase": "after",
+      "path": "cocos-repel-after.png",
+      "sha256": "271CA910F6EC3F9B3C1DB22B7995AB4C4A8E1F785464DE466762498D4FA543D3"
+    }
+  ],
+  "runtimeErrors": [],
+  "passed": true,
+  "claimBoundary": "Controlled production-path runtime proof. The pair verifies displacement and resistance visually and numerically, but is not a matched timestamp from the original recording."
+}

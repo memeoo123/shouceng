@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-28",
+  "target": "wx4f4f3709865004a2/3-cocos-port",
+  "creatorVersion": "3.8.8",
+  "source": "../../targets/wx4f4f3709865004a2/3/work/unpacked-main/font/OPPOSansH.ttf",
+  "targetAsset": "assets/resources/original/fonts/OPPOSansH.ttf",
+  "byteLength": 2171644,
+  "sha256": "ad6bdbd3ac3a600be862a571abb4809d015633232eafee1a511554db61b50a9c",
+  "sourceAndLayaHashesMatch": true,
+  "browser": {
+    "route": "http://127.0.0.1:8132/?stage=2&test=cocos-air-support",
+    "viewport": { "width": 400, "height": 720 },
+    "loaded": true,
+    "resource": "original/fonts/OPPOSansH",
+    "preparationLabels": 19,
+    "labelsAfterDynamicCombatText": 23,
+    "airSupportSmokeOk": true,
+    "runtimeErrors": []
+  },
+  "automated": {
+    "projectAssertions": 72,
+    "goldenCases": 8,
+    "typescriptProjectScripts": "pass (--skipLibCheck true for Creator 3.8.8 declarations)",
+    "assetImportMissingMeta": 0,
+    "cocosBuild": "pass"
+  }
+}

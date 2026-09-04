@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-08-28T09:59:12.8657581Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-lifecycle",
+  "sourceRule": {
+    "coinsPerWave": 10,
+    "waveCounts": [3, 4, 7, 9, 12],
+    "allocations": [
+      [4, 3, 3],
+      [3, 3, 2, 2],
+      [2, 2, 2, 1, 1, 1, 1],
+      [2, 1, 1, 1, 1, 1, 1, 1, 1],
+      [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0]
+    ],
+    "treePrices": [0, 1, 2, 3, 4, 5]
+  },
+  "runtime": {
+    "completedWaves": [1, 2, 3, 4, 5],
+    "finalMoney": 50,
+    "finalWave": 5,
+    "finalWaveResolved": 12,
+    "finalWaveCoinRoster": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0],
+    "victory": true,
+    "errors": []
+  },
+  "interactive": {
+    "firstTreeClearedFor": 0,
+    "moneyAfterFirstTree": 0,
+    "remainingTreePriceAfterFirstClear": 1
+  },
+  "passed": true
+}

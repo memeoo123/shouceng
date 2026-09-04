@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-28T11:07:09.2283717Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-mage-barracks",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e05",
+    "summonedUnit": "../../src/data/summoned-units.json#fs_18B222C3",
+    "model": "../../../targets/wx4f4f3709865004a2/3/generated/tables/model.json#Mage1",
+    "recoveredAoeRule": "../../src/Main.js#unitAoeRadius",
+    "buildingSprites": "../../bin/res/buildings/Building_Mage{1..4}.png",
+    "unitFrames": "../../bin/res/units/Mage1_*.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 520,
+    "buildingShape": [[0, 0], [1, 0], [0, 1], [0, 2]],
+    "summonCooldownSecondsByLevel": [11, 8.8, 7.7, 6.6],
+    "summonUnitMaximumByLevel": [2, 4, 6, 8],
+    "summonedUnit": {
+      "body": "Mage1",
+      "hitPoints": 100,
+      "attack": 60,
+      "attackSpeed": 0.5833333333333334,
+      "speed": 1.1,
+      "range": 4.5,
+      "bulletSpeed": 19.5,
+      "attackFireFrame": 9,
+      "aoeRadiusPixels": 100,
+      "criticalChance": 0.05,
+      "criticalDamage": 2,
+      "dodge": 0.05
+    },
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 15, "victory": 13 }
+  },
+  "runtimeResult": {
+    "spawned": 2,
+    "spawnedBodies": ["Mage1", "Mage1"],
+    "cappedAtRecoveredMaximum": true,
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 15, "victory": 13 },
+    "projectileCreatedAfterFireFrame": true,
+    "primaryDamage": 60,
+    "nearbyTargetDistancePixels": 70,
+    "nearbyDamage": 60,
+    "outsideTargetDistancePixels": 140,
+    "outsideDamage": 0,
+    "alliedAoePassed": true,
+    "errors": []
+  },
+  "assets": {
+    "buildingSprites": 4,
+    "unitActionFrames": 46,
+    "sourceTargetHashMatches": 50
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 40380,
+    "creatorBuildExitCode": 36,
+    "buildIndexUpdatedAt": "2026-08-28T19:06:21.8046822+08:00",
+    "assetFileCount": 438,
+    "missingMetaCount": 0,
+    "typescriptPassed": true,
+    "pass": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-28",
+  "sourceRoot": "../../targets/wx4f4f3709865004a2/3/work/unpacked-ui/ui",
+  "formatConclusion": "The locally available air-support presentation assets are FairyGUI MovieClip/JTA resources, not Spine skeletons.",
+  "resources": [
+    {
+      "role": "freeze-applied-effect",
+      "package": "BattleSkillEffect",
+      "itemId": "ilh119",
+      "itemName": "冰冻",
+      "sourceUrl": "ui://BattleSkillEffect/冰冻",
+      "frames": 1,
+      "intervalMilliseconds": 83,
+      "canvas": [243, 243],
+      "pivot": [0.5, 0.5],
+      "scale": 1,
+      "target": "assets/resources/original/effects/freeze"
+    },
+    {
+      "role": "healing-applied-effect",
+      "package": "BattleSkillEffect",
+      "itemId": "snfh729",
+      "itemName": "治疗",
+      "sourceUrl": "ui://7jkc5l5wsnfh729",
+      "frames": 18,
+      "blankFrames": [0],
+      "intervalMilliseconds": 83,
+      "canvas": [62, 199],
+      "pivot": [0.5, 0.63],
+      "scale": 2,
+      "target": "assets/resources/original/effects/healing"
+    },
+    {
+      "role": "meteorite-hit-effect",
+      "package": "BattleSkillEffect",
+      "itemId": "imxp72e",
+      "itemName": "ArtilleryFire",
+      "sourceUrl": "ui://BattleSkillEffect/ArtilleryFire",
+      "frames": 10,
+      "intervalMilliseconds": 83,
+      "canvas": [267, 240],
+      "pivot": [0.5, 0.8],
+      "scale": 1.7,
+      "target": "assets/resources/original/effects/artillery-fire"
+    },
+    {
+      "role": "meteorite-projectile",
+      "package": "BattleBullets",
+      "itemId": "imxp5g",
+      "itemName": "Pic-XunHuanHuo",
+      "sourceUrl": "ui://BattleBullets/Pic-XunHuanHuo",
+      "frames": 7,
+      "intervalMilliseconds": 83,
+      "canvas": [173, 65],
+      "pivot": [0.5, 0.5],
+      "scale": 1.8,
+      "target": "assets/resources/original/effects/meteor-projectile"
+    }
+  ],
+  "unavailableLocalResources": [
+    "Effects_MeteorSwarm",
+    "Effects_Frozen",
+    "Effects_Rebleeding"
+  ],
+  "unavailableConclusion": "The full-screen Effects_* names are referenced by combat code but do not occur as items in the recovered local FairyGUI binaries/atlases. They remain deferred as possible lazy/network resources; no substitute was invented.",
+  "runtimeEvidence": "evidence/COCOS_AIR_SUPPORT_SMOKE.json"
+}

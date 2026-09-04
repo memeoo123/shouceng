@@ -1,0 +1,77 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-28T10:59:26.7042239Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-knight-barracks",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e03",
+    "summonedUnit": "../../src/data/summoned-units.json#qb_2B5987F2",
+    "model": "../../../targets/wx4f4f3709865004a2/3/generated/tables/model.json#Knight1",
+    "chargeTraits": "../../../targets/wx4f4f3709865004a2/3/generated/tables/trait_equipt.json#21,#23",
+    "recoveredChargeRuntime": "../../src/Main.js#UnitCharge",
+    "buildingSprites": "../../bin/res/buildings/Building_Knight{1..4}.png",
+    "unitFrames": "../../bin/res/units/Knight1_*.png"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 650,
+    "buildingShape": [[0, 0], [1, 0], [2, 0], [0, 1], [2, 1]],
+    "summonCooldownSecondsByLevel": [13, 10.4, 9.1, 7.8],
+    "summonUnitMaximumByLevel": [2, 4, 6, 8],
+    "summonedUnit": {
+      "body": "Knight1",
+      "hitPoints": 350,
+      "attack": 40,
+      "attackSpeed": 1,
+      "speed": 1.7,
+      "range": 1,
+      "bulletSpeed": 0,
+      "attackFireFrame": 9,
+      "criticalChance": 0.05,
+      "criticalDamage": 2,
+      "dodge": 0.05
+    },
+    "chargeIsOptionalTrait": true,
+    "chargeTrait": {
+      "damageRatio": 0.3,
+      "speedMultiplier": 1.5,
+      "repelPhysicsUnitsPerSecond": 10,
+      "repelSeconds": 0.2
+    },
+    "chargeDizzinessTrait": { "chance": 1, "durationSeconds": 3 },
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 14, "victory": 13, "charge": 5 }
+  },
+  "runtimeResult": {
+    "selectedTraits": ["UnitCharge", "UnitChargeDizziness"],
+    "spawned": 2,
+    "spawnedBodies": ["Knight1", "Knight1"],
+    "cappedAtRecoveredMaximum": true,
+    "actionFrameCounts": { "idle": 8, "move": 10, "attack": 14, "victory": 13, "charge": 5 },
+    "chargeActionSelected": true,
+    "chargedSpeedPixelsPerSecond": 159.375,
+    "baseSpeedPixelsPerSecond": 106.25,
+    "chargeConsumed": true,
+    "speedRestored": true,
+    "targetHpBefore": 300,
+    "targetHpAfter": 288,
+    "damageApplied": 12,
+    "chargeDamagePassed": true,
+    "repelApplied": true,
+    "dizzinessSeconds": 3,
+    "dizzinessPassed": true,
+    "errors": []
+  },
+  "assets": {
+    "buildingSprites": 4,
+    "unitActionFrames": 50,
+    "sourceTargetHashMatches": 54
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 15096,
+    "creatorBuildExitCode": 36,
+    "buildIndexUpdatedAt": "2026-08-28T18:58:44.7744365+08:00",
+    "assetFileCount": 388,
+    "missingMetaCount": 0,
+    "typescriptPassed": true,
+    "pass": true
+  }
+}

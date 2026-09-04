@@ -1,0 +1,61 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-09-04",
+  "target": "wx4f4f3709865004a2/3-cocos-port",
+  "creatorVersion": "3.8.8",
+  "designResolution": [750, 1286],
+  "captureViewport": [1280, 720],
+  "routes": {
+    "windup": "http://127.0.0.1:8132/?stage=2&test=cocos-attack-windup",
+    "fire": "http://127.0.0.1:8132/?stage=2&test=cocos-attack-fire",
+    "recovery": "http://127.0.0.1:8132/?stage=2&test=cocos-attack-recovery"
+  },
+  "attacker": {
+    "body": "Crossbowman1",
+    "attackFrameCount": 9,
+    "frameIntervalSeconds": 0.102,
+    "fireFrame": 6,
+    "fireClockSeconds": 0.612,
+    "attackLockSeconds": 0.918,
+    "projectileSpeedPixelsPerSecond": 750,
+    "damage": 35
+  },
+  "captures": [
+    {
+      "phase": "windup",
+      "clockSeconds": 0.51,
+      "frameIndex": 5,
+      "frameName": "Crossbowman1_attack_5",
+      "projectileCount": 0,
+      "targetHitPoints": 300,
+      "path": "cocos-attack-windup.png",
+      "sha256": "b0fe3d29fcd92ab62979613843f258fac5b2625184a69a58f8d184dde077c755"
+    },
+    {
+      "phase": "fire",
+      "clockSeconds": 0.612,
+      "frameIndex": 6,
+      "frameName": "Crossbowman1_attack_6",
+      "projectileCount": 1,
+      "targetHitPoints": 300,
+      "path": "cocos-attack-fire.png",
+      "sha256": "357c51a082b1acd0ee44dfa962421fe228b332850f9c38ff5701ac25b112ea6f"
+    },
+    {
+      "phase": "recovery",
+      "clockSeconds": 0.816,
+      "frameIndex": 8,
+      "frameName": "Crossbowman1_attack_8",
+      "projectileCount": 0,
+      "targetHitPoints": 265,
+      "damageApplied": 35,
+      "path": "cocos-attack-recovery.png",
+      "sha256": "fca3d4a0c76577b6d801ee52805e0e062d86498615d463b23ef90a1e8fa242f3"
+    }
+  ],
+  "delayTriggerToleranceSeconds": 0.000001,
+  "runtimeWarnings": [],
+  "runtimeErrors": [],
+  "passed": true,
+  "claimBoundary": "Controlled Cocos production-path phase capture. It proves the recovered local frame order, fire-frame timing, projectile creation and damage result, but is not a timestamp-matched capture from the original game."
+}

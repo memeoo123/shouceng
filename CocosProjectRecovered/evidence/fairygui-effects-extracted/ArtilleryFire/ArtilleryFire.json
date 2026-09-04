@@ -1,0 +1,101 @@
+{
+  "interval": 83,
+  "repeatDelay": 0,
+  "swing": false,
+  "width": 267,
+  "height": 240,
+  "frames": [
+    {
+      "addDelay": 0,
+      "offsetX": 44,
+      "offsetY": 102,
+      "width": 173,
+      "height": 115,
+      "textureIndex": 0
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 34,
+      "offsetY": 81,
+      "width": 205,
+      "height": 133,
+      "textureIndex": 1
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 31,
+      "offsetY": 28,
+      "width": 214,
+      "height": 183,
+      "textureIndex": 2
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 31,
+      "offsetY": 28,
+      "width": 214,
+      "height": 183,
+      "textureIndex": 3
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 29,
+      "offsetY": 28,
+      "width": 210,
+      "height": 184,
+      "textureIndex": 4
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 25,
+      "offsetY": 28,
+      "width": 213,
+      "height": 183,
+      "textureIndex": 5
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 25,
+      "offsetY": 22,
+      "width": 211,
+      "height": 189,
+      "textureIndex": 6
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 23,
+      "offsetY": 17,
+      "width": 215,
+      "height": 192,
+      "textureIndex": 7
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 20,
+      "offsetY": 14,
+      "width": 218,
+      "height": 192,
+      "textureIndex": 8
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 104,
+      "offsetY": 10,
+      "width": 65,
+      "height": 135,
+      "textureIndex": 9
+    }
+  ],
+  "textureFiles": [
+    "ArtilleryFire-00.png",
+    "ArtilleryFire-01.png",
+    "ArtilleryFire-02.png",
+    "ArtilleryFire-03.png",
+    "ArtilleryFire-04.png",
+    "ArtilleryFire-05.png",
+    "ArtilleryFire-06.png",
+    "ArtilleryFire-07.png",
+    "ArtilleryFire-08.png",
+    "ArtilleryFire-09.png"
+  ]
+}

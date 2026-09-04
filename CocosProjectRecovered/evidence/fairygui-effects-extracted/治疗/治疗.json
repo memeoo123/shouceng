@@ -1,0 +1,173 @@
+{
+  "interval": 83,
+  "repeatDelay": 0,
+  "swing": false,
+  "width": 62,
+  "height": 199,
+  "frames": [
+    {
+      "addDelay": 0,
+      "offsetX": 31,
+      "offsetY": 99,
+      "width": 0,
+      "height": 0,
+      "textureIndex": -1
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 95,
+      "width": 38,
+      "height": 87,
+      "textureIndex": 1
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 84,
+      "width": 38,
+      "height": 85,
+      "textureIndex": 2
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 72,
+      "width": 57,
+      "height": 85,
+      "textureIndex": 3
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 60,
+      "width": 58,
+      "height": 84,
+      "textureIndex": 4
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 48,
+      "width": 59,
+      "height": 127,
+      "textureIndex": 5
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 3,
+      "offsetY": 60,
+      "width": 57,
+      "height": 96,
+      "textureIndex": 6
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 3,
+      "offsetY": 47,
+      "width": 57,
+      "height": 103,
+      "textureIndex": 7
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 3,
+      "offsetY": 37,
+      "width": 57,
+      "height": 106,
+      "textureIndex": 8
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 3,
+      "offsetY": 29,
+      "width": 58,
+      "height": 118,
+      "textureIndex": 9
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 8,
+      "offsetY": 46,
+      "width": 53,
+      "height": 81,
+      "textureIndex": 10
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 8,
+      "offsetY": 44,
+      "width": 53,
+      "height": 79,
+      "textureIndex": 11
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 8,
+      "offsetY": 30,
+      "width": 53,
+      "height": 82,
+      "textureIndex": 12
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 8,
+      "offsetY": 19,
+      "width": 50,
+      "height": 81,
+      "textureIndex": 13
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 8,
+      "offsetY": 10,
+      "width": 50,
+      "height": 85,
+      "textureIndex": 14
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 10,
+      "offsetY": 38,
+      "width": 48,
+      "height": 38,
+      "textureIndex": 15
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 10,
+      "offsetY": 26,
+      "width": 48,
+      "height": 50,
+      "textureIndex": 16
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 56,
+      "offsetY": 14,
+      "width": 2,
+      "height": 39,
+      "textureIndex": 17
+    }
+  ],
+  "textureFiles": [
+    null,
+    "治疗-01.png",
+    "治疗-02.png",
+    "治疗-03.png",
+    "治疗-04.png",
+    "治疗-05.png",
+    "治疗-06.png",
+    "治疗-07.png",
+    "治疗-08.png",
+    "治疗-09.png",
+    "治疗-10.png",
+    "治疗-11.png",
+    "治疗-12.png",
+    "治疗-13.png",
+    "治疗-14.png",
+    "治疗-15.png",
+    "治疗-16.png",
+    "治疗-17.png"
+  ]
+}

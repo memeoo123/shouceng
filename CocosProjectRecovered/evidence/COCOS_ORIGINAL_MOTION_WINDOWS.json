@@ -1,0 +1,1847 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-04T09:55:48.616423+00:00",
+  "purpose": "Original-video adjacent-frame evidence for later Cocos motion/animation validation",
+  "source": {
+    "video": "../../targets/wx4f4f3709865004a2/3/evidence/original-reference/QQ20260819-171433.mp4",
+    "decoder": "installed Chrome HTML5 video decoder via local byte-range server",
+    "sourceFrameSize": [
+      574,
+      1036
+    ],
+    "normalizedFrameSize": [
+      574,
+      984
+    ],
+    "sampleSpacingMs": 102,
+    "note": "Requested media times are exact; the decoder displays the nearest encoded video frame."
+  },
+  "heuristics": {
+    "actorSearchRadiusPerStepPx": 16,
+    "maximumReliableTemplateFitTrimmedMae0To255": 30.0,
+    "minimumReliablePhaseFitMargin0To255": 0.5,
+    "tracking": "anchor at matched t12/t18 coordinate, then propagate independently backward and forward by 102 ms",
+    "occlusionPolicy": "boundary hits or template MAE above threshold are retained but excluded from position conclusions; low runner-up margin also excludes sprite-phase conclusions"
+  },
+  "windows": {
+    "t12": {
+      "anchorSeconds": 12.0,
+      "frames": [
+        {
+          "offsetMs": -204,
+          "mediaTimeSeconds": 11.796,
+          "path": "evidence/original-motion-windows/t12-m204.png",
+          "sha256": "248ed5267cbb9fe0fc9274f60bfe2ded57f04ac1e69c1a575f009110dc4ad882"
+        },
+        {
+          "offsetMs": -102,
+          "mediaTimeSeconds": 11.898,
+          "path": "evidence/original-motion-windows/t12-m102.png",
+          "sha256": "2917648aee27b0fde417f8e32cc45b0c4ff58398d584b491c8da5465c4221d42"
+        },
+        {
+          "offsetMs": 0,
+          "mediaTimeSeconds": 12.0,
+          "path": "evidence/original-motion-windows/t12.png",
+          "sha256": "325d9d7a7695d3a08b8986043c2692e55c4c59c92f5ec920ff601c2fe4c0dfd1"
+        },
+        {
+          "offsetMs": 102,
+          "mediaTimeSeconds": 12.102,
+          "path": "evidence/original-motion-windows/t12-p102.png",
+          "sha256": "21f0840a61372ab62bbde331ceb1dc8e410c6a9ade7a09f7e885eb10442bab3f"
+        },
+        {
+          "offsetMs": 204,
+          "mediaTimeSeconds": 12.204,
+          "path": "evidence/original-motion-windows/t12-p204.png",
+          "sha256": "d83526eb23c91c006f67af3a495897f95c3c8e7bf91c5d263ca1760ad32169b7"
+        }
+      ],
+      "actors": [
+        {
+          "id": "enemy-shooter",
+          "candidatePatterns": [
+            "units-red/Shooter1_move_*.png"
+          ],
+          "anchorDesignCenter": [
+            216.899,
+            65.331
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_3.png",
+              "action": "move",
+              "frameIndex": 3,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                179,
+                37
+              ],
+              "designCenter": [
+                233.885,
+                48.345
+              ],
+              "expectedFromPreviousPx": [
+                172.0,
+                41.0
+              ],
+              "offsetFromExpectedPx": [
+                7,
+                -4
+              ],
+              "templateFitTrimmedMae0To255": 13.5338,
+              "runnerUpTrimmedMae0To255": 14.2126,
+              "fitMargin0To255": 0.6787,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_6.png",
+              "action": "move",
+              "frameIndex": 6,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                172,
+                41
+              ],
+              "designCenter": [
+                224.739,
+                53.571
+              ],
+              "expectedFromPreviousPx": [
+                168,
+                47
+              ],
+              "offsetFromExpectedPx": [
+                4,
+                -6
+              ],
+              "templateFitTrimmedMae0To255": 13.3055,
+              "runnerUpTrimmedMae0To255": 14.7933,
+              "fitMargin0To255": 1.4877,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_7.png",
+              "action": "move",
+              "frameIndex": 7,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                168,
+                47
+              ],
+              "designCenter": [
+                219.512,
+                61.411
+              ],
+              "expectedFromPreviousPx": [
+                166.0,
+                50.0
+              ],
+              "offsetFromExpectedPx": [
+                2,
+                -3
+              ],
+              "templateFitTrimmedMae0To255": 15.0331,
+              "runnerUpTrimmedMae0To255": 15.3559,
+              "fitMargin0To255": 0.3228,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+              "action": "move",
+              "frameIndex": 8,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                163,
+                56
+              ],
+              "designCenter": [
+                212.979,
+                73.171
+              ],
+              "expectedFromPreviousPx": [
+                168,
+                47
+              ],
+              "offsetFromExpectedPx": [
+                -5,
+                9
+              ],
+              "templateFitTrimmedMae0To255": 13.8266,
+              "runnerUpTrimmedMae0To255": 14.785,
+              "fitMargin0To255": 0.9583,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+              "action": "move",
+              "frameIndex": 8,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                163,
+                64
+              ],
+              "designCenter": [
+                212.979,
+                83.624
+              ],
+              "expectedFromPreviousPx": [
+                163.0,
+                56.0
+              ],
+              "offsetFromExpectedPx": [
+                0,
+                8
+              ],
+              "templateFitTrimmedMae0To255": 13.4936,
+              "runnerUpTrimmedMae0To255": 14.5022,
+              "fitMargin0To255": 1.0085,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 5,
+            "phaseReliableSampleCount": 4,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": true,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  -7,
+                  4
+                ],
+                "distancePx": 8.062,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -4,
+                  6
+                ],
+                "distancePx": 7.211,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -5,
+                  9
+                ],
+                "distancePx": 10.296,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  0,
+                  8
+                ],
+                "distancePx": 8.0,
+                "actionChanged": false,
+                "frameIndexChanged": false,
+                "facingChanged": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "enemy-swordsman-a",
+          "candidatePatterns": [
+            "units-red/Swordsman1_move_*.png"
+          ],
+          "anchorDesignCenter": [
+            359.321,
+            69.251
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_6.png",
+              "action": "move",
+              "frameIndex": 6,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                265,
+                37
+              ],
+              "designCenter": [
+                346.254,
+                48.345
+              ],
+              "expectedFromPreviousPx": [
+                269.0,
+                41.0
+              ],
+              "offsetFromExpectedPx": [
+                -4,
+                -4
+              ],
+              "templateFitTrimmedMae0To255": 12.5838,
+              "runnerUpTrimmedMae0To255": 16.4036,
+              "fitMargin0To255": 3.8198,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+              "action": "move",
+              "frameIndex": 1,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                269,
+                41
+              ],
+              "designCenter": [
+                351.481,
+                53.571
+              ],
+              "expectedFromPreviousPx": [
+                275,
+                52
+              ],
+              "offsetFromExpectedPx": [
+                -6,
+                -11
+              ],
+              "templateFitTrimmedMae0To255": 15.2952,
+              "runnerUpTrimmedMae0To255": 16.9555,
+              "fitMargin0To255": 1.6603,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+              "action": "move",
+              "frameIndex": 9,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                275,
+                52
+              ],
+              "designCenter": [
+                359.321,
+                67.944
+              ],
+              "expectedFromPreviousPx": [
+                275.0,
+                53.0
+              ],
+              "offsetFromExpectedPx": [
+                0,
+                -1
+              ],
+              "templateFitTrimmedMae0To255": 16.92,
+              "runnerUpTrimmedMae0To255": 17.066,
+              "fitMargin0To255": 0.146,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+              "action": "move",
+              "frameIndex": 9,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                276,
+                59
+              ],
+              "designCenter": [
+                360.627,
+                77.091
+              ],
+              "expectedFromPreviousPx": [
+                275,
+                52
+              ],
+              "offsetFromExpectedPx": [
+                1,
+                7
+              ],
+              "templateFitTrimmedMae0To255": 21.0913,
+              "runnerUpTrimmedMae0To255": 22.1563,
+              "fitMargin0To255": 1.065,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_2.png",
+              "action": "move",
+              "frameIndex": 2,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                265,
+                55
+              ],
+              "designCenter": [
+                346.254,
+                71.864
+              ],
+              "expectedFromPreviousPx": [
+                276.0,
+                59.0
+              ],
+              "offsetFromExpectedPx": [
+                -11,
+                -4
+              ],
+              "templateFitTrimmedMae0To255": 24.5115,
+              "runnerUpTrimmedMae0To255": 28.4775,
+              "fitMargin0To255": 3.966,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 5,
+            "phaseReliableSampleCount": 4,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": true,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  4,
+                  4
+                ],
+                "distancePx": 5.657,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  6,
+                  11
+                ],
+                "distancePx": 12.53,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  1,
+                  7
+                ],
+                "distancePx": 7.071,
+                "actionChanged": false,
+                "frameIndexChanged": false,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  -11,
+                  -4
+                ],
+                "distancePx": 11.705,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "enemy-swordsman-b",
+          "candidatePatterns": [
+            "units-red/Swordsman1_move_*.png"
+          ],
+          "anchorDesignCenter": [
+            410.279,
+            43.118
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_8.png",
+              "action": "move",
+              "frameIndex": 8,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                297,
+                33
+              ],
+              "designCenter": [
+                388.066,
+                43.118
+              ],
+              "expectedFromPreviousPx": [
+                299.0,
+                40.0
+              ],
+              "offsetFromExpectedPx": [
+                -2,
+                -7
+              ],
+              "templateFitTrimmedMae0To255": 32.1349,
+              "runnerUpTrimmedMae0To255": 32.5633,
+              "fitMargin0To255": 0.4284,
+              "searchBoundaryHit": false,
+              "centerReliable": false,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+              "action": "move",
+              "frameIndex": 1,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                299,
+                40
+              ],
+              "designCenter": [
+                390.679,
+                52.265
+              ],
+              "expectedFromPreviousPx": [
+                307,
+                36
+              ],
+              "offsetFromExpectedPx": [
+                -8,
+                4
+              ],
+              "templateFitTrimmedMae0To255": 32.5413,
+              "runnerUpTrimmedMae0To255": 33.4652,
+              "fitMargin0To255": 0.9239,
+              "searchBoundaryHit": false,
+              "centerReliable": false,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_4.png",
+              "action": "move",
+              "frameIndex": 4,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                307,
+                36
+              ],
+              "designCenter": [
+                401.132,
+                47.038
+              ],
+              "expectedFromPreviousPx": [
+                314.0,
+                33.0
+              ],
+              "offsetFromExpectedPx": [
+                -7,
+                3
+              ],
+              "templateFitTrimmedMae0To255": 17.0487,
+              "runnerUpTrimmedMae0To255": 17.4102,
+              "fitMargin0To255": 0.3615,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+              "action": "move",
+              "frameIndex": 1,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                318,
+                34
+              ],
+              "designCenter": [
+                415.505,
+                44.425
+              ],
+              "expectedFromPreviousPx": [
+                307,
+                36
+              ],
+              "offsetFromExpectedPx": [
+                11,
+                -2
+              ],
+              "templateFitTrimmedMae0To255": 14.2659,
+              "runnerUpTrimmedMae0To255": 14.9322,
+              "fitMargin0To255": 0.6662,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+              "action": "move",
+              "frameIndex": 1,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                321,
+                40
+              ],
+              "designCenter": [
+                419.425,
+                52.265
+              ],
+              "expectedFromPreviousPx": [
+                318.0,
+                34.0
+              ],
+              "offsetFromExpectedPx": [
+                3,
+                6
+              ],
+              "templateFitTrimmedMae0To255": 16.3686,
+              "runnerUpTrimmedMae0To255": 16.4605,
+              "fitMargin0To255": 0.0919,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 3,
+            "phaseReliableSampleCount": 1,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": false,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": false,
+                "phaseReliable": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": false,
+                "phaseReliable": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  11,
+                  -2
+                ],
+                "distancePx": 11.18,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  3,
+                  6
+                ],
+                "distancePx": 6.708,
+                "actionChanged": false,
+                "frameIndexChanged": false,
+                "facingChanged": false
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "trackedActorCount": 3,
+        "actorsWithAtLeastFourReliableSamples": 2,
+        "motionObserved": true,
+        "animationPhaseChangeObserved": true
+      }
+    },
+    "t18": {
+      "anchorSeconds": 18.0,
+      "frames": [
+        {
+          "offsetMs": -204,
+          "mediaTimeSeconds": 17.796,
+          "path": "evidence/original-motion-windows/t18-m204.png",
+          "sha256": "b7f7cc5458331e24536efeb662836019bd23e7fd0875d44856541ff05ecc3a5f"
+        },
+        {
+          "offsetMs": -102,
+          "mediaTimeSeconds": 17.898,
+          "path": "evidence/original-motion-windows/t18-m102.png",
+          "sha256": "7df6dacce591950b220554201755c776b0ee1b7319dcdecd64516f879b5cf988"
+        },
+        {
+          "offsetMs": 0,
+          "mediaTimeSeconds": 18.0,
+          "path": "evidence/original-motion-windows/t18.png",
+          "sha256": "0be597fb189e36812b7cc415e80a7babfc6e565303ff070284b27f7326303f51"
+        },
+        {
+          "offsetMs": 102,
+          "mediaTimeSeconds": 18.102,
+          "path": "evidence/original-motion-windows/t18-p102.png",
+          "sha256": "5e4173eb764bca95678ba7a3c6e0fd33deb49b8017ab01f906620890ab98c5c7"
+        },
+        {
+          "offsetMs": 204,
+          "mediaTimeSeconds": 18.204,
+          "path": "evidence/original-motion-windows/t18-p204.png",
+          "sha256": "95e2006ec908f54865f91b7b05f6c6601c0b3b24613be4446e893da7298291e9"
+        }
+      ],
+      "actors": [
+        {
+          "id": "enemy-swordsman-a",
+          "candidatePatterns": [
+            "units-red/Swordsman1_move_*.png",
+            "units-red/Swordsman1_attack_*.png"
+          ],
+          "anchorDesignCenter": [
+            514.808,
+            339.721
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_1.png",
+              "action": "move",
+              "frameIndex": 1,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                389,
+                240
+              ],
+              "designCenter": [
+                508.275,
+                313.589
+              ],
+              "expectedFromPreviousPx": [
+                391.0,
+                247.0
+              ],
+              "offsetFromExpectedPx": [
+                -2,
+                -7
+              ],
+              "templateFitTrimmedMae0To255": 12.2612,
+              "runnerUpTrimmedMae0To255": 12.7588,
+              "fitMargin0To255": 0.4975,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_7.png",
+              "action": "move",
+              "frameIndex": 7,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                391,
+                247
+              ],
+              "designCenter": [
+                510.889,
+                322.735
+              ],
+              "expectedFromPreviousPx": [
+                394,
+                258
+              ],
+              "offsetFromExpectedPx": [
+                -3,
+                -11
+              ],
+              "templateFitTrimmedMae0To255": 12.2951,
+              "runnerUpTrimmedMae0To255": 12.6311,
+              "fitMargin0To255": 0.336,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_9.png",
+              "action": "move",
+              "frameIndex": 9,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                394,
+                258
+              ],
+              "designCenter": [
+                514.808,
+                337.108
+              ],
+              "expectedFromPreviousPx": [
+                394.0,
+                260.0
+              ],
+              "offsetFromExpectedPx": [
+                0,
+                -2
+              ],
+              "templateFitTrimmedMae0To255": 12.3486,
+              "runnerUpTrimmedMae0To255": 13.0241,
+              "fitMargin0To255": 0.6756,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_1.png",
+              "action": "attack",
+              "frameIndex": 1,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                390,
+                255
+              ],
+              "designCenter": [
+                509.582,
+                333.188
+              ],
+              "expectedFromPreviousPx": [
+                394,
+                258
+              ],
+              "offsetFromExpectedPx": [
+                -4,
+                -3
+              ],
+              "templateFitTrimmedMae0To255": 12.811,
+              "runnerUpTrimmedMae0To255": 13.2476,
+              "fitMargin0To255": 0.4367,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_6.png",
+              "action": "attack",
+              "frameIndex": 6,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                395,
+                270
+              ],
+              "designCenter": [
+                516.115,
+                352.787
+              ],
+              "expectedFromPreviousPx": [
+                390.0,
+                255.0
+              ],
+              "offsetFromExpectedPx": [
+                5,
+                15
+              ],
+              "templateFitTrimmedMae0To255": 42.7204,
+              "runnerUpTrimmedMae0To255": 46.5988,
+              "fitMargin0To255": 3.8783,
+              "searchBoundaryHit": false,
+              "centerReliable": false,
+              "phaseReliable": false
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 4,
+            "phaseReliableSampleCount": 1,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": false,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  2,
+                  7
+                ],
+                "distancePx": 7.28,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  3,
+                  11
+                ],
+                "distancePx": 11.402,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -4,
+                  -3
+                ],
+                "distancePx": 5.0,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": false,
+                "phaseReliable": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "enemy-shooter",
+          "candidatePatterns": [
+            "units-red/Shooter1_move_*.png",
+            "units-red/Shooter1_attack_*.png"
+          ],
+          "anchorDesignCenter": [
+            533.101,
+            398.519
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_2.png",
+              "action": "move",
+              "frameIndex": 2,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                417,
+                294
+              ],
+              "designCenter": [
+                544.861,
+                384.146
+              ],
+              "expectedFromPreviousPx": [
+                417.0,
+                306.0
+              ],
+              "offsetFromExpectedPx": [
+                0,
+                -12
+              ],
+              "templateFitTrimmedMae0To255": 23.794,
+              "runnerUpTrimmedMae0To255": 24.8834,
+              "fitMargin0To255": 1.0894,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_2.png",
+              "action": "move",
+              "frameIndex": 2,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                417,
+                306
+              ],
+              "designCenter": [
+                544.861,
+                399.826
+              ],
+              "expectedFromPreviousPx": [
+                411,
+                304
+              ],
+              "offsetFromExpectedPx": [
+                6,
+                2
+              ],
+              "templateFitTrimmedMae0To255": 24.9102,
+              "runnerUpTrimmedMae0To255": 26.7854,
+              "fitMargin0To255": 1.8753,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_attack_0.png",
+              "action": "attack",
+              "frameIndex": 0,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                411,
+                304
+              ],
+              "designCenter": [
+                537.021,
+                397.213
+              ],
+              "expectedFromPreviousPx": [
+                408.0,
+                305.0
+              ],
+              "offsetFromExpectedPx": [
+                3,
+                -1
+              ],
+              "templateFitTrimmedMae0To255": 22.2447,
+              "runnerUpTrimmedMae0To255": 22.8685,
+              "fitMargin0To255": 0.6239,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+              "action": "move",
+              "frameIndex": 8,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                407,
+                309
+              ],
+              "designCenter": [
+                531.794,
+                403.746
+              ],
+              "expectedFromPreviousPx": [
+                411,
+                304
+              ],
+              "offsetFromExpectedPx": [
+                -4,
+                5
+              ],
+              "templateFitTrimmedMae0To255": 25.6946,
+              "runnerUpTrimmedMae0To255": 26.2278,
+              "fitMargin0To255": 0.5333,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units-red/Shooter1_move_8.png",
+              "action": "move",
+              "frameIndex": 8,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                406,
+                315
+              ],
+              "designCenter": [
+                530.488,
+                411.585
+              ],
+              "expectedFromPreviousPx": [
+                407.0,
+                309.0
+              ],
+              "offsetFromExpectedPx": [
+                -1,
+                6
+              ],
+              "templateFitTrimmedMae0To255": 27.279,
+              "runnerUpTrimmedMae0To255": 27.3111,
+              "fitMargin0To255": 0.0321,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 5,
+            "phaseReliableSampleCount": 4,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": true,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  0,
+                  12
+                ],
+                "distancePx": 12.0,
+                "actionChanged": false,
+                "frameIndexChanged": false,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  -6,
+                  -2
+                ],
+                "distancePx": 6.325,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  -4,
+                  5
+                ],
+                "distancePx": 6.403,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -1,
+                  6
+                ],
+                "distancePx": 6.083,
+                "actionChanged": false,
+                "frameIndexChanged": false,
+                "facingChanged": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "enemy-swordsman-low-hp",
+          "candidatePatterns": [
+            "units-red/Swordsman1_move_*.png",
+            "units-red/Swordsman1_attack_*.png"
+          ],
+          "anchorDesignCenter": [
+            283.537,
+            522.648
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_5.png",
+              "action": "move",
+              "frameIndex": 5,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                200,
+                389
+              ],
+              "designCenter": [
+                261.324,
+                508.275
+              ],
+              "expectedFromPreviousPx": [
+                209.0,
+                389.0
+              ],
+              "offsetFromExpectedPx": [
+                -9,
+                0
+              ],
+              "templateFitTrimmedMae0To255": 36.7474,
+              "runnerUpTrimmedMae0To255": 36.9419,
+              "fitMargin0To255": 0.1945,
+              "searchBoundaryHit": false,
+              "centerReliable": false,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_2.png",
+              "action": "attack",
+              "frameIndex": 2,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                209,
+                389
+              ],
+              "designCenter": [
+                273.084,
+                508.275
+              ],
+              "expectedFromPreviousPx": [
+                214,
+                396
+              ],
+              "offsetFromExpectedPx": [
+                -5,
+                -7
+              ],
+              "templateFitTrimmedMae0To255": 29.0581,
+              "runnerUpTrimmedMae0To255": 30.0503,
+              "fitMargin0To255": 0.9922,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_6.png",
+              "action": "move",
+              "frameIndex": 6,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                214,
+                396
+              ],
+              "designCenter": [
+                279.617,
+                517.422
+              ],
+              "expectedFromPreviousPx": [
+                217.0,
+                400.0
+              ],
+              "offsetFromExpectedPx": [
+                -3,
+                -4
+              ],
+              "templateFitTrimmedMae0To255": 29.6125,
+              "runnerUpTrimmedMae0To255": 29.6222,
+              "fitMargin0To255": 0.0097,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_move_7.png",
+              "action": "move",
+              "frameIndex": 7,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                219,
+                404
+              ],
+              "designCenter": [
+                286.15,
+                527.875
+              ],
+              "expectedFromPreviousPx": [
+                214,
+                396
+              ],
+              "offsetFromExpectedPx": [
+                5,
+                8
+              ],
+              "templateFitTrimmedMae0To255": 28.5278,
+              "runnerUpTrimmedMae0To255": 28.5538,
+              "fitMargin0To255": 0.026,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units-red/Swordsman1_attack_2.png",
+              "action": "attack",
+              "frameIndex": 2,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                214,
+                408
+              ],
+              "designCenter": [
+                279.617,
+                533.101
+              ],
+              "expectedFromPreviousPx": [
+                219.0,
+                404.0
+              ],
+              "offsetFromExpectedPx": [
+                -5,
+                4
+              ],
+              "templateFitTrimmedMae0To255": 29.0632,
+              "runnerUpTrimmedMae0To255": 29.7787,
+              "fitMargin0To255": 0.7155,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 4,
+            "phaseReliableSampleCount": 2,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": false,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": false,
+                "phaseReliable": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  5,
+                  7
+                ],
+                "distancePx": 8.602,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  5,
+                  8
+                ],
+                "distancePx": 9.434,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -5,
+                  4
+                ],
+                "distancePx": 6.403,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "ally-shooter-a",
+          "candidatePatterns": [
+            "units/Shooter1_idle_*.png",
+            "units/Shooter1_attack_*.png"
+          ],
+          "anchorDesignCenter": [
+            205.139,
+            806.185
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_attack_0.png",
+              "action": "attack",
+              "frameIndex": 0,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                157,
+                632
+              ],
+              "designCenter": [
+                205.139,
+                825.784
+              ],
+              "expectedFromPreviousPx": [
+                160.0,
+                629.0
+              ],
+              "offsetFromExpectedPx": [
+                -3,
+                3
+              ],
+              "templateFitTrimmedMae0To255": 50.1028,
+              "runnerUpTrimmedMae0To255": 50.2681,
+              "fitMargin0To255": 0.1652,
+              "searchBoundaryHit": false,
+              "centerReliable": false,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_idle_0.png",
+              "action": "idle",
+              "frameIndex": 0,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                160,
+                629
+              ],
+              "designCenter": [
+                209.059,
+                821.864
+              ],
+              "expectedFromPreviousPx": [
+                156,
+                620
+              ],
+              "offsetFromExpectedPx": [
+                4,
+                9
+              ],
+              "templateFitTrimmedMae0To255": 39.8846,
+              "runnerUpTrimmedMae0To255": 40.3077,
+              "fitMargin0To255": 0.4231,
+              "searchBoundaryHit": false,
+              "centerReliable": false,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_attack_0.png",
+              "action": "attack",
+              "frameIndex": 0,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                156,
+                620
+              ],
+              "designCenter": [
+                203.833,
+                810.105
+              ],
+              "expectedFromPreviousPx": [
+                157.0,
+                617.0
+              ],
+              "offsetFromExpectedPx": [
+                -1,
+                3
+              ],
+              "templateFitTrimmedMae0To255": 26.2943,
+              "runnerUpTrimmedMae0To255": 26.8846,
+              "fitMargin0To255": 0.5903,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_attack_2.png",
+              "action": "attack",
+              "frameIndex": 2,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                154,
+                613
+              ],
+              "designCenter": [
+                201.22,
+                800.958
+              ],
+              "expectedFromPreviousPx": [
+                156,
+                620
+              ],
+              "offsetFromExpectedPx": [
+                -2,
+                -7
+              ],
+              "templateFitTrimmedMae0To255": 24.6902,
+              "runnerUpTrimmedMae0To255": 25.8629,
+              "fitMargin0To255": 1.1727,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_attack_1.png",
+              "action": "attack",
+              "frameIndex": 1,
+              "flippedHorizontally": false,
+              "normalizedCenterPx": [
+                151,
+                609
+              ],
+              "designCenter": [
+                197.3,
+                795.732
+              ],
+              "expectedFromPreviousPx": [
+                154.0,
+                613.0
+              ],
+              "offsetFromExpectedPx": [
+                -3,
+                -4
+              ],
+              "templateFitTrimmedMae0To255": 26.2358,
+              "runnerUpTrimmedMae0To255": 26.5815,
+              "fitMargin0To255": 0.3457,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 3,
+            "phaseReliableSampleCount": 2,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": true,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": false,
+                "phaseReliable": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": false,
+                "phaseReliable": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": true,
+                "deltaPx": [
+                  -2,
+                  -7
+                ],
+                "distancePx": 7.28,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -3,
+                  -4
+                ],
+                "distancePx": 5.0,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "ally-shooter-b",
+          "candidatePatterns": [
+            "units/Shooter1_idle_*.png",
+            "units/Shooter1_attack_*.png"
+          ],
+          "anchorDesignCenter": [
+            474.303,
+            836.237
+          ],
+          "samples": [
+            {
+              "offsetMs": -204,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_attack_1.png",
+              "action": "attack",
+              "frameIndex": 1,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                377,
+                651
+              ],
+              "designCenter": [
+                492.596,
+                850.61
+              ],
+              "expectedFromPreviousPx": [
+                371.0,
+                644.0
+              ],
+              "offsetFromExpectedPx": [
+                6,
+                7
+              ],
+              "templateFitTrimmedMae0To255": 13.6285,
+              "runnerUpTrimmedMae0To255": 15.9082,
+              "fitMargin0To255": 2.2797,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            },
+            {
+              "offsetMs": -102,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_idle_5.png",
+              "action": "idle",
+              "frameIndex": 5,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                371,
+                644
+              ],
+              "designCenter": [
+                484.756,
+                841.463
+              ],
+              "expectedFromPreviousPx": [
+                364,
+                642
+              ],
+              "offsetFromExpectedPx": [
+                7,
+                2
+              ],
+              "templateFitTrimmedMae0To255": 15.4381,
+              "runnerUpTrimmedMae0To255": 15.4483,
+              "fitMargin0To255": 0.0102,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 0,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_idle_5.png",
+              "action": "idle",
+              "frameIndex": 5,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                364,
+                642
+              ],
+              "designCenter": [
+                475.61,
+                838.85
+              ],
+              "expectedFromPreviousPx": [
+                363.0,
+                640.0
+              ],
+              "offsetFromExpectedPx": [
+                1,
+                2
+              ],
+              "templateFitTrimmedMae0To255": 17.5598,
+              "runnerUpTrimmedMae0To255": 18.0407,
+              "fitMargin0To255": 0.4809,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 102,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_idle_4.png",
+              "action": "idle",
+              "frameIndex": 4,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                362,
+                640
+              ],
+              "designCenter": [
+                472.997,
+                836.237
+              ],
+              "expectedFromPreviousPx": [
+                364,
+                642
+              ],
+              "offsetFromExpectedPx": [
+                -2,
+                -2
+              ],
+              "templateFitTrimmedMae0To255": 17.384,
+              "runnerUpTrimmedMae0To255": 17.4232,
+              "fitMargin0To255": 0.0392,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": false
+            },
+            {
+              "offsetMs": 204,
+              "detectedSprite": "assets/resources/original/units/units/Shooter1_attack_2.png",
+              "action": "attack",
+              "frameIndex": 2,
+              "flippedHorizontally": true,
+              "normalizedCenterPx": [
+                365,
+                629
+              ],
+              "designCenter": [
+                476.916,
+                821.864
+              ],
+              "expectedFromPreviousPx": [
+                362.0,
+                640.0
+              ],
+              "offsetFromExpectedPx": [
+                3,
+                -11
+              ],
+              "templateFitTrimmedMae0To255": 17.1178,
+              "runnerUpTrimmedMae0To255": 18.2004,
+              "fitMargin0To255": 1.0827,
+              "searchBoundaryHit": false,
+              "centerReliable": true,
+              "phaseReliable": true
+            }
+          ],
+          "summary": {
+            "reliableSampleCount": 5,
+            "phaseReliableSampleCount": 2,
+            "sampleCount": 5,
+            "motionObserved": true,
+            "animationPhaseChangeObserved": false,
+            "steps": [
+              {
+                "fromOffsetMs": -204,
+                "toOffsetMs": -102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -6,
+                  -7
+                ],
+                "distancePx": 9.22,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": -102,
+                "toOffsetMs": 0,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -7,
+                  -2
+                ],
+                "distancePx": 7.28,
+                "actionChanged": false,
+                "frameIndexChanged": false,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 0,
+                "toOffsetMs": 102,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  -2,
+                  -2
+                ],
+                "distancePx": 2.828,
+                "actionChanged": false,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              },
+              {
+                "fromOffsetMs": 102,
+                "toOffsetMs": 204,
+                "centerReliable": true,
+                "phaseReliable": false,
+                "deltaPx": [
+                  3,
+                  -11
+                ],
+                "distancePx": 11.402,
+                "actionChanged": true,
+                "frameIndexChanged": true,
+                "facingChanged": false
+              }
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "trackedActorCount": 5,
+        "actorsWithAtLeastFourReliableSamples": 4,
+        "motionObserved": true,
+        "animationPhaseChangeObserved": true
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T06:57:36.3339774Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-shop-refresh",
+  "sourceEvidence": {
+    "originalBattleShop": "../../../targets/wx4f4f3709865004a2/3/generated/game.beautified.js#BattleShop",
+    "fightParameters": "../../src/data/fight-params.json",
+    "stage2TypeWeights": "../../src/data/stages.json#2.storeItemTypeWeight",
+    "slotShapes": "../../src/data/slot-shapes.json"
+  },
+  "recoveredRules": {
+    "stage2ItemTypeWeights": [887, 100, 13],
+    "itemTypeOrder": ["ordinary-building", "gold-building", "slot-expansion"],
+    "refreshPrice": 15,
+    "firstRefreshFree": true,
+    "level2WeightFormula": "0.06 + (Wave - 1) / 5 * 0.03",
+    "level3WeightFormula": "0.06 + (Wave - 1) / 5 * 0.015",
+    "guaranteedSlotInterval": 3,
+    "specialRefresh": "one local use; first offer is level 2; does not advance the regular refresh counter",
+    "networkBehavior": "deferred by user request; the recovered ad/server call is represented by a local one-use gate"
+  },
+  "runtimeResult": {
+    "initialRefreshCount": 1,
+    "moneyProgression": [30, 30, 15, 0, 0],
+    "firstRefreshFree": true,
+    "insufficientMoneyBlocked": true,
+    "guaranteedSlotWithinThree": true,
+    "guaranteedSlot": { "id": "slot-1", "kind": "slot", "level": 0 },
+    "slotExpandedCells": 1,
+    "specialFirstItemLevel": 2,
+    "specialDidNotAdvanceRegularCount": true,
+    "specialSecondUseBlocked": true,
+    "normalRolls": [
+      {
+        "refresh": 2,
+        "items": [
+          { "id": "e13", "kind": "support", "level": 1 },
+          { "id": "e10", "kind": "defense", "level": 2 },
+          { "id": "e11", "kind": "economy", "level": 1 }
+        ]
+      },
+      {
+        "refresh": 3,
+        "items": [
+          { "id": "slot-1", "kind": "slot", "level": 0 },
+          { "id": "e04", "kind": "barracks", "level": 1 },
+          { "id": "e09", "kind": "defense", "level": 1 }
+        ]
+      }
+    ],
+    "specialRoll": [
+      { "id": "e16", "kind": "wall", "level": 2 },
+      { "id": "e02", "kind": "barracks", "level": 2 },
+      { "id": "e06", "kind": "barracks", "level": 1 }
+    ],
+    "recoveredShopRefreshPassed": true,
+    "browserErrors": []
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 53984,
+    "creatorBuildProcessExited": true,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T14:56:59.2063165+08:00",
+    "assetFileCount": 555,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 29,
+    "projectAssertionsPassed": 526,
+    "pass": true
+  }
+}

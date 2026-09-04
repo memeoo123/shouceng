@@ -1,0 +1,146 @@
+{
+  "interval": 83,
+  "repeatDelay": 0,
+  "swing": false,
+  "width": 556,
+  "height": 232,
+  "frames": [
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 69,
+      "width": 402,
+      "height": 97,
+      "textureIndex": 0
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 70,
+      "width": 401,
+      "height": 95,
+      "textureIndex": 1
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 42,
+      "offsetY": 70,
+      "width": 426,
+      "height": 95,
+      "textureIndex": 2
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 40,
+      "offsetY": 70,
+      "width": 441,
+      "height": 95,
+      "textureIndex": 3
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 69,
+      "width": 475,
+      "height": 97,
+      "textureIndex": 4
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 62,
+      "offsetY": 69,
+      "width": 408,
+      "height": 97,
+      "textureIndex": 5
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 69,
+      "width": 388,
+      "height": 97,
+      "textureIndex": 6
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 51,
+      "offsetY": 69,
+      "width": 421,
+      "height": 97,
+      "textureIndex": 7
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 69,
+      "width": 400,
+      "height": 97,
+      "textureIndex": 8
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 69,
+      "width": 388,
+      "height": 97,
+      "textureIndex": 9
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 5,
+      "offsetY": 69,
+      "width": 473,
+      "height": 97,
+      "textureIndex": 10
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 69,
+      "width": 401,
+      "height": 97,
+      "textureIndex": 11
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 0,
+      "offsetY": 69,
+      "width": 479,
+      "height": 97,
+      "textureIndex": 12
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 78,
+      "offsetY": 70,
+      "width": 394,
+      "height": 95,
+      "textureIndex": 13
+    },
+    {
+      "addDelay": 0,
+      "offsetX": 22,
+      "offsetY": 70,
+      "width": 450,
+      "height": 95,
+      "textureIndex": 14
+    }
+  ],
+  "textureFiles": [
+    "Laser4-00.png",
+    "Laser4-01.png",
+    "Laser4-02.png",
+    "Laser4-03.png",
+    "Laser4-04.png",
+    "Laser4-05.png",
+    "Laser4-06.png",
+    "Laser4-07.png",
+    "Laser4-08.png",
+    "Laser4-09.png",
+    "Laser4-10.png",
+    "Laser4-11.png",
+    "Laser4-12.png",
+    "Laser4-13.png",
+    "Laser4-14.png"
+  ]
+}

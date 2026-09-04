@@ -1,0 +1,72 @@
+{
+  "schemaVersion": "1.0",
+  "capturedAtUtc": "2026-08-31T03:44:18Z",
+  "route": "http://127.0.0.1:8132/?stage=2&test=cocos-mirror-tower",
+  "sourceEvidence": {
+    "building": "../../src/data/buildings.json#e10",
+    "weaponMount": "../../src/Main.js#WEAPON_MOUNTS.Building_MirrorTower",
+    "laserRule": "../../src/Main.js#updateLaserEffects",
+    "ammoConfig": "fairygui-effects-restored original generated code: Missile_Building_MirrorTower -> ui://BattleSkillEffect/Laser",
+    "buildingSprites": "../../bin/res/buildings/Building_MirrorTower{1..4}{,_up}.png",
+    "laserMovieClips": "fairygui-effects-restored/assets/BattleSkillEffect/ani/Laser{1..4}.jta"
+  },
+  "recoveredRules": {
+    "buildingHitPoints": 260,
+    "buildingShape": [[0, 0], [0, 1]],
+    "attackByLevel": [20, 30, 46, 70],
+    "cooldownSeconds": 4,
+    "rangePixels": 750,
+    "criticalChance": 0.05,
+    "criticalDamage": 1.5,
+    "fireType": "laser",
+    "laserDurationSeconds": 2,
+    "laserTickIntervalSeconds": 0.25,
+    "totalHitsForSurvivingTarget": 8,
+    "weaponMount": {
+      "x": 0.5,
+      "y": 0.05,
+      "pivot": [0.5, 0.5],
+      "rotationDegrees": -90
+    }
+  },
+  "movieClip": {
+    "levels": 4,
+    "framesPerLevel": 15,
+    "totalFrames": 60,
+    "canvasPixels": [556, 232],
+    "intervalMilliseconds": 83,
+    "sourceOffsetsPreserved": true,
+    "connectedToWeaponMountAndTarget": true,
+    "status": "confirmed"
+  },
+  "runtimeResult": {
+    "weaponMountAttached": true,
+    "laserCreated": true,
+    "immediateDamage": 20,
+    "totalDamage": 160,
+    "hitCount": 8,
+    "laserRemovedAfterDuration": true,
+    "recoveredLaserPassed": true,
+    "browserErrors": [],
+    "capturedVisual": "exact recovered Laser1 MovieClip visibly connected from the red emitter to the target"
+  },
+  "assets": {
+    "bodySprites": 4,
+    "weaponSprites": 4,
+    "laserFrames": 60,
+    "sourceTargetHashMatches": 68
+  },
+  "validation": {
+    "creatorVersion": "3.8.8",
+    "creatorBuildPid": 45468,
+    "creatorBuildExitCode": 36,
+    "creatorBuildCompleted": true,
+    "buildIndexUpdatedAt": "2026-08-31T11:42:20.2736547+08:00",
+    "assetFileCount": 527,
+    "missingMetaCount": 0,
+    "creatorTypescriptCompilePassed": true,
+    "goldenCasesPassed": 26,
+    "projectAssertionsPassed": 359,
+    "pass": true
+  }
+}

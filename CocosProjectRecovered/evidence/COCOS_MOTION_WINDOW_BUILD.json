@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Build gate for the adjacent-frame evidence replay routes",
+  "creator": {
+    "version": "3.8.8",
+    "executable": "C:/ProgramData/cocos/editors/Creator/3.8.8/CocosCreator.exe",
+    "arguments": [
+      "--project",
+      "E:/Projects/weichatAnalysis/shoucheng/LayaProject2131Recovered/CocosProjectRecovered",
+      "--build",
+      "platform=web-mobile;debug=false"
+    ],
+    "pid": 3080,
+    "startedAtLocal": "2026-09-04T18:08:15+08:00",
+    "finishedAtLocal": "2026-09-04T18:08:37+08:00",
+    "reportedBuildTaskDurationMs": 9343
+  },
+  "output": {
+    "directory": "build/web-mobile",
+    "index": "build/web-mobile/index.html",
+    "indexLastWriteTimeLocal": "2026-09-04T18:08:37.7772372+08:00",
+    "indexSha256": "1E277FA6DAB41A9F1AC9DE4F38165A9B39233749FE5CC8534783FA2DB18F682C"
+  },
+  "result": "pass",
+  "warnings": [
+    "mainBundleCompressionType was absent and Creator used its web-mobile default merge_dep",
+    "the CLI debug value was parsed as a string and Creator used the equivalent default boolean false"
+  ],
+  "networkScope": "No network or lazy-resource recovery was attempted."
+}

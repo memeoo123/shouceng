@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0",
+  "date": "2026-08-28",
+  "target": "wx4f4f3709865004a2/3-cocos-port",
+  "creatorVersion": "3.8.8",
+  "browserRoute": "http://127.0.0.1:8132/?stage=2&test=cocos-air-support",
+  "viewport": {
+    "width": 400,
+    "height": 720,
+    "designWidth": 750,
+    "visibleDesignHeight": 1350
+  },
+  "layout": {
+    "stripY": 1230,
+    "stripHeight": 120,
+    "stripBottom": 1350,
+    "dockedToActualStageBottom": true
+  },
+  "originalOrder": ["meteorite", "healing", "freeze"],
+  "originalFallbacks": {
+    "meteoriteDamage": 9999,
+    "freezeSeconds": 4,
+    "healingMaxHpRatio": 1,
+    "meteoriteWindowSeconds": 3
+  },
+  "browserResult": {
+    "ok": true,
+    "complete": true,
+    "used": ["healing", "freeze", "meteorite"],
+    "available": [],
+    "pendingEvents": 0,
+    "meteoriteTargets": 3,
+    "meteoriteImpacts": 3,
+    "frozenTargets": 3,
+    "healedUnits": 1,
+    "healedHp": 56.25,
+    "freezeEffects": 3,
+    "healingEffects": 1,
+    "artilleryEffects": 3,
+    "meteorProjectileAnimations": 3,
+    "repeatUseRejected": true,
+    "runtimeErrors": []
+  },
+  "recoveredFairyGuiEffects": {
+    "format": "FairyGUI MovieClip/JTA (not Spine)",
+    "intervalMilliseconds": 83,
+    "freeze": { "frames": 1, "canvas": [243, 243], "pivot": [0.5, 0.5], "scale": 1 },
+    "healing": { "frames": 18, "firstFrameBlank": true, "canvas": [62, 199], "pivot": [0.5, 0.63], "scale": 2 },
+    "artilleryFire": { "frames": 10, "canvas": [267, 240], "pivot": [0.5, 0.8], "scale": 1.7 },
+    "meteorProjectile": { "frames": 7, "canvas": [173, 65], "pivot": [0.5, 0.5], "scale": 1.8 }
+  },
+  "projectile": {
+    "speedPhysicsUnitsPerSecond": 65,
+    "deadInLast": true,
+    "forceTargetOnly": true,
+    "autoFlow": true,
+    "visual": "original/effects/meteor-projectile/meteor-projectile-00..06.png",
+    "hitEffect": "original/effects/artillery-fire/artillery-fire-00..09.png"
+  },
+  "automated": {
+    "projectAssertions": 68,
+    "goldenCases": 8,
+    "typescriptProjectScripts": "pass (--skipLibCheck true for Creator 3.8.8 declarations)",
+    "assetImportMissingMeta": 0,
+    "cocosBuild": "pass"
+  }
+}
